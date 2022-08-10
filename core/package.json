@@ -1,0 +1,47 @@
+{
+  "name": "svg-to-react-component",
+  "version": "0.0.1",
+  "description": "SVG icon to react component.",
+  "sideEffects": false,
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "bin": {
+    "s2r": "lib/cli.js",
+    "svg-to-react-component": "lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/svg-to-react-component.git"
+  },
+  "scripts": {
+    "watch": "tsbb watch --disable-babel -f src/cli.ts",
+    "build": "tsbb build --disable-babel -f src/cli.ts"
+  },
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "svg-to-react"
+  ],
+  "files": [
+    "lib",
+    "src"
+  ],
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/minimist": "^1.2.2",
+    "@svgr/plugin-svgo": "^6.3.1",
+    "@svgr/plugin-jsx": "^6.3.1",
+    "@svgr/core": "^6.3.1",
+    "@svgr/babel-preset": "^6.3.1",
+    "fs-extra": "^10.1.0",
+    "minimist": "^1.2.6",
+    "recursive-readdir-files": "^2.3.0"
+  }
+}

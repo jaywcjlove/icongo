@@ -1,0 +1,15 @@
+{
+  "name": "@svg-to-react-component/bs",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsbb build",
+    "start": "svg-to-react-component --prefix BS --source data/icons -o ./src"
+  },
+  "keywords": [],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

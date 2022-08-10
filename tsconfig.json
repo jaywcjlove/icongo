@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/tsconfig",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "skipLibCheck": true,
+    "stripInternal": true,
+    "esModuleInterop": false,
+    "noImplicitAny": true
+  }
+}

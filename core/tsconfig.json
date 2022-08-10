@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig",
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "resolveJsonModule":true,
+    "allowSyntheticDefaultImports":true,
+    "noEmit": false
+  }
+}

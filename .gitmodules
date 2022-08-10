@@ -1,0 +1,4 @@
+[submodule "icons/bs/data"]
+	path = icons/bs/data
+	url = https://github.com/twbs/icons
+	branch = main

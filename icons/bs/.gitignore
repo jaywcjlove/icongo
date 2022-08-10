@@ -1,0 +1,8 @@
+*.*~
+~*.*
+*
+!.gitignore
+!.npmignore
+!tsconfig.json
+!package.json
+!data
