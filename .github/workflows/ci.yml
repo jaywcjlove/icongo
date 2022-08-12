@@ -54,11 +54,10 @@ jobs:
       - name: Deploy to icongo.gihub.io Repo
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: ${{ github.event.head_commit.message }}
-          personal_token: ${{ secrets.PERSONAL_TOKEN_ICONGO }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # publish_branch: master
           publish_dir: ./www/build
           external_repository: icongo/icongo.gihub.io
