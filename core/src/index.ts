@@ -26,6 +26,7 @@ export interface SvgToReactOption {
   source: string;
   output: string;
   prefix: string;
+  filter: string;
 }
 
 
@@ -42,6 +43,9 @@ export async function svgToReact(options: SvgToReactOption) {
   await fs.writeFile(outputFile, JSON.stringify(names, null, 2));
 
   svgFiles.forEach(async (file) => {
+    if (options.filter && new RegExp(options.filter).test(file.path)) {
+      return
+    }
     const filename = toPascalCase(path.basename(file.path, '.svg'))!;
     const str = (await fs.readFile(file.path)).toString()
     const prefixName = `${options.prefix || ''}${filename}`;

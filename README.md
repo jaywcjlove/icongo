@@ -1,4 +1,1 @@
-svg-to-react-component
-===
-
-SVG icon to react component.
+core/README.md

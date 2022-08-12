@@ -20,6 +20,7 @@ export const cliHelp: string = `\n  Usage: svg-to-react-component [options] [--h
     --output, -o            Output the svg icon component to the specified directory. Default: "components"
     --source, -s            svg icon folder. Default: "icons"
     --prefix                SVG component name prefix.
+    --filter                Matching some icons does not generate components.
     --version, -v           Show version number
     --help, -h              Displays help information.
 

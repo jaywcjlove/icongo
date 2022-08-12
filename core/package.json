@@ -30,6 +30,7 @@
     "svg-to-react"
   ],
   "files": [
+    "README.md",
     "lib",
     "src"
   ],

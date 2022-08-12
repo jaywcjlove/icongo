@@ -2,3 +2,15 @@
 	path = icons/bs/data
 	url = https://github.com/twbs/icons
 	branch = main
+[submodule "icons/sti/data"]
+	path = icons/sti/data
+	url = https://github.com/edent/SuperTinyIcons
+	branch = master
+[submodule "icons/di/data"]
+	path = icons/di/data
+	url = https://github.com/vorillaz/devicons
+	branch = master
+[submodule "icons/bi/data"]
+	path = icons/bi/data
+	url = https://github.com/atisawd/boxicons
+	branch = master

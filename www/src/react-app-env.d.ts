@@ -7,3 +7,9 @@ declare module '*.module.less' {
 
 declare var VERSION: string;
 declare var DEBUG: string;
+
+declare module '*.md' {
+  import { CodeBlockData } from 'markdown-react-code-preview-loader';
+  const src: CodeBlockData;
+  export default src;
+}

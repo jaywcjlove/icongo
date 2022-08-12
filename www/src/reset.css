@@ -28,3 +28,7 @@
   --color-attention-subtle: #fff8c5;
   --color-danger-fg: #cf222e;
 }
+
+body {
+  margin: 0;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@svg-to-react-component/bi",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.gihub.io/icons/boxicons",
+  "scripts": {
+    "build": "tsbb build",
+    "cpy": "cpy 'data/svg/logos/*.svg' 'data/svg/regular/*.svg' 'data/svg/solid/*.svg' svg",
+    "start": "npm run cpy && npm run svg && npm run build",
+    "svg": "svg-to-react-component --prefix BI --source svg -o ./src"
+  },
+  "keywords": [
+    "react-icons",
+    "icons"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

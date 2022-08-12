@@ -1,14 +1,14 @@
 {
-  "name": "@svg-to-react-component/bs",
+  "name": "@svg-to-react-component/di",
   "version": "0.0.1",
-  "homepage": "http://icongo.gihub.io/icons/bootstrap",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
+  "homepage": "http://icongo.gihub.io/icons/supertinyicons",
   "scripts": {
     "build": "tsbb build",
-    "start": "svg-to-react-component --prefix BS --source data/icons -o ./src && npm run build"
+    "start": "svg-to-react-component --prefix DI --source data/!SVG -o ./src && npm run build"
   },
   "keywords": [
     "react-icons",
