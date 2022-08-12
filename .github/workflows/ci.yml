@@ -19,7 +19,23 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: npm install
-      - run: npm run build:icons
+      # - run: npm run build:icons
+
+      - name: build icons bi
+        working-directory: icons/bi
+        run: npm run build
+
+      - name: build icons bs
+        working-directory: icons/bs
+        run: npm run build
+
+      - name: build icons di
+        working-directory: icons/di
+        run: npm run build
+
+      - name: build icons sti
+        working-directory: icons/sti
+        run: npm run build
 
       - name: build webiste
         working-directory: www
