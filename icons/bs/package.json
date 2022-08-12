@@ -7,7 +7,7 @@
   "types": "./lib/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "icongo --prefix BS --source data/icons -o ./src && npm run build",
+    "build": "icongo --prefix BS --source data/icons -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [
