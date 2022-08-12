@@ -1,7 +1,7 @@
-Super Tiny Icons
+Devicons
 ===
 
-[Preview Icons](http://icongo.gihub.io/icons/supertinyicons)
+[Preview Icons](http://icongo.gihub.io/icons/devicons)
 
 ```bash
 npm i @icongo/di

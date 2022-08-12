@@ -3,6 +3,15 @@ icongo
 
 SVG icon to react component.
 
+**All Packages**
+
+| Name | NPM Version | Website |
+| ----- | ----- | ----- |
+| `@icongo/bi` | [![npm version](https://img.shields.io/npm/v/@icongo/bi.svg)](https://www.npmjs.com/package/@icongo/bi) | [`#preview`](https://icongo.github.io/icons/boxicons/) |
+| `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/icons/bootstrap/) |
+| `@icongo/di` | [![npm version](https://img.shields.io/npm/v/@icongo/di.svg)](https://www.npmjs.com/package/@icongo/di) | [`#preview`](https://icongo.github.io/icons/devicons/) |
+| `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/icons/supertinyicons/) |
+
 ## Install
 
 ```bash
