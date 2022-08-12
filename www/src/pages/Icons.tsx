@@ -11,6 +11,8 @@ import diNames from '@icongo/di/lib/names.json';
 import * as didata from '@icongo/di/lib/index.js';
 import biNames from '@icongo/bi/lib/names.json';
 import * as bidata from '@icongo/bi/lib/index.js';
+import goNames from '@icongo/go/lib/names.json';
+import * as godata from '@icongo/go/lib/index.js';
 
 type Info = Record<string, {
   title: string;
@@ -21,8 +23,8 @@ type Info = Record<string, {
   data: Record<string, React.FunctionComponent>;
 }>;
 
-export const searchNames: string[] = [ ...bsNames, ...biNames, ...diNames, ...stiNames];
-export const searchData: Record<string, React.FunctionComponent> = {...bsdata, ...bidata, ...didata, ...stidata }
+export const searchNames: string[] = [ ...bsNames, ...biNames, ...diNames, ...stiNames, ...goNames];
+export const searchData: Record<string, React.FunctionComponent> = {...bsdata, ...bidata, ...didata, ...stidata, ...godata }
 
 const info: Info = {
   bootstrap: {
@@ -48,6 +50,14 @@ const info: Info = {
     import: `import { IconName } from "@icongo/di";`,
     names: diNames,
     data: didata,
+  },
+  octiconsicons: {
+    title: 'Github Octicons Icons',
+    license: 'MIT',
+    gh: 'https://github.com/primer/octicons',
+    import: `import { IconName } from "@icongo/go";`,
+    names: goNames,
+    data: godata,
   },
   supertinyicons: {
     title: 'Super Tiny Icons',
@@ -101,6 +111,7 @@ export const Panel = styled.div`
   }
   > h1 {
     margin: 0;
+    font-size: 26px;
   }
   > h2 {
     margin: 0;

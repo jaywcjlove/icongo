@@ -1,0 +1,25 @@
+{
+  "name": "@icongo/go",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/octiconsicons",
+  "scripts": {
+    "build": "icongo --prefix GO --source data/icons -o ./src && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "github",
+    "octiconsicons",
+    "octicons",
+    "go",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
