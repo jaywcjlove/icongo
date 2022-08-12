@@ -57,7 +57,7 @@ jobs:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: ${{ github.event.head_commit.message }}
-          # personal_token: ${{ secrets.PERSONAL_TOKEN_ }}
+          personal_token: ${{ secrets.PERSONAL_TOKEN_ICONGO }}
           # publish_branch: master
           publish_dir: ./www/build
           external_repository: icongo/icongo.gihub.io
