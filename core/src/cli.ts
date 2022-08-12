@@ -14,7 +14,7 @@ interface RunArgvs extends Omit<ParsedArgs, '_'> , SvgToReactOption {
   help: boolean;
 }
 
-export const cliHelp: string = `\n  Usage: svg-to-react-component [options] [--help|h]
+export const cliHelp: string = `\n  Usage: icongo [options] [--help|h]
 
   Options:\n
     --output, -o            Output the svg icon component to the specified directory. Default: "components"
@@ -25,8 +25,8 @@ export const cliHelp: string = `\n  Usage: svg-to-react-component [options] [--h
     --help, -h              Displays help information.
 
   Example:
-    \x1b[35mnpm\x1b[0m svg-to-react-component \x1b[33m--output\x1b[0m components
-    \x1b[35mnpm\x1b[0m svg-to-react-component \x1b[33m--source\x1b[0m icons
+    \x1b[35mnpm\x1b[0m icongo \x1b[33m--output\x1b[0m components
+    \x1b[35mnpm\x1b[0m icongo \x1b[33m--source\x1b[0m icons
     \x1b[35mnpm\x1b[0m s2r \x1b[33m--source\x1b[0m icons
 `;
 

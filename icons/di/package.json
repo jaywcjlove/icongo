@@ -1,5 +1,5 @@
 {
-  "name": "@svg-to-react-component/di",
+  "name": "@icongo/di",
   "version": "0.0.1",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
@@ -8,7 +8,7 @@
   "homepage": "http://icongo.gihub.io/icons/supertinyicons",
   "scripts": {
     "build": "tsbb build",
-    "start": "svg-to-react-component --prefix DI --source data/!SVG -o ./src && npm run build"
+    "start": "icongo --prefix DI --source data/!SVG -o ./src && npm run build"
   },
   "keywords": [
     "react-icons",

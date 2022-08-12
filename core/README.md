@@ -1,4 +1,4 @@
-svg-to-react-component
+icongo
 ===
 
 SVG icon to react component.
@@ -10,7 +10,7 @@ npm i svgtofont
 ```
 
 ```shell
-Usage: svg-to-react-component [options] [--help|h]
+Usage: icongo [options] [--help|h]
 
 Options:
 
@@ -22,8 +22,8 @@ Options:
   --help, -h              Displays help information.
 
 Example:
-  npm svg-to-react-component --output components
-  npm svg-to-react-component --source icons
+  npm icongo --output components
+  npm icongo --source icons
   npm s2r --source icons
 ```
 
@@ -38,10 +38,10 @@ Example:
   "types": "./lib/index.d.ts",
   "scripts": {
     "build": "tsbb build",
-    "start": "svg-to-react-component --prefix BS --source data/icons -o ./src"
+    "start": "icongo --prefix BS --source data/icons -o ./src"
   },
   "devDependencies": {
-    "svg-to-react-component": "*",
+    "icongo": "*",
     "tsbb": "^3.7.6"
   }
 }

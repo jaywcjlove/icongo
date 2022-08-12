@@ -1,5 +1,5 @@
 {
-  "name": "@svg-to-react-component/bs",
+  "name": "@icongo/bs",
   "version": "0.0.1",
   "homepage": "http://icongo.gihub.io/icons/bootstrap",
   "main": "./lib/index.js",
@@ -8,7 +8,7 @@
   "sideEffects": false,
   "scripts": {
     "build": "tsbb build",
-    "start": "svg-to-react-component --prefix BS --source data/icons -o ./src && npm run build"
+    "start": "icongo --prefix BS --source data/icons -o ./src && npm run build"
   },
   "keywords": [
     "react-icons",

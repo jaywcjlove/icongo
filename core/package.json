@@ -1,6 +1,7 @@
 {
-  "name": "svg-to-react-component",
+  "name": "icongo",
   "version": "0.0.1",
+  "homepage": "http://icongo.gihub.io/icons/bootstrap",
   "description": "SVG icon to react component.",
   "sideEffects": false,
   "author": "jaywcjlove",
@@ -11,11 +12,11 @@
   "types": "./lib/index.d.ts",
   "bin": {
     "s2r": "lib/cli.js",
-    "svg-to-react-component": "lib/cli.js"
+    "icongo": "lib/cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaywcjlove/svg-to-react-component.git"
+    "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
     "watch": "tsbb watch --disable-babel -f src/cli.ts",

@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "lerna exec --ignore www -- npm run build",
-    "watch": "lerna exec --scope svg-to-react-component -- npm run watch",
+    "watch": "lerna exec --scope icongo -- npm run watch",
     "prepare": "husky install",
     "version": "lerna version --exact --force-publish --no-push --no-git-tag-version"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@svg-to-react-component/sti",
+  "name": "@icongo/sti",
   "version": "0.0.1",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
@@ -8,7 +8,7 @@
   "homepage": "http://icongo.gihub.io/icons/supertinyicons",
   "scripts": {
     "build": "tsbb build",
-    "start": "svg-to-react-component --prefix STI --filter='(calendar).svg' --source data/images/svg -o ./src && npm run build"
+    "start": "icongo --prefix STI --filter='(calendar).svg' --source data/images/svg -o ./src && npm run build"
   },
   "keywords": [
     "react-icons",

@@ -2,15 +2,15 @@ import { useSearchParams, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import styled from 'styled-components';
-import { STITypescript, STIGithub } from '@svg-to-react-component/sti/lib/index.js';
-import bsNames from '@svg-to-react-component/bs/lib/names.json';
-import * as bsdata from '@svg-to-react-component/bs/lib/index.js';
-import stiNames from '@svg-to-react-component/sti/lib/names.json';
-import * as stidata from '@svg-to-react-component/sti/lib/index.js';
-import diNames from '@svg-to-react-component/di/lib/names.json';
-import * as didata from '@svg-to-react-component/di/lib/index.js';
-import biNames from '@svg-to-react-component/bi/lib/names.json';
-import * as bidata from '@svg-to-react-component/bi/lib/index.js';
+import { STITypescript, STIGithub } from '@icongo/sti/lib/index.js';
+import bsNames from '@icongo/bs/lib/names.json';
+import * as bsdata from '@icongo/bs/lib/index.js';
+import stiNames from '@icongo/sti/lib/names.json';
+import * as stidata from '@icongo/sti/lib/index.js';
+import diNames from '@icongo/di/lib/names.json';
+import * as didata from '@icongo/di/lib/index.js';
+import biNames from '@icongo/bi/lib/names.json';
+import * as bidata from '@icongo/bi/lib/index.js';
 
 type Info = Record<string, {
   title: string;
@@ -29,7 +29,7 @@ const info: Info = {
     title: 'Bootstrap Icons',
     license: 'MIT',
     gh: 'https://github.com/twbs/icons',
-    import: `import { IconName } from "@svg-to-react-component/bs";`,
+    import: `import { IconName } from "@icongo/bs";`,
     names: bsNames,
     data: bsdata,
   },
@@ -37,7 +37,7 @@ const info: Info = {
     title: 'Boxicons',
     license: 'MIT',
     gh: 'https://github.com/atisawd/boxicons',
-    import: `import { IconName } from "@svg-to-react-component/bi";`,
+    import: `import { IconName } from "@icongo/bi";`,
     names: biNames,
     data: bidata,
   },
@@ -45,7 +45,7 @@ const info: Info = {
     title: 'Devicons',
     license: 'MIT',
     gh: 'https://github.com/vorillaz/devicons',
-    import: `import { IconName } from "@svg-to-react-component/di";`,
+    import: `import { IconName } from "@icongo/di";`,
     names: diNames,
     data: didata,
   },
@@ -53,7 +53,7 @@ const info: Info = {
     title: 'Super Tiny Icons',
     license: 'MIT',
     gh: 'https://github.com/edent/SuperTinyIcons',
-    import: `import { IconName } from "@svg-to-react-component/sti";`,
+    import: `import { IconName } from "@icongo/sti";`,
     names: stiNames,
     data: stidata,
   },
