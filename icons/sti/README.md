@@ -1,7 +1,7 @@
 Super Tiny Icons
 ===
 
-[Preview Icons](http://icongo.gihub.io/icons/supertinyicons)
+[Preview Icons](http://icongo.github.io/icons/supertinyicons)
 
 ```bash
 npm i @icongo/sti

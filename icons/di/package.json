@@ -5,7 +5,7 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
-  "homepage": "http://icongo.gihub.io/icons/devicons",
+  "homepage": "http://icongo.github.io/icons/devicons",
   "scripts": {
     "build": "icongo --prefix DI --source data/!SVG -o ./src && tsbb build",
     "start": "npm run build"

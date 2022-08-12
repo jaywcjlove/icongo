@@ -1,7 +1,7 @@
 {
   "name": "@icongo/bs",
   "version": "0.0.1",
-  "homepage": "http://icongo.gihub.io/icons/bootstrap",
+  "homepage": "http://icongo.github.io/icons/bootstrap",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",

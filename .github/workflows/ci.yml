@@ -51,7 +51,7 @@ jobs:
           publish_branch: gh-pages
           publish_dir: ./www/build
 
-      - name: Deploy to icongo.gihub.io Repo
+      - name: Deploy to icongo.github.io Repo
         uses: peaceiris/actions-gh-pages@v3
         with:
           user_name: 'github-actions[bot]'
@@ -60,4 +60,4 @@ jobs:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # publish_branch: master
           publish_dir: ./www/build
-          external_repository: icongo/icongo.gihub.io
+          external_repository: icongo/icongo.github.io

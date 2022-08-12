@@ -5,7 +5,7 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
-  "homepage": "http://icongo.gihub.io/icons/boxicons",
+  "homepage": "http://icongo.github.io/icons/boxicons",
   "scripts": {
     "build": "npm run cpy && npm run svg && tsbb build",
     "cpy": "cpy 'data/svg/logos/*.svg' 'data/svg/regular/*.svg' 'data/svg/solid/*.svg' svg",

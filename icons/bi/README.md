@@ -1,7 +1,7 @@
 Boxicons
 ===
 
-[Preview Icons](http://icongo.gihub.io/icons/boxicons)
+[Preview Icons](http://icongo.github.io/icons/boxicons)
 
 ```bash
 npm i @icongo/bi
