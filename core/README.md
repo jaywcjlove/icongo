@@ -12,10 +12,22 @@ SVG icon to react component.
 | `@icongo/di` | [![npm version](https://img.shields.io/npm/v/@icongo/di.svg)](https://www.npmjs.com/package/@icongo/di) | [`#preview`](https://icongo.github.io/icons/devicons/) |
 | `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/icons/supertinyicons/) |
 
-## Install
+## Usage
+
+```jsx
+import { DIAndroid } from "@icongo/di";
+
+function Demo() {
+  return (
+    <DIAndroid />
+  )
+}
+```
+
+## icongo
 
 ```bash
-npm i svgtofont
+npm i icongo
 ```
 
 ```shell
@@ -36,7 +48,7 @@ Example:
   npm s2r --source icons
 ```
 
-## Usage
+**Usage**
 
 ```json
 {
@@ -56,6 +68,6 @@ Example:
 }
 ```
 
-### License
+## License
 
 Licensed under the MIT License.

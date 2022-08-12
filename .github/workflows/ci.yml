@@ -18,6 +18,8 @@ jobs:
 
       - run: npm install
       - run: npm run build
+      - run: npm install
+      - run: npm run build:icons
 
       - name: build webiste
         working-directory: www
