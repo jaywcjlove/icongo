@@ -5,7 +5,11 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
-  "homepage": "http://icongo.github.io/icons/boxicons",
+  "homepage": "http://icongo.github.io/#/icons/boxicons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "build": "npm run cpy && npm run svg && tsbb build",
     "cpy": "cpy 'data/svg/logos/*.svg' 'data/svg/regular/*.svg' 'data/svg/solid/*.svg' svg",
@@ -13,8 +17,11 @@
     "svg": "icongo --prefix BI --source svg -o ./src"
   },
   "keywords": [
+    "icongo",
+    "boxicons",
     "react-icons",
-    "icons"
+    "icons",
+    "icon"
   ],
   "author": "jaywcjlove",
   "license": "MIT"

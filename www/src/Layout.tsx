@@ -43,6 +43,7 @@ const Content = styled.div`
   gap: 20px;
   max-width: 980px;
   margin: 0 auto;
+  padding-bottom: 120px;
 `;
 
 const Aside = styled.aside`

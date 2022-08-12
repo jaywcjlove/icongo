@@ -1,7 +1,7 @@
 Devicons
 ===
 
-[Preview Icons](http://icongo.github.io/icons/devicons)
+[Preview Icons](http://icongo.github.io/#/icons/devicons)
 
 ```bash
 npm i @icongo/di

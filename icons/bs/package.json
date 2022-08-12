@@ -1,18 +1,25 @@
 {
   "name": "@icongo/bs",
   "version": "0.0.1",
-  "homepage": "http://icongo.github.io/icons/bootstrap",
+  "homepage": "http://icongo.github.io/#/icons/bootstrap",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "build": "icongo --prefix BS --source data/icons -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [
+    "icongo",
+    "bootstrap",
     "react-icons",
-    "icons"
+    "icons",
+    "icon"
   ],
   "author": "jaywcjlove",
   "license": "MIT"

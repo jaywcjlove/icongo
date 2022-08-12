@@ -5,14 +5,17 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
-  "homepage": "http://icongo.github.io/icons/supertinyicons",
+  "homepage": "http://icongo.github.io/#/icons/supertinyicons",
   "scripts": {
     "build": "icongo --prefix STI --filter='(calendar).svg' --source data/images/svg -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [
+    "icongo",
+    "supertinyicons",
     "react-icons",
-    "icons"
+    "icons",
+    "icon"
   ],
   "author": "jaywcjlove",
   "license": "MIT"

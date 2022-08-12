@@ -1,7 +1,7 @@
 Bootstrap Icons
 ===
 
-[Preview Icons](http://icongo.github.io/icons/bootstrap)
+[Preview Icons](http://icongo.github.io/#/icons/bootstrap)
 
 ```bash
 npm i @icongo/bs

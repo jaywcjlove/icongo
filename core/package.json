@@ -1,7 +1,7 @@
 {
   "name": "icongo",
   "version": "0.0.1",
-  "homepage": "http://icongo.github.io/icons/bootstrap",
+  "homepage": "http://icongo.github.io",
   "description": "SVG icon to react component.",
   "sideEffects": false,
   "author": "jaywcjlove",
@@ -26,6 +26,7 @@
     "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "keywords": [
+    "icongo",
     "react",
     "svg",
     "svg-to-react"

@@ -5,14 +5,21 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
-  "homepage": "http://icongo.github.io/icons/devicons",
+  "homepage": "http://icongo.github.io/#/icons/devicons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "build": "icongo --prefix DI --source data/!SVG -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [
+    "icongo",
+    "devicons",
     "react-icons",
-    "icons"
+    "icons",
+    "icon"
   ],
   "author": "jaywcjlove",
   "license": "MIT"
