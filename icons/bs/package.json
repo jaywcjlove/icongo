@@ -7,8 +7,8 @@
   "types": "./lib/index.d.ts",
   "sideEffects": false,
   "scripts": {
-    "build": "tsbb build",
-    "start": "icongo --prefix BS --source data/icons -o ./src && npm run build"
+    "build": "icongo --prefix BS --source data/icons -o ./src && npm run build",
+    "start": "npm run build"
   },
   "keywords": [
     "react-icons",

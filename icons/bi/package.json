@@ -7,9 +7,9 @@
   "sideEffects": false,
   "homepage": "http://icongo.gihub.io/icons/boxicons",
   "scripts": {
-    "build": "tsbb build",
+    "build": "npm run cpy && npm run svg && tsbb build",
     "cpy": "cpy 'data/svg/logos/*.svg' 'data/svg/regular/*.svg' 'data/svg/solid/*.svg' svg",
-    "start": "npm run cpy && npm run svg && npm run build",
+    "start": "npm run build",
     "svg": "icongo --prefix BI --source svg -o ./src"
   },
   "keywords": [

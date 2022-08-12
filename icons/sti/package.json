@@ -7,8 +7,8 @@
   "sideEffects": false,
   "homepage": "http://icongo.gihub.io/icons/supertinyicons",
   "scripts": {
-    "build": "tsbb build",
-    "start": "icongo --prefix STI --filter='(calendar).svg' --source data/images/svg -o ./src && npm run build"
+    "build": "icongo --prefix STI --filter='(calendar).svg' --source data/images/svg -o ./src && tsbb build",
+    "start": "npm run build"
   },
   "keywords": [
     "react-icons",
