@@ -87,6 +87,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-sti-vendor',
             chunks: 'all',
           },
+          vsc: {
+            test: /[\\/](icons[\\/]vsc)[\\/]/,
+            name: 'icon-vsc-vendor',
+            chunks: 'all',
+          },
         }
       }
     }

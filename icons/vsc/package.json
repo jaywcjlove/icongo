@@ -1,0 +1,26 @@
+{
+  "name": "@icongo/vsc",
+  "version": "0.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/vsc",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "build": "icongo --prefix VSC --source data/src/icons -o ./src && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "vsc",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

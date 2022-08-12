@@ -13,6 +13,8 @@ import biNames from '@icongo/bi/lib/names.json';
 import * as bidata from '@icongo/bi/lib/index.js';
 import goNames from '@icongo/go/lib/names.json';
 import * as godata from '@icongo/go/lib/index.js';
+import vscNames from '@icongo/vsc/lib/names.json';
+import * as vscdata from '@icongo/vsc/lib/index.js';
 
 type Info = Record<string, {
   title: string;
@@ -23,8 +25,8 @@ type Info = Record<string, {
   data: Record<string, React.FunctionComponent>;
 }>;
 
-export const searchNames: string[] = [ ...bsNames, ...biNames, ...diNames, ...stiNames, ...goNames];
-export const searchData: Record<string, React.FunctionComponent> = {...bsdata, ...bidata, ...didata, ...stidata, ...godata }
+export const searchNames: string[] = [ ...bsNames, ...biNames, ...diNames, ...stiNames, ...goNames, ...vscNames];
+export const searchData: Record<string, React.FunctionComponent> = {...bsdata, ...bidata, ...didata, ...stidata, ...godata, ...vscdata }
 
 const info: Info = {
   bootstrap: {
@@ -66,6 +68,14 @@ const info: Info = {
     import: `import { IconName } from "@icongo/sti";`,
     names: stiNames,
     data: stidata,
+  },
+  vsc: {
+    title: 'Visual Studio Code Icons',
+    license: 'MIT',
+    gh: 'https://github.com/microsoft/vscode-codicons',
+    import: `import { IconName } from "@icongo/vsc";`,
+    names: vscNames,
+    data: vscdata,
   },
 }
 

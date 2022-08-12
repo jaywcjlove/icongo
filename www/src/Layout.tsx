@@ -39,7 +39,7 @@ const Search = styled.input`
 const Content = styled.div`
   display: grid;
   grid-template-areas: 'sidebar main';
-  grid-template-columns: 200px minmax(0, 3.5fr);
+  grid-template-columns: 220px minmax(0, 3.5fr);
   gap: 20px;
   max-width: 980px;
   margin: 0 auto;
@@ -115,6 +115,7 @@ export const Layout = () => {
             <NavLink to="/icons/devicons">Devicons</NavLink>
             <NavLink to="/icons/octiconsicons">Github Octicons Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
+            <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
           </Aside>
         </AsideWarpper>
         <main>

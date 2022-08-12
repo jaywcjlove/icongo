@@ -14,6 +14,7 @@
     "@icongo/di": "0.0.1",
     "@icongo/go": "0.0.1",
     "@icongo/sti": "0.0.1",
+    "@icongo/vsc": "0.0.1",
     "@uiw/react-markdown-preview": "^4.0.23",
     "@uiw/react-github-corners": "^1.5.14",
     "@wcj/dark-mode": "^1.0.15",

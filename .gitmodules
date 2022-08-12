@@ -18,3 +18,7 @@
 	path = icons/go/data
 	url = https://github.com/primer/octicons
 	branch = main
+[submodule "icons/vsc/data"]
+	path = icons/vsc/data
+	url = https://github.com/microsoft/vscode-codicons
+	branch = main
