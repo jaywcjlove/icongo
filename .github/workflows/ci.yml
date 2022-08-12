@@ -33,8 +33,16 @@ jobs:
         working-directory: icons/di
         run: npm run build
 
+      - name: build icons go
+        working-directory: icons/go
+        run: npm run build
+
       - name: build icons sti
         working-directory: icons/sti
+        run: npm run build
+
+      - name: build icons vsc
+        working-directory: icons/vsc
         run: npm run build
 
       - name: build webiste

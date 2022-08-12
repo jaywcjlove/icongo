@@ -73,6 +73,10 @@ const AsideWarpper = styled.div`
   background-color: var(--color-canvas-subtle);
 `;
 
+const Bold = styled.strong`
+  font-weight: bold;
+`;
+
 export const Layout = () => {
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
@@ -100,7 +104,7 @@ export const Layout = () => {
       <Header>
         <Title>SVG To React Component</Title>
         <Detail>
-          Include popular icons in your React projects easily ({searchNames.length})
+          Include popular icons in your React projects easily <Bold>({searchNames.length})</Bold>
         </Detail>
         <form onSubmit={handleSubmit}>
           <Search type="text" name="query" value={searchValue} onChange={changeHandle} onFocus={focusHandle} />
