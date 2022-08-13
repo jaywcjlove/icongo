@@ -21,6 +21,7 @@ jobs:
       - run: npm install
       # - run: npm run build:icons
 
+
       - name: build icons bi
         working-directory: icons/bi
         run: npm run build
@@ -49,15 +50,37 @@ jobs:
         working-directory: icons/vsc
         run: npm run build
 
+
       - name: build webiste
         working-directory: www
         run: npm run build
+
+      - name: Generate Contributors Images
+        uses: jaywcjlove/github-action-contributors@main
+        with:
+          filter-author: (renovate\[bot\]|renovate-bot|dependabot\[bot\])
+          output: www/build/CONTRIBUTORS.svg
+          avatarSize: 42
+
+      - name: Create Tag
+        id: create_tag
+        uses: jaywcjlove/create-tag-action@v1.3.8
+        with:
+          package-path: ./core/package.json
+
+      - name: Generate Changelog
+        id: changelog
+        uses: jaywcjlove/changelog-generator@v1.5.7
+        with:
+          head-ref: ${{steps.create_tag.outputs.version}}
+          filter-author: (renovate-bot|Renovate Bot)
+          filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          commit_message: ${{ github.event.head_commit.message }}
+          commit_message: ${{steps.create_tag.outputs.version}} ${{ github.event.head_commit.message }}
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           publish_branch: gh-pages
@@ -68,8 +91,230 @@ jobs:
         with:
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          commit_message: ${{ github.event.head_commit.message }}
+          commit_message: ${{steps.create_tag.outputs.version}} ${{ github.event.head_commit.message }}
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           # publish_branch: master
           publish_dir: ./www/build
           external_repository: icongo/icongo.github.io
+
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        if: steps.create_tag.outputs.successful
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: ${{ steps.create_tag.outputs.version }}
+          tag: ${{ steps.create_tag.outputs.version }}
+          body: |
+            Documentation ${{ steps.changelog.outputs.tag }}: https://raw.githack.com/jaywcjlove/icongo/${{ steps.changelog.outputs.gh-pages-short-hash }}/index.html  
+            Comparing Changes: ${{ steps.changelog.outputs.compareurl }}  
+
+            ${{ steps.changelog.outputs.changelog }}
+
+
+      - name: 📦  icongo publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./core/package.json
+
+      - name: 📦  @icongo/bi publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/bi/package.json
+
+      - name: 📦  @icongo/bs publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/bs/package.json
+
+      - name: 📦  @icongo/di publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/di/package.json
+
+      - name: 📦  @icongo/gi publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/gi/package.json
+
+      - name: 📦  @icongo/go publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/go/package.json
+
+      - name: 📦  @icongo/sti publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/sti/package.json
+
+      - name: 📦  @icongo/vsc publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/vsc/package.json
+
+    outputs:
+      successful: ${{steps.create_tag.outputs.successful }}
+
+  github-package:
+    runs-on: ubuntu-18.04
+    needs: build-deploy
+    if: needs.build-deploy.outputs.successful
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com
+          scope: '@jaywcjlove'
+
+      - run: npm install
+      - run: npm run build
+      - run: npm install
+
+
+      - name: build icons bi
+        working-directory: icons/bi
+        run: npm run build
+
+      - name: build icons bs
+        working-directory: icons/bs
+        run: npm run build
+
+      - name: build icons di
+        working-directory: icons/di
+        run: npm run build
+
+      - name: build icons gi
+        working-directory: icons/gi
+        run: npm run build
+
+      - name: build icons go
+        working-directory: icons/go
+        run: npm run build
+
+      - name: build icons sti
+        working-directory: icons/sti
+        run: npm run build
+
+      - name: build icons vsc
+        working-directory: icons/vsc
+        run: npm run build
+
+
+      - name: "Modify icongo => @jaywcjlove/icongo"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: core/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo" }
+      - run: npm publish
+        working-directory: core
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/bi => @jaywcjlove/icongo-bi"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/bi/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-bi" }
+      - run: npm publish
+        working-directory: icons/bi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/bs => @jaywcjlove/icongo-bs"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/bs/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-bs" }
+      - run: npm publish
+        working-directory: icons/bs
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/di => @jaywcjlove/icongo-di"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/di/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-di" }
+      - run: npm publish
+        working-directory: icons/di
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/gi => @jaywcjlove/icongo-gi"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/gi/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-gi" }
+      - run: npm publish
+        working-directory: icons/gi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/go => @jaywcjlove/icongo-go"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/go/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-go" }
+      - run: npm publish
+        working-directory: icons/go
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/sti => @jaywcjlove/icongo-sti"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/sti/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-sti" }
+      - run: npm publish
+        working-directory: icons/sti
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/vsc => @jaywcjlove/icongo-vsc"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/vsc/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-vsc" }
+      - run: npm publish
+        working-directory: icons/vsc
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
