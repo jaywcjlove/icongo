@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.2ed1b161.css",
-    "main.js": "/static/js/main.f8186717.js",
-    "icon-gi-vendor.js": "/static/js/icon-gi-vendor.7f8c1603.js",
+    "main.js": "/static/js/main.75425c55.js",
+    "icon-gi-vendor.js": "/static/js/icon-gi-vendor.05846ab4.js",
     "icon-bs-vendor.js": "/static/js/icon-bs-vendor.b1c766e8.js",
     "icon-bi-vendor.js": "/static/js/icon-bi-vendor.4c9db0f9.js",
     "icon-go-vendor.js": "/static/js/icon-go-vendor.20381b64.js",
-    "icon-vsc-vendor.js": "/static/js/icon-vsc-vendor.55a3fe50.js",
+    "icon-vsc-vendor.js": "/static/js/icon-vsc-vendor.4bdfadcf.js",
     "icon-sti-vendor.js": "/static/js/icon-sti-vendor.d8298651.js",
     "refractor-prismjs-vendor.js": "/static/js/refractor-prismjs-vendor.44caac5f.js",
     "icon-di-vendor.js": "/static/js/icon-di-vendor.15cd2d6b.js",
@@ -16,12 +16,12 @@
     "react-vendor.js": "/static/js/react-vendor.303b437d.js",
     "index.html": "/index.html",
     "main.2ed1b161.css.map": "/static/css/main.2ed1b161.css.map",
-    "main.f8186717.js.map": "/static/js/main.f8186717.js.map",
-    "icon-gi-vendor.7f8c1603.js.map": "/static/js/icon-gi-vendor.7f8c1603.js.map",
+    "main.75425c55.js.map": "/static/js/main.75425c55.js.map",
+    "icon-gi-vendor.05846ab4.js.map": "/static/js/icon-gi-vendor.05846ab4.js.map",
     "icon-bs-vendor.b1c766e8.js.map": "/static/js/icon-bs-vendor.b1c766e8.js.map",
     "icon-bi-vendor.4c9db0f9.js.map": "/static/js/icon-bi-vendor.4c9db0f9.js.map",
     "icon-go-vendor.20381b64.js.map": "/static/js/icon-go-vendor.20381b64.js.map",
-    "icon-vsc-vendor.55a3fe50.js.map": "/static/js/icon-vsc-vendor.55a3fe50.js.map",
+    "icon-vsc-vendor.4bdfadcf.js.map": "/static/js/icon-vsc-vendor.4bdfadcf.js.map",
     "icon-sti-vendor.d8298651.js.map": "/static/js/icon-sti-vendor.d8298651.js.map",
     "refractor-prismjs-vendor.44caac5f.js.map": "/static/js/refractor-prismjs-vendor.44caac5f.js.map",
     "icon-di-vendor.15cd2d6b.js.map": "/static/js/icon-di-vendor.15cd2d6b.js.map",
@@ -31,11 +31,11 @@
     "react-vendor.303b437d.js.map": "/static/js/react-vendor.303b437d.js.map"
   },
   "entrypoints": [
-    "static/js/icon-gi-vendor.7f8c1603.js",
+    "static/js/icon-gi-vendor.05846ab4.js",
     "static/js/icon-bs-vendor.b1c766e8.js",
     "static/js/icon-bi-vendor.4c9db0f9.js",
     "static/js/icon-go-vendor.20381b64.js",
-    "static/js/icon-vsc-vendor.55a3fe50.js",
+    "static/js/icon-vsc-vendor.4bdfadcf.js",
     "static/js/icon-sti-vendor.d8298651.js",
     "static/js/refractor-prismjs-vendor.44caac5f.js",
     "static/js/icon-di-vendor.15cd2d6b.js",
@@ -44,6 +44,6 @@
     "static/js/parse5-vendor.a9e9bae7.js",
     "static/js/react-vendor.303b437d.js",
     "static/css/main.2ed1b161.css",
-    "static/js/main.f8186717.js"
+    "static/js/main.75425c55.js"
   ]
 }
