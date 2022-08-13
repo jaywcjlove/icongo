@@ -3,3 +3,4 @@
 !*.js
 !lib
 !esm
+!src

@@ -1,5 +1,9 @@
 {
-  "version": "0.0.1",
-  "packages": ["core", "www", "icons/*"],
+  "version": "1.0.0",
+  "packages": [
+    "core",
+    "www",
+    "icons/*"
+  ],
   "useWorkspaces": true
 }

@@ -1,6 +1,6 @@
 {
   "name": "www",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "kkt build",
@@ -8,16 +8,16 @@
     "map": "source-map-explorer build/static/js/*.js --html build/website-result.html"
   },
   "dependencies": {
+    "@icongo/bi": "1.0.0",
+    "@icongo/bs": "1.0.0",
+    "@icongo/di": "1.0.0",
+    "@icongo/gi": "1.0.0",
+    "@icongo/go": "1.0.0",
+    "@icongo/sti": "1.0.0",
+    "@icongo/vsc": "1.0.0",
     "@types/styled-components": "^5.1.25",
-    "@icongo/bi": "0.0.1",
-    "@icongo/bs": "0.0.1",
-    "@icongo/di": "0.0.1",
-    "@icongo/gi": "0.0.1",
-    "@icongo/go": "0.0.1",
-    "@icongo/sti": "0.0.1",
-    "@icongo/vsc": "0.0.1",
-    "@uiw/react-markdown-preview": "^4.0.23",
     "@uiw/react-github-corners": "^1.5.14",
+    "@uiw/react-markdown-preview": "^4.0.23",
     "@wcj/dark-mode": "^1.0.15",
     "react": "~18.2.0",
     "react-code-preview-layout": "^2.0.6",
@@ -29,12 +29,12 @@
   "devDependencies": {
     "@kkt/less-modules": "^7.2.0",
     "@kkt/scope-plugin-options": "^7.2.0",
-    "@types/react" :"^18.0.17",
+    "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-test-renderer": "^18.0.0",
-    "markdown-react-code-preview-loader": "^2.1.2",
-    "icongo": "0.0.1",
+    "icongo": "1.0.0",
     "kkt": "^7.2.0",
+    "markdown-react-code-preview-loader": "^2.1.2",
     "source-map-explorer": "^2.5.2"
   },
   "browserslist": {
