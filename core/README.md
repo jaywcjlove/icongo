@@ -22,10 +22,14 @@ Easily include popular icons in your React projects and provide an easy tool to 
 
 ```jsx
 import { DIAndroid } from "@icongo/di";
+import { STIApple } from '@icongo/sti/lib/STIApple';
 
 function Demo() {
   return (
-    <DIAndroid />
+    <div>
+      <STIApple />
+      <DIAndroid />
+    </div>
   )
 }
 ```
@@ -76,6 +80,21 @@ Example:
   }
 }
 ```
+
+## Docker
+
+The Icons search website can be deployed to your personal server via docker.
+
+```shell
+docker pull wcjiang/icongo
+docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
+# Or
+docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
+```
+
+Visit the following URL in your browser:
+
+http://localhost:9112/
 
 ## License
 
