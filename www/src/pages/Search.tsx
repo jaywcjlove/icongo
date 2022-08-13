@@ -1,12 +1,12 @@
 import { useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { searchData, searchNames, CardItem, IconName, CardWarpper, WarpperIcons } from './Icons';
+import { CardItem, IconName, CardWarpper, WarpperIcons } from './Icons';
+import { searchData, searchNames } from '../data';
 
 const Title = styled.div`
   
 `;
-
 
 export const SearchPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();

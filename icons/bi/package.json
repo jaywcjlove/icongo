@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "npm run cpy && npm run svg && tsbb build",
-    "cpy": "cpy 'data/svg/logos/*.svg' 'data/svg/regular/*.svg' 'data/svg/solid/*.svg' svg",
+    "cpy": "cpy 'data/svg/**/*.svg' svg",
     "start": "npm run build",
     "svg": "icongo --prefix BI --source svg -o ./src"
   },

@@ -2,7 +2,7 @@ import { ChangeEvent, useEffect, useState } from 'react';
 import { NavLink, Outlet, useNavigate, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
 
-import { searchNames } from './pages/Icons';
+import { searchNames } from './data';
 
 const Warpper = styled.div`
 `;
@@ -118,6 +118,7 @@ export const Layout = () => {
             <NavLink to="/icons/boxicons">Boxicons</NavLink>
             <NavLink to="/icons/devicons">Devicons</NavLink>
             <NavLink to="/icons/octiconsicons">Github Octicons Icons</NavLink>
+            <NavLink to="/icons/gameicons">Game Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
             <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
           </Aside>

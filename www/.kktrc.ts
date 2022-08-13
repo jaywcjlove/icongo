@@ -77,6 +77,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-di-vendor',
             chunks: 'all',
           },
+          gi: {
+            test: /[\\/](icons[\\/]gi)[\\/]/,
+            name: 'icon-gi-vendor',
+            chunks: 'all',
+          },
           go: {
             test: /[\\/](icons[\\/]go)[\\/]/,
             name: 'icon-go-vendor',

@@ -33,6 +33,10 @@ jobs:
         working-directory: icons/di
         run: npm run build
 
+      - name: build icons gi
+        working-directory: icons/gi
+        run: npm run build
+
       - name: build icons go
         working-directory: icons/go
         run: npm run build

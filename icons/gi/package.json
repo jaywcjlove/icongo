@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/gi",
+  "version": "0.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/gameicons",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "tsbb": "tsbb build",
+    "icongo": "icongo --prefix GI --source svg -o ./src --rename='{\"headshot\": \"Headshot1\", \"jetpack\": \"JetPack1\"}'",
+    "cpy": "cpy 'data/**/*.svg' svg --flat",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "game",
+    "gi",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
