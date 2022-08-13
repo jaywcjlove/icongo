@@ -26,3 +26,7 @@
 	path = icons/gi/data
 	url = https://github.com/game-icons/icons.git
 	branch = master
+[submodule "icons/scwi/data"]
+	path = icons/scwi/data
+	url = https://github.com/adobe/spectrum-css-workflow-icons.git
+	branch = main

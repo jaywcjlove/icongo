@@ -120,6 +120,7 @@ export const Layout = () => {
             <NavLink to="/icons/octiconsicons">Github Octicons Icons</NavLink>
             <NavLink to="/icons/gameicons">Game Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
+            <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
             <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
           </Aside>
         </AsideWarpper>

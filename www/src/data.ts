@@ -12,6 +12,8 @@ import vscNames from '@icongo/vsc/lib/names.json';
 import * as vscdata from '@icongo/vsc/lib/index.js';
 import giNames from '@icongo/gi/lib/names.json';
 import * as gidata from '@icongo/gi/lib/index.js';
+import scwiNames from '@icongo/scwi/lib/names.json';
+import * as scwidata from '@icongo/scwi/lib/index.js';
 
 
 export type Info = Record<string, {
@@ -25,11 +27,13 @@ export type Info = Record<string, {
 
 export const searchNames: string[] = [
   ...bsNames, ...biNames, ...diNames, ...stiNames, ...goNames, ...vscNames,
-  ...giNames
+  ...giNames,
+  ...scwiNames,
 ];
 export const searchData: Record<string, React.FunctionComponent> = {
   ...bsdata, ...bidata, ...didata, ...stidata, ...godata, ...vscdata,
-  ...gidata
+  ...gidata,
+  ...scwidata,
 }
 
 export const info: Info = {
@@ -72,6 +76,14 @@ export const info: Info = {
     import: `import { IconName } from "@icongo/go";`,
     names: goNames,
     data: godata,
+  },
+  scwi: {
+    title: 'Adobe Spectrum-CSS Workflow Icons',
+    license: 'Apache-2.0',
+    gh: 'https://github.com/adobe/spectrum-css-workflow-icons',
+    import: `import { IconName } from "@icongo/scwi";`,
+    names: scwiNames,
+    data: scwidata,
   },
   supertinyicons: {
     title: 'Super Tiny Icons',

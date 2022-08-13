@@ -4,22 +4,7 @@ import MarkdownPreview from '@uiw/react-markdown-preview';
 import styled from 'styled-components';
 import { STITypescript, STIGithub } from '@icongo/sti/lib/index.js';
 import { info, searchData } from '../data';
-
-export const CardItem = styled.div`
-  box-shadow: 0 1px 3px 0 var(--color-neutral-muted);
-  border: 2px solid var(--color-border-muted);
-  border-radius: 5px;
-  min-height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 24px;
-`;
-
-export const CardWarpper = styled.div`
-  overflow: hidden;
-  text-align: center;
-`;
+import { IconsListProps, IconsList } from '../components/IconCard';
 
 export const WarpperIcons = styled.div`
   display: grid;
@@ -27,11 +12,6 @@ export const WarpperIcons = styled.div`
   grid-auto-columns: max-content;
   grid-template-columns: repeat(auto-fill,minmax(90px, 1fr));
   gap: 15px;
-`;
-
-export const IconName = styled.span`
-  font-size: 12px;
-  overflow: hidden;
 `;
 
 export const Panel = styled.div`
@@ -69,10 +49,10 @@ export const IconsPage = () => {
   const params = useParams<{ name: string; }>();
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
-  const [icons, setIcons] = useState<[string, React.FunctionComponent][]>([]);
+  const [icons, setIcons] = useState<IconsListProps['data']>([]);
   const baseData = info[params.name?.toLocaleLowerCase()!];
   useEffect(() => {
-    const data: [string, React.FunctionComponent][] = [];
+    const data: IconsListProps['data'] = [];
     if (baseData) {
       baseData.names.filter((k) => new RegExp(query || '','ig').test(k)).forEach((name) => {
         const Comp = baseData.data[name as keyof typeof searchData]
@@ -97,19 +77,7 @@ export const IconsPage = () => {
           <MarkdownPreview source={`\`\`\`js\n${baseData.import}\n\`\`\``} />
         </Panel>
       )}
-      <WarpperIcons>
-        {icons.map((item, key) => {
-          const [name, Com]= item;
-          return (
-            <CardWarpper key={key}>
-              <CardItem>
-                <Com />
-              </CardItem>
-              <IconName>{name}</IconName>
-            </CardWarpper>
-          )
-        })}
-      </WarpperIcons>
+      <IconsList data={icons} />
     </div>
   );
 }

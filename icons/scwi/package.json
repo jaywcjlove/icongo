@@ -1,0 +1,26 @@
+{
+  "name": "@icongo/scwi",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/scwi",
+  "scripts": {
+    "cpy": "cpy 'data/dist/spectrum-css-ccx-workflow-icons/dist/22/*.svg' svg --flat",
+    "icongo": "icongo --prefix SCWI --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Spectrum-CSS",
+    "workflow-icons",
+    "workflow",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

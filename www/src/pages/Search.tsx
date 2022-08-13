@@ -1,17 +1,17 @@
 import { useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import { CardItem, IconName, CardWarpper, WarpperIcons } from './Icons';
+import { WarpperIcons } from './Icons';
 import { searchData, searchNames } from '../data';
+import { IconCard, IconsList } from '../components/IconCard';
 
-const Title = styled.div`
-  
-`;
+const Title = styled.div``;
 
 export const SearchPage = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
   const [icons, setIcons] = useState<[string, React.FunctionComponent][]>([]);
+
   useEffect(() => {
     if (query.length < 2) return;
     const data: [string, React.FunctionComponent][] = []
@@ -21,7 +21,7 @@ export const SearchPage = () => {
         data.push([name, Comp])
       }
     });
-    setIcons(data)
+    setIcons(data);
   }, [query]);
 
   return (
@@ -29,19 +29,7 @@ export const SearchPage = () => {
       {icons.length === 0 && (
         <Title>Please enter at latest 2 characters to search...</Title>
       )}
-      <WarpperIcons>
-        {icons.map((item, key) => {
-          const [name, Com]= item;
-          return (
-            <CardWarpper key={key}>
-              <CardItem>
-                <Com />
-              </CardItem>
-              <IconName>{name}</IconName>
-            </CardWarpper>
-          )
-        })}
-      </WarpperIcons>
+      <IconsList data={icons} query={query} />
     </div>
   );
 }
