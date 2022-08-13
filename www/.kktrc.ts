@@ -87,9 +87,19 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-go-vendor',
             chunks: 'all',
           },
+          scwi: {
+            test: /[\\/](icons[\\/]scwi)[\\/]/,
+            name: 'icon-scwi-vendor',
+            chunks: 'all',
+          },
           sti: {
             test: /[\\/](icons[\\/]sti)[\\/]/,
             name: 'icon-sti-vendor',
+            chunks: 'all',
+          },
+          tb: {
+            test: /[\\/](icons[\\/]tb)[\\/]/,
+            name: 'icon-tb-vendor',
             chunks: 'all',
           },
           vsc: {

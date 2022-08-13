@@ -14,6 +14,8 @@ import giNames from '@icongo/gi/lib/names.json';
 import * as gidata from '@icongo/gi/lib/index.js';
 import scwiNames from '@icongo/scwi/lib/names.json';
 import * as scwidata from '@icongo/scwi/lib/index.js';
+import tbNames from '@icongo/tb/lib/names.json';
+import * as tbdata from '@icongo/tb/lib/index.js';
 
 
 export type Info = Record<string, {
@@ -29,11 +31,13 @@ export const searchNames: string[] = [
   ...bsNames, ...biNames, ...diNames, ...stiNames, ...goNames, ...vscNames,
   ...giNames,
   ...scwiNames,
+  ...tbNames,
 ];
 export const searchData: Record<string, React.FunctionComponent> = {
   ...bsdata, ...bidata, ...didata, ...stidata, ...godata, ...vscdata,
   ...gidata,
   ...scwidata,
+  ...tbdata,
 }
 
 export const info: Info = {
@@ -92,6 +96,14 @@ export const info: Info = {
     import: `import { IconName } from "@icongo/sti";`,
     names: stiNames,
     data: stidata,
+  },
+  tb: {
+    title: 'Tabler Icons',
+    license: 'MIT',
+    gh: 'https://github.com/tabler/tabler-icons',
+    import: `import { IconName } from "@icongo/tb";`,
+    names: tbNames,
+    data: tbdata,
   },
   vsc: {
     title: 'Visual Studio Code Icons',

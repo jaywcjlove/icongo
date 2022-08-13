@@ -12,3 +12,7 @@ npm i @icongo/sti
 ```jsx
 import { IconName } from '@icongo/sti'
 ```
+
+## License
+
+Licensed under the MIT License.

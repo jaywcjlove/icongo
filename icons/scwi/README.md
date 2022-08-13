@@ -1,4 +1,4 @@
-Spectrum-CSS Workflow Icons
+Adobe Spectrum-CSS Workflow Icons
 ===
 
 [![npm version](https://img.shields.io/npm/v/@icongo/scwi.svg)](https://www.npmjs.com/package/@icongo/scwi)

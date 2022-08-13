@@ -1,6 +1,8 @@
 Github Octicons Icons
 ===
 
+[![npm version](https://img.shields.io/npm/v/@icongo/go.svg)](https://www.npmjs.com/package/@icongo/go)
+
 [Preview Icons](http://icongo.github.io/#/icons/supertinyicons)
 
 ```bash

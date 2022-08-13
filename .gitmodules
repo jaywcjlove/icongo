@@ -30,3 +30,7 @@
 	path = icons/scwi/data
 	url = https://github.com/adobe/spectrum-css-workflow-icons.git
 	branch = main
+[submodule "icons/tb/data"]
+	path = icons/tb/data
+	url = https://github.com/tabler/tabler-icons.git
+	branch = master

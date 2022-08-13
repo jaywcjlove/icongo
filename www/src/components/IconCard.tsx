@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import styled, { css } from 'styled-components';
 import Keywords from 'react-keywords';
 
@@ -22,7 +22,6 @@ export const CardWarpper = styled.div<CardWarpperProps>`
   text-align: center;
   ${CardItem} {
     cursor: pointer;
-    transition: all .3s;
     &:active {
       border-color: var(--color-border-muted) !important;
     }
@@ -53,14 +52,18 @@ interface IconCardProps extends CardWarpperProps {
 
 export const IconCard: React.FunctionComponent<React.PropsWithRef<IconCardProps>> = (props) => {
   const { name, query, icon: Icon, ...other } = props;
+  const iconName = useMemo(() => (
+    <IconName>
+      <Keywords value={query}>{name}</Keywords>
+    </IconName>
+  ), [name, query]);
+
   return (
     <CardWarpper {...other}>
       <CardItem>
         {Icon && <Icon />}
       </CardItem>
-      <IconName>
-        <Keywords value={query}>{name}</Keywords>
-      </IconName>
+      {iconName}
     </CardWarpper>
   );
 }
@@ -73,12 +76,13 @@ export interface IconsListProps {
 export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
   const { data = [], query } = props;
   const [activeIcon, setActiveIcon] = useState<string>();
-  return (
+  
+  return useMemo(() => (
     <WarpperIcons>
       {data.map((item, key) => {
         const [name, Com]= item;
         return <IconCard key={key} active={name === activeIcon} onClick={() => setActiveIcon(name)} name={name} query={query} icon={Com} />;
       })}
     </WarpperIcons>
-  )
+  ), [data, query, activeIcon]);
 }

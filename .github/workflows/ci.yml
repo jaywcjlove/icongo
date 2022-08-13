@@ -42,6 +42,10 @@ jobs:
         working-directory: icons/go
         run: npm run build
 
+      - name: build icons scwi
+        working-directory: icons/scwi
+        run: npm run build
+
       - name: build icons sti
         working-directory: icons/sti
         run: npm run build
@@ -147,11 +151,23 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/go/package.json
 
+      - name: 📦  @icongo/scwi publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/scwi/package.json
+
       - name: 📦  @icongo/sti publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/sti/package.json
+
+      - name: 📦  @icongo/tb publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/tb/package.json
 
       - name: 📦  @icongo/vsc publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -239,8 +255,16 @@ jobs:
         working-directory: icons/go
         run: npm run build
 
+      - name: build icons scwi
+        working-directory: icons/scwi
+        run: npm run build
+
       - name: build icons sti
         working-directory: icons/sti
+        run: npm run build
+
+      - name: build icons tb
+        working-directory: icons/tb
         run: npm run build
 
       - name: build icons vsc
@@ -332,6 +356,20 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 
+      - name: "Modify @icongo/scwi => @jaywcjlove/icongo-scwi"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/scwi/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-scwi" }
+      - run: npm publish
+        working-directory: icons/scwi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
       - name: "Modify @icongo/sti => @jaywcjlove/icongo-sti"
         uses: jaywcjlove/github-action-package@main
         if: success() || failure()
@@ -341,6 +379,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-sti" }
       - run: npm publish
         working-directory: icons/sti
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/tb => @jaywcjlove/icongo-tb"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/tb/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-tb" }
+      - run: npm publish
+        working-directory: icons/tb
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

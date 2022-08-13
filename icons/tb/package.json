@@ -1,0 +1,24 @@
+{
+  "name": "@icongo/tb",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/tb",
+  "scripts": {
+    "cpy": "cpy 'data/icons/*.svg' svg --flat",
+    "icongo": "icongo --prefix TB --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "tb",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

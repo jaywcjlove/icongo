@@ -50,7 +50,7 @@ const Aside = styled.aside`
   position: sticky;
   top: 0px;
   overflow: auto;
-  max-height: calc(100vh -10px);
+  max-height: calc(100vh - 10px);
   padding: 5px;
   display: flex;
   flex-direction: column;
@@ -119,8 +119,9 @@ export const Layout = () => {
             <NavLink to="/icons/devicons">Devicons</NavLink>
             <NavLink to="/icons/octiconsicons">Github Octicons Icons</NavLink>
             <NavLink to="/icons/gameicons">Game Icons</NavLink>
-            <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
             <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
+            <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
+            <NavLink to="/icons/tb">Tabler Icons</NavLink>
             <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
           </Aside>
         </AsideWarpper>
