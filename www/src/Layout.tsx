@@ -128,6 +128,7 @@ export const Layout = () => {
             <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
             <NavLink to="/icons/tb">Tabler Icons</NavLink>
+            <NavLink to="/icons/uiw">UIW Icons</NavLink>
             <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
           </Aside>
         </AsideWarpper>

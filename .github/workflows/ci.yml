@@ -54,10 +54,13 @@ jobs:
         working-directory: icons/tb
         run: npm run build
 
+      - name: build icons uiw
+        working-directory: icons/uiw
+        run: npm run build
+
       - name: build icons vsc
         working-directory: icons/vsc
         run: npm run build
-
 
       - name: build webiste
         working-directory: www
@@ -104,17 +107,17 @@ jobs:
           The Icons search website can be deployed to your personal server via docker.
 
           ```shell
-          docker pull wcjiang/icongo
+          $ docker pull wcjiang/icongo
           # Or
-          docker pull ghcr.io/jaywcjlove/icongo:latest
+          $ docker pull ghcr.io/jaywcjlove/icongo:latest
           ```
 
           ```shell
-          docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
+          $ docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
           # Or
-          docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
+          $ docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
           # Or
-          docker run --name icongo -itd -p 9112:80 ghcr.io/jaywcjlove/icongo:latest
+          $ docker run --name icongo -itd -p 9112:80 ghcr.io/jaywcjlove/icongo:latest
           ```
 
           Visit the following URL in your browser:
@@ -215,6 +218,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/tb/package.json
 
+      - name: 📦  @icongo/uiw publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/uiw/package.json
+
       - name: 📦  @icongo/vsc publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -311,6 +320,10 @@ jobs:
 
       - name: build icons tb
         working-directory: icons/tb
+        run: npm run build
+
+      - name: build icons uiw
+        working-directory: icons/uiw
         run: npm run build
 
       - name: build icons vsc
@@ -453,6 +466,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-vsc" }
       - run: npm publish
         working-directory: icons/vsc
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/uiw => @jaywcjlove/icongo-uiw"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/uiw/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-uiw" }
+      - run: npm publish
+        working-directory: icons/uiw
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

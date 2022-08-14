@@ -7,6 +7,7 @@ import goNames from '@icongo/go/lib/names.json';
 import vscNames from '@icongo/vsc/lib/names.json';
 import giNames from '@icongo/gi/lib/names.json';
 import scwiNames from '@icongo/scwi/lib/names.json';
+import uiwNames from '@icongo/uiw/lib/names.json';
 import tbNames from '@icongo/tb/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
@@ -33,6 +34,7 @@ export const dataComps = {
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
   TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
+  UIW: (name: string) => loader(() => import(`@icongo/uiw/lib`), 'UIW', name),
   VSC: (name: string) => loader(() => import(`@icongo/vsc/lib`), 'VSC', name),
 }
 
@@ -50,6 +52,7 @@ export const searchNames: string[] = [
   ...giNames,
   ...scwiNames,
   ...tbNames,
+  ...uiwNames,
 ];
 
 export const info: Info = {
@@ -108,6 +111,13 @@ export const info: Info = {
     gh: 'https://github.com/tabler/tabler-icons',
     import: `import { IconName } from "@icongo/tb";`,
     names: tbNames,
+  },
+  uiw: {
+    title: 'UIW Icons',
+    license: 'MIT',
+    gh: 'https://github.com/uiwjs/icons',
+    import: `import { IconName } from "@icongo/uiw";`,
+    names: uiwNames,
   },
   vsc: {
     title: 'Visual Studio Code Icons',

@@ -25,7 +25,7 @@ const Warpper = styled.div`
   display: inline-block;
   overflow: hidden;
   position: relative;
-  background: #eff1f6;
+  background: var(--color-canvas-subtle);
   &:before {
     content: "";
     position: absolute;
@@ -36,7 +36,8 @@ const Warpper = styled.div`
     background-image: linear-gradient(
       90deg,
       rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0.6),
+      var(--color-canvas-subtle),
+      var(--color-border-default),
       rgba(255, 255, 255, 0)
     );
     animation: ${progress} 1.2s ease-in-out infinite;

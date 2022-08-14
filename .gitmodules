@@ -34,3 +34,7 @@
 	path = icons/tb/data
 	url = https://github.com/tabler/tabler-icons.git
 	branch = master
+[submodule "icons/uiw/data"]
+	path = icons/uiw/data
+	url = https://github.com/uiwjs/icons.git
+	branch = master
