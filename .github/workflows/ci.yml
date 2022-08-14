@@ -84,6 +84,48 @@ jobs:
           filter-author: (renovate-bot|Renovate Bot)
           filter: '[R|r]elease[d]\s+[v|V]\d(\.\d+){0,2}'
 
+      - name: Create webiste document
+        working-directory: www/build
+        run: |
+          cat > README.md << EOF
+          IconGo Website
+          ===
+
+          [![npm version](https://img.shields.io/npm/v/icongo.svg)](https://www.npmjs.com/package/icongo)
+          [![Github](https://img.shields.io/github/stars/jaywcjlove/icongo?logo=github)](https://github.com/jaywcjlove/icongo)
+          [![CI](https://github.com/jaywcjlove/icongo/actions/workflows/ci.yml/badge.svg)](https://github.com/jaywcjlove/icongo/actions/workflows/ci.yml)
+          [![Docker Image Version (latest by date)](https://img.shields.io/docker/v/wcjiang/icongo?logo=docker)](https://hub.docker.com/r/wcjiang/icongo)
+          [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wcjiang/icongo?logo=docker)](https://hub.docker.com/r/wcjiang/icongo)
+
+          Easily include popular icons in your React projects and provide an easy tool to convert `svg` into React components.
+
+          ## Docker
+
+          The Icons search website can be deployed to your personal server via docker.
+
+          ```shell
+          docker pull wcjiang/icongo
+          # Or
+          docker pull ghcr.io/jaywcjlove/icongo:latest
+          ```
+
+          ```shell
+          docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
+          # Or
+          docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
+          # Or
+          docker run --name icongo -itd -p 9112:80 ghcr.io/jaywcjlove/icongo:latest
+          ```
+
+          Visit the following URL in your browser:
+
+          http://localhost:9112/
+
+          ## License
+
+          Licensed under the MIT License.
+          EOF
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
