@@ -38,3 +38,7 @@
 	path = icons/md/data
 	url = https://github.com/marella/material-design-icons.git
 	branch = main
+[submodule "icons/uiw/data"]
+	path = icons/uiw/data
+	url = https://github.com/uiwjs/icons.git
+	branch = master
