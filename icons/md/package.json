@@ -1,0 +1,28 @@
+{
+  "name": "@icongo/md",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/md",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "icongo": "icongo --prefix MD --source data/svg/round -o ./src --rename='{\"addchart\": \"MDAddchart1\"}'",
+    "build": "npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "material",
+    "google",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

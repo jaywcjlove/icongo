@@ -9,6 +9,7 @@ import giNames from '@icongo/gi/lib/names.json';
 import scwiNames from '@icongo/scwi/lib/names.json';
 import uiwNames from '@icongo/uiw/lib/names.json';
 import tbNames from '@icongo/tb/lib/names.json';
+import mdNames from '@icongo/md/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -31,6 +32,7 @@ export const dataComps = {
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
+  MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
   TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
@@ -46,14 +48,6 @@ export type Info = Record<string, {
   import: string;
   names: string[];
 }>;
-
-export const searchNames: string[] = [
-  ...bsNames, ...biNames, ...diNames, ...stiNames, ...goNames, ...vscNames,
-  ...giNames,
-  ...scwiNames,
-  ...tbNames,
-  ...uiwNames,
-];
 
 export const info: Info = {
   bootstrap: {
@@ -91,6 +85,13 @@ export const info: Info = {
     import: `import { IconName } from "@icongo/go";`,
     names: goNames,
   },
+  md: {
+    title: 'Material Design icons by Google',
+    license: 'Apache-2.0',
+    gh: 'https://github.com/marella/material-design-icons',
+    import: `import { IconName } from "@icongo/md";`,
+    names: mdNames,
+  },
   scwi: {
     title: 'Adobe Spectrum-CSS Workflow Icons',
     license: 'Apache-2.0',
@@ -127,3 +128,5 @@ export const info: Info = {
     names: vscNames,
   },
 }
+
+export const searchNames: string[] = Object.keys(info).map(item => info[item].names).flat();

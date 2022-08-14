@@ -18,6 +18,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/di` | [![npm version](https://img.shields.io/npm/v/@icongo/di.svg)](https://www.npmjs.com/package/@icongo/di) | [`#preview`](https://icongo.github.io/#/icons/devicons/) |
 | `@icongo/gi` | [![npm version](https://img.shields.io/npm/v/@icongo/gi.svg)](https://www.npmjs.com/package/@icongo/gi) | [`#preview`](https://icongo.github.io/#/icons/gameicons/) |
 | `@icongo/go` | [![npm version](https://img.shields.io/npm/v/@icongo/go.svg)](https://www.npmjs.com/package/@icongo/go) | [`#preview`](https://icongo.github.io/#/icons/octiconsicons/) |
+| `@icongo/md` | [![npm version](https://img.shields.io/npm/v/@icongo/md.svg)](https://www.npmjs.com/package/@icongo/md) | [`#preview`](https://icongo.github.io/#/icons/md/) |
 | `@icongo/scwi` | [![npm version](https://img.shields.io/npm/v/@icongo/scwi.svg)](https://www.npmjs.com/package/@icongo/scwi) | [`#preview`](https://icongo.github.io/#/icons/scwi/) |
 | `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/#/icons/supertinyicons/) |
 | `@icongo/tb` | [![npm version](https://img.shields.io/npm/v/@icongo/tb.svg)](https://www.npmjs.com/package/@icongo/tb) | [`#preview`](https://icongo.github.io/#/icons/tb/) |
@@ -55,14 +56,14 @@ Options:
   --source, -s            svg icon folder. Default: "icons"
   --prefix                SVG component name prefix.
   --filter                Matching some icons does not generate components.
-  --rename, -r            Icon rename E.g: '{"jet-pack": "JetPack1"}'.
+  --rename, -r            Icon rename E.g: '{"jet-pack": "GIJetPack1"}'.
   --version, -v           Show version number
   --help, -h              Displays help information.
 
 Example:
   npm icongo --output components
   npm icongo --source icons
-  npm icongo -s svg -o src -r '{"jet-pack": "JetPack1"}'
+  npm icongo -s svg -o src -r '{"jet-pack": "GIJetPack1"}'
   npm icongo --source icons --filter='(calendar).svg'
   npm s2r --source icons
 ```

@@ -73,7 +73,7 @@ const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   return (
     <CardWarpper {...other} tabIndex={0}>
       <CardItem>
-        <React.Suspense fallback={<SkeletonLoader height="64px" width="100%" radius={5} />}>
+        <React.Suspense fallback={<SkeletonLoader height="64px" width="100%" radius={4} />}>
           {Child && <Child />}
         </React.Suspense>
       </CardItem>
