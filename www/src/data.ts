@@ -1,21 +1,40 @@
+import { lazy } from 'react';
 import bsNames from '@icongo/bs/lib/names.json';
-import * as bsdata from '@icongo/bs/lib/index.js';
 import stiNames from '@icongo/sti/lib/names.json';
-import * as stidata from '@icongo/sti/lib/index.js';
 import diNames from '@icongo/di/lib/names.json';
-import * as didata from '@icongo/di/lib/index.js';
 import biNames from '@icongo/bi/lib/names.json';
-import * as bidata from '@icongo/bi/lib/index.js';
 import goNames from '@icongo/go/lib/names.json';
-import * as godata from '@icongo/go/lib/index.js';
 import vscNames from '@icongo/vsc/lib/names.json';
-import * as vscdata from '@icongo/vsc/lib/index.js';
 import giNames from '@icongo/gi/lib/names.json';
-import * as gidata from '@icongo/gi/lib/index.js';
 import scwiNames from '@icongo/scwi/lib/names.json';
-import * as scwidata from '@icongo/scwi/lib/index.js';
 import tbNames from '@icongo/tb/lib/names.json';
-import * as tbdata from '@icongo/tb/lib/index.js';
+
+const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
+function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
+  if (cacheData[preName]) {
+    return cacheData[preName][name]
+  }
+  return lazy(() => {
+    return fn().then((module) => {
+      cacheData[preName] = module;
+      return ({
+        default: module[name as keyof typeof module] as unknown as () => JSX.Element
+      });
+    })
+  })
+}
+
+export const dataComps = {
+  BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
+  BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
+  DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
+  GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
+  GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
+  SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
+  STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
+  TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
+  VSC: (name: string) => loader(() => import(`@icongo/vsc/lib`), 'VSC', name),
+}
 
 
 export type Info = Record<string, {
@@ -24,7 +43,6 @@ export type Info = Record<string, {
   gh: string;
   import: string;
   names: string[];
-  data: Record<string, React.FunctionComponent>;
 }>;
 
 export const searchNames: string[] = [
@@ -33,12 +51,6 @@ export const searchNames: string[] = [
   ...scwiNames,
   ...tbNames,
 ];
-export const searchData: Record<string, React.FunctionComponent> = {
-  ...bsdata, ...bidata, ...didata, ...stidata, ...godata, ...vscdata,
-  ...gidata,
-  ...scwidata,
-  ...tbdata,
-}
 
 export const info: Info = {
   bootstrap: {
@@ -47,7 +59,6 @@ export const info: Info = {
     gh: 'https://github.com/twbs/icons',
     import: `import { IconName } from "@icongo/bs";`,
     names: bsNames,
-    data: bsdata,
   },
   boxicons: {
     title: 'Boxicons',
@@ -55,7 +66,6 @@ export const info: Info = {
     gh: 'https://github.com/atisawd/boxicons',
     import: `import { IconName } from "@icongo/bi";`,
     names: biNames,
-    data: bidata,
   },
   devicons: {
     title: 'Devicons',
@@ -63,15 +73,13 @@ export const info: Info = {
     gh: 'https://github.com/vorillaz/devicons',
     import: `import { IconName } from "@icongo/di";`,
     names: diNames,
-    data: didata,
   },
   gameicons: {
-    title: 'Devicons',
+    title: 'Game Icons',
     license: 'MIT',
     gh: 'https://github.com/game-icons/icons',
     import: `import { IconName } from "@icongo/gi";`,
     names: giNames,
-    data: gidata,
   },
   octiconsicons: {
     title: 'Github Octicons Icons',
@@ -79,7 +87,6 @@ export const info: Info = {
     gh: 'https://github.com/primer/octicons',
     import: `import { IconName } from "@icongo/go";`,
     names: goNames,
-    data: godata,
   },
   scwi: {
     title: 'Adobe Spectrum-CSS Workflow Icons',
@@ -87,7 +94,6 @@ export const info: Info = {
     gh: 'https://github.com/adobe/spectrum-css-workflow-icons',
     import: `import { IconName } from "@icongo/scwi";`,
     names: scwiNames,
-    data: scwidata,
   },
   supertinyicons: {
     title: 'Super Tiny Icons',
@@ -95,7 +101,6 @@ export const info: Info = {
     gh: 'https://github.com/edent/SuperTinyIcons',
     import: `import { IconName } from "@icongo/sti";`,
     names: stiNames,
-    data: stidata,
   },
   tb: {
     title: 'Tabler Icons',
@@ -103,7 +108,6 @@ export const info: Info = {
     gh: 'https://github.com/tabler/tabler-icons',
     import: `import { IconName } from "@icongo/tb";`,
     names: tbNames,
-    data: tbdata,
   },
   vsc: {
     title: 'Visual Studio Code Icons',
@@ -111,6 +115,5 @@ export const info: Info = {
     gh: 'https://github.com/microsoft/vscode-codicons',
     import: `import { IconName } from "@icongo/vsc";`,
     names: vscNames,
-    data: vscdata,
   },
 }

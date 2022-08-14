@@ -62,8 +62,14 @@ const Aside = styled.aside`
     padding: 5px 8px;
     border-radius: 3px;
     transition: all .3s;
-    &.active, &:hover {
+    &.active, &.active:hover {
+      background-color: var(--color-accent-fg);
+    }
+    &:hover {
       background-color: var(--color-border-muted);
+    }
+    &.active {
+      color: var(--color-canvas-default);
     }
   }
 `;

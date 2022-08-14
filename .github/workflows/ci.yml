@@ -50,6 +50,10 @@ jobs:
         working-directory: icons/sti
         run: npm run build
 
+      - name: build icons tb
+        working-directory: icons/tb
+        run: npm run build
+
       - name: build icons vsc
         working-directory: icons/vsc
         run: npm run build

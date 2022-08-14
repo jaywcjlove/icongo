@@ -14,7 +14,7 @@
   },
   "scripts": {
     "tsbb": "tsbb build",
-    "icongo": "icongo --prefix GI --source svg -o ./src --rename='{\"headshot\": \"Headshot1\", \"jetpack\": \"JetPack1\"}'",
+    "icongo": "icongo --prefix GI --source svg -o ./src --rename='{\"headshot\": \"GIHeadshot1\", \"jetpack\": \"GIJetPack1\"}'",
     "cpy": "cpy 'data/**/*.svg' svg --flat",
     "build": "npm run cpy && npm run icongo && tsbb build",
     "start": "npm run build"

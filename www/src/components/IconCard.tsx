@@ -1,6 +1,9 @@
-import React, { useMemo, useState } from 'react';
-import styled, { css } from 'styled-components';
+import React from 'react';
+import { useParams, useSearchParams } from 'react-router-dom';
+import styled from 'styled-components';
 import Keywords from 'react-keywords';
+import { dataComps, searchNames, info } from '../data';
+import { SkeletonLoader } from './SkeletonLoader';
 
 export const CardItem = styled.div`
   box-shadow: 0 1px 3px 0 var(--color-neutral-muted);
@@ -13,6 +16,11 @@ export const CardItem = styled.div`
   font-size: 24px;
 `;
 
+export const IconName = styled.span`
+  font-size: 12px;
+  overflow: hidden;
+`;
+
 interface CardWarpperProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
   active?: boolean;
 }
@@ -20,14 +28,21 @@ interface CardWarpperProps extends React.DetailedHTMLProps<React.HTMLAttributes<
 export const CardWarpper = styled.div<CardWarpperProps>`
   overflow: hidden;
   text-align: center;
-  ${CardItem} {
-    cursor: pointer;
-    &:active {
-      border-color: var(--color-border-muted) !important;
+  cursor: pointer;
+    ${CardItem}, ${IconName} {
+      transition: all .3s;
     }
-    ${props => props.active && css`
+  &:focus {
+    ${CardItem}, ${IconName} {
       border-color: var(--color-accent-emphasis) !important;
-    `}
+      color: var(--color-accent-emphasis);
+    }
+  }
+  &:active {
+    ${CardItem}, ${IconName} {
+      border-color: var(--color-fg-default) !important;
+      color: var(--color-fg-default) !important;
+    }
   }
 `;
 
@@ -39,50 +54,65 @@ export const WarpperIcons = styled.div`
   gap: 15px;
 `;
 
-export const IconName = styled.span`
-  font-size: 12px;
-  overflow: hidden;
-`;
-
 interface IconCardProps extends CardWarpperProps {
   name?: string;
   query?: string;
-  icon?: React.FunctionComponent<{}>;
+  child?: () => JSX.Element;
 }
 
-export const IconCard: React.FunctionComponent<React.PropsWithRef<IconCardProps>> = (props) => {
-  const { name, query, icon: Icon, ...other } = props;
-  const iconName = useMemo(() => (
-    <IconName>
-      <Keywords value={query}>{name}</Keywords>
-    </IconName>
-  ), [name, query]);
-
+const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
+  const { name = '', query = '', child, ...other } = props;
+  const preName = Object.keys(dataComps).find(m => {
+    return new RegExp(`^${m}`).test(name)
+  });
+  if (!preName) {
+    return null;
+  }
+  const fun = dataComps[preName as keyof typeof dataComps];
+  const Child = !!fun && preName ? fun(name) as unknown as () => JSX.Element : null;
   return (
-    <CardWarpper {...other}>
+    <CardWarpper {...other} tabIndex={0}>
       <CardItem>
-        {Icon && <Icon />}
+        <React.Suspense fallback={<SkeletonLoader height="64px" width="100%" radius={5} />}>
+          {Child && <Child />}
+        </React.Suspense>
       </CardItem>
-      {iconName}
+      <IconName>
+        {query ? <Keywords value={query}>{name}</Keywords> : name}
+      </IconName>
     </CardWarpper>
   );
 }
 
-export interface IconsListProps {
-  query?: string;
-  data?: [string, React.FunctionComponent][];
-}
+export interface IconsListProps {}
 
 export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
-  const { data = [], query } = props;
-  const [activeIcon, setActiveIcon] = useState<string>();
-  
-  return useMemo(() => (
+  const [searchParams] = useSearchParams();
+  const query = searchParams.get('q') || '';
+  let data: string[] = [];
+  const params = useParams<{ name: string; }>();
+  if (params.name) {
+    data = info[params.name.toLocaleLowerCase()]?.names || [];
+    return (
+      <WarpperIcons>
+        {data.map((name, key) => (
+          <Card key={key} name={name} query={query} />
+        ))}
+      </WarpperIcons>
+    );
+  } else {
+    data = []
+    if (query.length > 1) {
+      searchNames.filter((k) => new RegExp(query || '','ig').test(k)).forEach((name) => {
+        if (query) {
+          data.push(name)
+        }
+      });
+    }
+  }
+  return (
     <WarpperIcons>
-      {data.map((item, key) => {
-        const [name, Com]= item;
-        return <IconCard key={key} active={name === activeIcon} onClick={() => setActiveIcon(name)} name={name} query={query} icon={Com} />;
-      })}
+      {data.map((name, key) => <Card key={key} name={name} query={query} />)}
     </WarpperIcons>
-  ), [data, query, activeIcon]);
+  );
 }

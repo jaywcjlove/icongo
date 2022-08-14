@@ -61,7 +61,7 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
   const str = (await fs.readFile(file.path)).toString()
   let prefixName = getFileName(options.prefix, filename);
   if (nameCache.includes(filename.toLocaleLowerCase())) {
-    nameWarn[basename] = filename;
+    nameWarn[basename] = prefixName;
   }
   nameCache.push(filename.toLocaleLowerCase());
   if (options.rename && options.rename[basename]) {
