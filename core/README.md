@@ -92,9 +92,16 @@ The Icons search website can be deployed to your personal server via docker.
 
 ```shell
 docker pull wcjiang/icongo
+# Or
+docker pull ghcr.io/jaywcjlove/icongo:latest
+```
+
+```shell
 docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
 # Or
 docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
+# Or
+docker run --name icongo -itd -p 9112:80 ghcr.io/jaywcjlove/icongo:latest
 ```
 
 Visit the following URL in your browser:
