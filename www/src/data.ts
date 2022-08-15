@@ -12,6 +12,7 @@ import tbNames from '@icongo/tb/lib/names.json';
 import mdNames from '@icongo/md/lib/names.json';
 import siNames from '@icongo/si/lib/names.json';
 import pkNames from '@icongo/pk/lib/names.json';
+import fgNames from '@icongo/fg/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -32,6 +33,7 @@ export const dataComps = {
   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
+  FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
@@ -74,6 +76,13 @@ export const info: Info = {
     gh: 'https://github.com/vorillaz/devicons',
     npm: '@icongo/di',
     names: diNames,
+  },
+  fg: {
+    title: 'Flag Icons',
+    license: 'MIT',
+    gh: 'https://github.com/lipis/flag-icons',
+    npm: '@icongo/fg',
+    names: fgNames,
   },
   gameicons: {
     title: 'Game Icons',

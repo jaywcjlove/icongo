@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/fg",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/fg",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy 'data/flags/1x1/*.svg' svg --flat",
+    "icongo": "icongo --prefix FG --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "fg",
+    "flag",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

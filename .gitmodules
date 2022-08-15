@@ -50,3 +50,7 @@
 	path = icons/pk/data
 	url = https://github.com/bytedance/IconPark.git
 	branch = master
+[submodule "icons/fg/data"]
+	path = icons/fg/data
+	url = https://github.com/lipis/flag-icons.git
+	branch = main
