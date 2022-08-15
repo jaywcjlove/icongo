@@ -11,6 +11,7 @@ import uiwNames from '@icongo/uiw/lib/names.json';
 import tbNames from '@icongo/tb/lib/names.json';
 import mdNames from '@icongo/md/lib/names.json';
 import siNames from '@icongo/si/lib/names.json';
+import pkNames from '@icongo/pk/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -34,6 +35,7 @@ export const dataComps = {
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
+  PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
   SI: (name: string) => loader(() => import(`@icongo/si/lib`), 'SI', name),
   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
@@ -47,7 +49,7 @@ export type Info = Record<string, {
   title: string;
   license: string;
   gh: string;
-  import: string;
+  npm: string;
   names: string[];
 }>;
 
@@ -56,84 +58,91 @@ export const info: Info = {
     title: 'Bootstrap Icons',
     license: 'MIT',
     gh: 'https://github.com/twbs/icons',
-    import: `import { IconName } from "@icongo/bs";`,
+    npm: '@icongo/bs',
     names: bsNames,
   },
   boxicons: {
     title: 'Boxicons',
     license: 'MIT',
     gh: 'https://github.com/atisawd/boxicons',
-    import: `import { IconName } from "@icongo/bi";`,
+    npm: '@icongo/bi',
     names: biNames,
   },
   devicons: {
     title: 'Devicons',
     license: 'MIT',
     gh: 'https://github.com/vorillaz/devicons',
-    import: `import { IconName } from "@icongo/di";`,
+    npm: '@icongo/di',
     names: diNames,
   },
   gameicons: {
     title: 'Game Icons',
     license: 'MIT',
     gh: 'https://github.com/game-icons/icons',
-    import: `import { IconName } from "@icongo/gi";`,
+    npm: '@icongo/gi',
     names: giNames,
   },
   octiconsicons: {
     title: 'Github Octicons Icons',
     license: 'MIT',
     gh: 'https://github.com/primer/octicons',
-    import: `import { IconName } from "@icongo/go";`,
+    npm: '@icongo/go',
     names: goNames,
   },
   md: {
     title: 'Material Design icons by Google',
     license: 'Apache-2.0',
     gh: 'https://github.com/marella/material-design-icons',
-    import: `import { IconName } from "@icongo/md";`,
+    npm: '@icongo/md',
     names: mdNames,
+  },
+  pk: {
+    title: 'IconPark icons by Bytedance',
+    license: 'Apache-2.0',
+    gh: 'https://github.com/bytedance/IconPark',
+    npm: '@icongo/pk',
+    names: pkNames,
   },
   scwi: {
     title: 'Adobe Spectrum-CSS Workflow Icons',
     license: 'Apache-2.0',
     gh: 'https://github.com/adobe/spectrum-css-workflow-icons',
-    import: `import { IconName } from "@icongo/scwi";`,
+    npm: '@icongo/scwi',
     names: scwiNames,
   },
   supertinyicons: {
     title: 'Super Tiny Icons',
     license: 'MIT',
     gh: 'https://github.com/edent/SuperTinyIcons',
-    import: `import { IconName } from "@icongo/sti";`,
+    npm: '@icongo/sti',
     names: stiNames,
   },
   si: {
     title: 'Simple Icons',
     license: 'CC0-1.0',
     gh: 'https://github.com/simple-icons/simple-icons',
-    import: `import { IconName } from "@icongo/si";`,
+    npm: '@icongo/si',
     names: siNames,
   },
   tb: {
     title: 'Tabler Icons',
     license: 'MIT',
     gh: 'https://github.com/tabler/tabler-icons',
-    import: `import { IconName } from "@icongo/tb";`,
+    npm: '@icongo/tb',
     names: tbNames,
   },
   uiw: {
     title: 'UIW Icons',
     license: 'MIT',
     gh: 'https://github.com/uiwjs/icons',
-    import: `import { IconName } from "@icongo/uiw";`,
+    npm: '@icongo/uiw',
     names: uiwNames,
   },
   vsc: {
     title: 'Visual Studio Code Icons',
     license: 'MIT',
     gh: 'https://github.com/microsoft/vscode-codicons',
-    import: `import { IconName } from "@icongo/vsc";`,
+    npm: '@icongo/vsc',
     names: vscNames,
   },
 }

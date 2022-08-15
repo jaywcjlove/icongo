@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/pk",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/pk",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy 'data/source/**/*.svg' svg --flat",
+    "icongo": "icongo --prefix PK --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "pk",
+    "IconPark",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

@@ -1,7 +1,9 @@
 import { useParams } from 'react-router-dom';
 import MarkdownPreview from '@uiw/react-markdown-preview';
 import styled from 'styled-components';
-import { STITypescript, STIGithub } from '@icongo/sti/lib/index.js';
+import { STITypescript } from '@icongo/sti/lib/STITypescript';
+import { STIGithub } from '@icongo/sti/lib/STIGithub';
+import { SINpm } from '@icongo/si/lib/SINpm';
 import { info } from '../data';
 import { IconsList } from '../components/IconCard';
 
@@ -55,10 +57,19 @@ export const IconsPage = () => {
           <h1>{baseData.title}</h1>
           <Badges>
             <STITypescript />
-            <a href={baseData.gh} target="__blank"><STIGithub /></a>
-            {baseData.license} / <a href={baseData.gh} target="__blank">Github</a>
+            {baseData.npm && (
+              <a href={`https://www.npmjs.com/package/${baseData.npm}`} target="__blank">
+                <SINpm style={{ fill: '#cb0200' }} />
+              </a>
+            )}
+            {baseData.gh && (
+              <a href={baseData.gh} target="__blank">
+                <STIGithub />
+              </a>
+            )}
+            {baseData.license}  {baseData.gh && <a href={baseData.gh} target="__blank">{baseData.gh}</a>}
           </Badges>
-          <MarkdownPreview source={`\`\`\`js\n${baseData.import}\n\`\`\``} />
+          <MarkdownPreview source={`\`\`\`js\nimport { IconName } from '${baseData.npm}';\n\`\`\``} />
         </Panel>
       )}
       <IconsList />

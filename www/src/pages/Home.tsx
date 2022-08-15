@@ -6,7 +6,6 @@ const Warpper = styled.div`
 `
 
 export const HomePage = () => {
-  console.log(mdStr)
   return (
     <Warpper>
       <MarkdownPreview source={mdStr.source} />

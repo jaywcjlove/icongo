@@ -46,3 +46,7 @@
 	path = icons/si/data
 	url = https://github.com/simple-icons/simple-icons.git
 	branch = master
+[submodule "icons/pk/data"]
+	path = icons/pk/data
+	url = https://github.com/bytedance/IconPark.git
+	branch = master
