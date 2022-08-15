@@ -63,14 +63,16 @@ Options:
   --source, -s            svg icon folder. Default: "icons"
   --prefix                SVG component name prefix.
   --filter                Matching some icons does not generate components.
-  --rename, -r            Icon rename E.g: '{"jet-pack": "GIJetPack1"}'.
+  --rename, -r            Icon rename E.g: '{"jet-pack": "JetPack1"}'.
+  --config, -c            SVGR supports project configuration files for SVGR, SVGO and Prettier.
   --version, -v           Show version number
   --help, -h              Displays help information.
 
 Example:
   npm icongo --output components
   npm icongo --source icons
-  npm icongo -s svg -o src -r '{"jet-pack": "GIJetPack1"}'
+  npm icongo --source icons --config='{"svgProps": {"viewBox": "0 0 20 20"}}'
+  npm icongo -s svg -o src -r '{"jet-pack": "JetPack1"}'
   npm icongo --source icons --filter='(calendar).svg'
   npm s2r --source icons
 ```

@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { transform } from '@svgr/core';
+import { transform, Config } from '@svgr/core';
 import { recursiveReaddirFiles, IFileDirStat } from 'recursive-readdir-files';
 
 /**
@@ -27,7 +27,8 @@ export interface SvgToReactOption {
   output: string;
   prefix: string;
   filter: string;
-  rename: Record<string, string>;
+  rename?: Record<string, string>;
+  config?: Config;
 }
 
 const getFileName = (prefix: string, filename: string) => `${prefix || ''}${filename}`;
@@ -79,6 +80,7 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
     typescript: true,
     namedExport: prefixName,
     exportType: 'named',
+    ...options.config
   }, { componentName: prefixName });
 
   await fs.writeFile(outputFile, svgStr)

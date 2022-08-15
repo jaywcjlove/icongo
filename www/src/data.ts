@@ -17,6 +17,7 @@ import fiNames from '@icongo/fi/lib/names.json';
 import fcNames from '@icongo/fc/lib/names.json';
 import hiNames from '@icongo/hi/lib/names.json';
 import riNames from '@icongo/ri/lib/names.json';
+import eiNames from '@icongo/ei/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -37,6 +38,7 @@ export const dataComps = {
   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
+  Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
   FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
   FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
   FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
@@ -53,7 +55,6 @@ export const dataComps = {
   UIW: (name: string) => loader(() => import(`@icongo/uiw/lib`), 'UIW', name),
   VSC: (name: string) => loader(() => import(`@icongo/vsc/lib`), 'VSC', name),
 }
-
 
 export type Info = Record<string, {
   title: string;
@@ -84,6 +85,13 @@ export const info: Info = {
     gh: 'https://github.com/vorillaz/devicons',
     npm: '@icongo/di',
     names: diNames,
+  },
+  ei: {
+    title: 'Evil Icons',
+    license: 'MIT',
+    gh: 'https://github.com/evil-icons/evil-icons',
+    npm: '@icongo/ei',
+    names: eiNames,
   },
   fc: {
     title: 'Flat Color Icons',

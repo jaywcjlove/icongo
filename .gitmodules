@@ -70,3 +70,7 @@
 	path = icons/ri/data
 	url = https://github.com/Remix-Design/RemixIcon.git
 	branch = master
+[submodule "icons/ei/data"]
+	path = icons/ei/data
+	url = https://github.com/evil-icons/evil-icons.git
+	branch = master

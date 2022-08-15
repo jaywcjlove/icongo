@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/ei",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/ei",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy 'data/assets/icons/*.svg' svg --flat",
+    "icongo": "icongo --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "ei",
+    "evil",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
