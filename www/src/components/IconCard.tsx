@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useParams, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
 import Keywords from 'react-keywords';
+import toast from 'react-hot-toast';
+import copyTextToClipboard from '@uiw/copy-to-clipboard'
 import { dataComps, searchNames, info } from '../data';
 import { SkeletonLoader } from './SkeletonLoader';
 
@@ -26,6 +28,19 @@ interface CardWarpperProps extends React.DetailedHTMLProps<React.HTMLAttributes<
   active?: boolean;
 }
 
+const CopyBtn = styled.div`
+  font-size: 12px;
+  position: absolute;
+  border: 1px solid var(--color-border-muted);
+  background-color: var(--color-canvas-default);
+  transition: all .3s;
+  margin-top: -12px;
+  margin-left: 5px;
+  padding: 2px 3px;
+  border-radius: 3px;
+  display: none;
+`;
+
 export const CardWarpper = styled.div<CardWarpperProps>`
   overflow: hidden;
   text-align: center;
@@ -43,6 +58,13 @@ export const CardWarpper = styled.div<CardWarpperProps>`
     ${CardItem}, ${IconName} {
       border-color: var(--color-fg-default) !important;
       color: var(--color-fg-default) !important;
+    }
+  }
+  &:hover ${CopyBtn} {
+    display: block;
+    &:hover {
+      border-color: var(--color-accent-emphasis) !important;
+      color: var(--color-accent-emphasis);
     }
   }
 `;
@@ -63,6 +85,7 @@ interface IconCardProps extends CardWarpperProps {
 
 const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   const { name = '', query = '', child, ...other } = props;
+  const $ref = useRef<HTMLDivElement>(null)
   const preName = Object.keys(dataComps).find(m => {
     return new RegExp(`^${m}`).test(name)
   });
@@ -71,8 +94,23 @@ const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   }
   const fun = dataComps[preName as keyof typeof dataComps];
   const Child = !!fun && preName ? fun(name) as unknown as () => JSX.Element : null;
+  const handle = () => {
+    copyTextToClipboard(name, () => {
+      toast.success(<div>Copied '<b onClick={(evm) =>{}}>{name}</b>' name to clipboard</div>, { position: 'top-right' });
+      $ref.current?.focus()
+    });
+  }
+  const handleCopy = (evn: React.MouseEvent<HTMLElement, MouseEvent>) => {
+    evn.stopPropagation();
+    const svgStr = $ref.current?.querySelector('svg')?.outerHTML || '';
+    copyTextToClipboard(svgStr, () => {
+      toast.success(<div>Copied '<b>{name}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
+      $ref.current?.focus();
+    });
+  }
   return (
-    <CardWarpper {...other} tabIndex={0}>
+    <CardWarpper ref={$ref} {...other} tabIndex={0} onClick={handle}>
+      <CopyBtn onClick={handleCopy}>Copy SVG</CopyBtn>
       <CardItem>
         <React.Suspense fallback={<SkeletonLoader height="64px" width="100%" radius={3} />}>
           {Child && <Child />}

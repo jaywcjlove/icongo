@@ -9,11 +9,11 @@ export default function App() {
   return (
     <Provider>
       <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path="/icons/:name" element={<IconsPage />} />
-            <Route path="/search" element={<SearchPage />} />
-          </Route>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<HomePage />} />
+          <Route path="/icons/:name" element={<IconsPage />} />
+          <Route path="/search" element={<SearchPage />} />
+        </Route>
       </Routes>
     </Provider>
   );
