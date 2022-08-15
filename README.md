@@ -9,18 +9,6 @@ IconGo Website
 
 Easily include popular icons in your React projects and provide an easy tool to convert  into React components.
 
-## Docker
-
-The Icons search website can be deployed to your personal server via docker.
-
-
-
-
-
-Visit the following URL in your browser:
-
-http://localhost:9112/
-
 ## License
 
 Licensed under the MIT License.
