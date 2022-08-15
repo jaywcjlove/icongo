@@ -138,6 +138,7 @@ export const Layout = () => {
             <NavLink to="/icons/si">Simple Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
             <NavLink to="/icons/tb">Tabler Icons</NavLink>
+            <NavLink to="/icons/ti">Typicons Icons</NavLink>
             <NavLink to="/icons/uiw">UIW Icons</NavLink>
             <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
           </Aside>

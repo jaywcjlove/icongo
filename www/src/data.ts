@@ -19,6 +19,7 @@ import hiNames from '@icongo/hi/lib/names.json';
 import riNames from '@icongo/ri/lib/names.json';
 import eiNames from '@icongo/ei/lib/names.json';
 import faNames from '@icongo/fa/lib/names.json';
+import tiNames from '@icongo/ti/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -54,6 +55,7 @@ export const dataComps = {
   SI: (name: string) => loader(() => import(`@icongo/si/lib`), 'SI', name),
   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
   TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
+  TI: (name: string) => loader(() => import(`@icongo/ti/lib`), 'TI', name),
   UIW: (name: string) => loader(() => import(`@icongo/uiw/lib`), 'UIW', name),
   VSC: (name: string) => loader(() => import(`@icongo/vsc/lib`), 'VSC', name),
 }
@@ -191,6 +193,13 @@ export const info: Info = {
     license: 'MIT',
     gh: 'https://github.com/tabler/tabler-icons',
     npm: '@icongo/tb',
+    names: tbNames,
+  },
+  ti: {
+    title: 'Typicons Icons',
+    license: 'CC BY-SA 4.0',
+    gh: 'https://github.com/stephenhutchings/typicons.font',
+    npm: '@icongo/ti',
     names: tbNames,
   },
   uiw: {

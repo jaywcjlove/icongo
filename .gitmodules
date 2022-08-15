@@ -78,3 +78,7 @@
 	path = icons/fa/data
 	url = https://github.com/FortAwesome/Font-Awesome.git
 	branch = 6.x
+[submodule "icons/ti/data"]
+	path = icons/ti/data
+	url = https://github.com/stephenhutchings/typicons.font.git
+	branch = master

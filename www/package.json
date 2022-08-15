@@ -26,6 +26,7 @@
     "@icongo/si": "1.0.2",
     "@icongo/sti": "1.0.2",
     "@icongo/tb": "1.0.2",
+    "@icongo/ti": "1.0.2",
     "@icongo/uiw": "1.0.2",
     "@icongo/vsc": "1.0.2",
     "@types/styled-components": "^5.1.25",

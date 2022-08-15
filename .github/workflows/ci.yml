@@ -94,6 +94,10 @@ jobs:
         working-directory: icons/tb
         run: npm run build
 
+      - name: build icons ti
+        working-directory: icons/ti
+        run: npm run build
+
       - name: build icons uiw
         working-directory: icons/uiw
         run: npm run build
@@ -298,6 +302,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/tb/package.json
 
+      - name: 📦  @icongo/ti publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ti/package.json
+
       - name: 📦  @icongo/uiw publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -440,6 +450,10 @@ jobs:
 
       - name: build icons tb
         working-directory: icons/tb
+        run: npm run build
+
+      - name: build icons ti
+        working-directory: icons/ti
         run: npm run build
 
       - name: build icons uiw
@@ -710,6 +724,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-tb" }
       - run: npm publish
         working-directory: icons/tb
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ti => @jaywcjlove/icongo-ti"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ti/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ti" }
+      - run: npm publish
+        working-directory: icons/ti
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
