@@ -1,14 +1,14 @@
-Evil Icons
+Font Awesome Icons
 ===
 
-[![npm version](https://img.shields.io/npm/v/@icongo/ei.svg)](https://www.npmjs.com/package/@icongo/ei)
+[![npm version](https://img.shields.io/npm/v/@icongo/fa.svg)](https://www.npmjs.com/package/@icongo/fa)
 
-[Preview Icons](http://icongo.github.io/#/icons/ei)
+[Preview Icons](http://icongo.github.io/#/icons/fa)
 
 ```bash
-npm i @icongo/ei
+npm i @icongo/fa
 ```
 
 ```jsx
-import { IconName } from '@icongo/ei'
+import { IconName } from '@icongo/fa'
 ```
