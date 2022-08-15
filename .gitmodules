@@ -58,3 +58,7 @@
 	path = icons/fi/data
 	url = https://github.com/feathericons/feather.git
 	branch = master
+[submodule "icons/fc/data"]
+	path = icons/fc/data
+	url = https://github.com/icons8/flat-color-icons.git
+	branch = master

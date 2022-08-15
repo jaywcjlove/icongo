@@ -14,6 +14,7 @@ import siNames from '@icongo/si/lib/names.json';
 import pkNames from '@icongo/pk/lib/names.json';
 import fgNames from '@icongo/fg/lib/names.json';
 import fiNames from '@icongo/fi/lib/names.json';
+import fcNames from '@icongo/fc/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -34,6 +35,7 @@ export const dataComps = {
   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
+  FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
   FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
   FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
@@ -78,6 +80,13 @@ export const info: Info = {
     gh: 'https://github.com/vorillaz/devicons',
     npm: '@icongo/di',
     names: diNames,
+  },
+  fc: {
+    title: 'Flat Color Icons',
+    license: 'MIT',
+    gh: 'https://github.com/icons8/flat-color-icons',
+    npm: '@icongo/fc',
+    names: fcNames,
   },
   fg: {
     title: 'Flag Icons',
