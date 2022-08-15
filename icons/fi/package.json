@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/fi",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/fi",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy 'data/icons/*.svg' svg --flat",
+    "icongo": "icongo --prefix FI --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "fi",
+    "feather",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

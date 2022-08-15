@@ -54,3 +54,7 @@
 	path = icons/fg/data
 	url = https://github.com/lipis/flag-icons.git
 	branch = main
+[submodule "icons/fi/data"]
+	path = icons/fi/data
+	url = https://github.com/feathericons/feather.git
+	branch = master

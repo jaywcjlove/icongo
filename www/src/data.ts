@@ -13,6 +13,7 @@ import mdNames from '@icongo/md/lib/names.json';
 import siNames from '@icongo/si/lib/names.json';
 import pkNames from '@icongo/pk/lib/names.json';
 import fgNames from '@icongo/fg/lib/names.json';
+import fiNames from '@icongo/fi/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -34,6 +35,7 @@ export const dataComps = {
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
+  FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
@@ -83,6 +85,13 @@ export const info: Info = {
     gh: 'https://github.com/lipis/flag-icons',
     npm: '@icongo/fg',
     names: fgNames,
+  },
+  fi: {
+    title: 'Feather Icons',
+    license: 'MIT',
+    gh: 'https://github.com/feathericons/feather',
+    npm: '@icongo/fi',
+    names: fiNames,
   },
   gameicons: {
     title: 'Game Icons',

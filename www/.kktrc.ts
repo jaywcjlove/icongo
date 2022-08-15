@@ -82,6 +82,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-fg-vendor',
             chunks: 'all',
           },
+          fi: {
+            test: /[\\/](icons[\\/]fi)[\\/]/,
+            name: 'icon-fi-vendor',
+            chunks: 'all',
+          },
           gi: {
             test: /[\\/](icons[\\/]gi)[\\/]/,
             name: 'icon-gi-vendor',
@@ -117,14 +122,14 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-sti-vendor',
             chunks: 'all',
           },
-          uiw: {
-            test: /[\\/](icons[\\/]uiw)[\\/]/,
-            name: 'icon-uiw-vendor',
-            chunks: 'all',
-          },
           tb: {
             test: /[\\/](icons[\\/]tb)[\\/]/,
             name: 'icon-tb-vendor',
+            chunks: 'all',
+          },
+          uiw: {
+            test: /[\\/](icons[\\/]uiw)[\\/]/,
+            name: 'icon-uiw-vendor',
             chunks: 'all',
           },
           vsc: {
