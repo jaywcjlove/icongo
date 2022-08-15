@@ -77,6 +77,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-di-vendor',
             chunks: 'all',
           },
+          ei: {
+            test: /[\\/](icons[\\/]ei)[\\/]/,
+            name: 'icon-ei-vendor',
+            chunks: 'all',
+          },
           fg: {
             test: /[\\/](icons[\\/]fg)[\\/]/,
             name: 'icon-fg-vendor',
@@ -85,6 +90,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
           fi: {
             test: /[\\/](icons[\\/]fi)[\\/]/,
             name: 'icon-fi-vendor',
+            chunks: 'all',
+          },
+          fc: {
+            test: /[\\/](icons[\\/]fc)[\\/]/,
+            name: 'icon-fc-vendor',
             chunks: 'all',
           },
           gi: {
@@ -97,6 +107,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-go-vendor',
             chunks: 'all',
           },
+          hi: {
+            test: /[\\/](icons[\\/]hi)[\\/]/,
+            name: 'icon-hi-vendor',
+            chunks: 'all',
+          },
           md: {
             test: /[\\/](icons[\\/]md)[\\/]/,
             name: 'icon-md-vendor',
@@ -105,6 +120,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
           pk: {
             test: /[\\/](icons[\\/]pk)[\\/]/,
             name: 'icon-pk-vendor',
+            chunks: 'all',
+          },
+          ri: {
+            test: /[\\/](icons[\\/]ri)[\\/]/,
+            name: 'icon-ri-vendor',
             chunks: 'all',
           },
           si: {

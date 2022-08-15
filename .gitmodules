@@ -74,3 +74,7 @@
 	path = icons/ei/data
 	url = https://github.com/evil-icons/evil-icons.git
 	branch = master
+[submodule "icons/fa/data"]
+	path = icons/fa/data
+	url = https://github.com/FortAwesome/Font-Awesome.git
+	branch = 6.x

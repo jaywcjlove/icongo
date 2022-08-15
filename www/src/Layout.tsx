@@ -124,6 +124,7 @@ export const Layout = () => {
             <NavLink to="/icons/boxicons">Boxicons</NavLink>
             <NavLink to="/icons/devicons">Devicons</NavLink>
             <NavLink to="/icons/ei">Evil Icons</NavLink>
+            <NavLink to="/icons/fa">Font Awesome Icons</NavLink>
             <NavLink to="/icons/fc">Flat Color Icons</NavLink>
             <NavLink to="/icons/fg">Flag Icons</NavLink>
             <NavLink to="/icons/fi">Feather Icons</NavLink>
