@@ -1,0 +1,28 @@
+{
+  "name": "@icongo/hi",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/hi",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "node cpy.mjs",
+    "icongo": "icongo --prefix HI --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Heroicons",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

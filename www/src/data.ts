@@ -15,6 +15,7 @@ import pkNames from '@icongo/pk/lib/names.json';
 import fgNames from '@icongo/fg/lib/names.json';
 import fiNames from '@icongo/fi/lib/names.json';
 import fcNames from '@icongo/fc/lib/names.json';
+import hiNames from '@icongo/hi/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -40,6 +41,7 @@ export const dataComps = {
   FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
+  HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
@@ -115,6 +117,13 @@ export const info: Info = {
     gh: 'https://github.com/primer/octicons',
     npm: '@icongo/go',
     names: goNames,
+  },
+  hi: {
+    title: 'Heroicons',
+    license: 'MIT',
+    gh: 'https://github.com/tailwindlabs/heroicons',
+    npm: '@icongo/hi',
+    names: hiNames,
   },
   md: {
     title: 'Material Design icons by Google',
