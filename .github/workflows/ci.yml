@@ -104,6 +104,8 @@ jobs:
 
       - name: build webiste
         working-directory: www
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
         run: npm run build
 
       - name: Generate Contributors Images
