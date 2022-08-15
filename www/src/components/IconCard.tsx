@@ -36,7 +36,7 @@ const CopyBtn = styled.div`
   transition: all .3s;
   margin-top: -12px;
   margin-left: 5px;
-  padding: 2px 3px;
+  padding: 2px 5px;
   border-radius: 3px;
   display: none;
 `;

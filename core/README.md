@@ -31,6 +31,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/si` | [![npm version](https://img.shields.io/npm/v/@icongo/si.svg)](https://www.npmjs.com/package/@icongo/si) | [`#preview`](https://icongo.github.io/#/icons/si/) |
 | `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/#/icons/supertinyicons/) |
 | `@icongo/tb` | [![npm version](https://img.shields.io/npm/v/@icongo/tb.svg)](https://www.npmjs.com/package/@icongo/tb) | [`#preview`](https://icongo.github.io/#/icons/tb/) |
+| `@icongo/ti` | [![npm version](https://img.shields.io/npm/v/@icongo/ti.svg)](https://www.npmjs.com/package/@icongo/ti) | [`#preview`](https://icongo.github.io/#/icons/ti/) |
 | `@icongo/uiw` | [![npm version](https://img.shields.io/npm/v/@icongo/uiw.svg)](https://www.npmjs.com/package/@icongo/uiw) | [`#preview`](https://icongo.github.io/#/icons/uiw/) |
 | `@icongo/vsc` | [![npm version](https://img.shields.io/npm/v/@icongo/vsc.svg)](https://www.npmjs.com/package/@icongo/vsc) | [`#preview`](https://icongo.github.io/#/icons/vsc/) |
 

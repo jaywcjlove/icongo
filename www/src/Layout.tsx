@@ -1,6 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react';
 import { NavLink, Outlet, useNavigate, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
+import { SearchInput } from './components/Search';
 
 import { searchNames } from './data';
 
@@ -14,7 +15,7 @@ const Header = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 12px;
   background-color: var(--color-canvas-subtle);
   height: 50vh;
   margin-bottom: 26px;
@@ -29,11 +30,9 @@ const Detail = styled.div`
   text-align: center;
 `;
 
-const Search = styled.input`
-  line-height: 1.8rem;
-  font-size: 1.2rem;
-  border-radius: 6px;
-  outline: none;
+const Form = styled.form`
+  width: 100%;
+  display: flex;
 `;
 
 const Content = styled.div`
@@ -112,9 +111,15 @@ export const Layout = () => {
         <Detail>
           Include popular icons in your React projects easily <Bold>({searchNames.length} icons)</Bold>
         </Detail>
-        <form onSubmit={handleSubmit}>
-          <Search type="text" name="query" value={searchValue} onChange={changeHandle} onFocus={focusHandle} />
-        </form>
+        <Form onSubmit={handleSubmit}>
+          <SearchInput
+            placeholder={`Search ${searchNames.length} icons...`}
+            value={searchValue}
+            onSearch={(val) => setSearchParams({ q: val })}
+            onChange={changeHandle}
+            onFocus={focusHandle}
+          />
+        </Form>
       </Header>
       <Content>
         <AsideWarpper>
