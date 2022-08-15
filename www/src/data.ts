@@ -10,6 +10,7 @@ import scwiNames from '@icongo/scwi/lib/names.json';
 import uiwNames from '@icongo/uiw/lib/names.json';
 import tbNames from '@icongo/tb/lib/names.json';
 import mdNames from '@icongo/md/lib/names.json';
+import siNames from '@icongo/si/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -34,6 +35,7 @@ export const dataComps = {
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
+  SI: (name: string) => loader(() => import(`@icongo/si/lib`), 'SI', name),
   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
   TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
   UIW: (name: string) => loader(() => import(`@icongo/uiw/lib`), 'UIW', name),
@@ -105,6 +107,13 @@ export const info: Info = {
     gh: 'https://github.com/edent/SuperTinyIcons',
     import: `import { IconName } from "@icongo/sti";`,
     names: stiNames,
+  },
+  si: {
+    title: 'Simple Icons',
+    license: 'CC0-1.0',
+    gh: 'https://github.com/simple-icons/simple-icons',
+    import: `import { IconName } from "@icongo/si";`,
+    names: siNames,
   },
   tb: {
     title: 'Tabler Icons',

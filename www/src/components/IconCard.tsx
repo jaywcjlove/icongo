@@ -14,6 +14,7 @@ export const CardItem = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 24px;
+  background-color: var(--color-canvas-card);
 `;
 
 export const IconName = styled.span`
@@ -73,7 +74,7 @@ const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   return (
     <CardWarpper {...other} tabIndex={0}>
       <CardItem>
-        <React.Suspense fallback={<SkeletonLoader height="64px" width="100%" radius={4} />}>
+        <React.Suspense fallback={<SkeletonLoader height="64px" width="100%" radius={3} />}>
           {Child && <Child />}
         </React.Suspense>
       </CardItem>

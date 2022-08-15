@@ -41,7 +41,7 @@ const Content = styled.div`
   grid-template-areas: 'sidebar main';
   grid-template-columns: 220px minmax(0, 3.5fr);
   gap: 20px;
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 120px;
 `;
@@ -127,6 +127,7 @@ export const Layout = () => {
             <NavLink to="/icons/gameicons">Game Icons</NavLink>
             <NavLink to="/icons/md">Material Design Icons</NavLink>
             <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
+            <NavLink to="/icons/si">Simple Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
             <NavLink to="/icons/tb">Tabler Icons</NavLink>
             <NavLink to="/icons/uiw">UIW Icons</NavLink>

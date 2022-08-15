@@ -50,6 +50,10 @@ jobs:
         working-directory: icons/scwi
         run: npm run build
 
+      - name: build icons si
+        working-directory: icons/si
+        run: npm run build
+
       - name: build icons sti
         working-directory: icons/sti
         run: npm run build
@@ -105,28 +109,6 @@ jobs:
           [![Docker Image Size (latest by date)](https://img.shields.io/docker/image-size/wcjiang/icongo?logo=docker)](https://hub.docker.com/r/wcjiang/icongo)
 
           Easily include popular icons in your React projects and provide an easy tool to convert `svg` into React components.
-
-          ## Docker
-
-          The Icons search website can be deployed to your personal server via docker.
-
-          ```shell
-          $ docker pull wcjiang/icongo
-          # Or
-          $ docker pull ghcr.io/jaywcjlove/icongo:latest
-          ```
-
-          ```shell
-          $ docker run --name icongo --rm -d -p 9112:80 wcjiang/icongo:latest
-          # Or
-          $ docker run --name icongo -itd -p 9112:80 wcjiang/icongo:latest
-          # Or
-          $ docker run --name icongo -itd -p 9112:80 ghcr.io/jaywcjlove/icongo:latest
-          ```
-
-          Visit the following URL in your browser:
-
-          http://localhost:9112/
 
           ## License
 
@@ -215,6 +197,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/scwi/package.json
+
+      - name: 📦  @icongo/si publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/si/package.json
 
       - name: 📦  @icongo/sti publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -322,6 +310,10 @@ jobs:
 
       - name: build icons scwi
         working-directory: icons/scwi
+        run: npm run build
+
+      - name: build icons si
+        working-directory: icons/si
         run: npm run build
 
       - name: build icons md
@@ -452,6 +444,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-scwi" }
       - run: npm publish
         working-directory: icons/scwi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/si => @jaywcjlove/icongo-si"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/si/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-si" }
+      - run: npm publish
+        working-directory: icons/si
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

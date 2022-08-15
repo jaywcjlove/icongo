@@ -12,6 +12,7 @@
   --color-accent-emphasis: #1f6feb;
   --color-attention-subtle: rgba(187, 128, 9, 0.15);
   --color-danger-fg: #f85149;
+  --color-canvas-card: #333940;
 }
 [data-color-mode*='light'],
 [data-color-mode*='light'] body {
@@ -27,6 +28,7 @@
   --color-accent-emphasis: #0969da;
   --color-attention-subtle: #fff8c5;
   --color-danger-fg: #cf222e;
+  --color-canvas-card: #fff;
 }
 
 body {

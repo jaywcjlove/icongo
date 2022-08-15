@@ -42,3 +42,7 @@
 	path = icons/uiw/data
 	url = https://github.com/uiwjs/icons.git
 	branch = master
+[submodule "icons/si/data"]
+	path = icons/si/data
+	url = https://github.com/simple-icons/simple-icons.git
+	branch = master

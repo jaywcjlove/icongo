@@ -1,0 +1,27 @@
+{
+  "name": "@icongo/si",
+  "version": "1.0.1",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/si",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "build": "icongo --prefix SI --source data/icons -o ./src && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "si",
+    "Simple",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
