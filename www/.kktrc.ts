@@ -87,6 +87,21 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-go-vendor',
             chunks: 'all',
           },
+          md: {
+            test: /[\\/](icons[\\/]md)[\\/]/,
+            name: 'icon-md-vendor',
+            chunks: 'all',
+          },
+          pk: {
+            test: /[\\/](icons[\\/]pk)[\\/]/,
+            name: 'icon-pk-vendor',
+            chunks: 'all',
+          },
+          si: {
+            test: /[\\/](icons[\\/]si)[\\/]/,
+            name: 'icon-si-vendor',
+            chunks: 'all',
+          },
           scwi: {
             test: /[\\/](icons[\\/]scwi)[\\/]/,
             name: 'icon-scwi-vendor',
@@ -95,6 +110,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
           sti: {
             test: /[\\/](icons[\\/]sti)[\\/]/,
             name: 'icon-sti-vendor',
+            chunks: 'all',
+          },
+          uiw: {
+            test: /[\\/](icons[\\/]uiw)[\\/]/,
+            name: 'icon-uiw-vendor',
             chunks: 'all',
           },
           tb: {
