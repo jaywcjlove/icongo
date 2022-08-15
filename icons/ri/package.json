@@ -1,0 +1,26 @@
+{
+  "name": "@icongo/ri",
+  "version": "1.0.1",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/ri",
+  "scripts": {
+    "cpy": "cpy 'data/icons/**/*.svg' svg --flat",
+    "icongo": "icongo --prefix RI --source svg -o ./src -r='{\"bookmark-fill\": \"RIBookmarkFill1\", \"bookmark-line\": \"RIBookmarkLine1\"}'",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "RemixIcon",
+    "ri",
+    "go",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

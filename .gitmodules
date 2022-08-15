@@ -66,3 +66,7 @@
 	path = icons/hi/data
 	url = https://github.com/tailwindlabs/heroicons.git
 	branch = master
+[submodule "icons/ri/data"]
+	path = icons/ri/data
+	url = https://github.com/Remix-Design/RemixIcon.git
+	branch = master

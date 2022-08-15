@@ -16,6 +16,7 @@ import fgNames from '@icongo/fg/lib/names.json';
 import fiNames from '@icongo/fi/lib/names.json';
 import fcNames from '@icongo/fc/lib/names.json';
 import hiNames from '@icongo/hi/lib/names.json';
+import riNames from '@icongo/ri/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -44,6 +45,7 @@ export const dataComps = {
   HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
+  RI: (name: string) => loader(() => import(`@icongo/ri/lib`), 'RI', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
   SI: (name: string) => loader(() => import(`@icongo/si/lib`), 'SI', name),
   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
@@ -138,6 +140,13 @@ export const info: Info = {
     gh: 'https://github.com/bytedance/IconPark',
     npm: '@icongo/pk',
     names: pkNames,
+  },
+  ri: {
+    title: 'RemixIcon icons',
+    license: 'Apache-2.0',
+    gh: 'https://github.com/Remix-Design/RemixIcon',
+    npm: '@icongo/ri',
+    names: riNames,
   },
   scwi: {
     title: 'Adobe Spectrum-CSS Workflow Icons',
