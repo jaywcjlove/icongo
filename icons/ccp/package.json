@@ -1,7 +1,7 @@
 {
   "name": "@icongo/ccp",
   "description": "Credit Card & Payment Icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "http://icongo.github.io/#/icons/ccp",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
