@@ -72,6 +72,21 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-bs-vendor',
             chunks: 'all',
           },
+          bts: {
+            test: /[\\/](icons[\\/]bts)[\\/]/,
+            name: 'icon-bts-vendor',
+            chunks: 'all',
+          },
+          ccp: {
+            test: /[\\/](icons[\\/]ccp)[\\/]/,
+            name: 'icon-ccp-vendor',
+            chunks: 'all',
+          },
+          cg: {
+            test: /[\\/](icons[\\/]cg)[\\/]/,
+            name: 'icon-cg-vendor',
+            chunks: 'all',
+          },
           di: {
             test: /[\\/](icons[\\/]di)[\\/]/,
             name: 'icon-di-vendor',
@@ -80,6 +95,21 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
           ei: {
             test: /[\\/](icons[\\/]ei)[\\/]/,
             name: 'icon-ei-vendor',
+            chunks: 'all',
+          },
+          fa: {
+            test: /[\\/](icons[\\/]fa)[\\/]/,
+            name: 'icon-fa-vendor',
+            chunks: 'all',
+          },
+          fc: {
+            test: /[\\/](icons[\\/]fc)[\\/]/,
+            name: 'icon-fc-vendor',
+            chunks: 'all',
+          },
+          fd: {
+            test: /[\\/](icons[\\/]fd)[\\/]/,
+            name: 'icon-fd-vendor',
             chunks: 'all',
           },
           fg: {
@@ -92,11 +122,6 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-fi-vendor',
             chunks: 'all',
           },
-          fc: {
-            test: /[\\/](icons[\\/]fc)[\\/]/,
-            name: 'icon-fc-vendor',
-            chunks: 'all',
-          },
           gi: {
             test: /[\\/](icons[\\/]gi)[\\/]/,
             name: 'icon-gi-vendor',
@@ -107,9 +132,29 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-go-vendor',
             chunks: 'all',
           },
+          gr: {
+            test: /[\\/](icons[\\/]gr)[\\/]/,
+            name: 'icon-gr-vendor',
+            chunks: 'all',
+          },
           hi: {
             test: /[\\/](icons[\\/]hi)[\\/]/,
             name: 'icon-hi-vendor',
+            chunks: 'all',
+          },
+          ii: {
+            test: /[\\/](icons[\\/]ii)[\\/]/,
+            name: 'icon-ii-vendor',
+            chunks: 'all',
+          },
+          io: {
+            test: /[\\/](icons[\\/]io)[\\/]/,
+            name: 'icon-io-vendor',
+            chunks: 'all',
+          },
+          lg: {
+            test: /[\\/](icons[\\/]lg)[\\/]/,
+            name: 'icon-lg-vendor',
             chunks: 'all',
           },
           md: {
@@ -127,14 +172,14 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-ri-vendor',
             chunks: 'all',
           },
-          si: {
-            test: /[\\/](icons[\\/]si)[\\/]/,
-            name: 'icon-si-vendor',
-            chunks: 'all',
-          },
           scwi: {
             test: /[\\/](icons[\\/]scwi)[\\/]/,
             name: 'icon-scwi-vendor',
+            chunks: 'all',
+          },
+          si: {
+            test: /[\\/](icons[\\/]si)[\\/]/,
+            name: 'icon-si-vendor',
             chunks: 'all',
           },
           sti: {
@@ -147,6 +192,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-tb-vendor',
             chunks: 'all',
           },
+          ti: {
+            test: /[\\/](icons[\\/]ti)[\\/]/,
+            name: 'icon-ti-vendor',
+            chunks: 'all',
+          },
           uiw: {
             test: /[\\/](icons[\\/]uiw)[\\/]/,
             name: 'icon-uiw-vendor',
@@ -155,6 +205,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
           vsc: {
             test: /[\\/](icons[\\/]vsc)[\\/]/,
             name: 'icon-vsc-vendor',
+            chunks: 'all',
+          },
+          wi: {
+            test: /[\\/](icons[\\/]wi)[\\/]/,
+            name: 'icon-wi-vendor',
             chunks: 'all',
           },
         }

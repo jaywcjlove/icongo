@@ -1,0 +1,28 @@
+{
+  "name": "@icongo/bts",
+  "description": "Bytesize Icons",
+  "version": "1.0.2",
+  "homepage": "http://icongo.github.io/#/icons/bts",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "build": "icongo --prefix BTS --source data/dist/icons -o ./src && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "bytesize",
+    "bytesize-icons",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

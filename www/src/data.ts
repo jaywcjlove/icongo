@@ -28,6 +28,7 @@ import ioNames from '@icongo/io/lib/names.json';
 import wiNames from '@icongo/wi/lib/names.json';
 import fdNames from '@icongo/fd/lib/names.json';
 import lgNames from '@icongo/lg/lib/names.json';
+import btsNames from '@icongo/bts/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -47,6 +48,7 @@ function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof ty
 export const dataComps = {
   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
+  BTS: (name: string) => loader(() => import(`@icongo/bts/lib`), 'BTS', name),
   CCP: (name: string) => loader(() => import(`@icongo/ccp/lib`), 'CCP', name),
   CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
@@ -98,6 +100,13 @@ export const info: Info = {
     gh: 'https://github.com/atisawd/boxicons',
     npm: '@icongo/bi',
     names: biNames,
+  },
+  bts: {
+    title: 'Bytesize Icons',
+    license: 'MIT',
+    gh: 'https://github.com/danklammer/bytesize-icons',
+    npm: '@icongo/bts',
+    names: btsNames,
   },
   ccp: {
     title: 'Credit Card & Payment',

@@ -28,8 +28,5 @@
     "react-icons",
     "icons",
     "icon"
-  ],
-  "devDependencies": {
-    "@svgr/babel-plugin-remove-jsx-attribute": "^6.3.1"
-  }
+  ]
 }

@@ -114,3 +114,7 @@
 	path = icons/lg/data
 	url = https://github.com/gilbarbara/logos.git
 	branch = master
+[submodule "icons/bts/data"]
+	path = icons/bts/data
+	url = https://github.com/danklammer/bytesize-icons.git
+	branch = master
