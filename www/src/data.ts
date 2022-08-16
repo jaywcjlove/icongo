@@ -23,6 +23,7 @@ import tiNames from '@icongo/ti/lib/names.json';
 import ccpNames from '@icongo/ccp/lib/names.json';
 import iiNames from '@icongo/ii/lib/names.json';
 import cgNames from '@icongo/cg/lib/names.json';
+import grNames from '@icongo/gr/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -52,6 +53,7 @@ export const dataComps = {
   FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
+  GR: (name: string) => loader(() => import(`@icongo/gr/lib`), 'GR', name),
   HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
@@ -158,6 +160,13 @@ export const info: Info = {
     gh: 'https://github.com/primer/octicons',
     npm: '@icongo/go',
     names: goNames,
+  },
+  gr: {
+    title: 'Grommet Icons',
+    license: 'MIT',
+    gh: 'https://github.com/grommet/grommet-icons',
+    npm: '@icongo/gr',
+    names: grNames,
   },
   hi: {
     title: 'Heroicons',

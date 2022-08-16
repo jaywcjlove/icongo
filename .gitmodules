@@ -94,3 +94,7 @@
 	path = icons/cg/data
 	url = https://github.com/astrit/css.gg.git
 	branch = master
+[submodule "icons/gr/data"]
+	path = icons/gr/data
+	url = https://github.com/grommet/grommet-icons.git
+	branch = master

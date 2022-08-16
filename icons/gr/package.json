@@ -1,0 +1,25 @@
+{
+  "name": "@icongo/gr",
+  "description": "Grommet Icons",
+  "version": "1.0.2",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/gr",
+  "scripts": {
+    "build": "icongo --prefix GR --source data/public/img -o ./src && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Grommet",
+    "gr",
+    "go",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

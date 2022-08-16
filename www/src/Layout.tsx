@@ -137,6 +137,7 @@ export const Layout = () => {
             <NavLink to="/icons/fi">Feather Icons</NavLink>
             <NavLink to="/icons/go">Github Octicons Icons</NavLink>
             <NavLink to="/icons/gi">Game Icons</NavLink>
+            <NavLink to="/icons/gr">Grommet Icons</NavLink>
             <NavLink to="/icons/hi">Heroicons</NavLink>
             <NavLink to="/icons/pk">IconPark Icons</NavLink>
             <NavLink to="/icons/ri">RemixIcon Icons</NavLink>
