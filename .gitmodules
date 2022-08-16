@@ -122,3 +122,7 @@
 	path = icons/mi/data
 	url = https://github.com/mapbox/maki.git
 	branch = main
+[submodule "icons/mp/data"]
+	path = icons/mp/data
+	url = https://github.com/scottdejonge/map-icons.git
+	branch = master
