@@ -80,6 +80,11 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
     typescript: true,
     namedExport: prefixName,
     exportType: 'named',
+    jsx: {
+      babelConfig: {
+        babelrc: true
+      }
+    },
     ...options.config
   }, { componentName: prefixName });
 
