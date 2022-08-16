@@ -1,10 +1,10 @@
 {
-  "name": "@icongo/ii",
+  "name": "@icongo/io",
   "version": "1.0.2",
   "author": "jaywcjlove",
-  "description": "Iconic Icons",
+  "description": "Ionicons Icons",
   "license": "MIT",
-  "homepage": "http://icongo.github.io/#/icons/ii",
+  "homepage": "http://icongo.github.io/#/icons/io",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
@@ -15,15 +15,15 @@
   },
   "scripts": {
     "tsbb": "tsbb build",
-    "icongo": "icongo --prefix II --source svg -o ./src",
-    "cpy": "cpy 'data/svg/*.svg' svg --flat",
+    "icongo": "icongo --prefix IO --source svg -o ./src",
+    "cpy": "cpy 'data/src/svg/*.svg' svg --flat",
     "build": "npm run cpy && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [
     "icongo",
     "iconic",
-    "ii",
+    "io",
     "react-icons",
     "icons",
     "icon"

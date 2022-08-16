@@ -82,6 +82,10 @@ jobs:
         working-directory: icons/ii
         run: npm run build
 
+      - name: build icons io
+        working-directory: icons/io
+        run: npm run build
+
       - name: build icons md
         working-directory: icons/md
         run: npm run build
@@ -269,6 +273,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ii/package.json
+
+      - name: 📦  @icongo/io publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/io/package.json
 
       - name: 📦  @icongo/go publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -476,6 +486,10 @@ jobs:
         working-directory: icons/ii
         run: npm run build
 
+      - name: build icons io
+        working-directory: icons/io
+        run: npm run build
+
       - name: build icons go
         working-directory: icons/go
         run: npm run build
@@ -661,13 +675,13 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 
-      - name: "Modify @icongo/hi => @jaywcjlove/icongo-go"
+      - name: "Modify @icongo/hi => @jaywcjlove/icongo-hi"
         uses: jaywcjlove/github-action-package@main
         if: success() || failure()
         with:
           path: icons/hi/package.json
           data: |
-            { "name": "@jaywcjlove/icongo-go" }
+            { "name": "@jaywcjlove/icongo-hi" }
       - run: npm publish
         working-directory: icons/hi
         if: success() || failure()
@@ -675,15 +689,29 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 
-      - name: "Modify @icongo/ii => @jaywcjlove/icongo-go"
+      - name: "Modify @icongo/ii => @jaywcjlove/icongo-ii"
         uses: jaywcjlove/github-action-package@main
         if: success() || failure()
         with:
           path: icons/ii/package.json
           data: |
-            { "name": "@jaywcjlove/icongo-go" }
+            { "name": "@jaywcjlove/icongo-ii" }
       - run: npm publish
         working-directory: icons/ii
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/io => @jaywcjlove/icongo-io"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/io/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-io" }
+      - run: npm publish
+        working-directory: icons/io
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

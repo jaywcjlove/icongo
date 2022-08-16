@@ -98,3 +98,7 @@
 	path = icons/gr/data
 	url = https://github.com/grommet/grommet-icons.git
 	branch = master
+[submodule "icons/io/data"]
+	path = icons/io/data
+	url = https://github.com/ionic-team/ionicons.git
+	branch = main

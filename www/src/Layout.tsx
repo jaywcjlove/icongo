@@ -139,10 +139,11 @@ export const Layout = () => {
             <NavLink to="/icons/gi">Game Icons</NavLink>
             <NavLink to="/icons/gr">Grommet Icons</NavLink>
             <NavLink to="/icons/hi">Heroicons</NavLink>
-            <NavLink to="/icons/pk">IconPark Icons</NavLink>
-            <NavLink to="/icons/ri">RemixIcon Icons</NavLink>
             <NavLink to="/icons/ii">Iconic Icons</NavLink>
+            <NavLink to="/icons/io">Ionicons Icons</NavLink>
+            <NavLink to="/icons/pk">IconPark Icons</NavLink>
             <NavLink to="/icons/md">Material Design Icons</NavLink>
+            <NavLink to="/icons/ri">RemixIcon Icons</NavLink>
             <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
             <NavLink to="/icons/si">Simple Icons</NavLink>
             <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>

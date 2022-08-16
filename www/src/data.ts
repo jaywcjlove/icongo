@@ -24,6 +24,7 @@ import ccpNames from '@icongo/ccp/lib/names.json';
 import iiNames from '@icongo/ii/lib/names.json';
 import cgNames from '@icongo/cg/lib/names.json';
 import grNames from '@icongo/gr/lib/names.json';
+import ioNames from '@icongo/io/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -57,6 +58,7 @@ export const dataComps = {
   HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
+  IO: (name: string) => loader(() => import(`@icongo/io/lib`), 'IO', name),
   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
   RI: (name: string) => loader(() => import(`@icongo/ri/lib`), 'RI', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
@@ -188,6 +190,13 @@ export const info: Info = {
     gh: 'https://github.com/iconic/open-iconic',
     npm: '@icongo/ii',
     names: iiNames,
+  },
+  io: {
+    title: 'Ionicons Icons',
+    license: 'MIT',
+    gh: 'https://github.com/ionic-team/ionicons',
+    npm: '@icongo/io',
+    names: ioNames,
   },
   pk: {
     title: 'IconPark icons by Bytedance',
