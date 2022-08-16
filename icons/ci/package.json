@@ -1,14 +1,12 @@
 {
-  "name": "@icongo/ev",
-  "description": "Eva Icons",
+  "name": "@icongo/ci",
+  "description": "CoreUI Icons",
   "version": "1.0.2",
-  "author": "jaywcjlove",
-  "license": "MIT",
-  "homepage": "http://icongo.github.io/#/icons/ev",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/ci",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaywcjlove/icongo.git"
@@ -16,16 +14,17 @@
   "scripts": {
     "tsbb": "tsbb build",
     "cpy": "node ./cpy.mjs",
-    "icongo": "icongo --prefix EV --source svg -o ./src",
+    "icongo": "icongo --prefix CI --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [
     "icongo",
-    "ev",
-    "flag",
+    "coreui",
     "react-icons",
     "icons",
     "icon"
-  ]
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
 }

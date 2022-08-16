@@ -130,3 +130,7 @@
 	path = icons/ev/data
 	url = https://github.com/akveo/eva-icons.git
 	branch = master
+[submodule "icons/ci/data"]
+	path = icons/ci/data
+	url = https://github.com/coreui/coreui-icons.git
+	branch = master

@@ -131,6 +131,7 @@ export const Layout = () => {
             <NavLink to="/icons/di">Devicons</NavLink>
             <NavLink to="/icons/ccp">Credit Card & Payment</NavLink>
             <NavLink to="/icons/cg">CSS.gg Icons</NavLink>
+            <NavLink to="/icons/ci">CoreUI Icons</NavLink>
             <NavLink to="/icons/ei">Evil Icons</NavLink>
             <NavLink to="/icons/ev">Eva Icons</NavLink>
             <NavLink to="/icons/fa">Font Awesome Icons</NavLink>

@@ -32,6 +32,7 @@ import btsNames from '@icongo/bts/lib/names.json';
 import miNames from '@icongo/mi/lib/names.json';
 import mpNames from '@icongo/mp/lib/names.json';
 import evNames from '@icongo/ev/lib/names.json';
+import ciNames from '@icongo/ci/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -54,6 +55,7 @@ export const dataComps = {
   BTS: (name: string) => loader(() => import(`@icongo/bts/lib`), 'BTS', name),
   CCP: (name: string) => loader(() => import(`@icongo/ccp/lib`), 'CCP', name),
   CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
+  CI: (name: string) => loader(() => import(`@icongo/ci/lib`), 'CI', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
   EV: (name: string) => loader(() => import(`@icongo/ev/lib`), 'EV', name),
@@ -127,6 +129,13 @@ export const info: Info = {
     gh: 'https://github.com/astrit/css.gg',
     npm: '@icongo/cg',
     names: cgNames,
+  },
+  ci: {
+    title: 'CoreUI Icons',
+    license: 'CC BY 4.0',
+    gh: 'https://github.com/coreui/coreui-icons',
+    npm: '@icongo/ci',
+    names: ciNames,
   },
   di: {
     title: 'Devicons',
