@@ -128,7 +128,7 @@ export const info: Info = {
     npm: '@icongo/cg',
     names: cgNames,
   },
-  devicons: {
+  di: {
     title: 'Devicons',
     license: 'MIT',
     gh: 'https://github.com/vorillaz/devicons',

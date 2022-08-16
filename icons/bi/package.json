@@ -6,7 +6,7 @@
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "sideEffects": false,
-  "homepage": "http://icongo.github.io/#/icons/boxicons",
+  "homepage": "http://icongo.github.io/#/icons/bi",
   "repository": {
     "type": "git",
     "url": "https://github.com/jaywcjlove/icongo.git"
