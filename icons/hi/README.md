@@ -1,4 +1,4 @@
-Material Design icons
+Heroicons icons
 ===
 
 [![npm version](https://img.shields.io/npm/v/@icongo/hi.svg)](https://www.npmjs.com/package/@icongo/hi)

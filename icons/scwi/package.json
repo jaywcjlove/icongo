@@ -1,6 +1,7 @@
 {
   "name": "@icongo/scwi",
   "version": "1.0.2",
+  "description": "Spectrum Workflow Icons",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",

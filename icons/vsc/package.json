@@ -1,5 +1,6 @@
 {
   "name": "@icongo/vsc",
+  "description": "Visual Studio Code Icons",
   "version": "1.0.2",
   "author": "jaywcjlove",
   "license": "MIT",

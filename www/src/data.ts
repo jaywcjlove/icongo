@@ -21,6 +21,7 @@ import eiNames from '@icongo/ei/lib/names.json';
 import faNames from '@icongo/fa/lib/names.json';
 import tiNames from '@icongo/ti/lib/names.json';
 import ccpNames from '@icongo/ccp/lib/names.json';
+import iiNames from '@icongo/ii/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -51,6 +52,7 @@ export const dataComps = {
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
   HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
+  II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
   RI: (name: string) => loader(() => import(`@icongo/ri/lib`), 'RI', name),
   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
@@ -134,14 +136,14 @@ export const info: Info = {
     npm: '@icongo/fi',
     names: fiNames,
   },
-  gameicons: {
+  gi: {
     title: 'Game Icons',
     license: 'MIT',
     gh: 'https://github.com/game-icons/icons',
     npm: '@icongo/gi',
     names: giNames,
   },
-  octiconsicons: {
+  go: {
     title: 'Github Octicons Icons',
     license: 'MIT',
     gh: 'https://github.com/primer/octicons',
@@ -161,6 +163,13 @@ export const info: Info = {
     gh: 'https://github.com/marella/material-design-icons',
     npm: '@icongo/md',
     names: mdNames,
+  },
+  ii: {
+    title: 'Iconic icons',
+    license: 'MIT',
+    gh: 'https://github.com/iconic/open-iconic',
+    npm: '@icongo/ii',
+    names: iiNames,
   },
   pk: {
     title: 'IconPark icons by Bytedance',

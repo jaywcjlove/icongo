@@ -1,10 +1,10 @@
 {
-  "name": "@icongo/si",
-  "description": "Simple Icons",
+  "name": "@icongo/ii",
   "version": "1.0.2",
   "author": "jaywcjlove",
+  "description": "Iconic Icons",
   "license": "MIT",
-  "homepage": "http://icongo.github.io/#/icons/si",
+  "homepage": "http://icongo.github.io/#/icons/ii",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
@@ -14,13 +14,16 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "build": "icongo --prefix SI --source data/icons -o ./src && tsbb build",
+    "tsbb": "tsbb build",
+    "icongo": "icongo --prefix II --source svg -o ./src --rename='{\"headshot\": \"GIHeadshot1\", \"jetpack\": \"GIJetPack1\"}'",
+    "cpy": "cpy 'data/svg/*.svg' svg --flat",
+    "build": "npm run cpy && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [
     "icongo",
-    "si",
-    "Simple",
+    "iconic",
+    "ii",
     "react-icons",
     "icons",
     "icon"

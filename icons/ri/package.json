@@ -1,5 +1,6 @@
 {
   "name": "@icongo/ri",
+  "description": "RemixIcon Icons",
   "version": "1.0.2",
   "main": "./lib/index.js",
   "module": "./esm/index.js",

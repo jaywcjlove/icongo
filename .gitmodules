@@ -86,3 +86,7 @@
 	path = icons/ccp/data
 	url = https://github.com/aaronfagan/svg-credit-card-payment-icons.git
 	branch = main
+[submodule "icons/ii/data"]
+	path = icons/ii/data
+	url = https://github.com/iconic/open-iconic.git
+	branch = master

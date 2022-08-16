@@ -15,7 +15,7 @@ export const CardItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 46px;
+  font-size: 28px;
   background-color: var(--color-canvas-card);
 `;
 
