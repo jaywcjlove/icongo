@@ -118,3 +118,7 @@
 	path = icons/bts/data
 	url = https://github.com/danklammer/bytesize-icons.git
 	branch = master
+[submodule "icons/mi/data"]
+	path = icons/mi/data
+	url = https://github.com/mapbox/maki.git
+	branch = main

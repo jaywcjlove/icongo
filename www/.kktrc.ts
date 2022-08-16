@@ -162,6 +162,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-md-vendor',
             chunks: 'all',
           },
+          mi: {
+            test: /[\\/](icons[\\/]mi)[\\/]/,
+            name: 'icon-mi-vendor',
+            chunks: 'all',
+          },
           pk: {
             test: /[\\/](icons[\\/]pk)[\\/]/,
             name: 'icon-pk-vendor',

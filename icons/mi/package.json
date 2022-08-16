@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/mi",
+  "description": "Maki Icons",
+  "version": "1.0.2",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/mi",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "icongo": "icongo --prefix MI --source data/icons -o ./src",
+    "build": "npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "maki",
+    "google",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
