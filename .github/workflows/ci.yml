@@ -70,8 +70,8 @@ jobs:
         working-directory: icons/go
         run: npm run build
 
-      - name: build icons go
-        working-directory: icons/go
+      - name: build icons gr
+        working-directory: icons/gr
         run: npm run build
 
       - name: build icons hi
@@ -124,6 +124,10 @@ jobs:
 
       - name: build icons vsc
         working-directory: icons/vsc
+        run: npm run build
+
+      - name: build icons wi
+        working-directory: icons/wi
         run: npm run build
 
       - name: build webiste
@@ -370,6 +374,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/vsc/package.json
 
+      - name: 📦  @icongo/wi publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/wi/package.json
+
 
       # Create Docker Image
       - name: Docker login
@@ -532,6 +542,10 @@ jobs:
 
       - name: build icons vsc
         working-directory: icons/vsc
+        run: npm run build
+
+      - name: build icons wi
+        working-directory: icons/wi
         run: npm run build
 
 
@@ -892,6 +906,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-vsc" }
       - run: npm publish
         working-directory: icons/vsc
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/wi => @jaywcjlove/icongo-wi"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/wi/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-wi" }
+      - run: npm publish
+        working-directory: icons/wi
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

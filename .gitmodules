@@ -102,3 +102,7 @@
 	path = icons/io/data
 	url = https://github.com/ionic-team/ionicons.git
 	branch = main
+[submodule "icons/wi/data"]
+	path = icons/wi/data
+	url = https://github.com/erikflowers/weather-icons.git
+	branch = master

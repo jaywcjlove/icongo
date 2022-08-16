@@ -25,6 +25,7 @@ import iiNames from '@icongo/ii/lib/names.json';
 import cgNames from '@icongo/cg/lib/names.json';
 import grNames from '@icongo/gr/lib/names.json';
 import ioNames from '@icongo/io/lib/names.json';
+import wiNames from '@icongo/wi/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -48,6 +49,7 @@ export const dataComps = {
   CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
+  Wi: (name: string) => loader(() => import(`@icongo/wi/lib`), 'Wi', name),
   FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
   FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
   FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
@@ -260,6 +262,13 @@ export const info: Info = {
     gh: 'https://github.com/microsoft/vscode-codicons',
     npm: '@icongo/vsc',
     names: vscNames,
+  },
+  wi: {
+    title: 'Weather Icons',
+    license: 'SIL OFL 1.1',
+    gh: 'https://github.com/erikflowers/weather-icons',
+    npm: '@icongo/wi',
+    names: wiNames,
   },
 }
 
