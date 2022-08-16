@@ -31,6 +31,7 @@ import lgNames from '@icongo/lg/lib/names.json';
 import btsNames from '@icongo/bts/lib/names.json';
 import miNames from '@icongo/mi/lib/names.json';
 import mpNames from '@icongo/mp/lib/names.json';
+import evNames from '@icongo/ev/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -55,6 +56,7 @@ export const dataComps = {
   CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
+  EV: (name: string) => loader(() => import(`@icongo/ev/lib`), 'EV', name),
   Wi: (name: string) => loader(() => import(`@icongo/wi/lib`), 'Wi', name),
   FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
   FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
@@ -98,7 +100,7 @@ export const info: Info = {
     npm: '@icongo/bs',
     names: bsNames,
   },
-  boxicons: {
+  bi: {
     title: 'Boxicons',
     license: 'MIT',
     gh: 'https://github.com/atisawd/boxicons',
@@ -139,6 +141,13 @@ export const info: Info = {
     gh: 'https://github.com/evil-icons/evil-icons',
     npm: '@icongo/ei',
     names: eiNames,
+  },
+  ev: {
+    title: 'Eva Icons',
+    license: 'MIT',
+    gh: 'https://github.com/akveo/eva-icons',
+    npm: '@icongo/ev',
+    names: evNames,
   },
   fa: {
     title: 'Font-Awesome Icons',

@@ -17,6 +17,9 @@ export const CardItem = styled.div`
   justify-content: center;
   font-size: 28px;
   background-color: var(--color-canvas-card);
+  svg {
+    fill: var(--color-fg-default);
+  }
 `;
 
 export const IconName = styled.span`

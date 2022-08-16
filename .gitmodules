@@ -126,3 +126,7 @@
 	path = icons/mp/data
 	url = https://github.com/scottdejonge/map-icons.git
 	branch = master
+[submodule "icons/ev/data"]
+	path = icons/ev/data
+	url = https://github.com/akveo/eva-icons.git
+	branch = master

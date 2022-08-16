@@ -97,6 +97,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-ei-vendor',
             chunks: 'all',
           },
+          ev: {
+            test: /[\\/](icons[\\/]ev)[\\/]/,
+            name: 'icon-ev-vendor',
+            chunks: 'all',
+          },
           fa: {
             test: /[\\/](icons[\\/]fa)[\\/]/,
             name: 'icon-fa-vendor',
@@ -165,6 +170,11 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
           mi: {
             test: /[\\/](icons[\\/]mi)[\\/]/,
             name: 'icon-mi-vendor',
+            chunks: 'all',
+          },
+          mp: {
+            test: /[\\/](icons[\\/]mp)[\\/]/,
+            name: 'icon-mp-vendor',
             chunks: 'all',
           },
           pk: {

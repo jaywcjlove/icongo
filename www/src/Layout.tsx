@@ -125,13 +125,14 @@ export const Layout = () => {
         <AsideWarpper>
           <Aside>
             <NavLink to="/">Home</NavLink>
+            <NavLink to="/icons/bi">Boxicons</NavLink>
             <NavLink to="/icons/bootstrap">Bootstrap Icons</NavLink>
-            <NavLink to="/icons/boxicons">Boxicons</NavLink>
             <NavLink to="/icons/bts">Bytesize Icons</NavLink>
             <NavLink to="/icons/devicons">Devicons</NavLink>
-            <NavLink to="/icons/cg">CSS.gg Icons</NavLink>
             <NavLink to="/icons/ccp">Credit Card & Payment</NavLink>
+            <NavLink to="/icons/cg">CSS.gg Icons</NavLink>
             <NavLink to="/icons/ei">Evil Icons</NavLink>
+            <NavLink to="/icons/ev">Eva Icons</NavLink>
             <NavLink to="/icons/fa">Font Awesome Icons</NavLink>
             <NavLink to="/icons/fc">Flat Color Icons</NavLink>
             <NavLink to="/icons/fd">Foundation Icons</NavLink>

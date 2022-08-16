@@ -50,6 +50,10 @@ jobs:
         working-directory: icons/ei
         run: npm run build
 
+      - name: build icons ev
+        working-directory: icons/ev
+        run: npm run build
+
       - name: build icons fc
         working-directory: icons/fc
         run: npm run build
@@ -279,6 +283,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ei/package.json
+
+      - name: 📦  @icongo/ev publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ev/package.json
 
       - name: 📦  @icongo/gi publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -518,6 +528,10 @@ jobs:
         working-directory: icons/ei
         run: npm run build
 
+      - name: build icons ev
+        working-directory: icons/ev
+        run: npm run build
+
       - name: build icons fa
         working-directory: icons/fa
         run: npm run build
@@ -726,6 +740,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-ei" }
       - run: npm publish
         working-directory: icons/ei
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ev => @jaywcjlove/icongo-ev"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ev/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ev" }
+      - run: npm publish
+        working-directory: icons/ev
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -1,7 +1,11 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { transform, Config } from '@svgr/core';
+import { transform, Config, loadConfig as svgrLoadConfig } from '@svgr/core';
 import { recursiveReaddirFiles, IFileDirStat } from 'recursive-readdir-files';
+import { loadConfig } from 'svgo';
+import svgoPlugin from '@svgr/plugin-svgo'
+import jsxPlugin from '@svgr/plugin-jsx';
+import prettierPlugin from '@svgr/plugin-prettier'
 
 /**
  * Converts a string to pascal case.
@@ -36,6 +40,12 @@ const getFileName = (prefix: string, filename: string) => `${prefix || ''}${file
 export async function svgToReact(options: SvgToReactOption) {
   await fs.ensureDir(options.output);
   const svgFiles = await recursiveReaddirFiles(options.source, { include: /(\.svg)$/ });
+  const svgoConfig = await loadConfig();
+  if (!options.config) options.config = {};
+  if (svgoConfig) {
+    options.config.svgo = true;
+    options.config.svgoConfig = svgoConfig;
+  }
   writeFile(svgFiles, 0, options);
 }
 
@@ -69,7 +79,7 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
     if (options.rename && options.rename[basename]) {
       prefixName = options.rename[basename];
     }
-  
+
     const svgStr = await transform(str, {
       icon: true,
       jsxRuntime: 'automatic',
@@ -81,7 +91,15 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
           babelrc: true
         }
       },
-      ...options.config
+      ...options.config,
+      plugins: [
+        (code, config, state) => {
+          const { plugins, ...other } = config;
+          const str = svgoPlugin(code, other, state)
+          const jsStr = jsxPlugin(str, other, state)
+          return prettierPlugin(jsStr, other, state)
+        }
+      ],
     }, { componentName: prefixName });
   
     names.push(prefixName);
