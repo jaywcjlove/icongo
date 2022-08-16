@@ -1,0 +1,35 @@
+{
+  "name": "@icongo/lg",
+  "version": "1.0.2",
+  "author": "jaywcjlove",
+  "description": "Logos Icons",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/lg",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "tsbb": "tsbb build",
+    "icongo": "icongo --prefix LG --source svg -o ./src",
+    "cpy": "cpy 'data/logos/*.svg' svg --flat",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "logo",
+    "logos",
+    "lg",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "devDependencies": {
+    "@svgr/babel-plugin-remove-jsx-attribute": "^6.3.1"
+  }
+}

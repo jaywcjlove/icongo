@@ -110,3 +110,7 @@
 	path = icons/fd/data
 	url = https://github.com/zurb/foundation-icon-fonts.git
 	branch = master
+[submodule "icons/lg/data"]
+	path = icons/lg/data
+	url = https://github.com/gilbarbara/logos.git
+	branch = master

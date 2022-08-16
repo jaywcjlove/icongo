@@ -27,6 +27,7 @@ import grNames from '@icongo/gr/lib/names.json';
 import ioNames from '@icongo/io/lib/names.json';
 import wiNames from '@icongo/wi/lib/names.json';
 import fdNames from '@icongo/fd/lib/names.json';
+import lgNames from '@icongo/lg/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -60,6 +61,7 @@ export const dataComps = {
   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
   GR: (name: string) => loader(() => import(`@icongo/gr/lib`), 'GR', name),
   HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
+  LG: (name: string) => loader(() => import(`@icongo/lg/lib`), 'LG', name),
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
   IO: (name: string) => loader(() => import(`@icongo/io/lib`), 'IO', name),
@@ -187,6 +189,13 @@ export const info: Info = {
     gh: 'https://github.com/tailwindlabs/heroicons',
     npm: '@icongo/hi',
     names: hiNames,
+  },
+  lg: {
+    title: 'Logos Icons',
+    license: 'CC0-1.0',
+    gh: 'https://github.com/gilbarbara/logos',
+    npm: '@icongo/lg',
+    names: lgNames,
   },
   md: {
     title: 'Material Design icons by Google',
