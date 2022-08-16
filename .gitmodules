@@ -106,3 +106,7 @@
 	path = icons/wi/data
 	url = https://github.com/erikflowers/weather-icons.git
 	branch = master
+[submodule "icons/fd/data"]
+	path = icons/fd/data
+	url = https://github.com/zurb/foundation-icon-fonts.git
+	branch = master

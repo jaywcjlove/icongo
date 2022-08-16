@@ -141,7 +141,7 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
     );
   } else {
     data = []
-    if (query.length > 1) {
+    if (query.length > 2) {
       searchNames.filter((k) => new RegExp(query || '','ig').test(k)).forEach((name) => {
         if (query) {
           data.push(name)

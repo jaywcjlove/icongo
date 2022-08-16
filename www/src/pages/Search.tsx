@@ -11,7 +11,7 @@ export const SearchPage = () => {
   return (
     <div>
       {results.length === 0 && (
-        <Title>Please enter at latest 2 characters to search...</Title>
+        <Title>Please enter at latest 3 characters to search...</Title>
       )}
       <IconsList />
     </div>

@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/fd",
+  "description": "Foundation Icon Fonts",
+  "version": "1.0.2",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/fd",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy 'data/svgs/*.svg' svg --flat",
+    "icongo": "icongo --prefix FD --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "fd",
+    "foundation",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

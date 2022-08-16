@@ -26,6 +26,7 @@ import cgNames from '@icongo/cg/lib/names.json';
 import grNames from '@icongo/gr/lib/names.json';
 import ioNames from '@icongo/io/lib/names.json';
 import wiNames from '@icongo/wi/lib/names.json';
+import fdNames from '@icongo/fd/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -52,6 +53,7 @@ export const dataComps = {
   Wi: (name: string) => loader(() => import(`@icongo/wi/lib`), 'Wi', name),
   FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
   FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
+  FD: (name: string) => loader(() => import(`@icongo/fd/lib`), 'FD', name),
   FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
   FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
@@ -136,6 +138,13 @@ export const info: Info = {
     gh: 'https://github.com/icons8/flat-color-icons',
     npm: '@icongo/fc',
     names: fcNames,
+  },
+  fd: {
+    title: 'Foundation Icons',
+    license: 'MIT',
+    gh: 'https://github.com/zurb/foundation-icon-fonts',
+    npm: '@icongo/fd',
+    names: fdNames,
   },
   fg: {
     title: 'Flag Icons',
