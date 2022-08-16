@@ -14,9 +14,10 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy 'data/flags/1x1/*.svg' svg --flat",
+    "tsbb": "tsbb build",
+    "cpy": "node ./cpy.mjs",
     "icongo": "icongo --prefix FG --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [
