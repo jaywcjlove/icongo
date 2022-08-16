@@ -22,6 +22,7 @@ import faNames from '@icongo/fa/lib/names.json';
 import tiNames from '@icongo/ti/lib/names.json';
 import ccpNames from '@icongo/ccp/lib/names.json';
 import iiNames from '@icongo/ii/lib/names.json';
+import cgNames from '@icongo/cg/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -42,6 +43,7 @@ export const dataComps = {
   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
   CCP: (name: string) => loader(() => import(`@icongo/ccp/lib`), 'CCP', name),
+  CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
   FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
@@ -93,6 +95,13 @@ export const info: Info = {
     gh: 'https://github.com/aaronfagan/svg-credit-card-payment-icons',
     npm: '@icongo/ccp',
     names: ccpNames,
+  },
+  cg: {
+    title: 'CSS.gg Icons',
+    license: 'MIT',
+    gh: 'https://github.com/astrit/css.gg',
+    npm: '@icongo/cg',
+    names: cgNames,
   },
   devicons: {
     title: 'Devicons',

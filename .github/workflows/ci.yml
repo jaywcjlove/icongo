@@ -34,6 +34,10 @@ jobs:
         working-directory: icons/ccp
         run: npm run build
 
+      - name: build icons cg
+        working-directory: icons/cg
+        run: npm run build
+
       - name: build icons di
         working-directory: icons/di
         run: npm run build
@@ -219,6 +223,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ccp/package.json
+
+      - name: 📦  @icongo/cg publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/cg/package.json
 
       - name: 📦  @icongo/di publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -412,6 +422,10 @@ jobs:
         working-directory: icons/ccp
         run: npm run build
 
+      - name: build icons cg
+        working-directory: icons/cg
+        run: npm run build
+
       - name: build icons di
         working-directory: icons/di
         run: npm run build
@@ -544,6 +558,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-ccp" }
       - run: npm publish
         working-directory: icons/ccp
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/cg => @jaywcjlove/icongo-cg"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/cg/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-cg" }
+      - run: npm publish
+        working-directory: icons/cg
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

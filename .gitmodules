@@ -90,3 +90,7 @@
 	path = icons/ii/data
 	url = https://github.com/iconic/open-iconic.git
 	branch = master
+[submodule "icons/cg/data"]
+	path = icons/cg/data
+	url = https://github.com/astrit/css.gg.git
+	branch = master

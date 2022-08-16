@@ -1,0 +1,27 @@
+{
+  "name": "@icongo/cg",
+  "description": "css.gg Icons",
+  "version": "1.0.2",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/cg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "build": "icongo --prefix CG --source data/icons/svg -o ./src && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "css.gg",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
