@@ -82,3 +82,7 @@
 	path = icons/ti/data
 	url = https://github.com/stephenhutchings/typicons.font.git
 	branch = master
+[submodule "icons/ccp/data"]
+	path = icons/ccp/data
+	url = https://github.com/aaronfagan/svg-credit-card-payment-icons.git
+	branch = main

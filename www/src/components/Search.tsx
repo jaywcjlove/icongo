@@ -9,7 +9,7 @@ const Search = styled.input`
   outline: none;
   border: 2px solid var(--color-fg-subtle);
   height: 42px;
-  padding: 3px 12px;
+  padding: 3px 45px 3px 12px;
   width: 100%;
   &:focus {
     border: 2px solid var(--color-accent-fg);

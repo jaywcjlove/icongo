@@ -20,6 +20,7 @@ import riNames from '@icongo/ri/lib/names.json';
 import eiNames from '@icongo/ei/lib/names.json';
 import faNames from '@icongo/fa/lib/names.json';
 import tiNames from '@icongo/ti/lib/names.json';
+import ccpNames from '@icongo/ccp/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -39,6 +40,7 @@ function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof ty
 export const dataComps = {
   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
+  CCP: (name: string) => loader(() => import(`@icongo/ccp/lib`), 'CCP', name),
   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
   Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
   FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
@@ -82,6 +84,13 @@ export const info: Info = {
     gh: 'https://github.com/atisawd/boxicons',
     npm: '@icongo/bi',
     names: biNames,
+  },
+  ccp: {
+    title: 'Credit Card & Payment',
+    license: 'Apache-2.0',
+    gh: 'https://github.com/aaronfagan/svg-credit-card-payment-icons',
+    npm: '@icongo/ccp',
+    names: ccpNames,
   },
   devicons: {
     title: 'Devicons',
@@ -200,7 +209,7 @@ export const info: Info = {
     license: 'CC BY-SA 4.0',
     gh: 'https://github.com/stephenhutchings/typicons.font',
     npm: '@icongo/ti',
-    names: tbNames,
+    names: tiNames,
   },
   uiw: {
     title: 'UIW Icons',

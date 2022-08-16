@@ -15,6 +15,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | ----- | ----- | ----- |
 | `@icongo/bi` | [![npm version](https://img.shields.io/npm/v/@icongo/bi.svg)](https://www.npmjs.com/package/@icongo/bi) | [`#preview`](https://icongo.github.io/#/icons/boxicons/) |
 | `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/#/icons/bootstrap/) |
+| `@icongo/ccp` | [![npm version](https://img.shields.io/npm/v/@icongo/ccp.svg)](https://www.npmjs.com/package/@icongo/ccp) | [`#preview`](https://icongo.github.io/#/icons/ccp/) |
 | `@icongo/di` | [![npm version](https://img.shields.io/npm/v/@icongo/di.svg)](https://www.npmjs.com/package/@icongo/di) | [`#preview`](https://icongo.github.io/#/icons/devicons/) |
 | `@icongo/ei` | [![npm version](https://img.shields.io/npm/v/@icongo/ei.svg)](https://www.npmjs.com/package/@icongo/ei) | [`#preview`](https://icongo.github.io/#/icons/ei/) |
 | `@icongo/fa` | [![npm version](https://img.shields.io/npm/v/@icongo/fa.svg)](https://www.npmjs.com/package/@icongo/fa) | [`#preview`](https://icongo.github.io/#/icons/fa/) |
