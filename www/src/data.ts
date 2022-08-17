@@ -37,6 +37,7 @@ import ikNames from '@icongo/ik/lib/data.json';
 import irNames from '@icongo/ir/lib/data.json';
 import vvNames from '@icongo/vv/lib/data.json';
 import tnNames from '@icongo/tn/lib/data.json';
+import luNames from '@icongo/lu/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -180,6 +181,13 @@ export const info: Info = {
     gh: 'https://github.com/gilbarbara/logos',
     npm: '@icongo/lg',
     names: lgNames,
+  },
+  lu: {
+    title: 'Lucide Icons',
+    license: 'ISC',
+    gh: 'https://github.com/lucide-icons/lucide',
+    npm: '@icongo/lu',
+    names: luNames,
   },
   md: {
     title: 'Material Design icons by Google',
