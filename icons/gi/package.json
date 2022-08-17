@@ -14,10 +14,14 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
+    "cpy": "cpy 'data/**/*.svg' .cache_svg --flat",
+    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f .cache_svg -o svg",
+    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/gi",
+
     "tsbb": "tsbb build",
     "icongo": "icongo --prefix GI --source svg -o ./src --rename='{\"headshot\": \"GIHeadshot1\", \"jetpack\": \"GIJetPack1\"}'",
-    "cpy": "cpy 'data/**/*.svg' svg --flat",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

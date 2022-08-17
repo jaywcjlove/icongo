@@ -3,6 +3,8 @@ build
 lib
 cjs
 node_modules
+www/public/svg
+www/public/icon
 
 npm-debug.log*
 lerna-debug.log

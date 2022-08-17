@@ -1,6 +1,6 @@
 import path from 'path';
 import fs from 'fs-extra';
-import { transform, Config, loadConfig as svgrLoadConfig } from '@svgr/core';
+import { transform, Config } from '@svgr/core';
 import { recursiveReaddirFiles, IFileDirStat } from 'recursive-readdir-files';
 import { loadConfig } from 'svgo';
 import svgoPlugin from '@svgr/plugin-svgo'
@@ -55,6 +55,7 @@ export async function svgToReact(options: SvgToReactOption) {
  */
 const nameCache: string[] = [];
 const nameWarn: Record<string, string> = {};
+const nameToBase: Record<string, string[]> = {};
 
 const names: string[] = [];
 const indexFileContent: string[] = [];
@@ -105,6 +106,7 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
   
     names.push(prefixName);
     indexFileContent.push(`export * from './${prefixName}';`);
+    nameToBase[prefixName] = [options.prefix, `${basename}.svg`];
   
     const outputFile = path.resolve(options.output, `${prefixName}.tsx`);
   
@@ -113,9 +115,13 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
     console.log(`\x1b[32;1m✔\x1b[0m \x1b[34;1m${path.basename(file.path)}\x1b[0m -> \x1b[37;1m${baseOutdir}\x1b[0m `);
   
     if (files.length === index + 1) {
-      const namePath = path.resolve(options.output, `names.json`)
+      const namePath = path.resolve(options.output, `names.json`);
       await fs.writeFile(namePath, JSON.stringify(names, null, 2));
       console.log(`\x1b[32;1m✔\x1b[0m -> \x1b[37;1m${path.relative(process.cwd(), namePath)}\x1b[0m `);
+      
+      const nameBasePath = path.resolve(options.output, `data.json`);
+      await fs.writeFile(nameBasePath, JSON.stringify(nameToBase, null, 2));
+      console.log(`\x1b[32;1m✔\x1b[0m -> \x1b[37;1m${path.relative(process.cwd(), nameBasePath)}\x1b[0m `);
   
       const indexPath = path.resolve(options.output, `index.tsx`);
       await fs.writeFile(indexPath, indexFileContent.join('\n'));

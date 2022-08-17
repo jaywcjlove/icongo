@@ -8,10 +8,13 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/tb",
   "scripts": {
+    "svgo": "npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f data/icons -o svg",
+    "svgo2": "svgo -f data/icons -o ../../www/public/icon/tb",
+
     "tsbb": "tsbb build",
-    "cpy": "cpy 'data/icons/*.svg' svg --flat",
     "icongo": "icongo --prefix TB --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && npm run tsbb",
+    "build": "npm run svgo && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [

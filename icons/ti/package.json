@@ -8,9 +8,12 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/ti",
   "scripts": {
-    "cpy": "cpy 'data/src/svg/*.svg' svg --flat",
+    "svgo": "npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f data/src/svg -o svg",
+    "svgo2": "svgo -f data/src/svg -o ../../www/public/icon/ti",
+    
     "icongo": "icongo --prefix TI --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

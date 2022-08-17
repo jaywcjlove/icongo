@@ -8,9 +8,13 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/scwi",
   "scripts": {
-    "cpy": "cpy 'data/dist/spectrum-css-ccx-workflow-icons/dist/22/*.svg' svg --flat",
+    "cpy": "cpy 'data/dist/spectrum-css-ccx-workflow-icons/dist/22/*.svg' .cache_svg --flat",
+    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f .cache_svg -o svg",
+    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/scwi",
+
     "icongo": "icongo --prefix SCWI --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

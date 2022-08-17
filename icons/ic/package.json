@@ -14,9 +14,14 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy 'data/azure-cds/*.svg' 'data/azure-docs/*.svg' 'data/azure-icons/*.svg' 'data/azure-patterns/*.svg' 'data/logos/*.svg' 'data/other/*.svg' svg",
+    "cpy": "cpy 'data/azure-cds/*.svg' 'data/azure-docs/*.svg' 'data/azure-icons/*.svg' 'data/azure-patterns/*.svg' 'data/logos/*.svg' 'data/other/*.svg' .cache_svg",
+
+    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f .cache_svg -o svg",
+    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/ic",
+
     "icongo": "icongo --prefix IC --source svg -o ./src -r '{\"databox-edge\": \"ICDataboxEdge1\", \"devconsole\": \"ICDevconsole1\", \"dotnet-core\": \"ICDotnetCore1\", \"launchportal\": \"ICLaunchportal1\", \"roadmap\": \"ICRoadmap1\", \"vscode\": \"ICVscode1\"}'",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

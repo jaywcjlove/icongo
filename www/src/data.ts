@@ -1,105 +1,144 @@
 import { lazy } from 'react';
-import bsNames from '@icongo/bs/lib/names.json';
-import stiNames from '@icongo/sti/lib/names.json';
-import diNames from '@icongo/di/lib/names.json';
-import biNames from '@icongo/bi/lib/names.json';
-import goNames from '@icongo/go/lib/names.json';
-import vscNames from '@icongo/vsc/lib/names.json';
-import giNames from '@icongo/gi/lib/names.json';
-import scwiNames from '@icongo/scwi/lib/names.json';
-import uiwNames from '@icongo/uiw/lib/names.json';
-import tbNames from '@icongo/tb/lib/names.json';
-import mdNames from '@icongo/md/lib/names.json';
-import siNames from '@icongo/si/lib/names.json';
-import pkNames from '@icongo/pk/lib/names.json';
-import fgNames from '@icongo/fg/lib/names.json';
-import fiNames from '@icongo/fi/lib/names.json';
-import fcNames from '@icongo/fc/lib/names.json';
-import hiNames from '@icongo/hi/lib/names.json';
-import riNames from '@icongo/ri/lib/names.json';
-import eiNames from '@icongo/ei/lib/names.json';
-import faNames from '@icongo/fa/lib/names.json';
-import tiNames from '@icongo/ti/lib/names.json';
-import ccpNames from '@icongo/ccp/lib/names.json';
-import iiNames from '@icongo/ii/lib/names.json';
-import cgNames from '@icongo/cg/lib/names.json';
-import grNames from '@icongo/gr/lib/names.json';
-import ioNames from '@icongo/io/lib/names.json';
-import wiNames from '@icongo/wi/lib/names.json';
-import fdNames from '@icongo/fd/lib/names.json';
-import lgNames from '@icongo/lg/lib/names.json';
-import btsNames from '@icongo/bts/lib/names.json';
-import miNames from '@icongo/mi/lib/names.json';
-import mpNames from '@icongo/mp/lib/names.json';
-import evNames from '@icongo/ev/lib/names.json';
-import ciNames from '@icongo/ci/lib/names.json';
-import icNames from '@icongo/ic/lib/names.json';
-import ikNames from '@icongo/ik/lib/names.json';
+// import bsNames from '@icongo/bs/lib/names.json';
+// import stiNames from '@icongo/sti/lib/names.json';
+// import diNames from '@icongo/di/lib/names.json';
+// import biNames from '@icongo/bi/lib/names.json';
+// import goNames from '@icongo/go/lib/names.json';
+// import vscNames from '@icongo/vsc/lib/names.json';
+// import giNames from '@icongo/gi/lib/names.json';
+// import scwiNames from '@icongo/scwi/lib/names.json';
+// import uiwNames from '@icongo/uiw/lib/names.json';
+// import tbNames from '@icongo/tb/lib/names.json';
+// import mdNames from '@icongo/md/lib/names.json';
+// import siNames from '@icongo/si/lib/names.json';
+// import pkNames from '@icongo/pk/lib/names.json';
+// import fgNames from '@icongo/fg/lib/names.json';
+// import fiNames from '@icongo/fi/lib/names.json';
+// import fcNames from '@icongo/fc/lib/names.json';
+// import hiNames from '@icongo/hi/lib/names.json';
+// import riNames from '@icongo/ri/lib/names.json';
+// import eiNames from '@icongo/ei/lib/names.json';
+// import faNames from '@icongo/fa/lib/names.json';
+// import tiNames from '@icongo/ti/lib/names.json';
+// import ccpNames from '@icongo/ccp/lib/names.json';
+// import iiNames from '@icongo/ii/lib/names.json';
+// import cgNames from '@icongo/cg/lib/names.json';
+// import grNames from '@icongo/gr/lib/names.json';
+// import ioNames from '@icongo/io/lib/names.json';
+// import wiNames from '@icongo/wi/lib/names.json';
+// import fdNames from '@icongo/fd/lib/names.json';
+// import lgNames from '@icongo/lg/lib/names.json';
+// import btsNames from '@icongo/bts/lib/names.json';
+// import miNames from '@icongo/mi/lib/names.json';
+// import mpNames from '@icongo/mp/lib/names.json';
+// import evNames from '@icongo/ev/lib/names.json';
+// import ciNames from '@icongo/ci/lib/names.json';
+// import icNames from '@icongo/ic/lib/names.json';
+// import ikNames from '@icongo/ik/lib/names.json';
 
-const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
-function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
-  if (cacheData[preName]) {
-    return cacheData[preName][name]
-  }
-  return lazy(() => {
-    return fn().then((module) => {
-      cacheData[preName] = module;
-      return ({
-        default: module[name as keyof typeof module] as unknown as () => JSX.Element
-      });
-    })
-  })
-}
 
-export const dataComps = {
-  BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
-  BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
-  BTS: (name: string) => loader(() => import(`@icongo/bts/lib`), 'BTS', name),
-  CCP: (name: string) => loader(() => import(`@icongo/ccp/lib`), 'CCP', name),
-  CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
-  CI: (name: string) => loader(() => import(`@icongo/ci/lib`), 'CI', name),
-  DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
-  Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
-  EV: (name: string) => loader(() => import(`@icongo/ev/lib`), 'EV', name),
-  Wi: (name: string) => loader(() => import(`@icongo/wi/lib`), 'Wi', name),
-  FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
-  FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
-  FD: (name: string) => loader(() => import(`@icongo/fd/lib`), 'FD', name),
-  FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
-  FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
-  GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
-  GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
-  GR: (name: string) => loader(() => import(`@icongo/gr/lib`), 'GR', name),
-  HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
-  LG: (name: string) => loader(() => import(`@icongo/lg/lib`), 'LG', name),
-  MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
-  MI: (name: string) => loader(() => import(`@icongo/mi/lib`), 'MI', name),
-  MP: (name: string) => loader(() => import(`@icongo/mp/lib`), 'MP', name),
-  IC: (name: string) => loader(() => import(`@icongo/ic/lib`), 'IC', name),
-  II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
-  IK: (name: string) => loader(() => import(`@icongo/ik/lib`), 'IK', name),
-  IO: (name: string) => loader(() => import(`@icongo/io/lib`), 'IO', name),
-  PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
-  RI: (name: string) => loader(() => import(`@icongo/ri/lib`), 'RI', name),
-  SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
-  SI: (name: string) => loader(() => import(`@icongo/si/lib`), 'SI', name),
-  STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
-  TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
-  TI: (name: string) => loader(() => import(`@icongo/ti/lib`), 'TI', name),
-  UIW: (name: string) => loader(() => import(`@icongo/uiw/lib`), 'UIW', name),
-  VSC: (name: string) => loader(() => import(`@icongo/vsc/lib`), 'VSC', name),
-}
+import bsNames from '@icongo/bs/lib/data.json';
+import stiNames from '@icongo/sti/lib/data.json';
+import diNames from '@icongo/di/lib/data.json';
+import biNames from '@icongo/bi/lib/data.json';
+import goNames from '@icongo/go/lib/data.json';
+import vscNames from '@icongo/vsc/lib/data.json';
+import giNames from '@icongo/gi/lib/data.json';
+import scwiNames from '@icongo/scwi/lib/data.json';
+import uiwNames from '@icongo/uiw/lib/data.json';
+import tbNames from '@icongo/tb/lib/data.json';
+import mdNames from '@icongo/md/lib/data.json';
+import siNames from '@icongo/si/lib/data.json';
+import pkNames from '@icongo/pk/lib/data.json';
+import fgNames from '@icongo/fg/lib/data.json';
+import fiNames from '@icongo/fi/lib/data.json';
+import fcNames from '@icongo/fc/lib/data.json';
+import hiNames from '@icongo/hi/lib/data.json';
+import riNames from '@icongo/ri/lib/data.json';
+import eiNames from '@icongo/ei/lib/data.json';
+import faNames from '@icongo/fa/lib/data.json';
+import tiNames from '@icongo/ti/lib/data.json';
+import ccpNames from '@icongo/ccp/lib/data.json';
+import iiNames from '@icongo/ii/lib/data.json';
+import cgNames from '@icongo/cg/lib/data.json';
+import grNames from '@icongo/gr/lib/data.json';
+import ioNames from '@icongo/io/lib/data.json';
+import wiNames from '@icongo/wi/lib/data.json';
+import fdNames from '@icongo/fd/lib/data.json';
+import lgNames from '@icongo/lg/lib/data.json';
+import btsNames from '@icongo/bts/lib/data.json';
+import miNames from '@icongo/mi/lib/data.json';
+import mpNames from '@icongo/mp/lib/data.json';
+import evNames from '@icongo/ev/lib/data.json';
+import ciNames from '@icongo/ci/lib/data.json';
+import icNames from '@icongo/ic/lib/data.json';
+import ikNames from '@icongo/ik/lib/data.json';
+
+// const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
+// function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
+//   if (cacheData[preName]) {
+//     return cacheData[preName][name]
+//   }
+//   return lazy(() => {
+//     return fn().then((module) => {
+//       cacheData[preName] = module;
+//       return ({
+//         default: module[name as keyof typeof module] as unknown as () => JSX.Element
+//       });
+//     })
+//   })
+// }
+
+// export const dataComps = {
+//   BI: (name: string) => loader(() => import(`@icongo/bi/lib`), 'BI', name),
+//   BS: (name: string) => loader(() => import(`@icongo/bs/lib`), 'BS', name),
+//   BTS: (name: string) => loader(() => import(`@icongo/bts/lib`), 'BTS', name),
+//   CCP: (name: string) => loader(() => import(`@icongo/ccp/lib`), 'CCP', name),
+//   CG: (name: string) => loader(() => import(`@icongo/cg/lib`), 'CG', name),
+//   CI: (name: string) => loader(() => import(`@icongo/ci/lib`), 'CI', name),
+//   DI: (name: string) => loader(() => import(`@icongo/di/lib`), 'DI', name),
+//   Ei: (name: string) => loader(() => import(`@icongo/ei/lib`), 'Ei', name),
+//   EV: (name: string) => loader(() => import(`@icongo/ev/lib`), 'EV', name),
+//   Wi: (name: string) => loader(() => import(`@icongo/wi/lib`), 'Wi', name),
+//   FA: (name: string) => loader(() => import(`@icongo/fa/lib`), 'FA', name),
+//   FC: (name: string) => loader(() => import(`@icongo/fc/lib`), 'FC', name),
+//   FD: (name: string) => loader(() => import(`@icongo/fd/lib`), 'FD', name),
+//   FG: (name: string) => loader(() => import(`@icongo/fg/lib`), 'FG', name),
+//   FI: (name: string) => loader(() => import(`@icongo/fi/lib`), 'FI', name),
+//   GI: (name: string) => loader(() => import(`@icongo/gi/lib`), 'GI', name),
+//   GO: (name: string) => loader(() => import(`@icongo/go/lib`), 'GO', name),
+//   GR: (name: string) => loader(() => import(`@icongo/gr/lib`), 'GR', name),
+//   HI: (name: string) => loader(() => import(`@icongo/hi/lib`), 'HI', name),
+//   LG: (name: string) => loader(() => import(`@icongo/lg/lib`), 'LG', name),
+//   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
+//   MI: (name: string) => loader(() => import(`@icongo/mi/lib`), 'MI', name),
+//   MP: (name: string) => loader(() => import(`@icongo/mp/lib`), 'MP', name),
+//   IC: (name: string) => loader(() => import(`@icongo/ic/lib`), 'IC', name),
+//   II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
+//   IK: (name: string) => loader(() => import(`@icongo/ik/lib`), 'IK', name),
+//   IO: (name: string) => loader(() => import(`@icongo/io/lib`), 'IO', name),
+//   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
+//   RI: (name: string) => loader(() => import(`@icongo/ri/lib`), 'RI', name),
+//   SCWI: (name: string) => loader(() => import(`@icongo/scwi/lib`), 'SCWI', name),
+//   SI: (name: string) => loader(() => import(`@icongo/si/lib`), 'SI', name),
+//   STI: (name: string) => loader(() => import(`@icongo/sti/lib`), 'STI', name),
+//   TB: (name: string) => loader(() => import(`@icongo/tb/lib`), 'TB', name),
+//   TI: (name: string) => loader(() => import(`@icongo/ti/lib`), 'TI', name),
+//   UIW: (name: string) => loader(() => import(`@icongo/uiw/lib`), 'UIW', name),
+//   VSC: (name: string) => loader(() => import(`@icongo/vsc/lib`), 'VSC', name),
+// }
 
 export type Info = Record<string, {
   title: string;
   license: string;
   gh: string;
   npm: string;
-  names: string[];
+  // names: string[];
+  names: Record<string, (string | null)[]>;
 }>;
 
 export const info: Info = {
-  bootstrap: {
+  bs: {
     title: 'Bootstrap Icons',
     license: 'MIT',
     gh: 'https://github.com/twbs/icons',
@@ -302,7 +341,7 @@ export const info: Info = {
     npm: '@icongo/scwi',
     names: scwiNames,
   },
-  supertinyicons: {
+  sti: {
     title: 'Super Tiny Icons',
     license: 'MIT',
     gh: 'https://github.com/edent/SuperTinyIcons',
@@ -353,4 +392,13 @@ export const info: Info = {
   },
 }
 
-export const searchNames: string[] = Object.keys(info).map(item => info[item].names).flat();
+export const searchNames: string[] = Object.keys(info).map(item => Object.keys(info[item].names)).flat();
+
+export const iconsData: Record<string, (string | null)[]> = {};
+
+Object.keys(info).map(key => info[key].names).flat().forEach((item) => {
+  for (const keyname in item) {
+    iconsData[keyname] = item[keyname];
+  }
+});
+// console.log('searchNames::', Object.keys(info).map(key => info[key].names).flat())

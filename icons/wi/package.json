@@ -8,9 +8,12 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/wi",
   "scripts": {
-    "cpy": "cpy 'data/svg/*.svg' svg --flat",
-    "icongo": "icongo --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "svgo": "npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f data/svg -o svg",
+    "svgo2": "svgo -f data/svg -o ../../www/public/icon/wi",
+
+    "icongo": "icongo --prefix WI --source svg -o ./src",
+    "build": "npm run svgo && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

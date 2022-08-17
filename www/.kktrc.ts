@@ -5,6 +5,22 @@ import { mdCodeModulesLoader } from 'markdown-react-code-preview-loader';
 import { disableScopePlugin } from '@kkt/scope-plugin-options';
 import pkg from './package.json';
 
+function cacheGroups(data: string[] = []) {
+  const result: Record<string, {
+    test: RegExp;
+    name: string;
+    chunks: "all";
+  }> = {}
+  data.forEach((keyname) => {
+    result[keyname] = {
+      test: new RegExp(`[\\/](icons[\\/]${keyname})[\\/]`),
+      name: `react-${keyname}-vendor`,
+      chunks: 'all',
+    }
+  });
+  return result;
+}
+
 export default (conf: WebpackConfiguration, env: 'development' | 'production', options: LoaderConfOptions) => {
   conf = lessModules(conf, env, options);
   conf = mdCodeModulesLoader(conf);
@@ -62,186 +78,9 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'parse5-vendor',
             chunks: 'all',
           },
-          bi: {
-            test: /[\\/](icons[\\/]bi)[\\/]/,
-            name: 'icon-bi-vendor',
-            chunks: 'all',
-          },
-          bs: {
-            test: /[\\/](icons[\\/]bs)[\\/]/,
-            name: 'icon-bs-vendor',
-            chunks: 'all',
-          },
-          bts: {
-            test: /[\\/](icons[\\/]bts)[\\/]/,
-            name: 'icon-bts-vendor',
-            chunks: 'all',
-          },
-          ccp: {
-            test: /[\\/](icons[\\/]ccp)[\\/]/,
-            name: 'icon-ccp-vendor',
-            chunks: 'all',
-          },
-          cg: {
-            test: /[\\/](icons[\\/]cg)[\\/]/,
-            name: 'icon-cg-vendor',
-            chunks: 'all',
-          },
-          ci: {
-            test: /[\\/](icons[\\/]ci)[\\/]/,
-            name: 'icon-ci-vendor',
-            chunks: 'all',
-          },
-          di: {
-            test: /[\\/](icons[\\/]di)[\\/]/,
-            name: 'icon-di-vendor',
-            chunks: 'all',
-          },
-          ei: {
-            test: /[\\/](icons[\\/]ei)[\\/]/,
-            name: 'icon-ei-vendor',
-            chunks: 'all',
-          },
-          ev: {
-            test: /[\\/](icons[\\/]ev)[\\/]/,
-            name: 'icon-ev-vendor',
-            chunks: 'all',
-          },
-          fa: {
-            test: /[\\/](icons[\\/]fa)[\\/]/,
-            name: 'icon-fa-vendor',
-            chunks: 'all',
-          },
-          fc: {
-            test: /[\\/](icons[\\/]fc)[\\/]/,
-            name: 'icon-fc-vendor',
-            chunks: 'all',
-          },
-          fd: {
-            test: /[\\/](icons[\\/]fd)[\\/]/,
-            name: 'icon-fd-vendor',
-            chunks: 'all',
-          },
-          fg: {
-            test: /[\\/](icons[\\/]fg)[\\/]/,
-            name: 'icon-fg-vendor',
-            chunks: 'all',
-          },
-          fi: {
-            test: /[\\/](icons[\\/]fi)[\\/]/,
-            name: 'icon-fi-vendor',
-            chunks: 'all',
-          },
-          gi: {
-            test: /[\\/](icons[\\/]gi)[\\/]/,
-            name: 'icon-gi-vendor',
-            chunks: 'all',
-          },
-          go: {
-            test: /[\\/](icons[\\/]go)[\\/]/,
-            name: 'icon-go-vendor',
-            chunks: 'all',
-          },
-          gr: {
-            test: /[\\/](icons[\\/]gr)[\\/]/,
-            name: 'icon-gr-vendor',
-            chunks: 'all',
-          },
-          hi: {
-            test: /[\\/](icons[\\/]hi)[\\/]/,
-            name: 'icon-hi-vendor',
-            chunks: 'all',
-          },
-          ic: {
-            test: /[\\/](icons[\\/]ic)[\\/]/,
-            name: 'icon-ic-vendor',
-            chunks: 'all',
-          },
-          ii: {
-            test: /[\\/](icons[\\/]ii)[\\/]/,
-            name: 'icon-ii-vendor',
-            chunks: 'all',
-          },
-          ik: {
-            test: /[\\/](icons[\\/]ik)[\\/]/,
-            name: 'icon-ik-vendor',
-            chunks: 'all',
-          },
-          io: {
-            test: /[\\/](icons[\\/]io)[\\/]/,
-            name: 'icon-io-vendor',
-            chunks: 'all',
-          },
-          lg: {
-            test: /[\\/](icons[\\/]lg)[\\/]/,
-            name: 'icon-lg-vendor',
-            chunks: 'all',
-          },
-          md: {
-            test: /[\\/](icons[\\/]md)[\\/]/,
-            name: 'icon-md-vendor',
-            chunks: 'all',
-          },
-          mi: {
-            test: /[\\/](icons[\\/]mi)[\\/]/,
-            name: 'icon-mi-vendor',
-            chunks: 'all',
-          },
-          mp: {
-            test: /[\\/](icons[\\/]mp)[\\/]/,
-            name: 'icon-mp-vendor',
-            chunks: 'all',
-          },
-          pk: {
-            test: /[\\/](icons[\\/]pk)[\\/]/,
-            name: 'icon-pk-vendor',
-            chunks: 'all',
-          },
-          ri: {
-            test: /[\\/](icons[\\/]ri)[\\/]/,
-            name: 'icon-ri-vendor',
-            chunks: 'all',
-          },
-          scwi: {
-            test: /[\\/](icons[\\/]scwi)[\\/]/,
-            name: 'icon-scwi-vendor',
-            chunks: 'all',
-          },
-          si: {
-            test: /[\\/](icons[\\/]si)[\\/]/,
-            name: 'icon-si-vendor',
-            chunks: 'all',
-          },
-          sti: {
-            test: /[\\/](icons[\\/]sti)[\\/]/,
-            name: 'icon-sti-vendor',
-            chunks: 'all',
-          },
-          tb: {
-            test: /[\\/](icons[\\/]tb)[\\/]/,
-            name: 'icon-tb-vendor',
-            chunks: 'all',
-          },
-          ti: {
-            test: /[\\/](icons[\\/]ti)[\\/]/,
-            name: 'icon-ti-vendor',
-            chunks: 'all',
-          },
-          uiw: {
-            test: /[\\/](icons[\\/]uiw)[\\/]/,
-            name: 'icon-uiw-vendor',
-            chunks: 'all',
-          },
-          vsc: {
-            test: /[\\/](icons[\\/]vsc)[\\/]/,
-            name: 'icon-vsc-vendor',
-            chunks: 'all',
-          },
-          wi: {
-            test: /[\\/](icons[\\/]wi)[\\/]/,
-            name: 'icon-wi-vendor',
-            chunks: 'all',
-          },
+          ...cacheGroups([
+            'bi', 'bs', 'bts', 'ccp', 'cg', 'ci', 'di', 'ei', 'ev', 'fa', 'fc', 'fd', 'fg', 'fi', 'gi', 'go', 'gr', 'hi', 'ic', 'ii', 'ik', 'io', 'lg', 'md', 'mi', 'mp', 'pk', 'ri', 'scwi', 'si', 'sti', 'tb', 'ti', 'uiw', 'vsc', 'wi',
+          ]),
         }
       }
     }

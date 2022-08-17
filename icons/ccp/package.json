@@ -13,8 +13,12 @@
   },
   "scripts": {
     "cpy": "node cpy.mjs",
+    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f .cache_svg -o svg",
+    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/ccp",
+
     "icongo": "icongo --prefix CCP --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

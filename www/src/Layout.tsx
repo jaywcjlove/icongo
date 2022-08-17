@@ -126,12 +126,12 @@ export const Layout = () => {
           <Aside>
             <NavLink to="/">Home</NavLink>
             <NavLink to="/icons/bi">Boxicons</NavLink>
-            <NavLink to="/icons/bootstrap">Bootstrap Icons</NavLink>
+            <NavLink to="/icons/bs">Bootstrap Icons</NavLink>
             <NavLink to="/icons/bts">Bytesize Icons</NavLink>
-            <NavLink to="/icons/di">Devicons</NavLink>
             <NavLink to="/icons/ccp">Credit Card & Payment</NavLink>
             <NavLink to="/icons/cg">CSS.gg Icons</NavLink>
             <NavLink to="/icons/ci">CoreUI Icons</NavLink>
+            <NavLink to="/icons/di">Devicons</NavLink>
             <NavLink to="/icons/ei">Evil Icons</NavLink>
             <NavLink to="/icons/ev">Eva Icons</NavLink>
             <NavLink to="/icons/fa">Font Awesome Icons</NavLink>
@@ -139,8 +139,8 @@ export const Layout = () => {
             <NavLink to="/icons/fd">Foundation Icons</NavLink>
             <NavLink to="/icons/fg">Flag Icons</NavLink>
             <NavLink to="/icons/fi">Feather Icons</NavLink>
-            <NavLink to="/icons/go">Github Octicons Icons</NavLink>
             <NavLink to="/icons/gi">Game Icons</NavLink>
+            <NavLink to="/icons/go">Github Octicons Icons</NavLink>
             <NavLink to="/icons/gr">Grommet Icons</NavLink>
             <NavLink to="/icons/hi">Heroicons</NavLink>
             <NavLink to="/icons/ic">Icon Collection</NavLink>
@@ -155,7 +155,7 @@ export const Layout = () => {
             <NavLink to="/icons/ri">RemixIcon Icons</NavLink>
             <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
             <NavLink to="/icons/si">Simple Icons</NavLink>
-            <NavLink to="/icons/supertinyicons">Super Tiny Icons</NavLink>
+            <NavLink to="/icons/sti">Super Tiny Icons</NavLink>
             <NavLink to="/icons/tb">Tabler Icons</NavLink>
             <NavLink to="/icons/ti">Typicons Icons</NavLink>
             <NavLink to="/icons/uiw">UIW Icons</NavLink>
