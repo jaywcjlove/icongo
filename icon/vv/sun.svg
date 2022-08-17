@@ -1,0 +1,19 @@
+<svg id="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #FF6E6E;
+        fill-rule: evenodd;
+      }
+
+      .vi-accent {
+        fill: #0C0058;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-width: 0;
+      }
+    </style>
+  </defs>
+  <path class="vi-primary" d="M36.021,11.979L36,19l5,5-5,5,0.021,7.021L29,36l-5,5-5-5-7.021.021L12,29,7,24l5-5-0.021-7.021L19,12l5-5,5,5Z"/>
+  <circle class="vi-accent" cx="24" cy="24" r="9"/>
+</svg>

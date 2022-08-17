@@ -1,0 +1,15 @@
+<svg id="card" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
+  <defs>
+    <style>
+      .vi-primary {
+        fill: #FF6E6E;
+      }
+
+      .vi-accent {
+        fill: #0C0058;
+      }
+    </style>
+  </defs>
+  <rect class="vi-primary" x="8" y="13" width="32" height="22" rx="3" ry="3"/>
+  <rect class="vi-accent" x="8" y="19" width="32" height="5"/>
+</svg>

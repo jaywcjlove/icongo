@@ -1,0 +1,7 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <desc id="swapVerticalIconDesc"/>
+  <path d="M4 8L7 5L10 8" stroke="#2329D6" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <path d="M7 20L7 6" stroke="#2329D6" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <path d="M20 17L17 20L14 17" stroke="#2329D6" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <path d="M17 5L17 19" stroke="#2329D6" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+</svg>
