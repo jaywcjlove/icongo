@@ -94,6 +94,10 @@ jobs:
         working-directory: icons/hi
         run: npm run build
 
+      - name: build icons ic
+        working-directory: icons/ic
+        run: npm run build
+
       - name: build icons ii
         working-directory: icons/ii
         run: npm run build
@@ -312,11 +316,11 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/hi/package.json
 
-      - name: 📦  @icongo/gr publish to NPM
+      - name: 📦  @icongo/ic publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gr/package.json
+          package: ./icons/ic/package.json
 
       - name: 📦  @icongo/ii publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -341,6 +345,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/go/package.json
+
+      - name: 📦  @icongo/gr publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/gr/package.json
 
       - name: 📦  @icongo/md publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -576,6 +586,10 @@ jobs:
 
       - name: build icons hi
         working-directory: icons/hi
+        run: npm run build
+
+      - name: build icons ic
+        working-directory: icons/ic
         run: npm run build
 
       - name: build icons ii
@@ -838,6 +852,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-hi" }
       - run: npm publish
         working-directory: icons/hi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ic => @jaywcjlove/icongo-ic"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ic/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ic" }
+      - run: npm publish
+        working-directory: icons/ic
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

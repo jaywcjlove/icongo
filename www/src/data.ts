@@ -33,6 +33,7 @@ import miNames from '@icongo/mi/lib/names.json';
 import mpNames from '@icongo/mp/lib/names.json';
 import evNames from '@icongo/ev/lib/names.json';
 import ciNames from '@icongo/ci/lib/names.json';
+import icNames from '@icongo/ic/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -73,6 +74,7 @@ export const dataComps = {
   MD: (name: string) => loader(() => import(`@icongo/md/lib`), 'MD', name),
   MI: (name: string) => loader(() => import(`@icongo/mi/lib`), 'MI', name),
   MP: (name: string) => loader(() => import(`@icongo/mp/lib`), 'MP', name),
+  IC: (name: string) => loader(() => import(`@icongo/ic/lib`), 'IC', name),
   II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
   IO: (name: string) => loader(() => import(`@icongo/io/lib`), 'IO', name),
   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
@@ -248,6 +250,13 @@ export const info: Info = {
     gh: 'https://github.com/scottdejonge/map-icons',
     npm: '@icongo/mp',
     names: mpNames,
+  },
+  ic: {
+    title: 'Azure Icon Collection',
+    license: '-',
+    gh: 'https://github.com/benc-uk/icon-collection',
+    npm: '@icongo/ic',
+    names: icNames,
   },
   ii: {
     title: 'Iconic icons',

@@ -134,3 +134,7 @@
 	path = icons/ci/data
 	url = https://github.com/coreui/coreui-icons.git
 	branch = master
+[submodule "icons/ic/data"]
+	path = icons/ic/data
+	url = https://github.com/benc-uk/icon-collection.git
+	branch = master
