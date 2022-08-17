@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
-import { useParams, useSearchParams } from 'react-router-dom';
+import { useParams, useSearchParams, useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Keywords from 'react-keywords';
 import toast from 'react-hot-toast';
 import copyTextToClipboard from '@uiw/copy-to-clipboard'
 import { iconsData, searchNames, info } from '../data';
-import { BIBxsCopy, BIBxsCloudDownload } from '@icongo/bi';
+import { BIBxsCopy, BIBxsCloudDownload, BIBxsHomeCircle } from '@icongo/bi';
 
 export const CardItem = styled.div`
   box-shadow: 0 1px 3px 0 var(--color-neutral-muted);
@@ -94,6 +94,7 @@ export const WarpperIcons = styled.div`
 `;
 
 interface IconCardProps extends CardWarpperProps {
+  prename?: string;
   name?: string;
   /** ik/app.svg */
   path?: string;
@@ -102,7 +103,8 @@ interface IconCardProps extends CardWarpperProps {
 }
 
 const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
-  const { name = '', path, query = '', child, ...other } = props;
+  const { name = '', prename = '', path, query = '', child, ...other } = props;
+  const navigate = useNavigate();
   const $ref = useRef<HTMLDivElement>(null);
   const copyName = () => {
     copyTextToClipboard(name, () => {
@@ -143,6 +145,11 @@ const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
         <CopyBtn onClick={download}>
           <BIBxsCloudDownload width={18} height={18} />
         </CopyBtn>
+        {prename && (
+          <CopyBtn onClick={() => navigate(`/icons/${prename}`)}>
+            <BIBxsHomeCircle width={18} height={18} />
+          </CopyBtn>
+        )}
       </WarpperBtn>
       <CardItem>
         <img src={path} />
@@ -187,7 +194,7 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
       {data.map((name, key) => {
         const [prename, basename] = iconsData[name];
         return (
-          <Card key={key} name={name} query={query} path={`/icon/${prename?.toLocaleLowerCase()}/${basename}`} />
+          <Card key={key} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icon/${prename?.toLocaleLowerCase()}/${basename}`} />
         );
       })}
     </WarpperIcons>
