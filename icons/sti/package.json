@@ -8,7 +8,8 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/supertinyicons",
   "scripts": {
-    "build": "icongo --prefix STI --filter='(calendar).svg' --source data/images/svg -o ./src && tsbb build",
+    "cpy": "cpy 'data/images/svg/*.svg' svg --flat",
+    "build": "npm run cpy && icongo --prefix STI --filter='(calendar).svg' --source svg -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

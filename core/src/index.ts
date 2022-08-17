@@ -95,9 +95,10 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
       plugins: [
         (code, config, state) => {
           const { plugins, ...other } = config;
-          const str = svgoPlugin(code, other, state)
-          const jsStr = jsxPlugin(str, other, state)
-          return prettierPlugin(jsStr, other, state)
+          code = svgoPlugin(code, other, state);
+          code = jsxPlugin(code, other, state);
+          code = prettierPlugin(code, other, state);
+          return code;
         }
       ],
     }, { componentName: prefixName });

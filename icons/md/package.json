@@ -14,8 +14,10 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "icongo": "icongo --prefix MD --source data/svg/round -o ./src --rename='{\"addchart\": \"MDAddchart1\"}'",
-    "build": "npm run icongo && tsbb build",
+    "cpy": "node cpy.mjs",
+    "icongo": "icongo --prefix MD --source svg -o ./src --rename='{\"addchart-outlined\": \"MDAddchartOutlined1\", \"addchart-round\": \"MDAddchartRound1\", \"addchart-sharp\": \"MDAddchartSharp1\", \"addchart\": \"MDAddchart1\", \"insert_chart_outlined\": \"MDInsertChartOutlined1\", \"nightlight_round\": \"MDNightlightRound1\"}'",
+    "tsbb": "tsbb build",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [

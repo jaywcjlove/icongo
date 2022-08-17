@@ -8,7 +8,8 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/octiconsicons",
   "scripts": {
-    "build": "icongo --prefix GO --source data/icons -o ./src && tsbb build",
+    "cpy": "cpy 'data/icons/*.svg' svg --flat",
+    "build": "npm run cpy && icongo --prefix GO --source svg -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

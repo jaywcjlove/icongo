@@ -14,7 +14,8 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "build": "icongo --prefix UIW --source data/icon -o ./src && tsbb build",
+    "cpy": "cpy 'data/icon/*.svg' svg --flat",
+    "build": "npm run cpy && icongo --prefix UIW --source svg -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

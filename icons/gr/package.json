@@ -8,7 +8,8 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/gr",
   "scripts": {
-    "build": "icongo --prefix GR --source data/public/img -o ./src && tsbb build",
+    "cpy": "cpy 'data/public/img/*.svg' svg --flat",
+    "build": "npm run cpy && icongo --prefix GR --source svg -o ./src && tsbb build",
     "start": "npm run build"
   },
   "keywords": [

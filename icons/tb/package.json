@@ -8,9 +8,10 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/tb",
   "scripts": {
+    "tsbb": "tsbb build",
     "cpy": "cpy 'data/icons/*.svg' svg --flat",
     "icongo": "icongo --prefix TB --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [
