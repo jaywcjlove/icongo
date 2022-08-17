@@ -79,7 +79,7 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             chunks: 'all',
           },
           ...cacheGroups([
-            'bi', 'bs', 'bts', 'ccp', 'cg', 'ci', 'di', 'ei', 'ev', 'fa', 'fc', 'fd', 'fg', 'fi', 'gi', 'go', 'gr', 'hi', 'ic', 'ii', 'ik', 'io', 'lg', 'md', 'mi', 'mp', 'pk', 'ri', 'scwi', 'si', 'sti', 'tb', 'ti', 'uiw', 'vsc', 'wi',
+            'ir', 'bi', 'bs', 'bts', 'ccp', 'cg', 'ci', 'di', 'ei', 'ev', 'fa', 'fc', 'fd', 'fg', 'fi', 'gi', 'go', 'gr', 'hi', 'ic', 'ii', 'ik', 'io', 'lg', 'md', 'mi', 'mp', 'pk', 'ri', 'scwi', 'si', 'sti', 'tb', 'ti', 'uiw', 'vsc', 'wi',
           ]),
         }
       }

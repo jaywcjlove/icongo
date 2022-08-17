@@ -1,0 +1,34 @@
+{
+  "name": "@icongo/ir",
+  "version": "1.0.3",
+  "author": "jaywcjlove",
+  "description": "Iconoir Icons",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/ir",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "svgo": "npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f data/icons -o svg",
+    "svgo2": "svgo -f data/icons -o ../../www/public/icon/ir",
+
+    "tsbb": "tsbb build",
+    "icongo": "icongo --prefix IR --source svg -o ./src",
+    "build": "npm run svgo && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "iconoir",
+    "io",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

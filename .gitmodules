@@ -142,3 +142,7 @@
 	path = icons/ik/data
 	url = https://github.com/mikolajdobrucki/ikonate.git
 	branch = master
+[submodule "icons/ir/data"]
+	path = icons/ir/data
+	url = https://github.com/iconoir-icons/iconoir.git
+	branch = master
