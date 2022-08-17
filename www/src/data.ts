@@ -34,6 +34,7 @@ import mpNames from '@icongo/mp/lib/names.json';
 import evNames from '@icongo/ev/lib/names.json';
 import ciNames from '@icongo/ci/lib/names.json';
 import icNames from '@icongo/ic/lib/names.json';
+import ikNames from '@icongo/ik/lib/names.json';
 
 const cacheData: Partial<Record<keyof typeof dataComps, any>>= {}
 function loader<T = Record<string, any>>(fn: () => Promise<T>, preName: keyof typeof dataComps , name: string) {
@@ -76,6 +77,7 @@ export const dataComps = {
   MP: (name: string) => loader(() => import(`@icongo/mp/lib`), 'MP', name),
   IC: (name: string) => loader(() => import(`@icongo/ic/lib`), 'IC', name),
   II: (name: string) => loader(() => import(`@icongo/ii/lib`), 'II', name),
+  IK: (name: string) => loader(() => import(`@icongo/ik/lib`), 'IK', name),
   IO: (name: string) => loader(() => import(`@icongo/io/lib`), 'IO', name),
   PK: (name: string) => loader(() => import(`@icongo/pk/lib`), 'PK', name),
   RI: (name: string) => loader(() => import(`@icongo/ri/lib`), 'RI', name),
@@ -264,6 +266,13 @@ export const info: Info = {
     gh: 'https://github.com/iconic/open-iconic',
     npm: '@icongo/ii',
     names: iiNames,
+  },
+  ik: {
+    title: 'Ikonate icons',
+    license: 'MIT',
+    gh: 'https://github.com/mikolajdobrucki/ikonate',
+    npm: '@icongo/ik',
+    names: ikNames,
   },
   io: {
     title: 'Ionicons Icons',

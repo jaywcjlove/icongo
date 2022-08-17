@@ -145,6 +145,7 @@ export const Layout = () => {
             <NavLink to="/icons/hi">Heroicons</NavLink>
             <NavLink to="/icons/ic">Icon Collection</NavLink>
             <NavLink to="/icons/ii">Iconic Icons</NavLink>
+            <NavLink to="/icons/ik">Ikonate Icons</NavLink>
             <NavLink to="/icons/io">Ionicons Icons</NavLink>
             <NavLink to="/icons/lg">Logos Icons</NavLink>
             <NavLink to="/icons/pk">IconPark Icons</NavLink>

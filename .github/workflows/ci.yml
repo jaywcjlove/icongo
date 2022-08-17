@@ -7,6 +7,8 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-22.04
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
     steps:
       - uses: actions/checkout@v3
         with:
@@ -102,6 +104,10 @@ jobs:
         working-directory: icons/ii
         run: npm run build
 
+      - name: build icons ik
+        working-directory: icons/ik
+        run: npm run build
+
       - name: build icons io
         working-directory: icons/io
         run: npm run build
@@ -164,8 +170,6 @@ jobs:
 
       - name: build webiste
         working-directory: www
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
         run: npm run build
 
       - name: Generate Contributors Images
@@ -327,6 +331,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ii/package.json
+
+      - name: 📦  @icongo/ik publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ik/package.json
 
       - name: 📦  @icongo/io publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -594,6 +604,10 @@ jobs:
 
       - name: build icons ii
         working-directory: icons/ii
+        run: npm run build
+
+      - name: build icons ik
+        working-directory: icons/ik
         run: npm run build
 
       - name: build icons io
@@ -880,6 +894,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-ii" }
       - run: npm publish
         working-directory: icons/ii
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ik => @jaywcjlove/icongo-ik"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ik/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ik" }
+      - run: npm publish
+        working-directory: icons/ik
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -152,9 +152,19 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             name: 'icon-hi-vendor',
             chunks: 'all',
           },
+          ic: {
+            test: /[\\/](icons[\\/]ic)[\\/]/,
+            name: 'icon-ic-vendor',
+            chunks: 'all',
+          },
           ii: {
             test: /[\\/](icons[\\/]ii)[\\/]/,
             name: 'icon-ii-vendor',
+            chunks: 'all',
+          },
+          ik: {
+            test: /[\\/](icons[\\/]ik)[\\/]/,
+            name: 'icon-ik-vendor',
             chunks: 'all',
           },
           io: {

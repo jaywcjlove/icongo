@@ -1,0 +1,31 @@
+{
+  "name": "@icongo/ik",
+  "version": "1.0.3",
+  "author": "jaywcjlove",
+  "description": "Ikonate Icons",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/ik",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "svgo": "svgo -f data/icons -o svg",
+    "tsbb": "tsbb build",
+    "icongo": "icongo --prefix IK --source svg -o ./src",
+    "build": "npm run svgo && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Ikonate",
+    "ik",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

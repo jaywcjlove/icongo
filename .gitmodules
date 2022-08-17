@@ -138,3 +138,7 @@
 	path = icons/ic/data
 	url = https://github.com/benc-uk/icon-collection.git
 	branch = master
+[submodule "icons/ik/data"]
+	path = icons/ik/data
+	url = https://github.com/mikolajdobrucki/ikonate.git
+	branch = master
