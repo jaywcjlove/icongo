@@ -6,5 +6,6 @@
 !tsconfig.json
 !package.json
 !svgo.config.js
+!cpy.mjs
 !data
 !README.md

@@ -150,3 +150,7 @@
 	path = icons/vv/data
 	url = https://github.com/webkul/vivid.git
 	branch = master
+[submodule "icons/tn/data"]
+	path = icons/tn/data
+	url = https://github.com/teenyicons/teenyicons.git
+	branch = master

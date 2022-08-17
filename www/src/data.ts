@@ -36,6 +36,7 @@ import icNames from '@icongo/ic/lib/data.json';
 import ikNames from '@icongo/ik/lib/data.json';
 import irNames from '@icongo/ir/lib/data.json';
 import vvNames from '@icongo/vv/lib/data.json';
+import tnNames from '@icongo/tn/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -280,10 +281,17 @@ export const info: Info = {
   },
   ti: {
     title: 'Typicons Icons',
-    license: 'CC BY-SA 4.0',
+    license: 'MIT',
     gh: 'https://github.com/stephenhutchings/typicons.font',
     npm: '@icongo/ti',
     names: tiNames,
+  },
+  tn: {
+    title: 'Teenyicons Icons',
+    license: 'CC BY-SA 4.0',
+    gh: 'https://github.com/teenyicons/teenyicons',
+    npm: '@icongo/tn',
+    names: tnNames,
   },
   uiw: {
     title: 'UIW Icons',

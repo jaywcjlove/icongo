@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/tn",
+  "description": "Teenyicons Icons",
+  "version": "1.0.3",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/tn",
+  "scripts": {
+    "copy": "node cpy.mjs",
+    "svgo": "npm run copy && npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f .cache_svg -o svg",
+    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/tn",
+    
+    "icongo": "icongo --prefix TN --source svg -o ./src",
+    "build": "npm run svgo && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Teenyicons",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
