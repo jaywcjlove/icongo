@@ -152,8 +152,8 @@
 	branch = master
 [submodule "icons/tn/data"]
 	path = icons/tn/data
-	url = https://github.com/lucide-icons/lucide.git
-	branch = main
+	url = https://github.com/teenyicons/teenyicons.git
+	branch = master
 [submodule "icons/lu/data"]
 	path = icons/lu/data
 	url = https://github.com/lucide-icons/lucide.git
