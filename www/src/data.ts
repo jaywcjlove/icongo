@@ -35,6 +35,7 @@ import ciNames from '@icongo/ci/lib/data.json';
 import icNames from '@icongo/ic/lib/data.json';
 import ikNames from '@icongo/ik/lib/data.json';
 import irNames from '@icongo/ir/lib/data.json';
+import vvNames from '@icongo/vv/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -297,6 +298,13 @@ export const info: Info = {
     gh: 'https://github.com/microsoft/vscode-codicons',
     npm: '@icongo/vsc',
     names: vscNames,
+  },
+  vv: {
+    title: 'Vivid Icons',
+    license: 'MIT',
+    gh: 'https://github.com/webkul/vivid',
+    npm: '@icongo/vv',
+    names: vvNames,
   },
   wi: {
     title: 'Weather Icons',

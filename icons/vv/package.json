@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/vv",
+  "description": "Weather Icons",
+  "version": "1.0.3",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/vv",
+  "scripts": {
+    "svgo": "npm run svgo1 && npm run svgo2",
+    "svgo1": "svgo -f data/icons -o svg",
+    "svgo2": "svgo -f data/icons -o ../../www/public/icon/vv",
+
+    "icongo": "icongo --prefix VV --source svg -o ./src",
+    "build": "npm run svgo && npm run icongo && tsbb build",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Weather",
+    "vv",
+    "go",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
