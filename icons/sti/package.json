@@ -8,11 +8,9 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/supertinyicons",
   "scripts": {
-    "svgo": "npm run svgo1 && npm run svgo2",
-    "svgo1": "svgo -f data/images/svg -o svg",
-    "svgo2": "svgo -f data/images/svg -o ../../www/public/icon/sti",
+    "cpy": "cpy '../../www/public/icon/sti/*.svg' svg --flat",
     "icongo": "icongo --prefix STI --filter='(calendar).svg' --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

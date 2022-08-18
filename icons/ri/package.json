@@ -8,13 +8,10 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/ri",
   "scripts": {
-    "cpy": "cpy 'data/icons/**/*.svg' .cache_svg --flat",
-    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
-    "svgo1": "svgo -f .cache_svg -o svg",
-    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/ri",
+    "cpy": "cpy '../../www/public/icon/ri/*.svg' svg --flat",
 
     "icongo": "icongo --prefix RI --source svg -o ./src -r='{\"bookmark-fill\": \"RIBookmarkFill1\", \"bookmark-line\": \"RIBookmarkLine1\"}'",
-    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

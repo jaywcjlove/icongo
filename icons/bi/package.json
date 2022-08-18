@@ -12,13 +12,9 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy 'data/svg/**/*.svg' .cache_svg --flat",
+    "cpy": "cpy '../../www/public/icon/bi/*.svg' svg --flat",
 
-    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
-    "svgo1": "svgo -f .cache_svg -o svg",
-    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/bi",
-
-    "build": "npm run svgo && npm run svg && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run svg && tsbb build --no-source-maps",
     "start": "npm run build",
     "svg": "icongo --prefix BI --source svg -o ./src"
   },

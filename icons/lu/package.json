@@ -8,12 +8,10 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/lu",
   "scripts": {
-    "svgo": "npm run svgo1 && npm run svgo2",
-    "svgo1": "svgo -f data/icons -o svg",
-    "svgo2": "svgo -f data/icons -o ../../www/public/icon/lu",
+    "cpy": "cpy '../../www/public/icon/lu/*.svg' svg --flat",
     
     "icongo": "icongo --prefix LU --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

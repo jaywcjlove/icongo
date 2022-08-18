@@ -8,13 +8,10 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/tn",
   "scripts": {
-    "copy": "node cpy.mjs",
-    "svgo": "npm run copy && npm run svgo1 && npm run svgo2",
-    "svgo1": "svgo -f .cache_svg -o svg",
-    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/tn",
+    "cpy": "cpy '../../www/public/icon/tn/*.svg' svg --flat",
     
     "icongo": "icongo --prefix TN --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

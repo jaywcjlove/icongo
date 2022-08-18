@@ -14,14 +14,11 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "node ./cpy.mjs",
-    "svgo": "npm run cpy && npm run svgo1 && npm run svgo2",
-    "svgo1": "svgo -f .cache_svg -o svg",
-    "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/fg",
+    "cpy": "cpy '../../www/public/icon/fg/*.svg' svg --flat",
 
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix FG --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && npm run tsbb",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [
