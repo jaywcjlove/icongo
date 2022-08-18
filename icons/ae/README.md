@@ -1,0 +1,20 @@
+Aegis Icons
+===
+
+[![npm version](https://img.shields.io/npm/v/@icongo/ae.svg)](https://www.npmjs.com/package/@icongo/ae)
+
+[Preview Icons](http://icongo.github.io/#/icons/ae)
+
+```bash
+npm i @icongo/ae
+```
+
+```jsx
+import { IconName } from '@icongo/ae';
+import data from '@icongo/ae/data.json';
+import names from '@icongo/ae/names.json';
+```
+
+## License
+
+Licensed under the MIT License.
