@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64">
+  <defs>
+    <clipPath id="n">
+      <use xlink:href="#a"/>
+    </clipPath>
+    <clipPath id="k">
+      <use xlink:href="#b"/>
+    </clipPath>
+    <clipPath id="h">
+      <use xlink:href="#c"/>
+    </clipPath>
+    <clipPath id="e">
+      <use xlink:href="#d"/>
+    </clipPath>
+    <path id="a" d="M12 15.9c.9 1 2.3 1.6 4 1.6s3.1-.6 4-1.6c.6-.6.8-1.2 1-1.7.1-.5-.2-1.1-.7-1.2s-1.1.2-1.2.7c0 0 0 .1-.1.2-.1.2-.2.5-.4.7-.5.6-1.3 1-2.5 1s-2-.4-2.5-1c-.2-.2-.3-.4-.4-.7-.2 0-.2-.1-.2-.2-.1-.5-.7-.8-1.2-.7s-.9.7-.7 1.2c0 .5.3 1.1.9 1.7z"/>
+    <path id="b" d="M18.7 6c-.7 0-1.3.6-1.3 1.3v1.3c0 .7.6 1.3 1.3 1.3S20 9.3 20 8.6V7.3c0-.7-.6-1.3-1.3-1.3z"/>
+    <path id="c" d="M13.3 6c-.7 0-1.3.6-1.3 1.3v1.3c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3V7.3c.1-.7-.5-1.3-1.3-1.3z"/>
+    <path id="d" d="M30 3.9V20c0 1.1-.9 2-2 2H15.4c-.6 0-1.3.2-1.7.6l-3.5 3.2c-.4.4-.7.2-.7-.3v-.7c0-1.4-1.2-2.6-2.7-2.6H4c-1.1 0-2-.9-2-2V3.9c0-1.1.9-2 2-2h24c1.1.1 2 .9 2 2zM4 0C1.8 0 0 1.8 0 3.9v16.3c0 2.2 1.8 3.9 4 3.8h2c.6.1 1 .6 1 1v4.6c0 .3.7.4 1 .4.1 0 .3 0 .4-.1l6.5-5.6c.1-.1.3-.2.4-.3H28c2.2.1 4-1.6 4-3.8V3.9C32 1.8 30.2 0 28 0z"/>
+  </defs>
+  <g transform="matrix(2 0 0 2 -.000003 1.999996)">
+    <g clip-path="url(#e)">
+      <defs>
+        <path id="f" d="M-286-172h649v612h-649z"/>
+      </defs>
+      <clipPath id="g">
+        <use xlink:href="#f"/>
+      </clipPath>
+      <path clip-path="url(#g)" d="M-5-5h42v40H-5z" fill="#ff5252"/>
+    </g>
+    <g clip-path="url(#h)">
+      <defs>
+        <path id="i" d="M-286-172h649v612h-649z"/>
+      </defs>
+      <clipPath id="j">
+        <use xlink:href="#i"/>
+      </clipPath>
+      <path clip-path="url(#j)" d="M7 1h12.7v13.9H7z" fill="#ff5252"/>
+    </g>
+    <g clip-path="url(#k)">
+      <defs>
+        <path id="l" d="M-286-172h649v612h-649z"/>
+      </defs>
+      <clipPath id="m">
+        <use xlink:href="#l"/>
+      </clipPath>
+      <path clip-path="url(#m)" d="M12.3 1H25v13.9H12.3z" fill="#ff5252"/>
+    </g>
+    <g clip-path="url(#n)">
+      <defs>
+        <path id="o" d="M-286-172h649v612h-649z"/>
+      </defs>
+      <clipPath id="p">
+        <use xlink:href="#o"/>
+      </clipPath>
+      <path clip-path="url(#p)" d="M6 8h20v14.6H6z" fill="#ff5252"/>
+    </g>
+  </g>
+</svg>

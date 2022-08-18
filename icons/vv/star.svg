@@ -1,4 +1,3 @@
-<svg id="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <path d="M34.865,39.83l-10.25-5.621-10.153,5.8,2.091-11.647L7.99,20.335l11.542-1.577L24.394,8l5.042,10.672L41,20.047l-8.426,8.173Z" style="fill:#FF6E6E;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
 </svg>

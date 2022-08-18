@@ -1,0 +1,10 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30282.88 5120" version="1.1">
+  <g transform="matrix(3.78536,0,0,3.78536,1.7682895e-4,-88277.397)">
+    <g transform="matrix(99.999999,0,0,99.999999,6.6467609e-4,19997.03)">
+      <path style="fill:#ffff00" transform="translate(-6.7139e-6)" d="M 0,0 V 16.938 L 22.344,16.812 37.188,31.656 31.406,37.438 18.844,24.906 0,24.938 v 30.25 H 19.5 L 57.656,16.844 H 80 V 0 Z M 61.156,24.938 22.844,63.188 H 0 V 80 H 80 V 63.125 H 57.094 L 42.75,48.781 48.531,43 60.625,55.094 H 80 V 24.938 Z"/>
+      <path style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m -6.7139e-6,24.938 v -8 L 22.343993,16.812 l 14.844,14.844 -5.782,5.782 -12.562,-12.532 z"/>
+      <path style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 57.655993,16.844 h 22.344 v 8.094 h -18.844 l -38.312,38.25 H -6.7139e-6 v -8 H 19.499993 l 38.156,-38.344"/>
+      <path style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.530993,43 -5.781,5.781 14.344,14.344 h 22.906 v -8.031 h -19.375 L 48.530993,43"/>
+    </g>
+  </g>
+</svg>

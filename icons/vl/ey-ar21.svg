@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 60" style="enable-background:new 0 0 120 60" xml:space="preserve">
+  <g>
+    <g transform="translate(-49.000000, -50.000000)">
+      <g transform="translate(49.000000, 50.000000)">
+        <path d="M45.8,43.4v-3.5h7.7v-4.4h-7.7V32h8.5l-2.8-4.8H39.4v21.1h17v-4.8H45.8z M67.7,27.1L64.1,34 l-3.6-6.9h-7l7.4,12.7v8.3h6.4v-8.3l7.4-12.7H67.7z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#161D23"/>
+        <polygon points="81,5.8 39,21 81,13.6" style="fill-rule:evenodd;clip-rule:evenodd;fill:#FFE600"/>
+      </g>
+    </g>
+  </g>
+</svg>

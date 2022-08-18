@@ -1,0 +1,7 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+  <g>
+    <path d="M32,21.3h21.7V0h-43v0.2L32,21.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#67DBFF"/>
+    <path d="M32,21.3H10.3v21.3h43v-0.2L32,21.3L32,21.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#01A3FF"/>
+    <path d="M10.3,42.5h21.5V64L10.3,42.5z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#0162FF"/>
+  </g>
+</svg>

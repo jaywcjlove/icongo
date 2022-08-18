@@ -1,0 +1,99 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+  <g transform="translate(30.000000, 14.000000)">
+    <g>
+      <g transform="translate(0.131960, 0.021427)">
+        <g transform="translate(25.107283, 24.232006) rotate(11.283864) translate(-25.107283, -24.232006) translate(4.607283, 3.732006)">
+          <g transform="translate(20.579716, 5.528144) rotate(-11.283864) translate(-20.579716, -5.528144) translate(16.540110, 1.092499)">
+            <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="-520.5776" y1="905.0002" x2="-511.0076" y2="896.2138" gradientTransform="matrix(7.8859 0 0 -8.5893 4046.5845 7723.6006)">
+              <stop offset="0" style="stop-color:#C06FBB"/>
+              <stop offset="1" style="stop-color:#6E4D9B"/>
+            </linearGradient>
+            <path d="M-12.3-6.8l-5.9,4l-6.1-9.2l5.9-4L-12.3-6.8L-12.3-6.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#a)"/>
+          </g>
+          <g transform="translate(31.488859, 30.245267) rotate(-11.283864) translate(-31.488859, -30.245267) translate(23.568064, 21.690808)">
+            <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="-551.0882" y1="932.5068" x2="-553.6877" y2="936.0563" gradientTransform="matrix(15.7008 0 0 -16.9564 8647.0615 15829.3867)">
+              <stop offset="0" style="stop-color:#6E4D9B"/>
+              <stop offset="0.14" style="stop-color:#77327A"/>
+              <stop offset="0.29" style="stop-color:#B31777"/>
+              <stop offset="0.84" style="stop-color:#CD0F7E"/>
+              <stop offset="1" style="stop-color:#ED2C89"/>
+            </linearGradient>
+            <path d="M-9.4-1.5L0.7,13.7l-12.1,8.1L-21.5,6.6l-1.8-2.7l12.1-8.1L-9.4-1.5L-9.4-1.5z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#b)"/>
+          </g>
+          <g transform="translate(20.582001, 34.683017) rotate(-11.283864) translate(-20.582001, -34.683017) translate(16.146356, 30.564203)">
+            <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-522.8177" y1="870.169" x2="-514.0797" y2="858.0073" gradientTransform="matrix(8.6368 0 0 -7.9404 4432.9736 6836.1948)">
+              <stop offset="0" style="stop-color:#C06FBB"/>
+              <stop offset="1" style="stop-color:#6E4D9B"/>
+            </linearGradient>
+            <path d="M-16.6,2l2.2,3.3l-9.2,6.1l-4-6l2-1.3l7.2-4.8L-16.6,2L-16.6,2z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#c)"/>
+          </g>
+          <g transform="translate(35.128399, 20.149849) rotate(-11.283864) translate(-35.128399, -20.149849) translate(31.801665, 16.823115)">
+            <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="-523.9035" y1="854.3955" x2="-509.7783" y2="842.8085" gradientTransform="matrix(6.5038 0 0 -6.5171 3317.2512 5503.2754)">
+              <stop offset="0" style="stop-color:#C06FBB"/>
+              <stop offset="1" style="stop-color:#6E4D9B"/>
+            </linearGradient>
+            <path d="M-12-6.4l-2.6,1.7l1.8,2.7l-3.4,2.2l2.2,3.3l5.9-4L-12-6.4z M-14.6-4.7l-3.4,2.2l1.8,2.7 l3.4-2.2L-14.6-4.7z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#d)"/>
+          </g>
+          <g transform="translate(6.048834, 20.136618) rotate(-11.283864) translate(-6.048834, -20.136618) translate(0.979525, 15.067310)">
+            <linearGradient id="e" gradientUnits="userSpaceOnUse" x1="-516.6396" y1="908.2449" x2="-508.0858" y2="900.7076" gradientTransform="matrix(10.0196 0 0 -10.0127 5112.353 9057.9746)">
+              <stop offset="0" style="stop-color:#C06FBB"/>
+              <stop offset="1" style="stop-color:#6E4D9B"/>
+            </linearGradient>
+            <path d="M-26,3.6l-2,1.3l-6.1-9.2l9.2-6.1l4.3,6.4l-7.2,4.8l7.2-4.8l1.8,2.7L-26,3.6L-26,3.6z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#e)"/>
+          </g>
+          <g transform="translate(11.303905, 10.041936) rotate(-11.283864) translate(-11.303905, -10.041936) translate(3.383110, 1.487477)">
+            <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="-533.8688" y1="954.3453" x2="-536.4795" y2="957.9167" gradientTransform="matrix(15.6776 0 0 -16.9217 8385.0703 16197.0117)">
+              <stop offset="0" style="stop-color:#6E4D9B"/>
+              <stop offset="0.14" style="stop-color:#77327A"/>
+              <stop offset="0.29" style="stop-color:#B31777"/>
+              <stop offset="0.84" style="stop-color:#CD0F7E"/>
+              <stop offset="1" style="stop-color:#ED2C89"/>
+            </linearGradient>
+            <path d="M-9.6-1.8L-7.8,1L-19.9,9l-1.8-2.7L-31.8-8.8l12.1-8.1L-9.6-1.8L-9.6-1.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#f)"/>
+          </g>
+          <g transform="translate(20.657410, 5.510276) rotate(-11.283864) translate(-20.657410, -5.510276) translate(16.617804, 1.153838)">
+            <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="-520.2618" y1="905.4448" x2="-510.6928" y2="894.8501" gradientTransform="matrix(7.8867 0 0 -8.5893 4047.5964 7722.8633)">
+              <stop offset="0" style="stop-color:#C06FBB"/>
+              <stop offset="1" style="stop-color:#6E4D9B"/>
+            </linearGradient>
+            <path d="M-15-5.1l-3.4,2.2l-1.8-2.7l-4.3-6.4l5.9-4l6.1,9.2L-15-5.1L-15-5.1z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#g)"/>
+          </g>
+          <g transform="translate(20.272029, 33.129480) rotate(-11.283864) translate(-20.272029, -33.129480) translate(17.262126, 30.594825)">
+            <path d="M-25.2,6.8L-27,4.2l7.2-4.8L-18,2L-25.2,6.8L-25.2,6.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#714896"/>
+          </g>
+          <g transform="translate(33.544049, 19.900585) rotate(-11.283864) translate(-33.544049, -19.900585) translate(31.722266, 18.237218)">
+            <path d="M-16.1-0.9l-1.8-2.7l3.4-2.2l1.8,2.7L-16.1-0.9L-16.1-0.9z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#6F4795"/>
+          </g>
+          <g transform="translate(8.378404, 21.287191) rotate(-11.283864) translate(-8.378404, -21.287191) translate(5.368502, 18.752537)">
+            <path d="M-30.1-0.5l-1.8-2.7l7.2-4.8l1.8,2.7L-30.1-0.5L-30.1-0.5z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#88519F"/>
+          </g>
+          <g transform="translate(21.634925, 7.980620) rotate(-11.283864) translate(-21.634925, -7.980620) translate(19.813143, 6.238045)">
+            <path d="M-21-8.1l-1.8-2.7l3.4-2.2l1.8,2.7L-21-8.1L-21-8.1z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#85509E"/>
+          </g>
+          <g transform="translate(27.265517, 26.080244) rotate(-11.283864) translate(-27.265517, -26.080244) translate(22.671456, 22.436678)">
+            <path d="M-9.4-1.5l-12.1,8.1l-1.8-2.7l12.1-8.1L-9.4-1.5L-9.4-1.5z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#8D166A"/>
+          </g>
+          <g transform="translate(15.449570, 14.222457) rotate(-11.283864) translate(-15.449570, -14.222457) translate(10.776301, 10.578891)">
+            <path d="M-16.1-11.6l1.8,2.7l-12.1,8.1l-1.8-2.7L-16.1-11.6L-16.1-11.6z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#A70D6F"/>
+          </g>
+          <g transform="translate(2.374683, 13.681530) rotate(45.000000) translate(-2.374683, -13.681530) translate(1.022317, 12.329163)">
+            <rect x="-28.4" y="20.1" transform="matrix(2.530704e-06 1 -1 2.530704e-06 -4.1755 48.505)" width="4.1" height="4.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#9E61AD"/>
+          </g>
+          <g transform="translate(15.523201, 38.394406) rotate(45.000000) translate(-15.523201, -38.394406) translate(14.170834, 37.042039)">
+            <rect x="-14.2" y="24.4" transform="matrix(2.530704e-06 1 -1 2.530704e-06 14.3187 38.6651)" width="4.1" height="4.1" style="fill-rule:evenodd;clip-rule:evenodd;fill:#8053A3"/>
+          </g>
+          <g transform="translate(21.322504, 21.047653) rotate(0.000000) translate(-21.322504, -21.047653) translate(1.822504, 1.547653)">
+            <linearGradient id="h" gradientUnits="userSpaceOnUse" x1="-347.3347" y1="1082.4459" x2="-346.1273" y2="1083.6399" gradientTransform="matrix(37.6274 -7.4772 -7.5077 -37.4744 21167.4961 38007.7109)">
+              <stop offset="0" style="stop-color:#6E4D9B"/>
+              <stop offset="0.14" style="stop-color:#77327A"/>
+              <stop offset="0.53" style="stop-color:#B31777"/>
+              <stop offset="0.79" style="stop-color:#CD0F7E"/>
+              <stop offset="1" style="stop-color:#ED2C89"/>
+            </linearGradient>
+            <path d="M-21.8,47.3l-12.8-12.9l45.5-45.6L24.1,1.4L-21.8,47.3L-21.8,47.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:url(#h)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

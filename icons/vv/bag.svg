@@ -1,5 +1,4 @@
-<svg id="bag" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <path d="M13.394,15H34.606L38,41H10Z" style="fill-rule:evenodd;fill:#FF6E6E"/>
   <path d="M10,41h0l0.522-4H37.478L38,41H10ZM28,14c0-1.516-.737-5-4-5s-4,3.484-4,5v1H17l0.01-2.951C17.01,9.017,20.053,6,24,6s6.99,3.017,6.99,6.049L31,15H28V14Z" style="fill:#0C0058;fill-rule:evenodd"/>
   <path d="M17,15L17.009,17l3,0V15H17Zm10.989,0v1.989l3,0L31,15H27.991Z" style="fill:#fafafa;fill-rule:evenodd"/>

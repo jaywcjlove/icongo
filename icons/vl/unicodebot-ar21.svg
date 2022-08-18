@@ -1,0 +1,93 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 60" style="enable-background:new 0 0 120 60" xml:space="preserve">
+  <g>
+    <g>
+      <defs>
+        <polygon id="a" points="49.1,32.9 45.2,32 45.1,27.7 47.6,27.1"/>
+      </defs>
+      <use xlink:href="#a" style="overflow:visible;fill:#7CC242"/>
+      <clipPath id="b">
+        <use xlink:href="#a" style="overflow:visible"/>
+      </clipPath>
+      <polygon points="43.3,29.5 50.9,28.5 48.2,24 40.7,26.1" style="clip-path:url(#b);fill:#FFFFFF"/>
+      <use xlink:href="#a" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.3908;stroke-miterlimit:10"/>
+    </g>
+    <g>
+      <defs>
+        <polygon id="c" points="70.9,32.8 74.7,32 74.9,27.7 72.3,27.1"/>
+      </defs>
+      <use xlink:href="#c" style="overflow:visible;fill:#7CC242"/>
+      <clipPath id="d">
+        <use xlink:href="#c" style="overflow:visible"/>
+      </clipPath>
+      <polyline points="71.9,28.9 79.8,30.1 77,25.4 70.1,23.9 71.9,28.9" style="clip-path:url(#d);fill:#FFFFFF"/>
+      <use xlink:href="#c" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.3908;stroke-miterlimit:10"/>
+    </g>
+    <g>
+      <defs>
+        <path id="e" d="M68.9,36.7H51.1c-0.4,0-0.8-0.3-0.9-0.7l-2.6-9.2c-0.2-0.6,0.3-1.2,0.9-1.2h23c0.6,0,1.1,0.6,0.9,1.2 l-2.6,9.2C69.7,36.4,69.3,36.7,68.9,36.7z"/>
+      </defs>
+      <use xlink:href="#e" style="overflow:visible;fill:#7CC242"/>
+      <path class="st15" d="M64.4,25.5l3.8,1.8c1,0.5,1.5,1.5,1.2,2.6l-2.1,7.7h10.2l-1.9-13.5l-7.4-0.4L64.4,25.5"/>
+      <polyline class="st15" points="38.6,25.5 44.1,28.1 41.6,37.6 51.8,37.6 49.9,24.1 42.5,23.7 38.6,25.5"/>
+      <use xlink:href="#e" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.4742;stroke-miterlimit:10"/>
+    </g>
+    <g>
+      <defs>
+        <path id="f" d="M68.2,22.5H52.8c-1.7,0-3-1.4-3-3v-7.9c0-1.1,0.9-1.9,1.9-1.9h16.5c1.1,0,1.9,0.9,1.9,1.9v9 C70.1,21.7,69.3,22.5,68.2,22.5z"/>
+      </defs>
+      <use xlink:href="#f" style="overflow:visible;fill:#7CC242"/>
+      <clipPath id="g">
+        <use xlink:href="#f" style="overflow:visible"/>
+      </clipPath>
+      <path d="M69.3,8.2l-1.1-0.5L52.7,9.6l13.8,2c1.2,0.2,2,1.2,2,2.3v5.3c0,0.6-0.4,1.1-1,1.3L60.3,22h8.2v1.5h8.3V8.2 H69.3z" style="clip-path:url(#g);fill:#FFFFFF"/>
+      <use xlink:href="#f" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.4742;stroke-miterlimit:10"/>
+    </g>
+    <path d="M22.7 40.5h2.6v9.7c0 1.6-.8 2.4-2.3 2.4h-2.3c-1.5 0-2.3-.8-2.3-2.4v-9.7H21v9.9c0 .1 0 .2.1.3.1.1.2.1.2.1h1c.1 0 .2 0 .2-.1.1-.1.1-.2.1-.3V40.5zM33.9 52.4h-2.6v-9.9c0-.1 0-.2-.1-.3-.1-.1-.2-.1-.2-.1h-1c-.1 0-.2 0-.2.1-.1.1-.1.2-.1.3v9.9H27v-9.7c0-1.6.8-2.4 2.3-2.4h2.3c1.5 0 2.3.8 2.3 2.4V52.4z"/>
+    <rect x="35.9" y="43.4" width="2.5" height="9"/>
+    <path d="M44.6 50.5v-1.8h2.5v1.5c0 1.6-.8 2.4-2.3 2.4h-2.3c-1.5 0-2.3-.8-2.3-2.4v-7.4c0-1.6.8-2.4 2.3-2.4h2.3c1.5 0 2.3.8 2.3 2.4v1.1h-2.5v-1.4c0-.1 0-.2-.1-.3-.1-.1-.2-.1-.2-.1h-1.2c-.1 0-.2 0-.2.1-.1.1-.1.2-.1.3v8c0 .1 0 .2.1.3.1.1.2.1.2.1h1.2c.1 0 .2 0 .2-.1C44.6 50.7 44.6 50.6 44.6 50.5zM55.6 42.8v7.4c0 1.6-.8 2.4-2.3 2.4h-2.5c-1.5 0-2.3-.8-2.3-2.4v-7.4c0-1.6.8-2.4 2.3-2.4h2.5C54.9 40.3 55.6 41.1 55.6 42.8zM53 50.5v-8c0-.1 0-.2-.1-.3-.1-.1-.2-.1-.2-.1h-1.2c-.1 0-.2 0-.2.1-.1.1-.1.2-.1.3v8c0 .1 0 .2.1.3.1.1.2.1.2.1h1.2c.1 0 .2 0 .2-.1C53 50.7 53 50.6 53 50.5zM62.3 40.5c1.5 0 2.3.8 2.3 2.4V50c0 1.6-.8 2.4-2.3 2.4h-4.7V40.5H62.3zM62 50.3v-7.7c0-.1 0-.2-.1-.3-.1-.1-.2-.1-.2-.1h-1.5v8.4h1.5c.1 0 .2 0 .2-.1C61.9 50.5 62 50.4 62 50.3zM69.1 50.3h2.9v2.1h-5.4V40.5h5.4v2.1h-2.9v2.8h2.7v2h-2.7V50.3zM83.9 45.9c.8.3 1.2.9 1.2 2V50c0 1.6-.8 2.4-2.3 2.4h-4.7V40.5h4.6c1.5 0 2.3.8 2.3 2.4V44C85 45 84.6 45.6 83.9 45.9zM82 42.3h-1.4v3.2H82c.1 0 .2 0 .2-.1.1-.1.1-.2.1-.3v-2.5c0-.1 0-.2-.1-.3C82.2 42.3 82.1 42.3 82 42.3zM82.5 50.3v-2.7c0-.1 0-.2-.1-.3-.1-.1-.2-.1-.2-.1h-1.5v3.4h1.5c.1 0 .2 0 .2-.1C82.5 50.5 82.5 50.4 82.5 50.3zM93.9 42.8v7.4c0 1.6-.8 2.4-2.3 2.4h-2.5c-1.5 0-2.3-.8-2.3-2.4v-7.4c0-1.6.8-2.4 2.3-2.4h2.5C93.1 40.3 93.9 41.1 93.9 42.8zM91.3 50.5v-8c0-.1 0-.2-.1-.3-.1-.1-.2-.1-.2-.1h-1.2c-.1 0-.2 0-.2.1-.1.1-.1.2-.1.3v8c0 .1 0 .2.1.3.1.1.2.1.2.1H91c.1 0 .2 0 .2-.1C91.3 50.7 91.3 50.6 91.3 50.5zM95.1 42.7v-2.2h6.5v2.2h-1.9v9.7h-2.6v-9.7H95.1z"/>
+    <rect x="35.7" y="40" class="st17" width="2.7" height="2.1"/>
+    <rect x="73.5" y="50.5" class="st17" width="2.7" height="2.1"/>
+    <path d="M66.8,22.5H53.7c-0.6,0-1-0.5-1-1v-6.3c0-1,0.8-1.7,1.7-1.7h11.7c1,0,1.8,0.8,1.8,1.8v6.3C67.8,22.1,67.4,22.5,66.8,22.5z"/>
+    <g>
+      <defs>
+        <circle id="h" cx="60" cy="5.2" r="1.9"/>
+      </defs>
+      <use xlink:href="#h" style="overflow:visible;fill:#7CC242"/>
+      <clipPath id="i">
+        <use xlink:href="#h" style="overflow:visible"/>
+      </clipPath>
+      <path d="M57.2,7.7c0,0,5.8-1.4,2-4.7c-3.3-2.9,5.5,0.3,5.5,0.3l-0.5,4.2L57.2,7.7z" style="clip-path:url(#i);fill:#FFFFFF"/>
+      <use xlink:href="#h" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.3908;stroke-miterlimit:10"/>
+    </g>
+    <circle cx="52" cy="30.1" r="1.6" style="fill:#7CC242;stroke:#000000;stroke-width:0.9731;stroke-miterlimit:10"/>
+    <line x1="60" y1="9.9" x2="60" y2="7.1" style="fill:none;stroke:#000000;stroke-width:1.4742;stroke-miterlimit:10"/>
+    <g>
+      <defs>
+        <polygon id="j" points="49.8,18.8 47.2,18.2 47.2,14.4 49.8,13.8"/>
+      </defs>
+      <use xlink:href="#j" style="overflow:visible;fill:#7CC242"/>
+      <clipPath id="k">
+        <use xlink:href="#j" style="overflow:visible"/>
+      </clipPath>
+      <polygon points="45.6,16.1 53,14.8 50.2,8.2 43.5,11.1" style="clip-path:url(#k);fill:#FFFFFF"/>
+      <use xlink:href="#j" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.3908;stroke-miterlimit:10"/>
+    </g>
+    <g>
+      <defs>
+        <polygon id="l" points="70.1,18.8 72.7,18.2 72.7,14.4 70.1,13.8"/>
+      </defs>
+      <use xlink:href="#l" style="overflow:visible;fill:#7CC242"/>
+      <clipPath id="m">
+        <use xlink:href="#l" style="overflow:visible"/>
+      </clipPath>
+      <polyline points="70.1,16 76,16.7 73.5,12 68.2,13.4 70.1,16" style="clip-path:url(#m);fill:#FFFFFF"/>
+      <use xlink:href="#l" style="overflow:visible;fill:none;stroke:#000000;stroke-width:1.3908;stroke-miterlimit:10"/>
+    </g>
+    <path class="st10" d="M57.4 20.2h-1c-.3 0-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5h1c.3 0 .5.2.5.5v3C57.9 20 57.7 20.2 57.4 20.2zM64.1 20.2h-1c-.3 0-.5-.2-.5-.5v-3c0-.3.2-.5.5-.5h1c.3 0 .5.2.5.5v3C64.7 20 64.4 20.2 64.1 20.2z"/>
+    <path d="M62.6 28.6v-.2c0-.2.1-.3.3-.3h2.5c.2 0 .3.1.3.3v.2c0 .2-.1.3-.3.3h-2.5C62.7 28.9 62.6 28.8 62.6 28.6zM62.6 29.9 62.6 29.9c0-.2.2-.4.4-.4h5.1c.2 0 .4.2.4.4v0c0 .2-.2.4-.4.4H63C62.8 30.3 62.6 30.1 62.6 29.9zM62.6 31.4v-.1c0-.2.2-.3.3-.3h3.6c.2 0 .3.2.3.3v.1c0 .2-.2.3-.3.3h-3.6C62.7 31.7 62.6 31.6 62.6 31.4z"/>
+    <path class="st38" d="M45.2,29.6c-0.3,0-3.6-0.4-5.1-3.4c-1-2-0.5-4-0.4-4.5"/>
+    <path class="st38" d="M37.4 18.7c0 1.3.7 2.5 1.8 2.9 1.4.5 3.2-.2 3.8-1.8M74.8 29.6c.3 0 3.6-.4 5.1-3.4 1-2 .5-4 .4-4.5"/>
+    <path class="st38" d="M82.5,18.5c0.1,1.3-0.5,2.5-1.6,3c-1.3,0.6-3.2,0-4-1.5"/>
+    <line x1="18.4" y1="36.7" x2="101.6" y2="36.7" style="fill:#7CC242;stroke:#000000;stroke-width:1.4742;stroke-miterlimit:10"/>
+  </g>
+</svg>

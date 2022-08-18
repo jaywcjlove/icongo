@@ -1,5 +1,4 @@
-<svg id="gem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <path d="M24,40L7,18,13,8H35l6,10Z" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd;fill:#FF6E6E"/>
   <path d="M7,18L13,8H35l6,10H7Z" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
 </svg>

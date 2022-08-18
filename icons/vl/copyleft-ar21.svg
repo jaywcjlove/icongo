@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+  <g transform="matrix(.034428 0 0 .034428 5.106558 13.130295)">
+    <circle cx="490" cy="490" r="440" fill="none" stroke="#000" stroke-width="100"/>
+    <path d="M219 428h131a150 150 0 1 1 0 125H219a275 275 0 1 0 0-125z"/>
+  </g>
+  <text y="35.441" x="41.604" xml:space="preserve" font-size="21.025" font-family="Arial" letter-spacing="0" word-spacing="0" writing-mode="lr-tb"><tspan y="35.441" x="42.558">copyleft</tspan></text>
+</svg>

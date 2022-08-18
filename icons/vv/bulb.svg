@@ -1,5 +1,4 @@
-<svg id="bulb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <rect x="19" y="37" width="10" height="5" style="fill:#0C0058"/>
   <path d="M31,30c-1.917,1.186-2,3.742-2,6v1H19V36c0-2.258-.118-4.874-2-6a13.355,13.355,0,0,1-6-11.308A12.849,12.849,0,0,1,24,6,12.849,12.849,0,0,1,37,18.692,13.355,13.355,0,0,1,31,30Z" style="fill:#FF6E6E"/>
   <path d="M26,27.633V37H22V27.633A5.982,5.982,0,0,1,18,22h3.6a2.4,2.4,0,0,0,4.8,0H30A5.982,5.982,0,0,1,26,27.633Z" style="fill:#fff"/>

@@ -1,0 +1,6 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" alt="App Center" viewBox="0 0 64 64" version="1.1">
+  <g style="fill:#cb2e62;fill-rule:nonzero" transform="scale(2.6666667)">
+    <path d="M 18,20.6 24,21.5 18,24 0,18 18,20.6 V 0 l 6,2.5 v 19 z" style="fill:#cb2e62"/>
+    <path d="M 6,4 8.3,4.5 V 8.1 L 12,5.5 v 3 l -3.8,2 3.8,2 v 3 L 8.2,12.9 v 3.6 L 6,17 2,13.5 V 12 L 4.3,10.5 2,9 V 7.5 Z M 3.2,8.1 6,9.5 V 6 Z M 6,15 v -3.5 l -2.8,1.4 z m 6,-9.5 3,1 v 8 l -3,1 z" style="fill:#cb2e62"/>
+  </g>
+</svg>

@@ -3,9 +3,9 @@
   <g fill="#f22f46">
     <circle cx="256" cy="256" r="256"/>
     <circle cx="256" cy="256" fill="#fff" r="188"/>
-    <circle cx="193" cy="193" r="53" id="c"/>
-    <use xlink:href="#c" x="126"/>
-    <use xlink:href="#c" y="126"/>
-    <use xlink:href="#c" x="126" y="126"/>
+    <circle cx="193" cy="193" r="53" id="a"/>
+    <use xlink:href="#a" x="126"/>
+    <use xlink:href="#a" y="126"/>
+    <use xlink:href="#a" x="126" y="126"/>
   </g>
 </svg>

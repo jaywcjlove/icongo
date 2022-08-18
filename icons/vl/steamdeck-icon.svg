@@ -1,0 +1,4 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" version="1.1" style="fill:none">
+  <path d="m 44.511819,32 c 0,-11.32897 -9.183809,-20.51281 -20.512757,-20.51281 V 0 C 41.672196,0 55.999,14.326832 55.999,32 c 0,17.673168 -14.326804,32 -31.999938,32 V 52.512797 C 35.32801,52.512797 44.511819,43.32897 44.511819,32 Z" style="clip-rule:evenodd;fill:#1b1b1b;fill-rule:evenodd;stroke-width:1.29592431"/>
+  <ellipse data-cycle="fill" cx="23.999969" cy="32.034084" style="fill:#82bf54;stroke-width:1.29592431" rx="15.999969" ry="16"/>
+</svg>

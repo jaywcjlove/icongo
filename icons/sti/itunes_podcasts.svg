@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-label="iTunes" role="img" viewBox="0 0 512 512" height="1em" width="1em">
-  <rect width="512" height="512" rx="15%" fill="url(#t)"/>
+  <rect width="512" height="512" rx="15%" fill="url(#a)"/>
   <defs>
-    <linearGradient id="t" y1="100%" x2="0">
+    <linearGradient id="a" y1="100%" x2="0">
       <stop stop-color="#832bc1" offset="0"/>
       <stop offset="1" stop-color="#f452ff"/>
     </linearGradient>

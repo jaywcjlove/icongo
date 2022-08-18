@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+  <g transform="matrix(.909876 0 0 .909876 6.397262 2.703711)">
+    <path d="M31.44 31.76l1.06-2.87 3.036.5 4.178 7.243H21.607l1.95-2.368-1.95-2.368h9.805zm-11.224.146l1.956 2.35-1.952 2.38-8.362-.003 9.053-15.68 1.076 2.873 3.026-.505-4.903 8.492zm5.484-9.794l-3.014.518-1.084-2.88 4.183-7.24 9.055 15.7-3.026-.505-1.076 2.873-4.903-8.492z" transform="matrix(1.192879 0 0 1.192879 -8.401072 .687696)" fill="#090"/>
+    <text y="32.952" x="41.422" xml:space="preserve" font-size="11.143" font-family="Arial" letter-spacing="0" word-spacing="0" writing-mode="lr-tb"><tspan y="32.952" x="41.422">postmarketOS</tspan></text>
+  </g>
+</svg>

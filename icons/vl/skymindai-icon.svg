@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g transform="matrix(4.295302 0 0 4.295302 0 -26.630868)">
+    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="7.464" y1="6.21" x2="7.464" y2="21.137">
+      <stop offset="0" stop-color="#d80947"/>
+      <stop offset="1" stop-color="#ed7820"/>
+    </linearGradient>
+    <path d="M0 6.2v14.9h14.9z" fill="url(#a)"/>
+    <g transform="translate(126.057 .138)"/>
+  </g>
+</svg>

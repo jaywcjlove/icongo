@@ -1,0 +1,49 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 32 32" xml:space="preserve">
+  <circle cy="16" cx="16" style="fill:#f5ea14;stroke-width:0.0590842" r="16"/>
+  <g transform="matrix(0.05597342,0,0,0.05597342,-2.2725406,18.891594)">
+    <polygon transform="translate(0,-414.61017)" style="fill:#ffffff" class="st9" points="329,559 203,559 117.6,648.8 329,648.8"/>
+    <rect style="fill:#25225a" x="335.39999" y="-89.410217" class="st67" width="106.3" height="82.800003"/>
+    <polygon transform="translate(0,-414.61017)" style="fill:#25225a" class="st67" points="383.1,260.7 357,256.9 357,234.9 383.1,233.4"/>
+    <polygon transform="translate(0,-414.61017)" style="fill:#25225a" class="st67" points="429.6,267.4 409.6,264.5 409.6,243 429.6,243"/>
+    <path style="fill:#ffffff" class="st9" d="m 429.6,-171.61017 v 24.4 l -19.9,-2.9 v -25.6 l -26.5,-5.5 v 27.3 l -26.2,-3.8 v -29 l -30.5,-6.3 v 337.4 h 46.2 44.5 35.3 v -311.3 z m -3.5,103.500001 h 0.3 c 5.7,0.7 10.1,8.8 10.1,18.5 v 27 l -22.3,-0.5 v -26.5 c 0.1,-10.8 5.5,-19.3 11.9,-18.5 z m -72.7,14.2 c 0,-10.8 5.4,-19.4 11.8,-18.5 h 0.3 c 5.7,0.7 10.1,8.8 10.1,18.5 v 27.5 c 0,0.7 0,1.4 -0.1,2.1 h -22.1 c 0,-0.7 -0.1,-1.4 -0.1,-2.1 v -27.5 z"/>
+    <polygon transform="translate(0,-414.61017)" style="fill:#ffffff" class="st9" points="326.4,559 452.5,559 537.8,648.8 326.4,648.8"/>
+    <g transform="translate(0,-414.61017)">
+      <g>
+        <defs>
+          <path id="a" d="m 419.1,559 c 0.1,-1.4 0.1,-2.8 0.1,-4.2 v -55 c 0,-19.4 -8.8,-35.6 -20.3,-37.1 l -0.6,-0.1 C 385.6,461 374.7,478 374.7,499.7 v 55 c 0,1.4 0.1,2.8 0.1,4.2 h 44.3 z"/>
+        </defs>
+        <use height="100%" width="100%" y="0" x="0" xlink:href="#a" style="overflow:visible;fill:#25225a"/>
+        <clipPath id="b">
+          <use height="100%" width="100%" y="0" x="0" xlink:href="#a" style="overflow:visible"/>
+        </clipPath>
+        <polygon style="fill:#25225a;clip-path:url(#b)" points="407.2,559 407.2,467 407.2,411.5 389.5,411.5 389.5,559" clip-path="url(#b)"/>
+        <g clip-path="url(#b)" style="clip-path:url(#b)">
+          <polygon style="fill:#25225a" class="st67" points="410.1,561.3 410.1,469.3 410.1,413.8 392.4,413.8 392.4,561.3"/>
+          <polygon style="fill:#25225a" class="st67" points="332.1,497.7 331.6,530.4 506.9,534.1 506.9,502.6"/>
+        </g>
+      </g>
+    </g>
+    <polygon transform="translate(0,-414.61017)" style="fill:#25225a" class="st67" points="408.5,559.1 408.5,476.4 413.4,491.7"/>
+    <polygon transform="translate(0,-414.61017)" style="fill:#ffffff" class="st9" points="269.8,260.7 295.9,256.9 295.9,234.9 269.8,233.4"/>
+    <polygon transform="translate(0,-414.61017)" style="fill:#ffffff" class="st9" points="223.3,267.4 243.3,264.5 243.3,243 223.3,243"/>
+    <polygon transform="translate(0,-414.61017)" style="fill:#25225a" class="st67" points="115.1,648.8 452.5,559 326.4,559 326.4,510.8 326.4,506.6 326.4,221.6 295.9,227.9 295.9,256.9 269.8,260.7 269.8,233.4 243.3,238.9 243.3,264.5 223.3,267.4 223.3,243 200.4,247.7 200.4,489.5 200.4,559"/>
+    <g transform="translate(0,-414.61017)">
+      <g>
+        <defs>
+          <path id="c" d="m 409.2,559 c 0.1,-1.3 0.1,-2.6 0.1,-3.9 v -51.2 c 0,-18.1 -8.2,-33.2 -18.9,-34.6 l -0.6,-0.1 c -11.9,-1.5 -22,14.4 -22,34.6 v 51.3 c 0,1.3 0,2.6 0.1,3.9 z"/>
+        </defs>
+        <use height="100%" width="100%" y="0" x="0" xlink:href="#c" style="overflow:visible;fill:#ffffff"/>
+        <clipPath id="d">
+          <use height="100%" width="100%" y="0" x="0" xlink:href="#c" style="overflow:visible"/>
+        </clipPath>
+        <polygon style="fill:#ffffff;clip-path:url(#d)" points="398.1,559 398.1,473.2 398.1,421.5 381.6,421.5 381.6,559" clip-path="url(#d)"/>
+        <g clip-path="url(#d)" style="clip-path:url(#d)">
+          <polygon style="fill:#ffffff" class="st9" points="400.8,561.1 400.8,475.3 400.8,423.6 384.4,423.6 384.4,561.1"/>
+          <polygon style="fill:#ffffff" class="st9" points="328.1,501.8 327.6,532.3 491.1,535.8 491.1,506.4"/>
+        </g>
+      </g>
+    </g>
+    <path style="fill:#ffffff" class="st9" d="M348.2-24.310169c0-.6-.1-1.2-.1-1.8v-24.2c0-8.6 3.9-15.7 8.9-16.3h.3c5.6-.7 10.4 6.8 10.4 16.3v24.2c0 .6 0 1.2-.1 1.8zM408.5-22.110169c0-.6-.1-1.2-.1-1.8v-24.2c0-8.6 3.9-15.7 8.9-16.3h.3c5.6-.7 10.4 6.8 10.4 16.3v24.2c0 .6 0 1.2-.1 1.8z"/>
+    <rect style="fill:#ffffff" x="341.5" y="-30.510195" class="st9" width="26.299999" height="26.299999"/>
+  </g>
+</svg>

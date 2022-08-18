@@ -1,5 +1,4 @@
-<svg id="shop" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <path d="M41,11V41H7V11H5V7H43v4H41Z" style="fill-rule:evenodd;fill:#FF6E6E"/>
   <path d="M38.5,18c-4.3,0-4.5-5-4.5-5a5,5,0,0,1-10,0,5,5,0,0,1-10,0s-0.2,5-4.5,5A4.5,4.5,0,0,1,5,13.5V11H43v2.5A4.5,4.5,0,0,1,38.5,18ZM22.01,35.01h-9V25.99h9v9.02ZM34.993,41h-8V25.99h8V41Z" style="fill:#0C0058;fill-rule:evenodd"/>
 </svg>

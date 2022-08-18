@@ -1,0 +1,10 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64">
+  <switch>
+    <g>
+      <path d="M20.4 40.6L8.8 35.1V0L32 11.5V23l-11.6-5.7zM32 64V52.4L8.8 39.7v6.1z" style="fill:#691a99"/>
+      <g>
+        <path d="M43.6 40.6l11.6-5.5V0L32 11.5V23l11.6-5.7zM32 64V52.4l23.2-12.7v6.1z" style="fill:#7a1ea1"/>
+      </g>
+    </g>
+  </switch>
+</svg>

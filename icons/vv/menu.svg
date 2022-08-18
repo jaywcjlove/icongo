@@ -1,5 +1,4 @@
-<svg id="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <path d="M9,12H39v4H9V12ZM9,22H39v4H9V22ZM9,32H39v4H9V32Z" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd;fill:#FF6E6E"/>
   <path d="M9,12h4v4H9V12ZM9,22h4v4H9V22ZM9,32h4v4H9V32ZM35,12h4v4H35V12Zm0,10h4v4H35V22Zm0,10h4v4H35V32Z" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
 </svg>

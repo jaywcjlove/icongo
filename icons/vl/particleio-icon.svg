@@ -1,0 +1,11 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" enable-background="new 0 0 240 90" xml:space="preserve">
+  <g transform="matrix(1.6243655,0,0,1.6243655,-56.771575,-41.096448)">
+    <g>
+      <polygon style="fill:#00aeef" points="62.4,45 63.8,42.8 74.3,45 63.8,47.2"/>
+      <polygon style="fill:#00aeef" points="54.7,64.7 52.4,54.2 54.7,52.7 56.9,54.2"/>
+      <polygon style="fill:#00aeef" points="54.7,37.3 52.4,35.8 54.7,25.3 56.9,35.8"/>
+      <polygon style="fill:#00aeef" points="45.5,47.2 35,45 45.5,42.8 46.9,45"/>
+    </g>
+    <polygon style="fill:#00aeef" points="40.8,31.1 54.7,40.1 68.5,31.1 59.6,45 68.5,58.9 54.7,49.9 40.8,58.9 49.7,45"/>
+  </g>
+</svg>
