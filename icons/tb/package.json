@@ -8,7 +8,7 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/tb",
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/tb/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/tb/*.svg' svg --flat",
 
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix TB --source svg -o ./src",

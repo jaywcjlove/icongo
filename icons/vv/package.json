@@ -8,7 +8,7 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/vv",
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/vv/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/vv/*.svg' svg --flat",
 
     "icongo": "icongo --prefix VV --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",

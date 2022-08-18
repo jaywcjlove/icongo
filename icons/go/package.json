@@ -8,7 +8,7 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/octiconsicons",
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/go/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/go/*.svg' svg --flat",
 
     "build": "npm run cpy && icongo --prefix GO --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"

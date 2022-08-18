@@ -14,7 +14,7 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/ik/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/ik/*.svg' svg --flat",
 
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix IK --source svg -o ./src",

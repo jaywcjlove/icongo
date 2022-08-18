@@ -14,7 +14,7 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/ic/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/ic/*.svg' svg --flat",
 
     "icongo": "icongo --prefix IC --source svg -o ./src -r '{\"databox-edge\": \"ICDataboxEdge1\", \"devconsole\": \"ICDevconsole1\", \"dotnet-core\": \"ICDotnetCore1\", \"launchportal\": \"ICLaunchportal1\", \"roadmap\": \"ICRoadmap1\", \"vscode\": \"ICVscode1\"}'",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",

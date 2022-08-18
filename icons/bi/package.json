@@ -12,7 +12,7 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/bi/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/bi/*.svg' svg --flat",
 
     "build": "npm run cpy && npm run svg && tsbb build --no-source-maps",
     "start": "npm run build",

@@ -8,7 +8,7 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/tn",
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/tn/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/tn/*.svg' svg --flat",
     
     "icongo": "icongo --prefix TN --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",

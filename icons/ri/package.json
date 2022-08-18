@@ -8,7 +8,7 @@
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/ri",
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/ri/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/ri/*.svg' svg --flat",
 
     "icongo": "icongo --prefix RI --source svg -o ./src -r='{\"bookmark-fill\": \"RIBookmarkFill1\", \"bookmark-line\": \"RIBookmarkLine1\"}'",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",

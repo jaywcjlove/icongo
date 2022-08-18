@@ -12,7 +12,7 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/ci/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/ci/*.svg' svg --flat",
 
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix CI --source svg -o ./src",

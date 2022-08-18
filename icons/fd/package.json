@@ -14,7 +14,7 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "cpy": "cpy '../../www/public/icon/fd/*.svg' svg --flat",
+    "cpy": "cpy '../../www/public/icons/fd/*.svg' svg --flat",
 
     "icongo": "icongo --prefix FD --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
