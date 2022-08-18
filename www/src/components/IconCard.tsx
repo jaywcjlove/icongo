@@ -156,7 +156,7 @@ const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
         )}
       </WarpperBtn>
       <CardItem>
-        <img src={path} />
+        <img src={`${path}?type=${prename}`} />
       </CardItem>
       <IconName>
         {query ? <Keywords value={query}>{name}</Keywords> : name}
@@ -179,7 +179,7 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
       <WarpperIcons>
         {data.map((name, key) => {
           return (
-            <Card key={key} name={name} query={query} path={`/icon/${params.name?.toLocaleLowerCase()}/${reName[name][1]}`} />
+            <Card key={key} name={name} query={query} path={`/icons/${params.name?.toLocaleLowerCase()}/${reName[name][1]}`} />
           );
         })}
       </WarpperIcons>
@@ -198,7 +198,7 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
       {data.map((name, key) => {
         const [prename, basename] = iconsData[name];
         return (
-          <Card key={key} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icon/${prename?.toLocaleLowerCase()}/${basename}`} />
+          <Card key={key} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icons/${prename?.toLocaleLowerCase()}/${basename}`} />
         );
       })}
     </WarpperIcons>

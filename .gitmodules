@@ -1,4 +1,4 @@
-[submodule "www/public/icon"]
-	path = www/public/icon
+[submodule "www/public/icons"]
+	path = www/public/icons
 	url = https://github.com/icongo/icon-collection.git
 	branch = svgs
