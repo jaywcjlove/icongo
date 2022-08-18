@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { useSearchParams } from 'react-router-dom';
-import { IconsList } from '../components/IconCard';
+import { IconsList } from '../components/IconsList';
 import { searchNames } from '../data';
 
 const Title = styled.div`

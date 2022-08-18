@@ -5,7 +5,7 @@ import { STITypescript } from '@icongo/sti/lib/STITypescript';
 import { STIGithub } from '@icongo/sti/lib/STIGithub';
 import { SINpm } from '@icongo/si/lib/SINpm';
 import { info } from '../data';
-import { IconsList } from '../components/IconCard';
+import { IconsList } from '../components/IconsList';
 
 export const WarpperIcons = styled.div`
   display: grid;

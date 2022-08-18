@@ -1,11 +1,12 @@
-import React, { useRef } from 'react';
-import { useParams, useSearchParams, useNavigate } from 'react-router-dom';
+import React, { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import styled from 'styled-components';
 import Keywords from 'react-keywords';
 import toast from 'react-hot-toast';
 import copyTextToClipboard from '@uiw/copy-to-clipboard'
-import { iconsData, searchNames, info } from '../data';
 import { BIBxsCopy, BIBxsCloudDownload, BIBxsHomeCircle } from '@icongo/bi';
+// @ts-ignore
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export const CardItem = styled.div`
   box-shadow: 0 1px 3px 0 var(--color-neutral-muted);
@@ -15,7 +16,7 @@ export const CardItem = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 28px;
+  font-size: 12px;
   background-color: var(--color-canvas-card);
   padding: 0 10px;
   img {
@@ -89,13 +90,6 @@ export const CardWarpper = styled.div<CardWarpperProps>`
   }
 `;
 
-export const WarpperIcons = styled.div`
-  display: grid;
-  grid-auto-rows: auto;
-  grid-auto-columns: max-content;
-  grid-template-columns: repeat(auto-fill,minmax(90px, 1fr));
-  gap: 15px;
-`;
 
 interface IconCardProps extends CardWarpperProps {
   prename?: string;
@@ -106,10 +100,11 @@ interface IconCardProps extends CardWarpperProps {
   child?: () => JSX.Element;
 }
 
-const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
+export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   const { name = '', prename = '', path, query = '', child, ...other } = props;
   const navigate = useNavigate();
   const $ref = useRef<HTMLDivElement>(null);
+
   const copyName = () => {
     copyTextToClipboard(name, () => {
       toast.success(<div>Copied '<b onClick={(evm) =>{}}>{name}</b>' name to clipboard</div>, { position: 'top-right' });
@@ -156,51 +151,11 @@ const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
         )}
       </WarpperBtn>
       <CardItem>
-        <img src={`${path}?type=${prename}`} />
+        <LazyLoadImage src={path} alt={name} />
       </CardItem>
       <IconName>
         {query ? <Keywords value={query}>{name}</Keywords> : name}
       </IconName>
     </CardWarpper>
-  );
-}
-
-export interface IconsListProps {}
-
-export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
-  const [searchParams] = useSearchParams();
-  const query = searchParams.get('q') || '';
-  let data: string[] = [];
-  const params = useParams<{ name: string; }>();
-  if (params.name) {
-    const reName = info[params.name.toLocaleLowerCase()]?.names
-    data = Object.keys(reName || {});
-    return (
-      <WarpperIcons>
-        {data.map((name, key) => {
-          return (
-            <Card key={key} name={name} query={query} path={`/icons/${params.name?.toLocaleLowerCase()}/${reName[name][1]}`} />
-          );
-        })}
-      </WarpperIcons>
-    );
-  }
-  data = []
-  if (query.length > 1) {
-    searchNames.filter((k) => new RegExp(query || '','ig').test(k)).forEach((name) => {
-      if (query) {
-        data.push(name)
-      }
-    });
-  }
-  return (
-    <WarpperIcons>
-      {data.map((name, key) => {
-        const [prename, basename] = iconsData[name];
-        return (
-          <Card key={key} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icons/${prename?.toLocaleLowerCase()}/${basename}`} />
-        );
-      })}
-    </WarpperIcons>
   );
 }

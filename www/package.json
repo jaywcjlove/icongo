@@ -53,6 +53,7 @@
     "@icongo/vv": "1.0.3",
     "@icongo/wi": "1.0.3",
     "@types/styled-components": "^5.1.25",
+    "@types/react-lazy-load-image-component": "^1.5.2",
     "@uiw/copy-to-clipboard": "^1.0.12",
     "@uiw/react-github-corners": "^1.5.14",
     "@uiw/react-markdown-preview": "^4.0.23",
@@ -61,6 +62,7 @@
     "react-code-preview-layout": "^2.0.6",
     "react-dom": "~18.2.0",
     "react-hot-toast": "^2.3.0",
+    "react-lazy-load-image-component": "^1.5.5",
     "react-keywords": "^0.0.4",
     "react-router-dom": "~6.3.0",
     "styled-components": "^5.3.5"
