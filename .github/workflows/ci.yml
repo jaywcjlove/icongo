@@ -24,6 +24,16 @@ jobs:
       # - run: npm run build:icons
 
 
+      - name: build icons ad
+        working-directory: icons/ad
+        run: npm run build
+
+
+      - name: build icons ae
+        working-directory: icons/ae
+        run: npm run build
+
+
       - name: build icons bi
         working-directory: icons/bi
         run: npm run build
@@ -307,6 +317,18 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./core/package.json
 
+      - name: 📦  @icongo/ad publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ad/package.json
+
+      - name: 📦  @icongo/ae publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ae/package.json
+
       - name: 📦  @icongo/bi publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -568,6 +590,16 @@ jobs:
       - run: npm install
 
 
+      - name: build icons ad
+        working-directory: icons/ad
+        run: npm run build
+
+
+      - name: build icons ae
+        working-directory: icons/ae
+        run: npm run build
+
+
       - name: build icons bi
         working-directory: icons/bi
         run: npm run build
@@ -738,6 +770,34 @@ jobs:
             { "name": "@jaywcjlove/icongo" }
       - run: npm publish
         working-directory: core
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ad => @jaywcjlove/icongo-ad"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ad/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ad" }
+      - run: npm publish
+        working-directory: icons/ad
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ae => @jaywcjlove/icongo-ae"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ae/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ae" }
+      - run: npm publish
+        working-directory: icons/ae
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
