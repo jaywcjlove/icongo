@@ -41,6 +41,7 @@ import luNames from '@icongo/lu/lib/data.json';
 import adNames from '@icongo/ad/lib/data.json';
 import jiNames from '@icongo/ji/lib/data.json';
 import aeNames from '@icongo/ae/lib/data.json';
+import vlNames from '@icongo/vl/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -331,6 +332,13 @@ export const info: Info = {
     gh: 'https://github.com/uiwjs/icons',
     npm: '@icongo/uiw',
     names: uiwNames,
+  },
+  vl: {
+    title: 'Vector Logo Zone Icons',
+    license: 'AGPL-3.0',
+    gh: 'https://github.com/VectorLogoZone/vectorlogozone',
+    npm: '@icongo/vi',
+    names: vlNames,
   },
   vsc: {
     title: 'Visual Studio Code Icons',

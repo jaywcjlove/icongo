@@ -1,6 +1,6 @@
 {
   "name": "@icongo/vv",
-  "description": "Weather Icons",
+  "description": "Vivid Icons",
   "version": "1.0.3",
   "main": "./lib/index.js",
   "module": "./esm/index.js",

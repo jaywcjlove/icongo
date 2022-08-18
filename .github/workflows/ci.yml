@@ -126,6 +126,10 @@ jobs:
         working-directory: icons/ir
         run: npm run build
 
+      - name: build icons ji
+        working-directory: icons/ji
+        run: npm run build
+
       - name: build icons lg
         working-directory: icons/lg
         run: npm run build
@@ -180,6 +184,10 @@ jobs:
 
       - name: build icons uiw
         working-directory: icons/uiw
+        run: npm run build
+
+      - name: build icons vl
+        working-directory: icons/vl
         run: npm run build
 
       - name: build icons vsc
@@ -425,6 +433,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ir/package.json
 
+      - name: 📦  @icongo/ji publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ji/package.json
+
       - name: 📦  @icongo/lg publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -550,6 +564,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/uiw/package.json
+
+      - name: 📦  @icongo/vl publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/vl/package.json
 
       - name: 📦  @icongo/vsc publish to NPM
         uses: JS-DevTools/npm-publish@v1
@@ -688,6 +708,10 @@ jobs:
         working-directory: icons/ir
         run: npm run build
 
+      - name: build icons ji
+        working-directory: icons/ji
+        run: npm run build
+
       - name: build icons lg
         working-directory: icons/lg
         run: npm run build
@@ -746,6 +770,10 @@ jobs:
 
       - name: build icons uiw
         working-directory: icons/uiw
+        run: npm run build
+
+      - name: build icons vl
+        working-directory: icons/vl
         run: npm run build
 
       - name: build icons vsc
@@ -1055,6 +1083,20 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 
+      - name: "Modify @icongo/ji => @jaywcjlove/icongo-ji"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ji/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ji" }
+      - run: npm publish
+        working-directory: icons/ji
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
       - name: "Modify @icongo/lg => @jaywcjlove/icongo-lg"
         uses: jaywcjlove/github-action-package@main
         if: success() || failure()
@@ -1356,6 +1398,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-uiw" }
       - run: npm publish
         working-directory: icons/uiw
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/vl => @jaywcjlove/icongo-vl"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/vl/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-vl" }
+      - run: npm publish
+        working-directory: icons/vl
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
