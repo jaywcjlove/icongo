@@ -20,7 +20,7 @@
     "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/hi",
 
     "icongo": "icongo --prefix HI --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

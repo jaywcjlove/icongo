@@ -13,7 +13,7 @@
     "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/mp",
     "cpy": "cpy 'data/src/icons/*.svg' '!data/src/icons/walking.svg' '!data/src/icons/viewing.svg' '!data/src/icons/bicycling.svg' '!data/src/icons/fishing.svg' '!data/src/icons/golf.svg' '!data/src/icons/horse-riding.svg' '!data/src/icons/motobike-trail.svg' '!data/src/icons/trail-walking.svg' .cache_svg --flat",
     "icongo": "icongo --prefix MP --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

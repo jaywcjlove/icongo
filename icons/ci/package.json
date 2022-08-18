@@ -17,7 +17,7 @@
     "svgo1": "svgo -f .cache_svg -o svg",
     "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/ci",
 
-    "tsbb": "tsbb build",
+    "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix CI --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"

@@ -12,7 +12,7 @@
     "svgo1": "svgo -f data/images/svg -o svg",
     "svgo2": "svgo -f data/images/svg -o ../../www/public/icon/sti",
     "icongo": "icongo --prefix STI --filter='(calendar).svg' --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

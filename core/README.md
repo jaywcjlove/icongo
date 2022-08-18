@@ -109,7 +109,7 @@ Example:
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsbb build",
+    "build": "tsbb build --no-source-maps",
     "start": "icongo --prefix BS --source data/icons -o ./src"
   },
   "devDependencies": {

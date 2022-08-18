@@ -14,7 +14,7 @@
     "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/scwi",
 
     "icongo": "icongo --prefix SCWI --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

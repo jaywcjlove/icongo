@@ -19,7 +19,7 @@
     "svgo2": "svgo -f data/icons -o ../../www/public/icon/fi",
 
     "icongo": "icongo --prefix FI --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

@@ -19,9 +19,9 @@
     "svgo1": "svgo -f .cache_svg -o svg",
     "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/gi",
 
-    "tsbb": "tsbb build",
+    "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix GI --source svg -o ./src --rename='{\"headshot\": \"GIHeadshot1\", \"jetpack\": \"GIJetPack1\"}'",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [

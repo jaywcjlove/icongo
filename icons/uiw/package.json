@@ -18,7 +18,7 @@
     "svgo1": "svgo -f data/icon -o svg",
     "svgo2": "svgo -f data/icon -o ../../www/public/icon/uiw",
 
-    "build": "npm run svgo && icongo --prefix UIW --source svg -o ./src && tsbb build",
+    "build": "npm run svgo && icongo --prefix UIW --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

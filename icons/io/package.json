@@ -18,9 +18,9 @@
     "svgo1": "svgo -f data/src/svg -o svg",
     "svgo2": "svgo -f data/src/svg -o ../../www/public/icon/io",
 
-    "tsbb": "tsbb build",
+    "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix IO --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [

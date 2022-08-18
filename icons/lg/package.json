@@ -18,9 +18,9 @@
     "svgo1": "svgo -f data/logos -o svg",
     "svgo2": "svgo -f data/logos -o ../../www/public/icon/lg",
 
-    "tsbb": "tsbb build",
+    "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix LG --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [

@@ -18,7 +18,7 @@
     "svgo1": "svgo -f data/src/icons -o svg",
     "svgo2": "svgo -f data/src/icons -o ../../www/public/icon/vsc",
 
-    "build": "npm run svgo && icongo --prefix VSC --source svg -o ./src && tsbb build",
+    "build": "npm run svgo && icongo --prefix VSC --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

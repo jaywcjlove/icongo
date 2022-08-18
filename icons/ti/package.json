@@ -13,7 +13,7 @@
     "svgo2": "svgo -f data/src/svg -o ../../www/public/icon/ti",
     
     "icongo": "icongo --prefix TI --source svg -o ./src",
-    "build": "npm run svgo && npm run icongo && tsbb build",
+    "build": "npm run svgo && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

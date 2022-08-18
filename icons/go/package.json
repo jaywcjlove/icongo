@@ -12,7 +12,7 @@
     "svgo1": "svgo -f data/icons -o svg",
     "svgo2": "svgo -f data/icons -o ../../www/public/icon/go",
 
-    "build": "npm run svgo && icongo --prefix GO --source svg -o ./src && tsbb build",
+    "build": "npm run svgo && icongo --prefix GO --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

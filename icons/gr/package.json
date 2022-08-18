@@ -11,7 +11,7 @@
     "svgo": "npm run svgo1 && npm run svgo2",
     "svgo1": "svgo -f data/public/img -o svg",
     "svgo2": "svgo -f data/public/img -o ../../www/public/icon/gr",
-    "build": "npm run svgo && icongo --prefix GR --source svg -o ./src && tsbb build",
+    "build": "npm run svgo && icongo --prefix GR --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

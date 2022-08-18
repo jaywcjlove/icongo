@@ -16,7 +16,7 @@
     "svgo1": "svgo -f data/dist/icons -o svg",
     "svgo2": "svgo -f data/dist/icons -o ../../www/public/icon/bts",
 
-    "build": "npm run svgo && icongo --prefix BTS --source svg -o ./src && tsbb build",
+    "build": "npm run svgo && icongo --prefix BTS --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },
   "keywords": [

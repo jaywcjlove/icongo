@@ -20,7 +20,7 @@
     "svgo2": "svgo -f .cache_svg -o ../../www/public/icon/md",
 
     "icongo": "icongo --prefix MD --source svg -o ./src --rename='{\"addchart-outlined\": \"MDAddchartOutlined1\", \"addchart-round\": \"MDAddchartRound1\", \"addchart-sharp\": \"MDAddchartSharp1\", \"addchart\": \"MDAddchart1\", \"insert_chart_outlined\": \"MDInsertChartOutlined1\", \"nightlight_round\": \"MDNightlightRound1\"}'",
-    "tsbb": "tsbb build",
+    "tsbb": "tsbb build --no-source-maps",
     "build": "npm run svgo && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
