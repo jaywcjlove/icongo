@@ -10,5 +10,11 @@ npm i @icongo/ev
 ```
 
 ```jsx
-import { IconName } from '@icongo/ev'
+import { IconName } from '@icongo/ev';
+import data from '@icongo/ev/data.json';
+import names from '@icongo/ev/names.json';
 ```
+
+## License
+
+Licensed under the MIT License.

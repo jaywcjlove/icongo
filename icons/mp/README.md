@@ -11,6 +11,8 @@ npm i @icongo/mp
 
 ```jsx
 import { IconName } from '@icongo/mp';
+import data from '@icongo/mp/data.json';
+import names from '@icongo/mp/names.json';
 ```
 
 ## License

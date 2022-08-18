@@ -10,5 +10,11 @@ npm i @icongo/ccp
 ```
 
 ```jsx
-import { IconName } from '@icongo/ccp'
+import { IconName } from '@icongo/ccp';
+import data from '@icongo/ccp/data.json';
+import names from '@icongo/ccp/names.json';
 ```
+
+## License
+
+Licensed under the MIT License.

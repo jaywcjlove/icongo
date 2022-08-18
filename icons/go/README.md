@@ -10,5 +10,11 @@ npm i @icongo/go
 ```
 
 ```jsx
-import { IconName } from '@icongo/go'
+import { IconName } from '@icongo/go';
+import data from '@icongo/go/data.json';
+import names from '@icongo/go/names.json';
 ```
+
+## License
+
+Licensed under the MIT License.

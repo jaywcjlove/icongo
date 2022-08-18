@@ -10,7 +10,9 @@ npm i @icongo/scwi
 ```
 
 ```jsx
-import { IconName } from '@icongo/scwi'
+import { IconName } from '@icongo/scwi';
+import data from '@icongo/scwi/data.json';
+import names from '@icongo/scwi/names.json';
 ```
 
 ## License

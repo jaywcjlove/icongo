@@ -50,7 +50,7 @@ const CopyBtn = styled.div`
   transition: all .3s;
   padding: 2px 2px;
   display: flex;
-  border-radius: 3px;
+  border-radius: 4px;
   display: none;
 `;
 
@@ -75,9 +75,13 @@ export const CardWarpper = styled.div<CardWarpperProps>`
   }
   &:hover ${CopyBtn} {
     display: flex;
+    border-color: var(--color-fg-muted);
+    background-color: var(--color-border-default);
+    svg {
+      fill: var(--color-fg-muted);
+    }
     &:hover {
       border-color: var(--color-accent-emphasis) !important;
-      color: var(--color-accent-emphasis);
       svg {
         fill: var(--color-accent-emphasis);
       }
