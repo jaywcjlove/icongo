@@ -125,6 +125,7 @@ export const Layout = () => {
         <AsideWarpper>
           <Aside>
             <NavLink to="/">Home</NavLink>
+            <NavLink to="/icons/ad">Ant Design Icons</NavLink>
             <NavLink to="/icons/bi">Boxicons</NavLink>
             <NavLink to="/icons/bs">Bootstrap Icons</NavLink>
             <NavLink to="/icons/bts">Bytesize Icons</NavLink>

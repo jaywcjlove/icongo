@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/ad",
+  "description": "Ant Design SVG Icons",
+  "version": "1.0.3",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/ad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/ad/*.svg' svg --flat",
+
+    "build": "npm run cpy && npm run svg && tsbb build --no-source-maps",
+    "start": "npm run build",
+    "svg": "icongo --prefix AD --source svg -o ./src"
+  },
+  "keywords": [
+    "icongo",
+    "boxicons",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

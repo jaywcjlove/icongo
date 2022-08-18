@@ -38,6 +38,7 @@ import irNames from '@icongo/ir/lib/data.json';
 import vvNames from '@icongo/vv/lib/data.json';
 import tnNames from '@icongo/tn/lib/data.json';
 import luNames from '@icongo/lu/lib/data.json';
+import adNames from '@icongo/ad/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -49,6 +50,13 @@ export type Info = Record<string, {
 }>;
 
 export const info: Info = {
+  ad: {
+    title: 'Ant Design Icons',
+    license: 'MIT',
+    gh: 'https://github.com/ant-design/ant-design-icons',
+    npm: '@icongo/bs',
+    names: adNames,
+  },
   bs: {
     title: 'Bootstrap Icons',
     license: 'MIT',

@@ -13,8 +13,9 @@ Easily include popular icons in your React projects and provide an easy tool to 
 
 | Name | NPM Version | Website |
 | ----- | ----- | ----- |
+| `@icongo/ad` | [![npm version](https://img.shields.io/npm/v/@icongo/ad.svg)](https://www.npmjs.com/package/@icongo/ad) | [`#preview`](https://icongo.github.io/#/icons/ad/) |
 | `@icongo/bi` | [![npm version](https://img.shields.io/npm/v/@icongo/bi.svg)](https://www.npmjs.com/package/@icongo/bi) | [`#preview`](https://icongo.github.io/#/icons/bi/) |
-| `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/#/icons/bootstrap/) |
+| `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/#/icons/bs/) |
 | `@icongo/bts` | [![npm version](https://img.shields.io/npm/v/@icongo/bts.svg)](https://www.npmjs.com/package/@icongo/bts) | [`#preview`](https://icongo.github.io/#/icons/bts/) |
 | `@icongo/ccp` | [![npm version](https://img.shields.io/npm/v/@icongo/ccp.svg)](https://www.npmjs.com/package/@icongo/ccp) | [`#preview`](https://icongo.github.io/#/icons/ccp/) |
 | `@icongo/cg` | [![npm version](https://img.shields.io/npm/v/@icongo/cg.svg)](https://www.npmjs.com/package/@icongo/cg) | [`#preview`](https://icongo.github.io/#/icons/cg/) |
@@ -45,7 +46,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/ri` | [![npm version](https://img.shields.io/npm/v/@icongo/ri.svg)](https://www.npmjs.com/package/@icongo/ri) | [`#preview`](https://icongo.github.io/#/icons/ri/) |
 | `@icongo/scwi` | [![npm version](https://img.shields.io/npm/v/@icongo/scwi.svg)](https://www.npmjs.com/package/@icongo/scwi) | [`#preview`](https://icongo.github.io/#/icons/scwi/) |
 | `@icongo/si` | [![npm version](https://img.shields.io/npm/v/@icongo/si.svg)](https://www.npmjs.com/package/@icongo/si) | [`#preview`](https://icongo.github.io/#/icons/si/) |
-| `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/#/icons/supertinyicons/) |
+| `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/#/icons/sti/) |
 | `@icongo/tb` | [![npm version](https://img.shields.io/npm/v/@icongo/tb.svg)](https://www.npmjs.com/package/@icongo/tb) | [`#preview`](https://icongo.github.io/#/icons/tb/) |
 | `@icongo/ti` | [![npm version](https://img.shields.io/npm/v/@icongo/ti.svg)](https://www.npmjs.com/package/@icongo/ti) | [`#preview`](https://icongo.github.io/#/icons/ti/) |
 | `@icongo/tn` | [![npm version](https://img.shields.io/npm/v/@icongo/tn.svg)](https://www.npmjs.com/package/@icongo/tn) | [`#preview`](https://icongo.github.io/#/icons/tn/) |
