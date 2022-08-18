@@ -39,6 +39,7 @@ import vvNames from '@icongo/vv/lib/data.json';
 import tnNames from '@icongo/tn/lib/data.json';
 import luNames from '@icongo/lu/lib/data.json';
 import adNames from '@icongo/ad/lib/data.json';
+import jiNames from '@icongo/ji/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -252,6 +253,13 @@ export const info: Info = {
     gh: 'https://github.com/iconoir-icons/iconoir',
     npm: '@icongo/ir',
     names: irNames,
+  },
+  ji: {
+    title: 'Jam Icons',
+    license: 'MIT',
+    gh: 'https://github.com/michaelampr/jam',
+    npm: '@icongo/ir',
+    names: jiNames,
   },
   pk: {
     title: 'IconPark icons by Bytedance',
