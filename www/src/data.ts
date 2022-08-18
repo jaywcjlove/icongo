@@ -42,6 +42,7 @@ import adNames from '@icongo/ad/lib/data.json';
 import jiNames from '@icongo/ji/lib/data.json';
 import aeNames from '@icongo/ae/lib/data.json';
 import vlNames from '@icongo/vl/lib/data.json';
+import ctNames from '@icongo/ct/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -108,6 +109,13 @@ export const info: Info = {
     gh: 'https://github.com/coreui/coreui-icons',
     npm: '@icongo/ci',
     names: ciNames,
+  },
+  ct: {
+    title: 'Cryptocurrency Icons',
+    license: 'CC0-1.0',
+    gh: 'https://github.com/spothq/cryptocurrency-icons',
+    npm: '@icongo/ct',
+    names: ctNames,
   },
   di: {
     title: 'Devicons',

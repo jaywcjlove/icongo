@@ -1,0 +1,31 @@
+{
+  "name": "@icongo/ct",
+  "description": "Cryptocurrency Icons",
+  "version": "1.0.3",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/ct",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/ct/*.svg' svg --flat",
+
+    "tsbb": "tsbb build --no-source-maps",
+    "icongo": "icongo --prefix CT --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "cryptocurrency",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
