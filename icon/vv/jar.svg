@@ -1,19 +1,5 @@
 <svg id="jar" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs>
-    <style>
-      .vi-primary {
-        fill: #FF6E6E;
-      }
-
-      .vi-primary, .vi-accent {
-        fill-rule: evenodd;
-      }
-
-      .vi-accent {
-        fill: #0C0058;
-      }
-    </style>
-  </defs>
-  <path class="vi-primary" d="M15,43V17l4-4V5H30v8l4,4V43H15Z"/>
-  <path class="vi-accent" d="M18,5v5H31V5H18Zm1,22v8H31V27H19Z"/>
+  <defs/>
+  <path d="M15,43V17l4-4V5H30v8l4,4V43H15Z" style="fill-rule:evenodd;fill:#FF6E6E"/>
+  <path d="M18,5v5H31V5H18Zm1,22v8H31V27H19Z" style="fill:#0C0058;fill-rule:evenodd"/>
 </svg>

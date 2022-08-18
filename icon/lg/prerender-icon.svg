@@ -1,1 +1,9 @@
-<svg width="256" height="192" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M64 0v64h32c17.673 0 32-14.327 32-32V0H64Z" fill="#F0DA50"/><path d="M32 0C14.327 0 0 14.327 0 32v128c0 17.673 14.327 32 32 32h32V0H32Z" fill="#4BC69A"/><path d="M160 128c-17.673 0-32 14.327-32 32v32h64v-64h-32Z" fill="#F0DA50"/><path d="M224 0h-32v192h32c17.673 0 32-14.327 32-32V32c0-17.673-14.327-32-32-32Z" fill="#5D7B8C"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 256 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+  <g>
+    <path d="M64,0 L64,64 L96,64 C113.672889,64 128,49.6728889 128,32 L128,0 L64,0 Z" fill="#F0DA50"/>
+    <path d="M32,0 C14.3271111,0 0,14.3271111 0,32 L0,160 C0,177.672889 14.3271111,192 32,192 L64,192 L64,0 L32,0 Z" fill="#4BC69A"/>
+    <path d="M160,128 C142.327111,128 128,142.327111 128,160 L128,192 L192,192 L192,128 L160,128 Z" fill="#F0DA50"/>
+    <path d="M224,0 L192,0 L192,192 L224,192 C241.672889,192 256,177.672889 256,160 L256,32 C256,14.3271111 241.672889,0 224,0 Z" fill="#5D7B8C"/>
+  </g>
+</svg>

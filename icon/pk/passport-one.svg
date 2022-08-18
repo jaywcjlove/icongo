@@ -1,1 +1,8 @@
-<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 40H9a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h20a2 2 0 0 1 2 2v4" stroke="#000" stroke-width="4" stroke-linecap="round"/><rect x="13" y="44" width="34" height="28" rx="2" transform="rotate(-90 13 44)" fill="#2F88FF" stroke="#000" stroke-width="4"/><circle cx="27" cy="27" r="8" stroke="#fff" stroke-width="4"/><path d="M35 28s-3-.5-5 1c-2.001 1.5-2.599 5.102-2 6M24 27c0 2-2 4-4 4M31 20s0 4-3 4" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M13 40L9 40C7.89543 40 7 39.1046 7 38L7 6C7 4.89543 7.89543 4 9 4L29 4C30.1046 4 31 4.89543 31 6L31 10" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <rect x="13" y="44" width="34" height="28" rx="2" transform="rotate(-90 13 44)" fill="#2F88FF" stroke="black" stroke-width="4"/>
+  <circle cx="27" cy="27" r="8" stroke="white" stroke-width="4"/>
+  <path d="M34.9998 28C34.9998 28 32 27.5 29.9995 29C27.999 30.5 27.401 34.1025 27.9999 35" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 27C24 29 22 31 20 31" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M31 20C31 20 31 24 28 24" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

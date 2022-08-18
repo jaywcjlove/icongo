@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-2" d="M21 8V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v2Z"/><path class="cls-2" d="M3 10v8a3 3 0 0 0 3 3h5V10Z"/><path class="cls-2" d="M13 10v11h5a3 3 0 0 0 3-3v-8Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path class="cls-2" d="M21 8V6a3 3 0 0 0-3-3H6a3 3 0 0 0-3 3v2Z"/>
+  <path class="cls-2" d="M3 10v8a3 3 0 0 0 3 3h5V10Z"/>
+  <path class="cls-2" d="M13 10v11h5a3 3 0 0 0 3-3v-8Z"/>
+</svg>

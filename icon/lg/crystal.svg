@@ -1,1 +1,6 @@
-<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid"><path d="M93.365 0 0 93.741l34.258 128.376L163.011 256 256 161.882 222.117 35.388 93.365 0ZM6.776 95.247l124.988-32.754-34.258 124.612-90.73-91.858Z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+  <g>
+    <path d="M93.365,0 L0,93.741 L34.258,222.117 L163.011,256 L256,161.882 L222.117,35.388 L93.365,0 Z M6.776,95.247 L131.764,62.493 L97.506,187.105 L6.776,95.247 Z" fill="#000000"/>
+  </g>
+</svg>

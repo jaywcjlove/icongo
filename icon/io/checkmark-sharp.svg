@@ -1,1 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512"><path style="fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px" d="M416 128 192 384l-96-96"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em">
+  <polyline points="416 128 192 384 96 288" style="fill:none;stroke:#000;stroke-linecap:square;stroke-miterlimit:10;stroke-width:44px"/>
+</svg>

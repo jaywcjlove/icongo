@@ -1,21 +1,11 @@
 <svg id="briefcase" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <defs>
     <style>
-      .vi-primary {
-        fill: #FF6E6E;
-      }
-
-      .vi-accent{
-        fill: #0C0058;
-      }
-
-      .vi-prop {
-        fill: #fff;
-      }
+      .vi-accent{fill:#0C0058}
     </style>
   </defs>
-  <path class="vi-primary" d="M7,18H41V36H7V18Zm11-6h3V11h6v1h3V8H18v4Z"/>
+  <path d="M7,18H41V36H7V18Zm11-6h3V11h6v1h3V8H18v4Z" style="fill:#FF6E6E"/>
   <path class="vi-accent" d="M6,17V12H42v5C41.983,26.1,6,27.672,6,17Z"/>
-  <circle class="vi-prop" cx="24" cy="24" r="5"/>
+  <circle cx="24" cy="24" r="5" style="fill:#fff"/>
   <circle class="vi-accent" cx="24" cy="24" r="2"/>
 </svg>

@@ -1,21 +1,5 @@
 <svg id="camera" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <defs>
-    <style>
-      .vi-primary {
-        fill: #FF6E6E;
-      }
-
-      .vi-primary, .vi-accent {
-        stroke: #fff;
-        stroke-linecap: round;
-        stroke-width: 0;
-      }
-
-      .vi-accent {
-        fill: #0C0058;
-      }
-    </style>
-  </defs>
-  <rect class="vi-primary" x="6" y="13" width="36" height="22"/>
-  <path class="vi-accent" fill-rule="evenodd" d="M24,17a7,7,0,1,1-7,7A7,7,0,0,1,24,17Zm0,4a3,3,0,1,1-3,3A3,3,0,0,1,24,21Zm11.5-4A1.5,1.5,0,1,1,34,18.5,1.5,1.5,0,0,1,35.5,17ZM10,13l4-4h6l4,4H10Z"/>
+  <defs/>
+  <rect x="6" y="13" width="36" height="22" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill:#FF6E6E"/>
+  <path fill-rule="evenodd" d="M24,17a7,7,0,1,1-7,7A7,7,0,0,1,24,17Zm0,4a3,3,0,1,1-3,3A3,3,0,0,1,24,21Zm11.5-4A1.5,1.5,0,1,1,34,18.5,1.5,1.5,0,0,1,35.5,17ZM10,13l4-4h6l4,4H10Z" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0"/>
 </svg>

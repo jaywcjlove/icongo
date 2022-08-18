@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="m7.5 0-2 5h-5l4 3.5-2 6 5-3.5 5 3.5-2-6 4-3.5h-5l-2-5z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" height="1em" width="1em">
+  <path id="path4749-2-8-2" d="M7.5,0l-2,5h-5l4,3.5l-2,6l5-3.5
+	l5,3.5l-2-6l4-3.5h-5L7.5,0z"/>
+</svg>

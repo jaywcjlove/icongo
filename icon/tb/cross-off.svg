@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cross-off" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"/><path d="M16 12h3V8h-5V3h-4v3M8 8H5v4h5v9h4v-7M3 3l18 18"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-cross-off" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M16 12h3v-4h-5v-5h-4v3m-2 2h-3v4h5v9h4v-7"/>
+  <path d="M3 3l18 18"/>
+</svg>

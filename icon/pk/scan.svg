@@ -1,1 +1,16 @@
-<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 24h34M24 7v34" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill="#000" d="M5 5h4v4H5zM14 5h4v4h-4zM30 5h4v4h-4zM39 5h4v4h-4zM39 14h4v4h-4zM5 14h4v4H5zM5 39h4v4H5zM14 39h4v4h-4zM30 39h4v4h-4zM39 39h4v4h-4zM39 30h4v4h-4zM5 30h4v4H5z"/></svg>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M7 24L41 24" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 7L24 41" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="5" y="5" width="4" height="4" fill="black"/>
+  <rect x="14" y="5" width="4" height="4" fill="black"/>
+  <rect x="30" y="5" width="4" height="4" fill="black"/>
+  <rect x="39" y="5" width="4" height="4" fill="black"/>
+  <rect x="39" y="14" width="4" height="4" fill="black"/>
+  <rect x="5" y="14" width="4" height="4" fill="black"/>
+  <rect x="5" y="39" width="4" height="4" fill="black"/>
+  <rect x="14" y="39" width="4" height="4" fill="black"/>
+  <rect x="30" y="39" width="4" height="4" fill="black"/>
+  <rect x="39" y="39" width="4" height="4" fill="black"/>
+  <rect x="39" y="30" width="4" height="4" fill="black"/>
+  <rect x="5" y="30" width="4" height="4" fill="black"/>
+</svg>

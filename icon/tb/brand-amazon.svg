@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-amazon" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"/><path d="M7 6c.5-2 2-3 4.089-3 2.441.08 3.93 1.557 3.911 3.667v5.5C15 13.07 16.04 14 17 14"/><path d="M15 8.13C.867 6.572 8.455 19.74 15 10.95M19.877 22 22 18l-4-1"/><path d="M22 18.01c-3.05 1.966-6.493 2.996-9.993 2.99C8.5 21.006 5.054 19.973 2 18"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-amazon" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 6c.5 -2 2 -3 4.089 -3c2.441 .08 3.93 1.557 3.911 3.667v5.5c0 .903 1.04 1.833 2 1.833"/>
+  <path d="M15 8.13c-14.133 -1.558 -6.545 11.61 0 2.82"/>
+  <path d="M19.877 22l2.123 -4l-4 -1"/>
+  <path d="M22 18.01c-3.05 1.966 -6.493 2.996 -9.993 2.99c-3.507 .006 -6.953 -1.027 -10.007 -3"/>
+</svg>

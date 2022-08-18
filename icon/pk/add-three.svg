@@ -1,1 +1,12 @@
-<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 32V16M42 27v-6M6 27v-6M14 6H8a2 2 0 0 0-2 2v6M34 6h6a2 2 0 0 1 2 2v6M34 42h6a2 2 0 0 0 2-2v-6M14 42H8a2 2 0 0 1-2-2v-6M27 6h-6M32 24H16M27 42h-6" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M24 32L24 16" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M42 27L42 21" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M6 27L6 21" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 6H8C6.89543 6 6 6.89543 6 8V14" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 6H40C41.1046 6 42 6.89543 42 8V14" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 42H40C41.1046 42 42 41.1046 42 40V34" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M14 42H8C6.89543 42 6 41.1046 6 40V34" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 6H21" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32 24L16 24" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M27 42H21" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,1 +1,6 @@
-<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 44h40" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="24.5" cy="7" rx="13.5" ry="3" stroke="#000" stroke-width="4"/><path d="M16 9s4.16 8.883 5 15c1.069 7.776-1 20-1 20M32.227 9s-4.16 8.883-5 15C26.157 31.776 28 44 28 44" stroke="#000" stroke-width="4"/></svg>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M4 44H44" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="24.5" cy="7" rx="13.5" ry="3" stroke="black" stroke-width="4"/>
+  <path d="M16 9C16 9 20.1593 17.8828 21 24C22.0687 31.7763 20 44 20 44" stroke="black" stroke-width="4"/>
+  <path d="M32.2266 9C32.2266 9 28.0673 17.8828 27.2266 24C26.1578 31.7763 28.0006 44 28.0006 44" stroke="black" stroke-width="4"/>
+</svg>

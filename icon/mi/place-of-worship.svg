@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="m7.5 0-2 2v2h4V2l-2-2zm-2 4.5L4 6h7L9.5 4.5h-4zM2 6.5a1 1 0 0 0-1 1V13h2V7.5a1 1 0 0 0-1-1zm2 0V13h7V6.5H4zm9 0a1 1 0 0 0-1 1V13h2V7.5a1 1 0 0 0-1-1z"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" id="place-of-worship" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" height="1em" width="1em">
+  <path id="path9064" d="M7.5,0l-2,2v2h4V2
+	L7.5,0z M5.5,4.5L4,6h7L9.5,4.5H5.5z M2,6.5c-0.5523,0-1,0.4477-1,1V13h2V7.5C3,6.9477,2.5523,6.5,2,6.5z M4,6.5V13h7V6.5H4z
+	 M13,6.5c-0.5523,0-1,0.4477-1,1V13h2V7.5C14,6.9477,13.5523,6.5,13,6.5z"/>
+</svg>

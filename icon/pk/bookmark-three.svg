@@ -1,1 +1,8 @@
-<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 9a3 3 0 0 1 3-3h31v36H10a3 3 0 0 1-3-3V9Z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linejoin="round"/><path d="M7 34h34" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M7 30v8M41 30v8" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 6h10v20l-5-4-5 4V6Z" fill="#43CCF8" stroke="#fff" stroke-width="4" stroke-linejoin="round"/><path d="M11 6h18" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M7 9C7 7.34315 8.34315 6 10 6H41V42H10C8.34315 42 7 40.6569 7 39V9Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M7 34L41 34" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M7 30V38" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41 30V38" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M15 6H25V26L20 22L15 26V6Z" fill="#43CCF8" stroke="white" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M11 6L29 6" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

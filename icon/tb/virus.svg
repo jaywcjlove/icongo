@@ -1,1 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-virus" width="24" height="24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M0 0h24v24H0z" stroke="none"/><circle cx="12" cy="12" r="5"/><path d="M12 7V3m-1 0h2M15.536 8.464l2.828-2.828m-.707-.707 1.414 1.414M17 12h4m0-1v2M15.536 15.536l2.828 2.828m.707-.707-1.414 1.414M12 17v4m1 0h-2M8.464 15.536l-2.828 2.828m.707.707L4.93 17.657M7 12H3m0 1v-2M8.464 8.464 5.636 5.636m-.707.707L6.343 4.93"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-virus" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <circle cx="12" cy="12" r="5"/>
+  <path d="M12 7v-4m-1 0h2"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(45 12 12)"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(90 12 12)"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(135 12 12)"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(180 12 12)"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(225 12 12)"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(270 12 12)"/>
+  <path d="M12 7v-4m-1 0h2" transform="rotate(315 12 12)"/>
+</svg>

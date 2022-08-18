@@ -1,1 +1,5 @@
-<svg width="48" height="48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="10" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 24c0 2.633-.508 5.146-1.433 7.448-.936 2.331-4.129.071-7.346 3.521-3.216 3.45-.71 6.267-3.204 7.36A19.931 19.931 0 0 1 24 44C12.954 44 4 35.046 4 24S12.954 4 24 4s20 8.954 20 20Z" stroke="#000" stroke-width="4"/><path d="M20 25s.21 1.21 1 2 2 1 2 1" stroke="#fff" stroke-width="4" stroke-linecap="round"/></svg>
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <circle cx="24" cy="24" r="10" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44.0001 24C44.0001 26.6325 43.4915 29.1463 42.5672 31.4483C41.6312 33.7794 38.4382 31.5194 35.2215 34.9695C32.0049 38.4196 34.5105 41.2363 32.017 42.3284C29.5627 43.4035 26.8511 44 24.0001 44C12.9544 44 4.00012 35.0457 4.00012 24C4.00012 12.9543 12.9544 4 24.0001 4C35.0458 4 44.0001 12.9543 44.0001 24Z" stroke="black" stroke-width="4"/>
+  <path d="M20 25C20 25 20.2109 26.2109 21 27C21.7891 27.7891 23 28 23 28" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

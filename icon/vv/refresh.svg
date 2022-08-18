@@ -1,17 +1,7 @@
 <svg id="refresh" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <defs>
     <style>
-      .vi-primary {
-        fill: #FF6E6E;
-      }
-
-      .vi-primary, .vi-accent {
-        fill-rule: evenodd;
-      }
-
-      .vi-accent {
-        fill: #0C0058;
-      }
+      .vi-primary{fill:#FF6E6E}.vi-primary,.vi-accent{fill-rule:evenodd}.vi-accent{fill:#0C0058}
     </style>
   </defs>
   <path class="vi-accent" d="M15.518,23.936A8.576,8.576,0,0,0,24,32.606V34.94l-0.944,4.286A15.186,15.186,0,0,1,9,23.936,14.953,14.953,0,0,1,21,9h2l0.048,6.323A8.6,8.6,0,0,0,15.518,23.936Z"/>
