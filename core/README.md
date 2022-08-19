@@ -16,6 +16,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/ad` | [![npm version](https://img.shields.io/npm/v/@icongo/ad.svg)](https://www.npmjs.com/package/@icongo/ad) | [`#preview`](https://icongo.github.io/#/icons/ad/) |
 | `@icongo/ae` | [![npm version](https://img.shields.io/npm/v/@icongo/ae.svg)](https://www.npmjs.com/package/@icongo/ae) | [`#preview`](https://icongo.github.io/#/icons/ae/) |
 | `@icongo/bi` | [![npm version](https://img.shields.io/npm/v/@icongo/bi.svg)](https://www.npmjs.com/package/@icongo/bi) | [`#preview`](https://icongo.github.io/#/icons/bi/) |
+| `@icongo/bl` | [![npm version](https://img.shields.io/npm/v/@icongo/bl.svg)](https://www.npmjs.com/package/@icongo/bl) | [`#preview`](https://icongo.github.io/#/icons/bl/) |
 | `@icongo/bs` | [![npm version](https://img.shields.io/npm/v/@icongo/bs.svg)](https://www.npmjs.com/package/@icongo/bs) | [`#preview`](https://icongo.github.io/#/icons/bs/) |
 | `@icongo/bts` | [![npm version](https://img.shields.io/npm/v/@icongo/bts.svg)](https://www.npmjs.com/package/@icongo/bts) | [`#preview`](https://icongo.github.io/#/icons/bts/) |
 | `@icongo/ccp` | [![npm version](https://img.shields.io/npm/v/@icongo/ccp.svg)](https://www.npmjs.com/package/@icongo/ccp) | [`#preview`](https://icongo.github.io/#/icons/ccp/) |
