@@ -44,13 +44,14 @@ import aeNames from '@icongo/ae/lib/data.json';
 import vlNames from '@icongo/vl/lib/data.json';
 import ctNames from '@icongo/ct/lib/data.json';
 import blNames from '@icongo/bl/lib/data.json';
+import gyNames from '@icongo/gy/lib/data.json';
+import mcNames from '@icongo/mc/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
   license: string;
   gh: string;
   npm: string;
-  // names: string[];
   names: Record<string, (string | null)[]>;
 }>;
 
@@ -202,6 +203,13 @@ export const info: Info = {
     npm: '@icongo/gr',
     names: grNames,
   },
+  gy: {
+    title: 'Glyph Iconset Icons',
+    license: 'MIT',
+    gh: 'https://github.com/frexy/glyph-iconset',
+    npm: '@icongo/gy',
+    names: gyNames,
+  },
   hi: {
     title: 'Heroicons',
     license: 'MIT',
@@ -222,6 +230,13 @@ export const info: Info = {
     gh: 'https://github.com/lucide-icons/lucide',
     npm: '@icongo/lu',
     names: luNames,
+  },
+  mc: {
+    title: 'Micon Icons',
+    license: 'MIT',
+    gh: 'https://github.com/xtoolkit/Micon',
+    npm: '@icongo/mc',
+    names: mcNames,
   },
   md: {
     title: 'Material Design icons by Google',

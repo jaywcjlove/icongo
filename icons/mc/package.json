@@ -1,0 +1,27 @@
+{
+  "name": "@icongo/mc",
+  "description": "Micon Icons",
+  "version": "1.0.4",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/mc",
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/mc/*.svg' svg --flat",
+    "icongo": "icongo --prefix MC --source svg -o ./src -r '{}'",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Grommet",
+    "mc",
+    "go",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

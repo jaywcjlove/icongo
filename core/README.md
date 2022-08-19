@@ -34,6 +34,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/gi` | [![npm version](https://img.shields.io/npm/v/@icongo/gi.svg)](https://www.npmjs.com/package/@icongo/gi) | [`#preview`](https://icongo.github.io/#/icons/gi/) |
 | `@icongo/go` | [![npm version](https://img.shields.io/npm/v/@icongo/go.svg)](https://www.npmjs.com/package/@icongo/go) | [`#preview`](https://icongo.github.io/#/icons/go/) |
 | `@icongo/gr` | [![npm version](https://img.shields.io/npm/v/@icongo/gr.svg)](https://www.npmjs.com/package/@icongo/gr) | [`#preview`](https://icongo.github.io/#/icons/gr/) |
+| `@icongo/gy` | [![npm version](https://img.shields.io/npm/v/@icongo/gy.svg)](https://www.npmjs.com/package/@icongo/gy) | [`#preview`](https://icongo.github.io/#/icons/gy/) |
 | `@icongo/hi` | [![npm version](https://img.shields.io/npm/v/@icongo/hi.svg)](https://www.npmjs.com/package/@icongo/hi) | [`#preview`](https://icongo.github.io/#/icons/hi/) |
 | `@icongo/ic` | [![npm version](https://img.shields.io/npm/v/@icongo/ic.svg)](https://www.npmjs.com/package/@icongo/ic) | [`#preview`](https://icongo.github.io/#/icons/ic/) |
 | `@icongo/ii` | [![npm version](https://img.shields.io/npm/v/@icongo/ii.svg)](https://www.npmjs.com/package/@icongo/ii) | [`#preview`](https://icongo.github.io/#/icons/ii/) |
@@ -43,6 +44,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/ji` | [![npm version](https://img.shields.io/npm/v/@icongo/ji.svg)](https://www.npmjs.com/package/@icongo/ji) | [`#preview`](https://icongo.github.io/#/icons/ji/) |
 | `@icongo/lg` | [![npm version](https://img.shields.io/npm/v/@icongo/lg.svg)](https://www.npmjs.com/package/@icongo/lg) | [`#preview`](https://icongo.github.io/#/icons/lg/) |
 | `@icongo/lu` | [![npm version](https://img.shields.io/npm/v/@icongo/lu.svg)](https://www.npmjs.com/package/@icongo/lu) | [`#preview`](https://icongo.github.io/#/icons/lu/) |
+| `@icongo/mc` | [![npm version](https://img.shields.io/npm/v/@icongo/mc.svg)](https://www.npmjs.com/package/@icongo/mc) | [`#preview`](https://icongo.github.io/#/icons/mc/) |
 | `@icongo/md` | [![npm version](https://img.shields.io/npm/v/@icongo/md.svg)](https://www.npmjs.com/package/@icongo/md) | [`#preview`](https://icongo.github.io/#/icons/md/) |
 | `@icongo/mi` | [![npm version](https://img.shields.io/npm/v/@icongo/mi.svg)](https://www.npmjs.com/package/@icongo/mi) | [`#preview`](https://icongo.github.io/#/icons/mi/) |
 | `@icongo/mp` | [![npm version](https://img.shields.io/npm/v/@icongo/mp.svg)](https://www.npmjs.com/package/@icongo/mp) | [`#preview`](https://icongo.github.io/#/icons/mp/) |
