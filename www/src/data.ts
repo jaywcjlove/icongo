@@ -46,6 +46,7 @@ import ctNames from '@icongo/ct/lib/data.json';
 import blNames from '@icongo/bl/lib/data.json';
 import gyNames from '@icongo/gy/lib/data.json';
 import mcNames from '@icongo/mc/lib/data.json';
+import brNames from '@icongo/br/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -83,6 +84,13 @@ export const info: Info = {
     gh: 'https://github.com/icongo/bank-logos',
     npm: '@icongo/bl',
     names: blNames,
+  },
+  br: {
+    title: 'Browser Logos Icons',
+    license: 'MIT',
+    gh: 'https://github.com/alrra/browser-logos',
+    npm: '@icongo/br',
+    names: brNames,
   },
   bs: {
     title: 'Bootstrap Icons',

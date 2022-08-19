@@ -129,6 +129,7 @@ export const Layout = () => {
             <NavLink to="/icons/ae">Aegis Icons</NavLink>
             <NavLink to="/icons/bi">Boxicons</NavLink>
             <NavLink to="/icons/bl">Bank Logos</NavLink>
+            <NavLink to="/icons/br">Browser Logos Icons</NavLink>
             <NavLink to="/icons/bs">Bootstrap Icons</NavLink>
             <NavLink to="/icons/bts">Bytesize Icons</NavLink>
             <NavLink to="/icons/ccp">Credit Card & Payment</NavLink>

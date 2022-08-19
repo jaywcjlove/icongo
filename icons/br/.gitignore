@@ -1,0 +1,10 @@
+*.*~
+~*.*
+*
+!.gitignore
+!.npmignore
+!tsconfig.json
+!package.json
+!svgo.config.js
+!data
+!README.md

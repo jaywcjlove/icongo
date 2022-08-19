@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/br",
+  "description": "Browser Logos Icons",
+  "version": "1.0.4",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/br",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/br/*.svg' svg --flat",
+    "build": "npm run cpy && npm run svg && tsbb build --no-source-maps",
+    "start": "npm run build",
+    "svg": "icongo --prefix BR --source svg -o ./src"
+  },
+  "keywords": [
+    "icongo",
+    "boxicons",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
