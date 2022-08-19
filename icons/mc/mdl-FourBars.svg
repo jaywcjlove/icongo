@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" height="1em" width="1em">
+  <path d="M1536 256h384v1536h-384V256zm-512 1536V640h384v1152h-384zm-512 0v-768h384v768H512zm-512 0v-384h384v384H0z"/>
+</svg>

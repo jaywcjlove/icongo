@@ -1,0 +1,22 @@
+<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-wall" height="1em" width="1em">
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g transform="translate(0.000000, 3.000000)" fill="#434343">
+      <rect x="12" y="0" width="4" height="2" class="si-glyph-fill"/>
+      <rect x="10" y="3" width="3" height="1.957" class="si-glyph-fill"/>
+      <rect x="14" y="3" width="2" height="1.969" class="si-glyph-fill"/>
+      <rect x="0" y="6" width="2" height="2" class="si-glyph-fill"/>
+      <rect x="3" y="6" width="4" height="2" class="si-glyph-fill"/>
+      <rect x="8" y="6" width="3" height="2" class="si-glyph-fill"/>
+      <rect x="12" y="6" width="4" height="2" class="si-glyph-fill"/>
+      <rect x="5" y="3" width="4" height="1.957" class="si-glyph-fill"/>
+      <rect x="0" y="3" width="4" height="1.957" class="si-glyph-fill"/>
+      <rect x="10" y="9" width="3" height="1.957" class="si-glyph-fill"/>
+      <rect x="14" y="9" width="2" height="1.969" class="si-glyph-fill"/>
+      <rect x="5" y="9" width="4" height="1.957" class="si-glyph-fill"/>
+      <rect x="0" y="9" width="4" height="1.957" class="si-glyph-fill"/>
+      <rect x="8" y="0" width="3" height="2" class="si-glyph-fill"/>
+      <rect x="3" y="0" width="4" height="2" class="si-glyph-fill"/>
+      <rect x="0" y="0" width="2" height="2" class="si-glyph-fill"/>
+    </g>
+  </g>
+</svg>
