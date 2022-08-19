@@ -1,7 +1,7 @@
 {
   "name": "@icongo/ct",
   "description": "Cryptocurrency Icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/ct/*.svg' svg --flat",
-
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix CT --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",

@@ -1,6 +1,6 @@
 {
   "name": "@icongo/ir",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "jaywcjlove",
   "description": "Iconoir Icons",
   "license": "MIT",
@@ -15,7 +15,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/ir/*.svg' svg --flat",
-
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix IR --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",

@@ -1,6 +1,6 @@
 {
   "name": "@icongo/ii",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "jaywcjlove",
   "description": "Iconic Icons",
   "license": "MIT",
@@ -15,7 +15,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/ii/*.svg' svg --flat",
-
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix II --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",

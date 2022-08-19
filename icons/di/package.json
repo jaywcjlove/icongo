@@ -1,7 +1,7 @@
 {
   "name": "@icongo/di",
   "description": "Devicons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/di/*.svg' svg --flat",
-
     "build": "npm run cpy && icongo --prefix DI --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },

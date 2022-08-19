@@ -1,7 +1,7 @@
 {
   "name": "@icongo/vv",
   "description": "Vivid Icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
@@ -9,7 +9,6 @@
   "homepage": "http://icongo.github.io/#/icons/vv",
   "scripts": {
     "cpy": "cpy '../../www/public/icons/vv/*.svg' svg --flat",
-
     "icongo": "icongo --prefix VV --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"

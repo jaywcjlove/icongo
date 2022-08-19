@@ -13,7 +13,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/ci/*.svg' svg --flat",
-
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix CI --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",

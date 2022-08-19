@@ -1,6 +1,6 @@
 {
   "name": "@icongo/scwi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Spectrum Workflow Icons",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
@@ -9,7 +9,6 @@
   "homepage": "http://icongo.github.io/#/icons/scwi",
   "scripts": {
     "cpy": "cpy '../../www/public/icons/scwi/*.svg' svg --flat",
-
     "icongo": "icongo --prefix SCWI --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"

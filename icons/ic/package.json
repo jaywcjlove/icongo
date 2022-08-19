@@ -1,7 +1,7 @@
 {
   "name": "@icongo/ic",
   "description": "Azure Icon Collection icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "jaywcjlove",
   "license": "MIT",
   "homepage": "http://icongo.github.io/#/icons/ic",
@@ -15,7 +15,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/ic/*.svg' svg --flat",
-
     "icongo": "icongo --prefix IC --source svg -o ./src -r '{\"databox-edge\": \"ICDataboxEdge1\", \"devconsole\": \"ICDevconsole1\", \"dotnet-core\": \"ICDotnetCore1\", \"launchportal\": \"ICLaunchportal1\", \"roadmap\": \"ICRoadmap1\", \"vscode\": \"ICVscode1\"}'",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"

@@ -1,7 +1,7 @@
 {
   "name": "@icongo/bs",
   "description": "Bootstrap Icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "http://icongo.github.io/#/icons/bootstrap",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
@@ -13,7 +13,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/bs/*.svg' svg --flat",
-
     "build": "npm run cpy && icongo --prefix BS --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },

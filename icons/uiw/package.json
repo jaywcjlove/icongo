@@ -1,7 +1,7 @@
 {
   "name": "@icongo/uiw",
   "description": "UIW Icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "jaywcjlove",
   "license": "MIT",
   "homepage": "http://icongo.github.io/#/icons/uiw",
@@ -15,7 +15,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/uiw/*.svg' svg --flat",
-
     "build": "npm run cpy && icongo --prefix UIW --source svg -o ./src && tsbb build --no-source-maps",
     "start": "npm run build"
   },

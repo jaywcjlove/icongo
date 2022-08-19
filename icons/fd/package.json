@@ -1,7 +1,7 @@
 {
   "name": "@icongo/fd",
   "description": "Foundation Icon Fonts",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "jaywcjlove",
   "license": "MIT",
   "homepage": "http://icongo.github.io/#/icons/fd",
@@ -15,7 +15,6 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/fd/*.svg' svg --flat",
-
     "icongo": "icongo --prefix FD --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
     "start": "npm run build"

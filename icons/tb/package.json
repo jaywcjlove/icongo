@@ -1,7 +1,7 @@
 {
   "name": "@icongo/tb",
   "description": "Tabler Icons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
@@ -9,7 +9,6 @@
   "homepage": "http://icongo.github.io/#/icons/tb",
   "scripts": {
     "cpy": "cpy '../../www/public/icons/tb/*.svg' svg --flat",
-
     "tsbb": "tsbb build --no-source-maps",
     "icongo": "icongo --prefix TB --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
