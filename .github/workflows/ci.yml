@@ -609,6 +609,8 @@ jobs:
     if: needs.build-deploy.outputs.successful
     steps:
       - uses: actions/checkout@v3
+        with:
+          submodules: true
       - uses: actions/setup-node@v3
         with:
           node-version: 16
@@ -670,12 +672,12 @@ jobs:
         working-directory: icons/ev
         run: npm run build
 
-      - name: build icons fa
-        working-directory: icons/fa
-        run: npm run build
-
       - name: build icons fc
         working-directory: icons/fc
+        run: npm run build
+
+      - name: build icons fa
+        working-directory: icons/fa
         run: npm run build
 
       - name: build icons fd
@@ -692,6 +694,10 @@ jobs:
 
       - name: build icons gi
         working-directory: icons/gi
+        run: npm run build
+
+      - name: build icons go
+        working-directory: icons/go
         run: npm run build
 
       - name: build icons gr
@@ -734,18 +740,6 @@ jobs:
         working-directory: icons/lu
         run: npm run build
 
-      - name: build icons go
-        working-directory: icons/go
-        run: npm run build
-
-      - name: build icons scwi
-        working-directory: icons/scwi
-        run: npm run build
-
-      - name: build icons si
-        working-directory: icons/si
-        run: npm run build
-
       - name: build icons md
         working-directory: icons/md
         run: npm run build
@@ -764,6 +758,14 @@ jobs:
 
       - name: build icons ri
         working-directory: icons/ri
+        run: npm run build
+
+      - name: build icons scwi
+        working-directory: icons/scwi
+        run: npm run build
+
+      - name: build icons si
+        working-directory: icons/si
         run: npm run build
 
       - name: build icons sti
