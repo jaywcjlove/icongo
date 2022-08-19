@@ -7,6 +7,10 @@
   "types": "./lib/index.d.ts",
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/wi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/wi/*.svg' svg --flat",
     "icongo": "icongo --prefix WI --source svg -o ./src",

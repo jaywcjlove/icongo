@@ -7,6 +7,10 @@
   "types": "./lib/index.d.ts",
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/tb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/tb/*.svg' svg --flat",
     "tsbb": "tsbb build --no-source-maps",

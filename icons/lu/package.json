@@ -7,6 +7,10 @@
   "types": "./lib/index.d.ts",
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/lu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/lu/*.svg' svg --flat",
     "icongo": "icongo --prefix LU --source svg -o ./src",

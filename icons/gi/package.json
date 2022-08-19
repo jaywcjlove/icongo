@@ -4,7 +4,7 @@
   "version": "1.0.4",
   "author": "jaywcjlove",
   "license": "MIT",
-  "homepage": "http://icongo.github.io/#/icons/gameicons",
+  "homepage": "http://icongo.github.io/#/icons/gi",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
