@@ -43,6 +43,7 @@ import jiNames from '@icongo/ji/lib/data.json';
 import aeNames from '@icongo/ae/lib/data.json';
 import vlNames from '@icongo/vl/lib/data.json';
 import ctNames from '@icongo/ct/lib/data.json';
+import blNames from '@icongo/bl/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -68,19 +69,26 @@ export const info: Info = {
     npm: '@icongo/ae',
     names: aeNames,
   },
-  bs: {
-    title: 'Bootstrap Icons',
-    license: 'MIT',
-    gh: 'https://github.com/twbs/icons',
-    npm: '@icongo/bs',
-    names: bsNames,
-  },
   bi: {
     title: 'Boxicons',
     license: 'MIT',
     gh: 'https://github.com/atisawd/boxicons',
     npm: '@icongo/bi',
     names: biNames,
+  },
+  bl: {
+    title: 'Bank Logos',
+    license: 'MIT',
+    gh: 'https://github.com/icongo/bank-logos',
+    npm: '@icongo/bl',
+    names: blNames,
+  },
+  bs: {
+    title: 'Bootstrap Icons',
+    license: 'MIT',
+    gh: 'https://github.com/twbs/icons',
+    npm: '@icongo/bs',
+    names: bsNames,
   },
   bts: {
     title: 'Bytesize Icons',

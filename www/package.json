@@ -11,6 +11,7 @@
   "dependencies": {
     "@icongo/ad": "1.0.4",
     "@icongo/bi": "1.0.4",
+    "@icongo/bl": "1.0.4",
     "@icongo/bs": "1.0.4",
     "@icongo/bts": "1.0.4",
     "@icongo/ccp": "1.0.4",

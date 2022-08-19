@@ -20,6 +20,13 @@ export const CardItem = styled.div`
   background-color: var(--color-canvas-card);
   padding: 0 10px;
   img {
+    transition: all .3s;
+    transform: scale(1, 1);
+  }
+  &:hover img {
+    transform: scale(2, 2);
+  }
+  img {
     max-width: 100%;
     max-height: 46px;
     min-height: 23px;
@@ -53,6 +60,7 @@ const CopyBtn = styled.div`
   display: flex;
   border-radius: 4px;
   display: none;
+  z-index: 9;
 `;
 
 export const CardWarpper = styled.div<CardWarpperProps>`
@@ -114,6 +122,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   const handleCopy = (evn: React.MouseEvent<HTMLElement, MouseEvent>) => {
     evn.stopPropagation();
     fetch(path!).then(response => response.text()).then((svgStr) => {
+      toast.success(<LazyLoadImage height={80} src={path} alt={name} />, { position: 'bottom-right' });
       copyTextToClipboard(svgStr, () => {
         toast.success(<div>Copied '<b>{name}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
         $ref.current?.focus();

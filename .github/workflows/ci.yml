@@ -33,9 +33,12 @@ jobs:
         working-directory: icons/ae
         run: npm run build
 
-
       - name: build icons bi
         working-directory: icons/bi
+        run: npm run build
+
+      - name: build icons bl
+        working-directory: icons/bl
         run: npm run build
 
       - name: build icons bs
@@ -347,6 +350,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/bi/package.json
 
+      - name: 📦  @icongo/bl publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/bl/package.json
+
       - name: 📦  @icongo/bs publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -605,6 +614,8 @@ jobs:
 
   github-package:
     runs-on: ubuntu-18.04
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
     needs: build-deploy
     if: needs.build-deploy.outputs.successful
     steps:
@@ -631,9 +642,12 @@ jobs:
         working-directory: icons/ae
         run: npm run build
 
-
       - name: build icons bi
         working-directory: icons/bi
+        run: npm run build
+
+      - name: build icons bl
+        working-directory: icons/bl
         run: npm run build
 
       - name: build icons bs
@@ -856,6 +870,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-bi" }
       - run: npm publish
         working-directory: icons/bi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/bl => @jaywcjlove/icongo-bl"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/bl/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-bl" }
+      - run: npm publish
+        working-directory: icons/bl
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
