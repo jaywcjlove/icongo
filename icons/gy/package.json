@@ -7,6 +7,10 @@
   "types": "./lib/index.d.ts",
   "sideEffects": false,
   "homepage": "http://icongo.github.io/#/icons/gy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/gy/*.svg' svg --flat",
     "icongo": "icongo --prefix GY --source svg -o ./src -r '{\"si-glyph-dice-6\": \"GYSiGlyphDice61\"}'",
