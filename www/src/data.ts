@@ -47,6 +47,8 @@ import blNames from '@icongo/bl/lib/data.json';
 import gyNames from '@icongo/gy/lib/data.json';
 import mcNames from '@icongo/mc/lib/data.json';
 import brNames from '@icongo/br/lib/data.json';
+import wlNames from '@icongo/wl/lib/data.json';
+import pbiNames from '@icongo/pbi/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -267,6 +269,13 @@ export const info: Info = {
     npm: '@icongo/mp',
     names: mpNames,
   },
+  pbi: {
+    title: 'Power BI Icons',
+    license: 'CC-BY-4.0',
+    gh: 'https://github.com/microsoft/PowerBI-Icons',
+    npm: '@icongo/pbi',
+    names: pbiNames,
+  },
   ic: {
     title: 'Azure Icon Collection',
     license: '-',
@@ -399,6 +408,13 @@ export const info: Info = {
     gh: 'https://github.com/erikflowers/weather-icons',
     npm: '@icongo/wi',
     names: wiNames,
+  },
+  wl: {
+    title: 'We Love SVG Icons',
+    license: 'MIT',
+    gh: 'https://github.com/icons8/welovesvg',
+    npm: '@icongo/wl',
+    names: wlNames,
   },
 }
 

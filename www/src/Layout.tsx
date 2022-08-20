@@ -157,6 +157,7 @@ export const Layout = () => {
             <NavLink to="/icons/ji">Jam Icons</NavLink>
             <NavLink to="/icons/lg">Logos Icons</NavLink>
             <NavLink to="/icons/lu">Lucide Icons</NavLink>
+            <NavLink to="/icons/pbi">Power BI Icons</NavLink>
             <NavLink to="/icons/pk">IconPark Icons</NavLink>
             <NavLink to="/icons/mc">Micon Icons</NavLink>
             <NavLink to="/icons/md">Material Design Icons</NavLink>
@@ -174,6 +175,7 @@ export const Layout = () => {
             <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
             <NavLink to="/icons/vv">Vivid Icons</NavLink>
             <NavLink to="/icons/wi">Weather Icons</NavLink>
+            <NavLink to="/icons/wl">We Love SVG Icons</NavLink>
           </Aside>
         </AsideWarpper>
         <main>

@@ -49,6 +49,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/md` | [![npm version](https://img.shields.io/npm/v/@icongo/md.svg)](https://www.npmjs.com/package/@icongo/md) | [`#preview`](https://icongo.github.io/#/icons/md/) |
 | `@icongo/mi` | [![npm version](https://img.shields.io/npm/v/@icongo/mi.svg)](https://www.npmjs.com/package/@icongo/mi) | [`#preview`](https://icongo.github.io/#/icons/mi/) |
 | `@icongo/mp` | [![npm version](https://img.shields.io/npm/v/@icongo/mp.svg)](https://www.npmjs.com/package/@icongo/mp) | [`#preview`](https://icongo.github.io/#/icons/mp/) |
+| `@icongo/pbi` | [![npm version](https://img.shields.io/npm/v/@icongo/pbi.svg)](https://www.npmjs.com/package/@icongo/pbi) | [`#preview`](https://icongo.github.io/#/icons/pbi/) |
 | `@icongo/pk` | [![npm version](https://img.shields.io/npm/v/@icongo/pk.svg)](https://www.npmjs.com/package/@icongo/pk) | [`#preview`](https://icongo.github.io/#/icons/pk/) |
 | `@icongo/ri` | [![npm version](https://img.shields.io/npm/v/@icongo/ri.svg)](https://www.npmjs.com/package/@icongo/ri) | [`#preview`](https://icongo.github.io/#/icons/ri/) |
 | `@icongo/scwi` | [![npm version](https://img.shields.io/npm/v/@icongo/scwi.svg)](https://www.npmjs.com/package/@icongo/scwi) | [`#preview`](https://icongo.github.io/#/icons/scwi/) |
@@ -62,6 +63,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/vsc` | [![npm version](https://img.shields.io/npm/v/@icongo/vsc.svg)](https://www.npmjs.com/package/@icongo/vsc) | [`#preview`](https://icongo.github.io/#/icons/vsc/) |
 | `@icongo/vv` | [![npm version](https://img.shields.io/npm/v/@icongo/vv.svg)](https://www.npmjs.com/package/@icongo/vv) | [`#preview`](https://icongo.github.io/#/icons/vv/) |
 | `@icongo/wi` | [![npm version](https://img.shields.io/npm/v/@icongo/wi.svg)](https://www.npmjs.com/package/@icongo/wi) | [`#preview`](https://icongo.github.io/#/icons/wi/) |
+| `@icongo/wl` | [![npm version](https://img.shields.io/npm/v/@icongo/wl.svg)](https://www.npmjs.com/package/@icongo/wl) | [`#preview`](https://icongo.github.io/#/icons/wl/) |
 
 ## Usage
 

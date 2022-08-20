@@ -28,7 +28,6 @@ jobs:
         working-directory: icons/ad
         run: npm run build
 
-
       - name: build icons ae
         working-directory: icons/ae
         run: npm run build
@@ -169,6 +168,10 @@ jobs:
         working-directory: icons/mp
         run: npm run build
 
+      - name: build icons pbi
+        working-directory: icons/pbi
+        run: npm run build
+
       - name: build icons pk
         working-directory: icons/pk
         run: npm run build
@@ -219,6 +222,10 @@ jobs:
 
       - name: build icons wi
         working-directory: icons/wi
+        run: npm run build
+
+      - name: build icons wl
+        working-directory: icons/wl
         run: npm run build
 
       - name: build webiste
@@ -530,6 +537,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/mp/package.json
 
+      - name: 📦  @icongo/pbi publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/pbi/package.json
+
       - name: 📦  @icongo/fc publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -637,6 +650,12 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/wi/package.json
+
+      - name: 📦  @icongo/wl publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/wl/package.json
 
 
     outputs:
@@ -808,6 +827,10 @@ jobs:
         working-directory: icons/mp
         run: npm run build
 
+      - name: build icons pbi
+        working-directory: icons/pbi
+        run: npm run build
+
       - name: build icons pk
         working-directory: icons/pk
         run: npm run build
@@ -858,6 +881,10 @@ jobs:
 
       - name: build icons wi
         working-directory: icons/wi
+        run: npm run build
+
+      - name: build icons wl
+        working-directory: icons/wl
         run: npm run build
 
 
@@ -1309,6 +1336,20 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
 
+      - name: "Modify @icongo/pbi => @jaywcjlove/icongo-pbi"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/pbi/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-pbi" }
+      - run: npm publish
+        working-directory: icons/pbi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
       - name: "Modify @icongo/fa => @jaywcjlove/icongo-fa"
         uses: jaywcjlove/github-action-package@main
         if: success() || failure()
@@ -1526,6 +1567,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-wi" }
       - run: npm publish
         working-directory: icons/wi
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/wl => @jaywcjlove/icongo-wl"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/wl/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-wl" }
+      - run: npm publish
+        working-directory: icons/wl
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

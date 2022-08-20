@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/pbi",
+  "description": "We Love SVG Icons",
+  "version": "1.0.5",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/pbi",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/pbi/*.svg' svg --flat",
+    "icongo": "icongo --prefix PBI --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "pbi",
+    "welovesvg",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
