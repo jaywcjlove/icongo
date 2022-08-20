@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/ps",
+  "description": "Pixeden Stroke7 Icons",
+  "version": "1.0.5",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/ps",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/ps/*.svg' svg --flat",
+    "icongo": "icongo --prefix PS --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "pk",
+    "IconPark",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}

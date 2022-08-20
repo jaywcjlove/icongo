@@ -176,6 +176,10 @@ jobs:
         working-directory: icons/pk
         run: npm run build
 
+      - name: build icons ps
+        working-directory: icons/ps
+        run: npm run build
+
       - name: build icons ri
         working-directory: icons/ri
         run: npm run build
@@ -591,6 +595,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/pk/package.json
 
+      - name: 📦  @icongo/ps publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/ps/package.json
+
       - name: 📦  @icongo/ri publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -833,6 +843,10 @@ jobs:
 
       - name: build icons pk
         working-directory: icons/pk
+        run: npm run build
+
+      - name: build icons ps
+        working-directory: icons/ps
         run: npm run build
 
       - name: build icons ri
@@ -1460,6 +1474,21 @@ jobs:
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/ps => @jaywcjlove/icongo-ps"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/ps/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-ps" }
+      - run: npm publish
+        working-directory: icons/ps
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
 
       - name: "Modify @icongo/ri => @jaywcjlove/icongo-ri"
         uses: jaywcjlove/github-action-package@main

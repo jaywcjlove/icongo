@@ -159,6 +159,7 @@ export const Layout = () => {
             <NavLink to="/icons/lu">Lucide Icons</NavLink>
             <NavLink to="/icons/pbi">Power BI Icons</NavLink>
             <NavLink to="/icons/pk">IconPark Icons</NavLink>
+            <NavLink to="/icons/ps">Pixeden Stroke7 Icons</NavLink>
             <NavLink to="/icons/mc">Micon Icons</NavLink>
             <NavLink to="/icons/md">Material Design Icons</NavLink>
             <NavLink to="/icons/mi">Maki Icons</NavLink>

@@ -49,6 +49,7 @@ import mcNames from '@icongo/mc/lib/data.json';
 import brNames from '@icongo/br/lib/data.json';
 import wlNames from '@icongo/wl/lib/data.json';
 import pbiNames from '@icongo/pbi/lib/data.json';
+import psNames from '@icongo/ps/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -275,6 +276,13 @@ export const info: Info = {
     gh: 'https://github.com/microsoft/PowerBI-Icons',
     npm: '@icongo/pbi',
     names: pbiNames,
+  },
+  ps: {
+    title: 'Pixeden Stroke7 Icons',
+    license: 'None',
+    gh: 'https://github.com/olimsaidov/pixeden-stroke-7-icon',
+    npm: '@icongo/ps',
+    names: psNames,
   },
   ic: {
     title: 'Azure Icon Collection',
