@@ -1,7 +1,7 @@
 {
   "name": "@icongo/bts",
   "description": "Bytesize Icons",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "http://icongo.github.io/#/icons/bts",
   "main": "./lib/index.js",
   "module": "./esm/index.js",

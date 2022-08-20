@@ -1,6 +1,6 @@
 {
   "name": "icongo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "http://icongo.github.io",
   "description": "SVG icon to react component.",
   "sideEffects": false,
