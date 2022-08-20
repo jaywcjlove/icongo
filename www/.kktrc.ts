@@ -4,6 +4,8 @@ import { LoaderConfOptions, WebpackConfiguration } from 'kkt';
 import { mdCodeModulesLoader } from 'markdown-react-code-preview-loader';
 import { disableScopePlugin } from '@kkt/scope-plugin-options';
 import pkg from './package.json';
+import fs from 'fs';
+import path from 'path';
 
 function cacheGroups(data: string[] = []) {
   const result: Record<string, {
@@ -79,7 +81,7 @@ export default (conf: WebpackConfiguration, env: 'development' | 'production', o
             chunks: 'all',
           },
           ...cacheGroups([
-            'ps','pbi','wl','br','gy','mc','bl','vl','ad', 'ae', 'ji', 'tn', 'vv', 'ir', 'bi', 'bs', 'bts', 'ccp', 'cg', 'ci', 'di', 'ei', 'ev', 'fa', 'fc', 'fd', 'fg', 'fi', 'gi', 'go', 'gr', 'hi', 'ic', 'ii', 'ik', 'io', 'lg', 'md', 'mi', 'mp', 'pk', 'ri', 'scwi', 'si', 'sti', 'tb', 'ti', 'uiw', 'vsc', 'wi',
+            ...fs.readdirSync(path.resolve(__dirname, 'public/icons')).filter((name) => !/^\./.test(name))
           ]),
         }
       }

@@ -50,6 +50,7 @@ import brNames from '@icongo/br/lib/data.json';
 import wlNames from '@icongo/wl/lib/data.json';
 import pbiNames from '@icongo/pbi/lib/data.json';
 import psNames from '@icongo/ps/lib/data.json';
+import imNames from '@icongo/im/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -304,6 +305,13 @@ export const info: Info = {
     gh: 'https://github.com/mikolajdobrucki/ikonate',
     npm: '@icongo/ik',
     names: ikNames,
+  },
+  im: {
+    title: 'IcoMoon-Free icons',
+    license: 'None',
+    gh: 'https://github.com/Keyamoon/IcoMoon-Free',
+    npm: '@icongo/im',
+    names: imNames,
   },
   io: {
     title: 'Ionicons Icons',

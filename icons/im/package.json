@@ -1,0 +1,31 @@
+{
+  "name": "@icongo/im",
+  "version": "1.0.5",
+  "author": "jaywcjlove",
+  "description": "IcoMoon-Free Icons",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/im",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/im/*.svg' svg --flat",
+    "tsbb": "tsbb build --no-source-maps",
+    "icongo": "icongo --prefix IM --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "iconic",
+    "im",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
