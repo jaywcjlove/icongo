@@ -1,0 +1,3 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1408 2048" version="1.1" height="1em" width="1em">
+  <path d="M 0,0 H 1408 V 2048 H 0 Z M 1280,1920 V 128 H 128 V 1920 Z M 1152,256 V 640 H 256 V 256 Z M 1024,512 V 384 H 384 V 512 Z M 384,896 v 128 H 256 V 896 Z m 256,128 V 896 h 128 v 128 z m 384,0 V 896 h 128 v 128 z m -640,256 v 128 H 256 v -128 z m 256,128 v -128 h 128 v 128 z m 384,0 v -128 h 128 v 128 z m -640,256 v 128 H 256 v -128 z m 256,128 v -128 h 128 v 128 z m 384,0 v -128 h 128 v 128 z"/>
+</svg>

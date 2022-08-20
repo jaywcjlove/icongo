@@ -1,0 +1,50 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 84" fill="none" version="1.1" height="1em" width="1em">
+  <defs>
+    <filter id="e">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="0.4" result="effect1_foregroundBlur"/>
+    </filter>
+    <filter id="f">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur"/>
+    </filter>
+    <linearGradient id="c" x1="66.5" y1="90.5" x2="38.5" y2="8" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6AD10"/>
+      <stop offset="1" stop-color="#F2C811"/>
+    </linearGradient>
+    <linearGradient id="d" x1="46" y1="-5.46875" x2="79.298897" y2="90.713402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6AD10"/>
+      <stop offset="1" stop-color="#C87E0E"/>
+    </linearGradient>
+    <linearGradient id="g" x1="36.998199" y1="46" x2="61.786201" y2="93.593002" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D751"/>
+      <stop offset="1" stop-color="#E6AD10"/>
+    </linearGradient>
+    <linearGradient id="h" x1="23.998199" y1="64" x2="39.527199" y2="108.11" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9E589"/>
+      <stop offset="1" stop-color="#F6D751"/>
+    </linearGradient>
+    <clipPath id="a">
+      <rect width="96" height="96" fill="#ffffff" x="0" y="0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)" transform="translate(-2.1192799e-7,-12)">
+    <mask id="b" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="12" width="96" height="84">
+      <path d="M 4,12 C 1.79086,12 9.48833e-8,13.7909 2.11928e-7,16 L 3.60277e-6,80 C 3.71981e-6,82.2091 1.79086,84 4,84 h 20 v 8 c 0,2.2091 1.7909,4 4,4 h 40 c 2.2091,0 4,-1.7909 4,-4 v -8 h 20 c 2.2091,0 4,-1.7909 4,-4 V 16 c 0,-2.2091 -1.7909,-4 -4,-4 z" fill="#c4c4c4"/>
+    </mask>
+    <g mask="url(#b)">
+      <path d="M 0,84 -3.14722e-6,12 H 96 v 72 z" fill="url(#c)" style="fill:url(#c)"/>
+      <path d="M 72,32 V 96 H 54 c -2.2091,0 -4,-1.7909 -4,-4 V 32 c 0,-2.2091 1.7909,-4 4,-4 h 14 c 2.2091,0 4,1.7909 4,4 z" fill="url(#d)" style="fill:url(#d)"/>
+      <g filter="url(#e)">
+        <path d="m 59,96.4 v -46 c 0,-2.2091 -1.7909,-4 -4,-4 H 41 c -2.2091,0 -4,1.7909 -4,4 v 14 h -9 c -2.2091,0 -4,1.7909 -4,4 v 28 z" fill="#000000" fill-opacity="0.2"/>
+      </g>
+      <g filter="url(#f)">
+        <path d="M 59,98 V 52 c 0,-2.2091 -1.7909,-4 -4,-4 H 41 c -2.2091,0 -4,1.7909 -4,4 v 14 h -9 c -2.2091,0 -4,1.7909 -4,4 v 28 z" fill="#000000" fill-opacity="0.18"/>
+      </g>
+      <path d="M 59,50 V 96 H 41 c -2.2091,0 -4,-1.7909 -4,-4 V 50 c 0,-2.2091 1.7909,-4 4,-4 h 14 c 2.2091,0 4,1.7909 4,4 z" fill="url(#g)" style="fill:url(#g)"/>
+      <path d="M 24,68 V 96 H 46 V 68 c 0,-2.2091 -1.7909,-4 -4,-4 H 28 c -2.2091,0 -4,1.7909 -4,4 z" fill="url(#h)" style="fill:url(#h)"/>
+    </g>
+  </g>
+</svg>

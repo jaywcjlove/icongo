@@ -1,0 +1,52 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 80 96" fill="none" version="1.1" sodipodi:docname="ReportBuilder.svg" inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)" height="1em" width="1em">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="820" inkscape:window-height="480" showgrid="false" inkscape:zoom="1.8561553" inkscape:cx="53.330146" inkscape:cy="85.330145" inkscape:window-x="3441" inkscape:window-y="72" inkscape:window-maximized="0" inkscape:current-layer="svg4077"/>
+  <defs>
+    <filter id="e">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="0.4" result="effect1_foregroundBlur"/>
+    </filter>
+    <filter id="f">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur"/>
+    </filter>
+    <linearGradient id="c" x1="73.697403" y1="88" x2="29.996599" y2="0.91952801" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6AD10"/>
+      <stop offset="1" stop-color="#F2C811"/>
+    </linearGradient>
+    <linearGradient id="d" x1="62" y1="-5.46875" x2="95.298897" y2="90.713402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E6AD10"/>
+      <stop offset="1" stop-color="#C87E0E"/>
+    </linearGradient>
+    <linearGradient id="g" x1="52.998199" y1="46" x2="77.786201" y2="93.593002" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6D751"/>
+      <stop offset="1" stop-color="#E6AD10"/>
+    </linearGradient>
+    <linearGradient id="h" x1="39.998199" y1="64" x2="55.527199" y2="108.11" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9E589"/>
+      <stop offset="1" stop-color="#F6D751"/>
+    </linearGradient>
+    <clipPath id="a">
+      <rect width="96" height="96" fill="#ffffff" x="0" y="0"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)" transform="translate(-8)">
+    <mask id="b" mask-type="alpha" maskUnits="userSpaceOnUse" x="8" y="0" width="80" height="96">
+      <path d="M 9.17157,22.8284 C 8.42143,23.5786 8,24.596 8,25.6568 V 84 c 0,2.2091 1.79086,4 4,4 h 28 v 4 c 0,2.2091 1.7909,4 4,4 h 40 c 2.2091,0 4,-1.7908 4,-4 V 28 H 80 V 4 C 80,1.79086 78.2091,0 76,0 H 33.6569 C 32.596,0 31.5786,0.421426 30.8284,1.17157 Z" fill="#c4c4c4"/>
+    </mask>
+    <g mask="url(#b)">
+      <path d="M 8,0 H 80 V 88 H 8 Z" fill="url(#c)" style="fill:url(#c)"/>
+      <path d="m 32,0 v 20 c 0,2.2091 -1.7909,4 -4,4 H 8 Z" fill="#f9e589"/>
+      <path d="M 88,32 V 96 H 70 c -2.2091,0 -4,-1.7909 -4,-4 V 32 c 0,-2.2091 1.7909,-4 4,-4 h 14 c 2.2091,0 4,1.7909 4,4 z" fill="url(#d)" style="fill:url(#d)"/>
+      <g filter="url(#e)">
+        <path d="m 75,96.4 v -46 c 0,-2.2091 -1.7909,-4 -4,-4 H 57 c -2.2091,0 -4,1.7909 -4,4 v 14 h -9 c -2.2091,0 -4,1.7909 -4,4 v 28 z" fill="#000000" fill-opacity="0.2"/>
+      </g>
+      <g filter="url(#f)">
+        <path d="M 75,98 V 52 c 0,-2.2091 -1.7909,-4 -4,-4 H 57 c -2.2091,0 -4,1.7909 -4,4 v 14 h -9 c -2.2091,0 -4,1.7909 -4,4 v 28 z" fill="#000000" fill-opacity="0.18"/>
+      </g>
+      <path d="M 75,50 V 96 H 57 c -2.2091,0 -4,-1.7909 -4,-4 V 50 c 0,-2.2091 1.7909,-4 4,-4 h 14 c 2.2091,0 4,1.7909 4,4 z" fill="url(#g)" style="fill:url(#g)"/>
+      <path d="M 40,68 V 96 H 62 V 68 c 0,-2.2091 -1.7909,-4 -4,-4 H 44 c -2.2091,0 -4,1.7909 -4,4 z" fill="url(#h)" style="fill:url(#h)"/>
+    </g>
+  </g>
+</svg>
