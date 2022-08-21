@@ -499,6 +499,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ir/package.json
 
+      - name: 📦  @icongo/is publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/is/package.json
+
       - name: 📦  @icongo/ji publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:

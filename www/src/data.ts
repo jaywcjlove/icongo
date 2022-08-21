@@ -53,6 +53,7 @@ import psNames from '@icongo/ps/lib/data.json';
 import imNames from '@icongo/im/lib/data.json';
 import snNames from '@icongo/sn/lib/data.json';
 import liNames from '@icongo/li/lib/data.json';
+import isNames from '@icongo/is/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -335,6 +336,13 @@ export const info: Info = {
     gh: 'https://github.com/iconoir-icons/iconoir',
     npm: '@icongo/ir',
     names: irNames,
+  },
+  is: {
+    title: 'Icons',
+    license: 'CC BY 4.0',
+    gh: 'https://github.com/materialos/icons.git',
+    npm: '@icongo/is',
+    names: isNames,
   },
   ji: {
     title: 'Jam Icons',
