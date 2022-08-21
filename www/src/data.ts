@@ -51,6 +51,7 @@ import wlNames from '@icongo/wl/lib/data.json';
 import pbiNames from '@icongo/pbi/lib/data.json';
 import psNames from '@icongo/ps/lib/data.json';
 import imNames from '@icongo/im/lib/data.json';
+import snNames from '@icongo/sn/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -368,6 +369,13 @@ export const info: Info = {
     gh: 'https://github.com/simple-icons/simple-icons',
     npm: '@icongo/si',
     names: siNames,
+  },
+  sn: {
+    title: 'Small-n-flat Icons',
+    license: 'CC0-1.0',
+    gh: 'https://github.com/paomedia/small-n-flat',
+    npm: '@icongo/sn',
+    names: snNames,
   },
   tb: {
     title: 'Tabler Icons',
