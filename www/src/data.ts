@@ -54,6 +54,7 @@ import imNames from '@icongo/im/lib/data.json';
 import snNames from '@icongo/sn/lib/data.json';
 import liNames from '@icongo/li/lib/data.json';
 import isNames from '@icongo/is/lib/data.json';
+import mnNames from '@icongo/mn/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -273,6 +274,13 @@ export const info: Info = {
     gh: 'https://github.com/mapbox/maki',
     npm: '@icongo/mi',
     names: miNames,
+  },
+  mn: {
+    title: 'Mono Icons',
+    license: 'MIT',
+    gh: 'https://github.com/mono-company/mono-icons.git',
+    npm: '@icongo/mn',
+    names: mnNames,
   },
   mp: {
     title: 'Map Icons',

@@ -51,6 +51,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/mc` | [![npm version](https://img.shields.io/npm/v/@icongo/mc.svg)](https://www.npmjs.com/package/@icongo/mc) | [`#preview`](https://icongo.github.io/#/icons/mc/) |
 | `@icongo/md` | [![npm version](https://img.shields.io/npm/v/@icongo/md.svg)](https://www.npmjs.com/package/@icongo/md) | [`#preview`](https://icongo.github.io/#/icons/md/) |
 | `@icongo/mi` | [![npm version](https://img.shields.io/npm/v/@icongo/mi.svg)](https://www.npmjs.com/package/@icongo/mi) | [`#preview`](https://icongo.github.io/#/icons/mi/) |
+| `@icongo/mn` | [![npm version](https://img.shields.io/npm/v/@icongo/mn.svg)](https://www.npmjs.com/package/@icongo/mn) | [`#preview`](https://icongo.github.io/#/icons/mn/) |
 | `@icongo/mp` | [![npm version](https://img.shields.io/npm/v/@icongo/mp.svg)](https://www.npmjs.com/package/@icongo/mp) | [`#preview`](https://icongo.github.io/#/icons/mp/) |
 | `@icongo/pbi` | [![npm version](https://img.shields.io/npm/v/@icongo/pbi.svg)](https://www.npmjs.com/package/@icongo/pbi) | [`#preview`](https://icongo.github.io/#/icons/pbi/) |
 | `@icongo/pk` | [![npm version](https://img.shields.io/npm/v/@icongo/pk.svg)](https://www.npmjs.com/package/@icongo/pk) | [`#preview`](https://icongo.github.io/#/icons/pk/) |

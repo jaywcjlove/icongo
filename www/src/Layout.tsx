@@ -166,6 +166,7 @@ export const Layout = () => {
             <NavLink to="/icons/mc">Micon Icons</NavLink>
             <NavLink to="/icons/md">Material Design Icons</NavLink>
             <NavLink to="/icons/mi">Maki Icons</NavLink>
+            <NavLink to="/icons/mn">Mono Icons</NavLink>
             <NavLink to="/icons/mp">Map Icons</NavLink>
             <NavLink to="/icons/ri">RemixIcon Icons</NavLink>
             <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
