@@ -1,0 +1,37 @@
+<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+  <desc>
+    Created with sketchtool.
+  </desc>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#F0F0F0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+      <stop stop-color="#FFDC44" offset="0%"/>
+      <stop stop-color="#FDD216" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+      <stop stop-color="#059170" offset="0%"/>
+      <stop stop-color="#007B5E" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+      <stop stop-color="#E21A30" offset="0%"/>
+      <stop stop-color="#CE1126" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="e">
+      <stop stop-color="#FFDC42" offset="0%"/>
+      <stop stop-color="#FDD217" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
+      <rect fill="url(#b)" x="10" y="0" width="11" height="15"/>
+      <rect fill="url(#c)" x="0" y="0" width="7" height="15"/>
+      <rect fill="url(#d)" x="7" y="0" width="7" height="15"/>
+      <rect fill="url(#b)" x="14" y="0" width="7" height="15"/>
+      <polygon fill="url(#e)" points="10.5 8.47500004 9.03053687 9.52254249 9.57271986 7.80129158 8.12235871 6.72745751 9.92690936 6.7112084 10.5 5 11.0730906 6.7112084 12.8776413 6.72745751 11.4272801 7.80129158 11.9694631 9.52254249"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="utilities-system-monitor.svg" inkscape:export-filename="/mnt/Data/Visuals/Icons/Test/48x48/applications/utilities-terminal.png" inkscape:export-xdpi="180" inkscape:export-ydpi="180" viewBox="0 0 48 48" height="1em" width="1em">
+  <defs>
+    <linearGradient inkscape:collect="always" id="b">
+      <stop style="stop-color:#ffffff;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#ffffff;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="a">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#a" id="d" x1="24" y1="24" x2="24" y2="45" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#b" id="c" x1="25" y1="24" x2="25" y2="3" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="17.375" inkscape:cx="24" inkscape:cy="24" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:window-width="1920" inkscape:window-height="1020" inkscape:window-x="0" inkscape:window-y="32" inkscape:window-maximized="1" inkscape:snap-bbox="true" inkscape:bbox-nodes="true" inkscape:snap-bbox-edge-midpoints="true" inkscape:snap-bbox-midpoints="true" inkscape:bbox-paths="true" inkscape:object-paths="true" inkscape:snap-intersection-paths="true" inkscape:snap-smooth-nodes="true" inkscape:snap-midpoints="true" inkscape:object-nodes="true" showguides="false">
+    <inkscape:grid type="xygrid" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true"/>
+  </sodipodi:namedview>
+  <g inkscape:groupmode="layer" inkscape:label="Shadow">
+    <path style="opacity:0.04;fill:#37474f;fill-opacity:1;stroke:none" d="M 3 44 L 3 45 C 3 46.108 3.892 47 5 47 L 43 47 C 44.108 47 45 46.108 45 45 L 45 44 C 45 45.108 44.108 46 43 46 L 5 46 C 3.892 46 3 45.108 3 44 z"/>
+    <path style="opacity:0.08;fill:#000000;fill-opacity:1;stroke:none" d="M 3 43.5 L 3 44 C 3 45.108 3.892 46 5 46 L 43 46 C 44.108 46 45 45.108 45 44 L 45 43.5 C 45 44.608 44.108 45.5 43 45.5 L 5 45.5 C 3.892 45.5 3 44.608 3 43.5 z"/>
+    <path style="opacity:0.16;fill:#000000;fill-opacity:1;stroke:none" d="m 3,43 0,0.5 c 0,1.108 0.892,2 2,2 l 38,0 c 1.108,0 2,-0.892 2,-2 L 45,43 c 0,1.108 -0.892,2 -2,2 L 5,45 C 3.892,45 3,44.108 3,43 Z" inkscape:connector-curvature="0"/>
+  </g>
+  <g inkscape:label="Body" inkscape:groupmode="layer" transform="translate(0,-1004.3622)">
+    <rect ry="2" rx="2" y="1007.3622" x="3" height="42" width="42" style="opacity:0.8;fill:#152713;fill-opacity:1;stroke:none"/>
+    <path style="fill:#6fbe72;fill-opacity:1" inkscape:connector-curvature="0" d="m 19.000001,1018.8622 -5.000001,9.5 -11,0 0,1 12.000001,0 3.999999,-8 8,17.5 6,-10.5 12.000001,0 -10e-7,-1 -13,0 -5,9 z" sodipodi:nodetypes="ccccccccccccc"/>
+  </g>
+  <g inkscape:groupmode="layer" inkscape:label="Fold" style="display:none;opacity:0.05" sodipodi:insensitive="true">
+    <path style="opacity:1;fill:url(#c);fill-opacity:1;stroke:none" d="m 5,3 38,0 c 1.108,0 2,0.892 2,2 L 45,24 3,24 3,5 C 3,3.892 3.892,3 5,3 Z" inkscape:connector-curvature="0" sodipodi:nodetypes="ssccccs"/>
+    <path sodipodi:nodetypes="ssccccs" inkscape:connector-curvature="0" d="m 5,45 38,0 c 1.108,0 2,-0.892 2,-2 L 45,24 3,24 3,43 c 0,1.108 0.892,2 2,2 z" style="opacity:1;fill:url(#d);fill-opacity:1;stroke:none"/>
+  </g>
+</svg>

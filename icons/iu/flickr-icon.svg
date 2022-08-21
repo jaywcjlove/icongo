@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" height="1em" width="1em">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#F3F3F3"/>
+    </linearGradient>
+    <linearGradient id="b" x1="50%" x2="50%" y1="3.298%" y2="100%">
+      <stop offset="0%" stop-color="#DCDCDC"/>
+      <stop offset="100%" stop-color="#D2D2D2"/>
+    </linearGradient>
+    <filter filterUnits="objectBoundingBox" height="200%" id="c" width="200%" x="-50%" y="-50%">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feGaussianBlur in="shadowOffsetInner1" result="shadowBlurInner1" stdDeviation="1.5"/>
+      <feComposite in="shadowBlurInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.248847939 0"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="shadowMatrixInner1"/>
+      </feMerge>
+    </filter>
+    <filter filterUnits="objectBoundingBox" height="200%" id="d" width="200%" x="-50%" y="-50%">
+      <feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+      <feGaussianBlur in="shadowOffsetInner1" result="shadowBlurInner1" stdDeviation="1.5"/>
+      <feComposite in="shadowBlurInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+      <feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.248847939 0"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="shadowMatrixInner1"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <rect fill="url(#a)" height="247.435" rx="28" width="247.435" x="4.464" y="4.464"/>
+    <path d="M46.703 8.017C25.3 8.017 7.885 25.432 7.885 46.836v162.311c0 21.404 17.414 38.819 38.818 38.819h162.31c21.406 0 38.819-17.415 38.819-38.819V46.836c0-21.404-17.413-38.819-38.819-38.819H46.703zm162.31 247.603H46.703c-25.625 0-46.472-20.849-46.472-46.473V46.836C.23 21.21 21.078.36 46.703.36h162.31c25.627 0 46.474 20.85 46.474 46.476v162.311c0 25.624-20.847 46.473-46.474 46.473z" fill="url(#b)"/>
+    <path d="M116.254 127.99c0 19.45-15.763 35.211-35.21 35.211-19.446 0-35.209-15.762-35.209-35.21 0-19.446 15.763-35.212 35.21-35.212 19.446 0 35.21 15.766 35.21 35.211" fill="#1D66D8" filter="url(#c)"/>
+    <path d="M209.884 127.99c0 19.45-15.765 35.211-35.21 35.211-19.448 0-35.212-15.762-35.212-35.21 0-19.446 15.764-35.212 35.211-35.212 19.446 0 35.211 15.766 35.211 35.211" fill="#FB0A84" filter="url(#d)"/>
+  </g>
+</svg>

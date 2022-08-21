@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 124.3 184.1" style="enable-background:new 0 0 124.3 184.1" xml:space="preserve" height="1em" width="1em">
+  <g>
+    <defs>
+      <path id="a" d="M62.5 184.1c-29.6 0-54.3-20.8-60.2-48.6l91.1-66.2c18.3 10.7 30.7 30.5 30.7 53.3 0 33.9-27.6 61.5-61.6 61.5z"/>
+    </defs>
+    <clipPath id="b">
+      <use xlink:href="#a" style="overflow:visible"/>
+    </clipPath>
+    <path style="clip-path:url(#b);mask:url(#SVGID_3_);fill:url(#SVGID_5_)" d="M30.6 114.6 14.3 124l-16.4 9.4 13 22.4L43.5 137z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_6_);fill:url(#SVGID_8_)" d="M28.1 111.5 9.9 126.2l-18.1 14.7 31.9 39.4L60 150.9z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_9_);fill:url(#SVGID_11_)" d="m107.2 75.4-57.5 29.3L-7.9 134l39.6 77.7 115.1-58.6z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_12_);fill:url(#SVGID_14_)" d="m107 75.5-58.5 27.3-58.5 27.3 36.8 79 117-54.5z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_15_);fill:url(#SVGID_17_)" d="m-9.8 118.8 4 38.4 4.1 38.4 146.3-15.4-8.1-76.8-105.9 11.1z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_18_);fill:url(#SVGID_20_)" d="m14.1 77.4-29.8 13.3-29.8 13.2 59.8 134.4 59.6-26.5-43.3-97.3z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_21_);fill:url(#SVGID_23_)" d="M10.3 79.4-18 95.7l-28.2 16.2 73.6 127.5 56.4-32.6-53.2-92.3z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_24_);fill:url(#SVGID_26_)" d="m6.7 81.7-26.4 19.1L-46 120l86.4 119 52.8-38.3-62.6-86.2z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_27_);fill:url(#SVGID_29_)" d="m3.4 84.3-24.2 21.9L-45 128l98.4 109.3 48.4-43.6-71.2-79.2z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_30_);fill:url(#SVGID_32_)" d="m.4 87.3-21.8 24.3-21.8 24.2 109.3 98.4 43.6-48.4-79.1-71.3z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_33_);fill:url(#SVGID_35_)" d="M-2.3 90.7-21.4 117l-19.2 26.4 119 86.5 38.3-52.8-86.1-62.6z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_36_);fill:url(#SVGID_38_)" d="m-4.6 94.2-16.3 28.2-16.3 28.3 127.4 73.5 32.6-56.4-92.2-53.3z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_39_);fill:url(#SVGID_41_)" d="m-6.5 98-13.3 29.8-13.2 29.8 134.4 59.8 26.5-59.6-97.3-43.3z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_42_);fill:url(#SVGID_44_)" d="m-8.1 102-10 31-10.1 31 139.9 45.4 20.2-62-101.3-32.9z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_45_);fill:url(#SVGID_47_)" d="m-9.2 106.1-6.7 31.9-6.8 31.8 143.9 30.6 13.6-63.7-104.2-22.2z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_48_);fill:url(#SVGID_50_)" d="m-9.8 110.3-3.4 32.4-3.4 32.4 146.3 15.4 6.8-64.8-105.9-11.2z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_51_);fill:url(#SVGID_53_)" d="M-10 114.5V187.2h147.1v-72.7H30.6z"/>
+    <path style="clip-path:url(#b);fill:url(#SVGID_54_)" d="M112.4 61.7 19.3 91.9l-93.1 30.3 33.4 102.7 186.2-60.5z"/>
+    <path style="clip-path:url(#b);fill:url(#SVGID_55_)" d="m109.4 57.1-79.2 57.5-79.2 57.6L59.9 322l158.4-115.1z"/>
+    <path style="clip-path:url(#b);fill:url(#SVGID_56_)" d="m115 65.7-84.8 48.9-84.8 49L38 323.9 207.6 226z"/>
+    <path style="clip-path:url(#b);fill:url(#SVGID_57_)" d="m119.6 74.8-89.4 39.8-89.4 39.8 75.3 169.2L195 244z"/>
+    <path style="clip-path:url(#b);mask:url(#SVGID_58_);fill:url(#SVGID_60_)" d="m126 94.3-95.8 20.3-95.8 20.4 38.5 181.1 191.6-40.7z"/>
+    <path style="clip-path:url(#b);fill:url(#SVGID_61_)" d="m123.3 84.4-93.1 30.2-93.1 30.3L-5.7 321l186.2-60.5z"/>
+    <path fill="#fff" d="M61.6 0C27.6 0 0 27.6 0 61.6c0 11.2 3 21.7 8.3 30.8 5.4 9.3 13.1 17.1 22.4 22.5L92.5 70l29.3-21.3C115.8 20.8 91.1 0 61.6 0z"/>
+  </g>
+</svg>

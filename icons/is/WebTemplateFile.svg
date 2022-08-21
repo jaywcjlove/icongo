@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" height="1em" width="1em">
+  <g>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(43.921569%,60%,76.470588%);fill-opacity:1" d="M 10 2 C 9.054688 2 8 3.054688 8 4 L 8 44 C 8 44.890625 9.109375 46 10 46 L 38 46 C 38.890625 46 40 44.890625 40 44 L 40 4 C 40 3.054688 38.945312 2 38 2 Z M 10 2"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 16 20 L 16 22 L 32 22 L 32 20 Z M 16 20"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 14.886719 24 L 14.910156 26 L 33.132812 26 L 33.179688 24 Z M 14.886719 24"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 16 28 L 16 30 L 32 30 L 32 28 Z M 16 28"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 23.085938 15.90625 L 23.085938 34.089844 L 24.910156 34.089844 L 24.910156 15.90625 Z M 23.085938 15.90625"/>
+    <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4" d="M 20.448141 32.996874 C 18.441818 26.995535 18.441818 21.007085 20.448141 15.005746" transform="matrix(0.909235,0,0,0.909302,2.177373,3.175552)"/>
+    <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4" d="M 27.468125 32.996874 C 29.470153 27.996474 29.470153 21.007085 27.468125 15.005746" transform="matrix(0.909235,0,0,0.909302,2.177373,3.175552)"/>
+    <path style="fill:none;stroke-width:1.821;stroke-linecap:round;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4" d="M 33.054739 27.317546 C 33.054739 32.350801 28.987159 36.418078 23.953529 36.418078 C 18.919899 36.418078 14.852319 32.350801 14.852319 27.317546 C 14.852319 22.284291 18.919899 18.217014 23.953529 18.217014 C 28.987159 18.217014 33.054739 22.284291 33.054739 27.317546 Z M 33.054739 27.317546" transform="matrix(0.998751,0,0,0.998826,0.0763849,-2.285464)"/>
+  </g>
+</svg>

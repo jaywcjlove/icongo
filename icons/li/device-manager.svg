@@ -1,0 +1,15 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="translate(.14285704 .14285704) scale(.28571)">
+    <path fill="#3f51b5" d="M27 6h18v36H27z"/>
+    <path fill="#ffc107" d="M3 27h31v15H3z"/>
+    <path fill="#283593" d="M35 25h-1v17h3V27c0-1.104-.896-2-2-2z"/>
+    <path fill="#9fa8da" d="M29 8h14v4H29zm0 6h14v2H29zm0 4h14v2H29z"/>
+    <circle cx="36" cy="35" r="2" fill="#cddc39"/>
+    <g fill="#455a64">
+      <path d="M15 24v-4h7v4h2v-4c0-1.104-.896-2-2-2h-7c-1.104 0-2 .896-2 2v4h2z"/>
+      <path d="M34 29v-4c0-1.104-.896-2-2-2H5c-1.104 0-2 .896-2 2v4h31z"/>
+    </g>
+    <path fill="#78909c" d="M25 27h4v5h-4zM8 27h3.875v5H8z"/>
+    <path fill="#abb21d" d="M37 33.277c-.295-.172-.634-.277-1-.277-1.104 0-2 .896-2 2s.896 2 2 2c.366 0 .705-.105 1-.277v-3.446z"/>
+  </g>
+</svg>

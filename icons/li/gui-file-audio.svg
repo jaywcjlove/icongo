@@ -1,0 +1,8 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path fill="#90caf9" d="M11.57142864 3.85714277v9.14285728H2.42857136V.99999987h6.28571438z"/>
+  <path fill="#e1f5fe" d="M11.1428572 4.14285706H8.42857145V1.4285713z"/>
+  <g fill="#1976d2" transform="translate(.14285704 .142857) scale(.28571)">
+    <circle cx="23" cy="30" r="4"/>
+    <path d="M27 30v-7.1l3 1.1v-3l-5-2v11z"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
+  <linearGradient id="a" x1="8.213" x2="8.213" y1="25" y2="1.328" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e2068b"/>
+    <stop offset="1" stop-color="#eb5a14"/>
+  </linearGradient>
+  <polygon fill="url(#a)" points="7.5 15.061 8.926 14.239 8.926 9.773 7.5 8.955"/>
+  <linearGradient id="b" x1="11.393" x2="11.393" y1="25" y2="1.328" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e2068b"/>
+    <stop offset="1" stop-color="#eb5a14"/>
+  </linearGradient>
+  <path fill="url(#b)" d="M9.975,10.374c0,1.41,0,1.853,0,3.26L12.811,12L9.975,10.374z"/>
+  <linearGradient id="c" x1="13.8" x2="13.8" y1="25" y2="1.328" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e2068b"/>
+    <stop offset="1" stop-color="#eb5a14"/>
+  </linearGradient>
+  <path fill="url(#c)" d="M9.975,7.574c0,0,0,1.133,0,1.615C12.35,10.558,14.85,12,14.85,12l-4.875,2.811c0,0.482,0,1.615,0,1.615L17.625,12L9.975,7.574z"/>
+  <linearGradient id="d" x1="12" x2="12" y1="25" y2="1.328" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e2068b"/>
+    <stop offset="1" stop-color="#eb5a14"/>
+  </linearGradient>
+  <path fill="url(#d)" d="M12,0C5.4,0,0,5.4,0,12c0,6.6,5.4,12,12,12s12-5.4,12-12C24,5.4,18.6,0,12,0z M8.926,18.196v-2.78l-2.477,1.428V7.155c0,0,1.447,0.834,2.477,1.428V5.805L19.68,12L8.926,18.196z"/>
+</svg>

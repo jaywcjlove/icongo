@@ -1,0 +1,9 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="matrix(.3 0 0 .3 -.2 -.5)">
+    <circle cx="24" cy="30" r="15" fill="#b3e5fc"/>
+    <g fill="#1565c0">
+      <path d="M24 38.7L15 28h18z"/>
+      <path d="M21 5h6v26h-6z"/>
+    </g>
+  </g>
+</svg>

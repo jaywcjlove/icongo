@@ -1,0 +1,32 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="totem.svg" viewBox="0 0 48 48" height="1em" width="1em">
+  <defs>
+    <linearGradient inkscape:collect="always" id="b">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" id="a">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#a" id="d" x1="25" y1="1023.3622" x2="31" y2="1029.3622" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#b" id="c" x1="25" y1="1023.3622" x2="46" y2="1038.3622" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="48.849293" inkscape:cx="20.622264" inkscape:cy="9.0750949" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:window-width="1920" inkscape:window-height="1020" inkscape:window-x="0" inkscape:window-y="32" inkscape:window-maximized="1" inkscape:snap-bbox="true" inkscape:bbox-paths="true" inkscape:bbox-nodes="true" inkscape:snap-bbox-edge-midpoints="true" inkscape:snap-bbox-midpoints="true" inkscape:snap-nodes="true" inkscape:object-paths="true" inkscape:snap-intersection-paths="true" inkscape:object-nodes="true" inkscape:snap-smooth-nodes="true" inkscape:snap-midpoints="true">
+    <inkscape:grid type="xygrid" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true"/>
+  </sodipodi:namedview>
+  <g inkscape:groupmode="layer" inkscape:label="Shadow">
+    <path inkscape:connector-curvature="0" style="opacity:0.03999999;fill:#000000;fill-opacity:1;stroke:none" d="m 4,41 0,1 c 0,1.108 0.892,2 2,2 l 38,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 c 0,1.108 -0.892,2 -2,2 L 6,43 C 4.892,43 4,42.108 4,41 Z"/>
+    <path inkscape:connector-curvature="0" style="opacity:0.16000001;fill:#000000;fill-opacity:1;stroke:none" d="m 4,40 0,0.5 c 0,1.108 0.892,2 2,2 l 38,0 c 1.108,0 2,-0.892 2,-2 L 46,40 c 0,1.108 -0.892,2 -2,2 L 6,42 C 4.892,42 4,41.108 4,40 Z"/>
+    <path d="M 4,40.5 4,41 c 0,1.108 0.892,2 2,2 l 38,0 c 1.108,0 2,-0.892 2,-2 l 0,-0.5 c 0,1.108 -0.892,2 -2,2 l -38,0 c -1.108,0 -2,-0.892 -2,-2 z" style="opacity:0.07999998;fill:#000000;fill-opacity:1;stroke:none" inkscape:connector-curvature="0"/>
+  </g>
+  <g inkscape:label="Body" inkscape:groupmode="layer" transform="translate(0,-1004.3622)">
+    <rect style="fill:#263238;fill-opacity:1;stroke:none" width="42" height="37.999981" x="4" y="1008.3622" rx="2" ry="2"/>
+    <path style="fill:#eceff1;fill-opacity:1;stroke:none" d="m 4,34 0,6 c 0,1.108 0.892,2 2,2 l 38,0 c 1.108,0 2.35038,-0.948859 2,-2 l 0,-6 z" transform="translate(0,1004.3622)" inkscape:connector-curvature="0" sodipodi:nodetypes="csssscc"/>
+    <path style="fill:url(#c);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.15" d="m 15,1028.3622 10,-6 9,-7 12,8 0,15 -21,0 z" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc"/>
+    <rect style="opacity:1;fill:#546e7a;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" width="20" height="14" x="15" y="1015.3622" rx="1" ry="1"/>
+    <path style="fill:#eceff1;fill-opacity:1;stroke:none" d="m 22,1019.3622 0,6 6,-3 z" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc"/>
+    <rect style="fill:#b0bec5;fill-opacity:1;stroke:none" width="36" height="1.9999826" x="7" y="1041.3622" rx="1" ry="1"/>
+    <rect ry="0.9999913" rx="1" y="1041.3622" x="7" height="1.9999826" width="20" style="fill:#ff4d4d;fill-opacity:1;stroke:none"/>
+    <path style="fill:url(#d);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;opacity:0.15" d="m 22,1025.3622 4,4 9,0 -7,-7 z" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"/>
+  </g>
+</svg>

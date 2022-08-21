@@ -1,0 +1,46 @@
+<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+  <desc>
+    Created with sketchtool.
+  </desc>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#F0F0F0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+      <stop stop-color="#486BCA" offset="0%"/>
+      <stop stop-color="#3E5FBA" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+      <stop stop-color="#FFDF20" offset="0%"/>
+      <stop stop-color="#FFDA00" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+      <stop stop-color="#CF1615" offset="0%"/>
+      <stop stop-color="#B20D0C" offset="100%"/>
+    </linearGradient>
+    <ellipse id="e" cx="4.5" cy="2.5" rx="4.5" ry="2.5"/>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f">
+      <stop stop-color="#262626" offset="0%"/>
+      <stop stop-color="#0D0D0D" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
+      <rect fill="url(#b)" x="0" y="0" width="21" height="3"/>
+      <rect fill="url(#b)" x="0" y="12" width="21" height="3"/>
+      <rect fill="url(#c)" x="0" y="3" width="21" height="9"/>
+      <rect fill="url(#d)" x="0" y="4" width="21" height="7"/>
+      <g transform="translate(6.000000, 5.000000)">
+        <mask id="g" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="url(#a)" xlink:href="#e"/>
+        <polygon fill="url(#f)" mask="url(#g)" transform="translate(2.500000, 2.500000) scale(-1, 1) translate(-2.500000, -2.500000)" points="0 0 5 0 5 5 1 5"/>
+        <circle fill="#1A1A1A" mask="url(#g)" cx="5.5" cy="2.5" r="1"/>
+        <circle fill="#F6F6F6" mask="url(#g)" cx="3.5" cy="2.5" r="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

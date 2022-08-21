@@ -1,0 +1,10 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="matrix(.3 0 0 .3 -.2 -.2)">
+    <path fill="#546e7a" d="M8 10h36v26H8z"/>
+    <path fill="#bbdefb" d="M10 12h32v21H10z"/>
+    <path fill="#455a64" d="M23 36h6v3h-6zm12 3H17c-2 0-2 2-2 2v1h22v-1s0-2-2-2z"/>
+    <path fill="#3f51b5" d="M4 4h18v40H4z"/>
+    <path fill="#9fa8da" d="M6 6h14v4H6zm0 6h14v2H6zm0 4h14v2H6zm0 4h14v2H6zm0 4h14v2H6z"/>
+    <circle cx="13" cy="38" r="2" fill="#cddc39"/>
+  </g>
+</svg>

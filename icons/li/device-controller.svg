@@ -1,0 +1,12 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="translate(.14285704 .14285704) scale(.28571)">
+    <path fill="none" stroke="#546e7a" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2" d="M24 16c-.238-9.155 13-1 13-11"/>
+    <path fill="#cfd8dc" d="M45 38c0 3.313-2 5-5 5s-6-8-10-8H19c-4 0-8 8-11 8s-5-1.687-5-5c0 0 0-24 9-24 4 0 5.116 2 7 2h9c1.885 0 4-2 8-2 9 0 9 24 9 24z"/>
+    <path fill="#fff" d="M41.071 23.586c.78.781.78 2.047 0 2.828l-5.657 5.657c-.781.78-2.047.78-2.828 0l-5.657-5.657c-.78-.781-.78-2.047 0-2.828l5.657-5.657c.781-.78 2.047-.78 2.828 0l5.657 5.657z"/>
+    <circle cx="34" cy="21" r="2" fill="#ffc107"/>
+    <circle cx="34" cy="28.999001" r="2" fill="#8bc34a"/>
+    <path fill="#f44336" d="M36 25c0-1.102.895-2 2-2 1.104 0 2 .898 2 2 0 1.102-.896 2-2 2s-2-.898-2-2z"/>
+    <circle cx="30" cy="25" r="2" fill="#2196f3"/>
+    <path fill="#78909c" d="M12 20h4v4h-4zm4 4h4v4h-4zm-8 0h4v4H8zm4 4h4v4h-4z"/>
+  </g>
+</svg>

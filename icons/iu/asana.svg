@@ -1,0 +1,13 @@
+<svg viewBox="0 0 97 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
+  <g transform="matrix(1,0,0,1,-80,0)">
+    <path d="M155.733,47.358C144.107,47.358 134.684,56.781 134.684,68.405C134.684,80.03 144.107,89.455 155.733,89.455C167.357,89.455 176.78,80.03 176.78,68.405C176.78,56.781 167.357,47.358 155.733,47.358ZM101.048,47.359C89.424,47.36 80,56.781 80,68.406C80,80.03 89.424,89.454 101.048,89.454C112.673,89.454 122.097,80.03 122.097,68.406C122.097,56.781 112.673,47.359 101.047,47.359L101.048,47.359ZM149.438,21.048C149.438,32.672 140.015,42.098 128.391,42.098C116.765,42.098 107.342,32.672 107.342,21.048C107.342,9.424 116.765,0 128.391,0C140.015,0 149.437,9.424 149.437,21.048L149.438,21.048Z" style="fill:url(#a);fill-rule:nonzero"/>
+  </g>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(64.1293,0,0,64.1293,128.39,48.8889)">
+      <stop offset="0" style="stop-color:rgb(255,185,0);stop-opacity:1"/>
+      <stop offset="0.6" style="stop-color:rgb(249,93,143);stop-opacity:1"/>
+      <stop offset="1" style="stop-color:rgb(249,83,83);stop-opacity:1"/>
+      <stop offset="1" style="stop-color:rgb(249,83,83);stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+</svg>

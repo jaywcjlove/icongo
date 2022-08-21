@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em">
+  <g transform="matrix(11.93814 0 0 12.14185 113.285 1476.813)">
+    <path style="opacity:1;fill:#03a9f4;fill-opacity:1;stroke:none;stroke-width:1.10000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" d="M29.167-109.503c1.2 2.085 1.18 17.183-.027 19.266-1.206 2.082-14.291 9.613-16.697 9.61-2.407-.003-15.472-7.57-16.672-9.656-1.2-2.085-1.18-17.183.026-19.266 1.206-2.082 14.291-9.613 16.698-9.61 2.406.003 15.471 7.57 16.672 9.656z" transform="rotate(-30 10.994 -99.26)"/>
+    <rect ry="2.418" y="-104.918" x="2.221" height="8.743" width="8.743" style="opacity:1;fill:#fff;fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"/>
+    <g transform="translate(0 .145)">
+      <rect style="opacity:1;fill:#fff;fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="8.743" height="8.743" x="9.089" y="-98.734" ry="2.418"/>
+      <rect style="opacity:1;fill:#fff;fill-opacity:1;stroke:none;stroke-width:2.29999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" width="8.743" height="8.743" x="9.089" y="-111.39" ry="2.418"/>
+    </g>
+  </g>
+</svg>

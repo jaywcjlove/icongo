@@ -1,0 +1,8 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="translate(-.57894728 -.57894728) scale(.31579)">
+    <path fill="#8bc34a" d="M9 5h30v38H9z"/>
+    <circle cx="30" cy="11" r="2" fill="#33691e"/>
+    <circle cx="18" cy="11" r="2" fill="#33691e"/>
+    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M30 11v3c0 3.3-2.7 6-6 6s-6-2.7-6-6v-3"/>
+  </g>
+</svg>

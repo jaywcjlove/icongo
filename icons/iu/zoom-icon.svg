@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 698.4 698.4" height="1em" width="1em">
+  <defs>
+    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+      <path d="M2619 5238c1446.43 0 2619-1172.57 2619-2619S4065.43 0 2619 0 0 1172.57 0 2619s1172.57 2619 2619 2619z"/>
+    </clipPath>
+    <clipPath id="b" clipPathUnits="userSpaceOnUse">
+      <path d="M2619 5187c1418.27 0 2568-1149.73 2568-2568S4037.27 51 2619 51 50.996 1200.73 50.996 2619 1200.73 5187 2619 5187z"/>
+    </clipPath>
+    <clipPath id="c" clipPathUnits="userSpaceOnUse">
+      <path d="M2619 4981c1304.5 0 2362-1057.5 2362-2362S3923.5 257 2619 257 257 1314.5 257 2619s1057.5 2362 2362 2362z"/>
+    </clipPath>
+    <clipPath id="d" clipPathUnits="userSpaceOnUse">
+      <path d="M1078 3359V2249c1-251 206-453 456-452h1618c46 0 83 37 83 82v1110c-1 251-206 453-456 452H1161c-46 0-83-37-83-82zm2260-433l668 488c58 48 103 36 103-51V1875c0-99-55-87-103-51l-668 487z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)" transform="matrix(.13333 0 0 -.13333 0 698.4)">
+    <path d="M-129.004 5367H5366V-128H-129.004v5495" fill="#e5e5e4"/>
+  </g>
+  <g clip-path="url(#b)" transform="matrix(.13333 0 0 -.13333 0 698.4)">
+    <path d="M-77 5315h5393V-78H-77v5393" fill="#fff"/>
+  </g>
+  <g clip-path="url(#c)" transform="matrix(.13333 0 0 -.13333 0 698.4)">
+    <path d="M128 5110h4982V128H128v4982" fill="#4a8cff"/>
+  </g>
+  <g clip-path="url(#d)" transform="matrix(.13333 0 0 -.13333 0 698.4)">
+    <path d="M950.004 3569H4237V1669H950.004v1900" fill="#fff"/>
+  </g>
+</svg>

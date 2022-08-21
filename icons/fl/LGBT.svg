@@ -1,0 +1,41 @@
+<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+  <desc>
+    Created with sketchtool.
+  </desc>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#F0F0F0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+      <stop stop-color="#F71E24" offset="0%"/>
+      <stop stop-color="#FB141B" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+      <stop stop-color="#FB6C2C" offset="0%"/>
+      <stop stop-color="#FC6420" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+      <stop stop-color="#FDFC42" offset="0%"/>
+      <stop stop-color="#FFFD38" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="e">
+      <stop stop-color="#238F35" offset="0%"/>
+      <stop stop-color="#1C7E2C" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f">
+      <stop stop-color="#0F62FA" offset="0%"/>
+      <stop stop-color="#0059FC" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
+      <rect fill="url(#b)" x="0" y="0" width="21" height="3"/>
+      <rect fill="url(#c)" x="0" y="3" width="21" height="3"/>
+      <rect fill="url(#d)" x="0" y="6" width="21" height="3"/>
+      <rect fill="url(#e)" x="0" y="9" width="21" height="3"/>
+      <rect fill="url(#f)" x="0" y="12" width="21" height="3"/>
+    </g>
+  </g>
+</svg>

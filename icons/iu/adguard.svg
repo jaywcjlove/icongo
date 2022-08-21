@@ -1,0 +1,9 @@
+<svg viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
+  <g transform="matrix(1.01266,0,0,1,-1.73396e-09,0)">
+    <g transform="matrix(1,0,0,1,-0.399969,0)">
+      <path d="M32,0C22.1,0 10.2,2.3 0.4,7.3C0.4,18.3 0.2,45.4 32,64C63.8,45.4 63.6,18.3 63.6,7.3C53.8,2.3 41.9,0 32,0Z" style="fill:rgb(104,188,113);fill-rule:nonzero"/>
+      <path d="M32,64C0.2,45.4 0.4,18.3 0.4,7.3C10.2,2.3 22.1,0 32,0L32,64Z" style="fill:rgb(103,178,121);fill-rule:nonzero"/>
+    </g>
+    <path d="M30.8,42.7L50,17.3C48.6,16.2 47.4,17 46.7,17.6L30.7,33.9L24.7,26.8C21.8,23.5 17.9,26 17,26.7L30.8,42.7Z" style="fill:white;fill-rule:nonzero"/>
+  </g>
+</svg>

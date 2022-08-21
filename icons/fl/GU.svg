@@ -1,0 +1,64 @@
+<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+  <desc>
+    Created with sketchtool.
+  </desc>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#F0F0F0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+      <stop stop-color="#DE3149" offset="0%"/>
+      <stop stop-color="#C2273D" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+      <stop stop-color="#053B94" offset="0%"/>
+      <stop stop-color="#002E7A" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+      <stop stop-color="#DE3149" offset="0%"/>
+      <stop stop-color="#C2273D" offset="100%"/>
+    </linearGradient>
+    <path d="M2.5,8.5 C2.5,8.5 5,6.5 5,4.5 C5,2.5 2.5,0.5 2.5,0.5 C2.5,0.5 7.6540425e-17,2.5 0,4.5 C7.65404249e-17,6.5 2.5,8.5 2.5,8.5 Z" id="e"/>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f">
+      <stop stop-color="#81C1F3" offset="0%"/>
+      <stop stop-color="#6AB1E9" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="h">
+      <stop stop-color="#27A07E" offset="0%"/>
+      <stop stop-color="#1F9171" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="i">
+      <stop stop-color="#1E8CE8" offset="0%"/>
+      <stop stop-color="#107FDC" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="j">
+      <stop stop-color="#FFF048" offset="0%"/>
+      <stop stop-color="#FFEF36" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="k">
+      <stop stop-color="#8F5715" offset="0%"/>
+      <stop stop-color="#7A480D" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
+      <rect fill="url(#b)" x="0" y="0" width="21" height="15"/>
+      <rect fill="url(#c)" x="1" y="1" width="19" height="13" rx="0.75"/>
+      <path d="M10.5,12 C10.5,12 13.5,9.98528137 13.5,7.5 C13.5,5.01471863 10.5,3 10.5,3 C10.5,3 7.5,5.01471863 7.5,7.5 C7.5,9.98528137 10.5,12 10.5,12 Z" fill="url(#d)"/>
+      <g transform="translate(8.000000, 3.000000)">
+        <mask id="g" fill="white">
+          <use xlink:href="#e"/>
+        </mask>
+        <use fill="url(#a)" xlink:href="#e"/>
+        <rect fill="url(#f)" mask="url(#g)" x="0" y="0" width="5" height="5"/>
+        <polygon fill="url(#h)" mask="url(#g)" points="2.5 4.1 1.61832212 4.71352549 1.92936609 3.6854102 1.07341523 3.03647451 2.14732885 3.0145898 2.5 2 2.85267115 3.0145898 3.92658477 3.03647451 3.07063391 3.6854102 3.38167788 4.71352549"/>
+        <rect fill="url(#i)" mask="url(#g)" x="0" y="5" width="5" height="4"/>
+        <path d="M0,6 C0,6 1.59041341,7.5 2,7.5 C2.48819721,7.5 2.49579714,6.77674717 3,6.5 C3.79409087,6.06413893 5,6 5,6 L5,9 L0,9 L0,6 Z" fill="url(#j)" mask="url(#g)"/>
+      </g>
+      <path d="M10.2512526,6.47500558 C10.2424393,6.56271683 10.2293576,6.71173272 10.2162972,6.89809824 C10.2003814,7.12520958 10.1889743,7.34915095 10.1840343,7.5594353 C10.1730768,8.02587214 10.193497,8.37106047 10.2628292,8.57905694 C10.3499154,8.84031563 10.5468922,9.08546311 10.8196929,9.32062484 C11.0281485,9.50031938 11.2347523,9.63739438 11.3771555,9.71773662 C11.4974082,9.78558175 11.6498915,9.74309708 11.7177366,9.62284446 C11.7855817,9.50259185 11.7430971,9.3501085 11.6228445,9.28226338 C11.5067093,9.21674129 11.3255056,9.09651837 11.1461537,8.94191211 C10.9354815,8.76030684 10.7898959,8.57911829 10.7371708,8.42094306 C10.6925509,8.28708337 10.6743187,7.97888076 10.6838964,7.57117803 C10.6886356,7.36943831 10.6996617,7.15297762 10.7150739,6.9330523 C10.7277493,6.75218081 10.7404035,6.60803377 10.7487474,6.52499442 C10.7625515,6.38761501 10.6623738,6.26505661 10.5249944,6.25125258 C10.387615,6.23744855 10.2650566,6.33762618 10.2512526,6.47500558 Z" fill="url(#k)" fill-rule="nonzero"/>
+      <polygon fill="#FFFFFF" points="9 7.5 10 9 9 9"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+  <desc>
+    Created with sketchtool.
+  </desc>
+  <defs>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
+      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#F0F0F0" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+      <stop stop-color="#F33630" offset="0%"/>
+      <stop stop-color="#DC241E" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+      <stop stop-color="#009643" offset="0%"/>
+      <stop stop-color="#09C15B" offset="100%"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
+      <stop stop-color="#FCDF4A" offset="0%"/>
+      <stop stop-color="#FCE154" offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g>
+      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
+      <g transform="translate(-1.060000, -5.020000)">
+        <polygon fill="url(#b)" points="6.06152385 19.017348 21.0615238 5.01734803 22.0615238 5.01734803 22.0615238 20.017348 6.06152385 20.017348"/>
+        <polygon fill="url(#c)" transform="translate(9.061524, 12.517348) scale(-1, -1) translate(-9.061524, -12.517348)" points="1.06152385 19.017348 16.0615238 5.01734803 17.0615238 5.01734803 17.0615238 20.017348 1.06152385 20.017348"/>
+        <polygon fill="url(#d)" transform="translate(11.870896, 12.167073) rotate(134.000000) translate(-11.870896, -12.167073)" points="-2.62910413 9.66707303 26.3708959 9.66707303 26.3708959 14.667073 -2.62910413 14.667073"/>
+      </g>
+    </g>
+  </g>
+</svg>

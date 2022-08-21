@@ -1,0 +1,22 @@
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="application-audio.svg" viewBox="0 0 48 48" height="1em" width="1em">
+  <defs>
+    <linearGradient inkscape:collect="always" xlink:href="#a" id="b" x1="11" y1="1011.3622" x2="20" y2="1019.3622" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" id="a">
+      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="17.375" inkscape:cx="15.165468" inkscape:cy="24" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:window-width="1920" inkscape:window-height="1020" inkscape:window-x="0" inkscape:window-y="32" inkscape:window-maximized="1" inkscape:snap-bbox="true" inkscape:bbox-nodes="true" inkscape:bbox-paths="true" inkscape:snap-bbox-edge-midpoints="true" inkscape:snap-bbox-midpoints="true" inkscape:object-paths="true" inkscape:snap-intersection-paths="true" inkscape:snap-smooth-nodes="true" inkscape:snap-midpoints="true" inkscape:object-nodes="true">
+    <inkscape:grid type="xygrid" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true"/>
+  </sodipodi:namedview>
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" transform="translate(0,-1004.3622)">
+    <path sodipodi:nodetypes="ccssssssc" inkscape:connector-curvature="0" d="m 16,1006.8622 -10,10 0,32 c 0,1.108 0.892,2 2,2 l 32,0 c 1.108,0 2,-0.892 2,-2 l 0,-40 c 0,-1.108 -0.892,-2 -2,-2 z" style="opacity:0.16000001;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"/>
+    <path style="opacity:1;fill:#ffc107;fill-opacity:1;stroke:none;stroke-opacity:1" d="M 16,2 6,12 6,44 c 0,1.108 0.892,2 2,2 l 32,0 c 1.108,0 2,-0.892 2,-2 L 42,4 C 42,2.892 41.108,2 40,2 Z" transform="translate(0,1004.3622)" inkscape:connector-curvature="0" sodipodi:nodetypes="ccssssssc"/>
+    <path d="m 25,1023.3622 c -5.522847,0 -10,4.4772 -10,10 0,5.5228 4.477153,10 10,10 5.522847,0 10,-4.4772 10,-10 0,-5.5228 -4.477153,-10 -10,-10 z m -3,5 2,0 6,0 0,1 0,2 0,5 a 2,2 0 0 1 -2,2 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 l 0,-3 -4,0 0,5 a 2,2 0 0 1 -2,2 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 l 0,-3 0,-3 z" style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" inkscape:connector-curvature="0"/>
+    <path style="opacity:0.07;fill:url(#b);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 6,1016.3622 10,8 9,-9 -9,-9 z" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc"/>
+    <path style="opacity:1;fill:#ffecb3;fill-opacity:1;stroke:none;stroke-opacity:1" d="m 16,1014.3622 c 0,1.108 -0.892,2 -2,2 l -8,0 10,-10 z" inkscape:connector-curvature="0" sodipodi:nodetypes="ssccs"/>
+    <path style="opacity:1;fill:#fefefe;fill-opacity:1;stroke:none;stroke-opacity:1" d="M 24 18 C 18.477153 18 14 22.477153 14 28 C 14 33.522847 18.477153 38 24 38 C 29.522847 38 34 33.522847 34 28 C 34 22.477153 29.522847 18 24 18 z M 21 23 L 23 23 L 29 23 L 29 24 L 29 26 L 29 31 A 2 2 0 0 1 27 33 A 2 2 0 0 1 25 31 A 2 2 0 0 1 27 29 L 27 26 L 23 26 L 23 31 A 2 2 0 0 1 21 33 A 2 2 0 0 1 19 31 A 2 2 0 0 1 21 29 L 21 26 L 21 23 z" transform="translate(0,1004.3622)"/>
+    <path inkscape:connector-curvature="0" style="opacity:0.03999999;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" d="m 6,1049.3622 0,1 c 0,1.108 0.892,2 2,2 l 32,0 c 1.108,0 2,-0.892 2,-2 l 0,-1 c 0,1.108 -0.892,2 -2,2 l -32,0 c -1.108,0 -2,-0.892 -2,-2 z"/>
+    <path inkscape:connector-curvature="0" style="opacity:0.07999998;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" d="m 6,1048.8622 0,0.5 c 0,1.108 0.892,2 2,2 l 32,0 c 1.108,0 2,-0.892 2,-2 l 0,-0.5 c 0,1.108 -0.892,2 -2,2 l -32,0 c -1.108,0 -2,-0.892 -2,-2 z"/>
+  </g>
+</svg>

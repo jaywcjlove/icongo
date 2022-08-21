@@ -1,0 +1,12 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g fill="#03a9f4">
+    <path d="M2.11 10.51L7.6 8.05l-1.2-2.1-4.89 3.54z"/>
+    <path d="M12.49 9.49L7.6 5.95l-1.2 2.1 5.49 2.46zM5.2 11.8c-.33 0-.6.27-.6.6v.6h4.8v-.6c0-.33-.27-.6-.6-.6H5.2z"/>
+    <path d="M6.4 1l-.6 6h2.4l-.6-6z"/>
+  </g>
+  <path fill="#4fc3f7" d="M6.4 1l-.54 5.34L7 7V1zm-4.29 9.51L7 8.32V7l-5.19 3zm10.38-1.02L8.14 6.34 7 7l5.19 3z"/>
+  <g fill="#455a64" transform="matrix(.3 0 0 .3 -.2 -.5)">
+    <circle cx="24" cy="25" r="2"/>
+    <path d="M26 30.3l-2-.9-2 .9V41h4z"/>
+  </g>
+</svg>

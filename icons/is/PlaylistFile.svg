@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" height="1em" width="1em">
+  <g>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(60.784314%,29.019608%,52.156863%);fill-opacity:1" d="M 10 2 C 9.054688 2 8 3.054688 8 4 L 8 44 C 8 44.890625 9.109375 46 10 46 L 38 46 C 38.890625 46 39.984375 44.890625 40 44 L 40 14 L 28 2 Z M 10 2"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.196078" d="M 30 14 L 40 24 L 40 14 Z M 30 14"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:0.392157" d="M 28 2 L 40 14 L 30 14 C 29.109375 14 28 12.890625 28 12 Z M 28 2"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 20.734375 18 C 19.460938 18.339844 18.386719 19.589844 18.386719 19.589844 L 18.414062 19.628906 L 20.460938 27.710938 C 19.003906 26.867188 16.90625 27.074219 15.175781 28.40625 C 12.941406 30.125 12.164062 33.058594 13.453125 34.9375 C 14.753906 36.824219 17.609375 36.964844 19.84375 35.246094 C 21.613281 33.882812 22.59375 31.757812 22.238281 29.996094 C 22.230469 29.949219 22.210938 29.898438 22.203125 29.839844 L 20.226562 21.757812 C 20.273438 21.6875 20.855469 21.410156 22.707031 21.269531 C 24.671875 21.132812 26 17.792969 26 17.792969 C 26 17.792969 23.792969 18.6875 22.050781 18.039062 C 21.621094 17.871094 21.164062 17.878906 20.734375 18 Z M 20.734375 18"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 28 20 L 28 18 L 34 18 L 34 20 Z M 28 20"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 24 26 L 24 28 L 34 28 L 34 26 Z M 24 26"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 26 24 L 26 22 L 34.085938 22 L 34.085938 24 Z M 26 24"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 24 30 L 24 32 L 34 32 L 34 30 Z M 24 30"/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 24 34 L 24 36 L 34 36 L 34 34 Z M 24 34"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 512 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
+  <g transform="matrix(1,0,0,1,-2395.74,-1080)">
+    <g>
+      <g transform="matrix(16.0275,0,0,16.0275,1993.33,1059.38)">
+        <path d="M38.125,27.907C33.179,26.531 29.732,21.994 29.732,16.861C29.732,11.727 33.179,7.19 38.125,5.814C39.119,5.537 39.812,4.625 39.812,3.593C39.812,2.327 38.771,1.286 37.506,1.286C37.297,1.286 37.089,1.315 36.887,1.371C29.947,3.294 25.107,9.657 25.107,16.859C25.107,24.06 29.947,30.423 36.887,32.346C37.088,32.401 37.296,32.43 37.505,32.43C37.515,32.43 37.525,32.43 37.536,32.43C38.797,32.43 39.836,31.392 39.836,30.13C39.836,29.09 39.13,28.173 38.125,27.907Z" style="fill:url(#a);fill-rule:nonzero"/>
+      </g>
+      <g transform="matrix(16.0275,0,0,16.0275,1993.33,1059.38)">
+        <path d="M45.613,1.371C45.413,1.316 45.207,1.287 45,1.287C44.99,1.287 44.979,1.287 44.969,1.287C43.707,1.287 42.669,2.325 42.669,3.587C42.669,4.63 43.378,5.548 44.387,5.812C49.333,7.187 52.782,11.725 52.782,16.859C52.782,21.993 49.333,26.531 44.387,27.906C43.392,28.182 42.698,29.094 42.698,30.126C42.698,31.39 43.738,32.431 45.002,32.431C45.21,32.431 45.417,32.402 45.617,32.347C54.067,29.77 58.917,20.715 56.377,12.253C54.807,7.076 50.773,2.997 45.613,1.371Z" style="fill:url(#b);fill-rule:nonzero"/>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(20.54,15.141,-15.141,20.54,27.456,10.014)">
+      <stop offset="0" style="stop-color:rgb(242,106,39);stop-opacity:1"/>
+      <stop offset="0.01" style="stop-color:rgb(242,106,39);stop-opacity:1"/>
+      <stop offset="1" style="stop-color:rgb(252,203,0);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="b" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(22.976,27.313,-27.313,22.976,34.754,2.991)">
+      <stop offset="0" style="stop-color:rgb(242,106,39);stop-opacity:1"/>
+      <stop offset="1" style="stop-color:rgb(252,203,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

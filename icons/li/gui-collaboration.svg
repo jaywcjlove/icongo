@@ -1,0 +1,9 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path fill="#1565c0" d="M7.3 6.4h3.9L13 8.2V3.1c0-.66-.54-1.2-1.2-1.2H7.3c-.66 0-1.2.54-1.2 1.2v2.1c0 .66.54 1.2 1.2 1.2z"/>
+  <path fill="#2196f3" d="M6.7 5.5H2.8L1 7.3V2.2C1 1.54 1.54 1 2.2 1h4.5c.66 0 1.2.54 1.2 1.2v2.1c0 .66-.54 1.2-1.2 1.2z"/>
+  <g fill="#ffa726" transform="matrix(.3 0 0 .3 -.2 -.2)">
+    <circle cx="12" cy="31" r="5"/>
+    <circle cx="36" cy="31" r="5"/>
+  </g>
+  <path fill="#607d8b" d="M5.8 12.4s-.66-1.2-2.4-1.2c-1.74 0-2.4 1.2-2.4 1.2v.6h4.8v-.6zm7.2 0s-.66-1.2-2.4-1.2c-1.74 0-2.4 1.2-2.4 1.2v.6H13v-.6z"/>
+</svg>

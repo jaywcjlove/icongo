@@ -1,0 +1,14 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" enable-background="new 0 0 336 336" xml:space="preserve" viewBox="115.00 103.00 105.00 129.00" height="1em" width="1em">
+  <g>
+    <radialGradient id="a" cx="124.125" cy="111.875" r="127.3788" gradientUnits="userSpaceOnUse">
+      <stop offset="0" style="stop-color:#40CFFF"/>
+      <stop offset="1" style="stop-color:#8A40FF"/>
+    </radialGradient>
+    <path fill="url(#a)" d="M156,104c35.346,0,64,28.653,64,64c0,35.346-28.654,64-64,64c-4.418,0-8-3.582-8-8s3.582-8,8-8 c19.853,0,36.891-12.053,44.195-29.24c0.408-0.961,0.635-2.017,0.635-3.127c0-4.418-3.582-8-8-8c-3.31,0-6.148,2.009-7.366,4.874 C180.594,191.965,169.235,200,156,200c-4.418,0-8-3.582-8-8s3.582-8,8-8c8.836,0,16-7.164,16-16c0-8.837-7.164-16-16-16h-24v72 c0,4.418-3.582,8-8,8s-8-3.582-8-8v-80c0-4.418,3.582-8,8-8h32c13.235,0,24.594,8.035,29.464,19.493 c1.218,2.865,4.057,4.874,7.366,4.874c4.418,0,8-3.582,8-8c0-1.11-0.227-2.167-0.635-3.128C192.891,132.052,175.853,120,156,120 c-4.418,0-8-3.582-8-8S151.582,104,156,104z"/>
+    <radialGradient id="b" cx="124.125" cy="111.875" r="127.3767" gradientUnits="userSpaceOnUse">
+      <stop offset="0" style="stop-color:#40CFFF"/>
+      <stop offset="1" style="stop-color:#8A40FF"/>
+    </radialGradient>
+    <circle fill="url(#b)" cx="124" cy="112" r="9"/>
+  </g>
+</svg>

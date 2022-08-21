@@ -1,0 +1,26 @@
+<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g fill="#469c10" transform="translate(.14285704 .14285704) scale(.28571)">
+    <path d="M10.69939993 41.09800007l-2.828-2.828 31.108-31.108 2.828 2.828z"/>
+    <circle cx="39" cy="7" r="3"/>
+    <circle cx="42" cy="10" r="3"/>
+    <circle cx="8" cy="38" r="3"/>
+    <circle cx="10" cy="41" r="3"/>
+    <path d="M6.11639993 9.98499993l2.828-2.828 31.108 31.108-2.828 2.828z"/>
+    <path d="M28 43h-8c-2.2 0-4-1.8-4-4v-6h16v6c0 2.2-1.8 4-4 4z"/>
+    <circle cx="9" cy="7" r="3"/>
+    <circle cx="6" cy="10" r="3"/>
+    <circle cx="40" cy="38" r="3"/>
+    <circle cx="38" cy="41" r="3"/>
+  </g>
+  <g fill="#64dd17" transform="translate(.14285704 .14285704) scale(.28571)">
+    <ellipse cx="24" cy="19" rx="15" ry="14"/>
+    <path d="M34 33H14c-1.7 0-3-1.3-3-3v-8h26v8c0 1.7-1.3 3-3 3z"/>
+    <path d="M28 38h-8c-1.1 0-2-.9-2-2v-6h12v6c0 1.1-.9 2-2 2zm-8 1h2v2h-2zm6 0h2v2h-2zm-3 0h2v2h-2z"/>
+  </g>
+  <g fill="#33691e" transform="translate(.14285704 .14285704) scale(.28571)">
+    <path d="M24 29c-1 .2-2.5 2.7-2.5 4 0 .6.6 1 1 1 .8 0 1.3-.8 1.5-1.3.2.6.6 1.3 1.5 1.3.6 0 1-.4 1-1 0-1.3-1.5-3.8-2.5-4z"/>
+    <circle cx="30" cy="26" r="4"/>
+    <circle cx="18" cy="26" r="4"/>
+  </g>
+  <path fill="#ccff90" d="M5.85714284 10.42857148h.57142858v.57142858h-.57142858zm1.71428574 0h.57142858v.57142858h-.57142858zm-.85714287 0h.57142858v.57142858h-.57142858z"/>
+</svg>
