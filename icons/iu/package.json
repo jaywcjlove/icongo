@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/iu",
+  "description": "Issuer Icons",
+  "version": "1.0.6",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/iu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/iu/*.svg' svg --flat",
+    "icongo": "icongo --prefix IU --source svg -o ./src  --rename='{\"protonmail\": \"IUProtonmail1\", \"protonvpn\": \"IUProtonvpn1\"}'",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "Teenyicons",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

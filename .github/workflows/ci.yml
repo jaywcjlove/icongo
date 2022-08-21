@@ -148,6 +148,14 @@ jobs:
         working-directory: icons/ir
         run: npm run build
 
+      - name: build icons is
+        working-directory: icons/is
+        run: npm run build
+
+      - name: build icons iu
+        working-directory: icons/iu
+        run: npm run build
+
       - name: build icons ji
         working-directory: icons/ji
         run: npm run build
@@ -513,6 +521,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/is/package.json
 
+      - name: 📦  @icongo/iu publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/iu/package.json
+
       - name: 📦  @icongo/ji publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -871,6 +885,10 @@ jobs:
 
       - name: build icons ir
         working-directory: icons/ir
+        run: npm run build
+
+      - name: build icons is
+        working-directory: icons/is
         run: npm run build
 
       - name: build icons ji
@@ -1421,6 +1439,34 @@ jobs:
             { "name": "@jaywcjlove/icongo-ir" }
       - run: npm publish
         working-directory: icons/ir
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/is => @jaywcjlove/icongo-is"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/is/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-is" }
+      - run: npm publish
+        working-directory: icons/is
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/iu => @jaywcjlove/icongo-iu"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/iu/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-iu" }
+      - run: npm publish
+        working-directory: icons/iu
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

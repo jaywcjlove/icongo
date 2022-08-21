@@ -56,6 +56,7 @@ import liNames from '@icongo/li/lib/data.json';
 import isNames from '@icongo/is/lib/data.json';
 import mnNames from '@icongo/mn/lib/data.json';
 import flNames from '@icongo/fl/lib/data.json';
+import iuNames from '@icongo/iu/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -333,7 +334,7 @@ export const info: Info = {
     names: ikNames,
   },
   im: {
-    title: 'IcoMoon-Free icons',
+    title: 'IcoMoon-Free Icons',
     license: 'None',
     gh: 'https://github.com/Keyamoon/IcoMoon-Free',
     npm: '@icongo/im',
@@ -359,6 +360,13 @@ export const info: Info = {
     gh: 'https://github.com/materialos/icons.git',
     npm: '@icongo/is',
     names: isNames,
+  },
+  iu: {
+    title: 'Issuer Icons',
+    license: '⚠️',
+    gh: 'https://github.com/raivo-otp/issuer-icons.git',
+    npm: '@icongo/iu',
+    names: iuNames,
   },
   ji: {
     title: 'Jam Icons',
