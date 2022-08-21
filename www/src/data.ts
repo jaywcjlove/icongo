@@ -52,6 +52,7 @@ import pbiNames from '@icongo/pbi/lib/data.json';
 import psNames from '@icongo/ps/lib/data.json';
 import imNames from '@icongo/im/lib/data.json';
 import snNames from '@icongo/sn/lib/data.json';
+import liNames from '@icongo/li/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -236,6 +237,13 @@ export const info: Info = {
     gh: 'https://github.com/gilbarbara/logos',
     npm: '@icongo/lg',
     names: lgNames,
+  },
+  li: {
+    title: 'LibreICONS Icons',
+    license: 'MIT',
+    gh: 'https://github.com/DiemenDesign/LibreICONS',
+    npm: '@icongo/li',
+    names: liNames,
   },
   lu: {
     title: 'Lucide Icons',
