@@ -57,6 +57,7 @@ import isNames from '@icongo/is/lib/data.json';
 import mnNames from '@icongo/mn/lib/data.json';
 import flNames from '@icongo/fl/lib/data.json';
 import iuNames from '@icongo/iu/lib/data.json';
+import fpNames from '@icongo/fp/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -206,6 +207,13 @@ export const info: Info = {
     gh: 'https://github.com/yammadev/flag-icons.git',
     npm: '@icongo/fl',
     names: flNames,
+  },
+  fp: {
+    title: 'Flagpack Icons',
+    license: 'MIT',
+    gh: 'https://github.com/Yummygum/flagpack-core.git',
+    npm: '@icongo/fp',
+    names: fpNames,
   },
   gi: {
     title: 'Game Icons',
