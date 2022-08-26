@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { HISearch } from '@icongo/hi/lib/HISearch';
-import { FC, PropsWithRef, useRef } from 'react';
+import { FC, PropsWithRef, useEffect, useRef } from 'react';
 
 const Search = styled.input`
   width: 100%;
@@ -58,7 +58,11 @@ interface SearchInputProps extends React.DetailedHTMLProps<React.InputHTMLAttrib
 }
 
 export const SearchInput: FC<PropsWithRef<SearchInputProps>> = ({ onSearch, ...props }) => {
-  const $ref = useRef<HTMLInputElement>(null)
+  const $ref = useRef<HTMLInputElement>(null);
+  useEffect(() => {
+    $ref.current?.focus();
+  }, [$ref]);
+
   return (
     <Warpper>
       <Search ref={$ref} type="text" name="query" {...props} />

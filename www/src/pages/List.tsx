@@ -67,7 +67,6 @@ export function ListPage() {
         <Aside>
           <NavLink to="/">Home</NavLink>
           {Object.keys(info).map((keyname, key) => {
-            console.log('keyname:', keyname, info[keyname])
             return (
               <NavLink key={key} to={`/icons/${keyname}`}>
                 {info[keyname].title}
