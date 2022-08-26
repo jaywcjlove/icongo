@@ -9,6 +9,7 @@ import { FACopy } from '@icongo/fa/lib/FACopy';
 import { BIBxsHome } from '@icongo/bi/lib/BIBxsHome';
 import { MDFileCopyRound } from '@icongo/md/lib/MDFileCopyRound';
 import { CardItem } from '../components/IconCard';
+import { NotFoundPage } from './NotFound';
 import { info } from '../data';
 
 const jsxString = (name: string, prename: string) => `import { ${name} } from '@icongo/${prename}/lib/${name}';
@@ -115,6 +116,11 @@ export const IconDetailPage = () => {
       comName = keyname;
     }
   });
+
+  if (!comName) {
+    return <NotFoundPage />
+  }
+
   const jsxStr = jsxString(comName, params.name!);
   const copyComName = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();

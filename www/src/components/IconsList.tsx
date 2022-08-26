@@ -3,6 +3,7 @@ import { useParams, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
 import { iconsData, searchNames, info } from '../data';
 import { Card } from './IconCard';
+import { NotFoundPage } from '../pages/NotFound';
 
 
 export const WarpperIcons = styled.div`
@@ -23,6 +24,9 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
   if (params.name) {
     const reName = info[params.name.toLocaleLowerCase()]?.names;
     data = Object.keys(reName || {});
+    if (!reName) {
+      return <NotFoundPage />
+    }
     return (
       <WarpperIcons>
         {data.map((name, key) => {

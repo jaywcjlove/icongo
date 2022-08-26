@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import styled from 'styled-components';
 import { useSearchParams } from 'react-router-dom';
 import { IconsList } from '../components/IconsList';
@@ -6,6 +7,11 @@ import { searchNames } from '../data';
 const Title = styled.div`
   background-color: var(--color-neutral-muted);
   padding: 20px 20px 20px 20px;
+`;
+
+const NotFoundIcons = styled.div`
+  padding-top: 10px;
+  color: var(--color-danger-fg);
 `;
 
 export const SearchPage = () => {
@@ -20,7 +26,10 @@ export const SearchPage = () => {
   return (
     <div>
       {data.length === 0 && (
-        <Title>Please enter at latest 3 characters to search...</Title>
+        <Title>
+          Please enter at latest 3 characters to search...
+          <NotFoundIcons> Icon Not Found! </NotFoundIcons>
+        </Title>
       )}
       <IconsList />
     </div>

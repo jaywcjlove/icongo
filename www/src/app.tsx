@@ -7,6 +7,7 @@ import { ListPage } from './pages/List';
 import { IconDetailPage } from './pages/IconDetail';
 import { DocsPage } from './pages/Docs';
 import { IconsPage } from './pages/Icons';
+import { NotFoundPage } from './pages/NotFound';
 import { Provider } from './store/context'
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/keywords" element={<KeywordsPage />} />
           <Route path="/docs" element={<DocsPage />} />
+            <Route path="/*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </Provider>
