@@ -31,6 +31,12 @@ const Title = styled.h1`
   svg {
     font-size: 3.1rem;
   }
+  @media (max-width: 600px) {
+    font-size: 2.6rem;
+    svg {
+      font-size: 2.6rem;
+    }
+  }
 `;
 
 const Detail = styled.div`

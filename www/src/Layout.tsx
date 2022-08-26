@@ -7,10 +7,6 @@ import { searchNames } from './data';
 import { LGSvg } from '@icongo/lg';
 import { Footer } from './components/Footer';
 
-const Nav = styled.nav`
-  margin: 2.75rem 0 0;
-`;
-
 const Warpper = styled.div``;
 
 const Container = styled.div`
@@ -21,12 +17,21 @@ const Container = styled.div`
 `;
 
 
+const Nav = styled.nav`
+  margin: 2.75rem 0 0;
+  ${Container} {
+    padding: 0 2rem;
+  }
+`;
+
 const Form = styled.form`
   width: 100%;
   display: flex;
-
   margin: 0 0 0 2.9125rem;
   max-width: 53.125rem;
+  @media (max-width: 600px) {
+    margin: 0 0 0 0;
+  }
 `;
 
 const Content = styled.div`
@@ -34,6 +39,10 @@ const Content = styled.div`
   margin-top: 3.75rem;
   margin-bottom: 3rem;
   padding: 0 1rem;
+  transition: all .3s;
+  @media (max-width: 600px) {
+    margin-top: 2.05rem;
+  }
   ${Container} {
     flex-direction: column;
     max-width: 63.125rem;
