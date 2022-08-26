@@ -10,7 +10,7 @@ const root = createRoot(document.getElementById('root')!);
 
 root.render(
   <HashRouter>
-    <dark-mode style={{ position: 'fixed', left: 10, top: 6, fontSize: 21 }}></dark-mode>
+    <dark-mode style={{ position: 'fixed', left: 10, top: 6, fontSize: 21, zIndex: 88 }}></dark-mode>
     <GitHubCorners size={64} fixed target="__blank" href="https://github.com/jaywcjlove/icongo" />
     <Toaster />
     <App />

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { ChangeEvent, useEffect, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
-import { LGSvg } from '@icongo/lg';
+import { STISvg } from '@icongo/sti';
 import { SearchInput } from '../components/Search';
 import { Footer } from '../components/Footer';
 
@@ -75,7 +75,7 @@ export const HomePage = () => {
   return (
     <Warpper>
       <Title>
-        <LGSvg />
+        <STISvg />
         Search Icons
       </Title>
       <Form onSubmit={handleSubmit}>

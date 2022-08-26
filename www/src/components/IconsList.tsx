@@ -21,13 +21,13 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
   let data: string[] = [];
   const params = useParams<{ name: string; }>();
   if (params.name) {
-    const reName = info[params.name.toLocaleLowerCase()]?.names
+    const reName = info[params.name.toLocaleLowerCase()]?.names;
     data = Object.keys(reName || {});
     return (
       <WarpperIcons>
         {data.map((name, key) => {
           return (
-            <Card key={`${key}-${name}`} name={name} query={query} path={`/icons/${params.name?.toLocaleLowerCase()}/${reName[name][1]}`} />
+            <Card key={`${key}-${name}`} name={name} prename={reName[name][0]!} basename={reName[name][1]!} query={query} path={`/icons/${params.name?.toLocaleLowerCase()}/${reName[name][1]}`} />
           );
         })}
       </WarpperIcons>
@@ -46,7 +46,7 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
       {data.map((name, key) => {
         const [prename, basename] = iconsData[name];
         return (
-          <Card key={`${key}-${name}`} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icons/${prename?.toLocaleLowerCase()}/${basename}`} />
+          <Card key={`${key}-${name}`} basename={basename!} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icons/${prename?.toLocaleLowerCase()}/${basename}`} />
         );
       })}
     </WarpperIcons>

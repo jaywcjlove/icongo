@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useRef } from 'react';
+import { useNavigate, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import Keywords from 'react-keywords';
 import toast from 'react-hot-toast';
@@ -98,24 +98,25 @@ export const CardWarpper = styled.div<CardWarpperProps>`
   }
 `;
 
-
 interface IconCardProps extends CardWarpperProps {
   prename?: string;
+  basename?: string;
   name?: string;
   /** ik/app.svg */
   path?: string;
   query?: string;
+  hideName?: boolean;
   child?: () => JSX.Element;
 }
 
 export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
-  const { name = '', prename = '', path, query = '', child, ...other } = props;
+  const { name = '', prename = '', hideName = true, basename = '', path, query = '', child, ...other } = props;
   const navigate = useNavigate();
   const $ref = useRef<HTMLDivElement>(null);
 
   const copyName = () => {
     copyTextToClipboard(name, () => {
-      toast.success(<div>Copied '<b onClick={(evm) =>{}}>{name}</b>' name to clipboard</div>, { position: 'top-right' });
+      toast.success(<div>Copied '<b>{name}</b>' name to clipboard</div>, { position: 'top-right' });
       $ref.current?.focus()
     });
   }
@@ -162,9 +163,13 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
       <CardItem>
         <LazyLoadImage src={path} alt={name} />
       </CardItem>
-      <IconName>
-        {query ? <Keywords value={query}>{name}</Keywords> : name}
-      </IconName>
+      {hideName && (
+        <IconName>
+          <NavLink to={`/icon/${prename?.toLocaleLowerCase()}/${basename}`}>
+            {query ? <Keywords value={query}>{name}</Keywords> : name}
+          </NavLink>
+        </IconName>
+      )}
     </CardWarpper>
   );
 }

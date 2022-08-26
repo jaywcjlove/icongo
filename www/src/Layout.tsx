@@ -4,7 +4,7 @@ import { Outlet, NavLink } from 'react-router-dom';
 import { useNavigate, useSearchParams, useLocation } from 'react-router-dom';
 import { SearchInput } from './components/Search';
 import { searchNames } from './data';
-import { LGSvg } from '@icongo/lg';
+import { STISvg } from '@icongo/sti';
 import { Footer } from './components/Footer';
 
 const Warpper = styled.div``;
@@ -69,7 +69,7 @@ const Logo = styled(NavLink)`
   text-align: center;
   font-weight: 900;
   text-decoration: none;
-  color: #000;
+  color: var(--color-fg-default);
   font-family: geomanistregular,Arial,Helvetica,sans-serif;
   display: flex;
   gap: 10px;
@@ -107,7 +107,7 @@ export const Layout = () => {
       <Nav>
         <Container>
           <Logo to="/">
-            <LGSvg />
+            <STISvg />
             IconGo
           </Logo>
           <Form onSubmit={handleSubmit}>
