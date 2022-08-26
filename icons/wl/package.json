@@ -1,7 +1,7 @@
 {
   "name": "@icongo/wl",
   "description": "We Love SVG Icons",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
