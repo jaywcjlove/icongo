@@ -17,6 +17,7 @@ export function Footer() {
       <NavLink to="/icons/bi"> Icons List </NavLink>
       <NavLink to="/keywords"> Keywords </NavLink>
       <a href="https://github.com/jaywcjlove/icongo" target="__blank"> Github </a>
+      <a href="https://github.com/icongo/icon-collection" target="__blank"> Icon Collection </a>
     </Warpper>
   )
 }

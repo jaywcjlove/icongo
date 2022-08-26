@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { FunctionComponent, useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import toast from 'react-hot-toast';
@@ -6,9 +6,10 @@ import MarkdownPreview from '@uiw/react-markdown-preview';
 import copyTextToClipboard from '@uiw/copy-to-clipboard'
 import { FADownload } from '@icongo/fa/lib/FADownload';
 import { FACopy } from '@icongo/fa/lib/FACopy';
-import { BIBxsHome } from '@icongo/bi/lib/BIBxsHome';
+import { FAHouseChimneyCrack } from '@icongo/fa/lib/FAHouseChimneyCrack';
 import { MDFileCopyRound } from '@icongo/md/lib/MDFileCopyRound';
-import { CardItem } from '../components/IconCard';
+import { SINpm } from '@icongo/si/lib/SINpm';
+import { MCGithub } from '@icongo/mc/lib/MCGithub';
 import { NotFoundPage } from './NotFound';
 import { info } from '../data';
 
@@ -26,9 +27,6 @@ const Warpper = styled.div`
   display: flex;
   gap: 1.5rem;
   flex-direction: column;
-  ${CardItem}:hover img {
-    transform: scale(0.8, 0.8) !important;
-  }
 `;
 
 const Section = styled.section`
@@ -40,6 +38,10 @@ const Section = styled.section`
 const Title = styled.h2`
   padding: 0;
   margin: 0;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 `;
 
 const Toolbar = styled.div`
@@ -61,7 +63,7 @@ const Toolbar = styled.div`
       border-color: var(--color-accent-emphasis);
       color: var(--color-accent-emphasis);
     }
-    @media (max-width: 600px) {
+    @media (max-width: 680px) {
       span {
         display: none;
       }
@@ -83,7 +85,22 @@ const IconView = styled.div`
     transition: all .3s;
   }
   &:hover svg {
-    transform: scale(2, 2) !important;
+    transform: scale(1.3, 1.3) !important;
+  }
+`;
+
+const IconViewMini = styled<FunctionComponent<React.HTMLAttributes<HTMLDivElement>>>(IconView)`
+  padding: 0;
+  svg {
+    display: block;
+    padding: 0;
+    width: 1.8rem;
+    height: 1.8rem;
+    min-height: 1.8rem;
+    min-width: 1.8rem;
+  }
+  &:hover svg {
+    transform: scale(1, 1) !important;
   }
 `;
 
@@ -109,6 +126,7 @@ export const IconDetailPage = () => {
     });
     return false
   }
+  const repoInfo = info[params.name!] || {}
   const data = info[params.name!]?.names || {};
   let comName = ''
   Object.keys(data).forEach((keyname) => {
@@ -134,10 +152,16 @@ export const IconDetailPage = () => {
     <Warpper>
       <Section>
         <Toolbar>
-          <Link to={`/icons/${params.name}`}> <BIBxsHome /> </Link>
+          <Link to={`/icons/${params.name}`}> <FAHouseChimneyCrack /> </Link>
+          <a target="__blank" href={`https://www.npmjs.com/package/@icongo/${params.name}`}>
+            <SINpm />
+          </a>
+          <a target="__blank" href={repoInfo.gh}>
+            <MCGithub />
+          </a>
           <a href={path} download={filename}>
             <FADownload />
-            <span>Download SVG </span>
+            <span>Download SVG</span>
           </a>
           <a href="#" onClick={copySVGHTML}>
             <FACopy />
@@ -150,7 +174,10 @@ export const IconDetailPage = () => {
         </Toolbar>
       </Section>
       <IconView dangerouslySetInnerHTML={{ __html: svgString! }} />
-      <Title>{filename}</Title>
+      <Title>
+        <IconViewMini dangerouslySetInnerHTML={{ __html: svgString! }} />
+        {filename}
+      </Title>
       <MarkdownPreview source={`\`\`\`html\n${svgString?.replace(/\n+$/g, '')}\n\`\`\``} />
       <MarkdownPreview source={`\`\`\`shell\n$ npm install @icongo/${params.name!} --save\n\`\`\``} />
       <MarkdownPreview source={`\`\`\`jsx\n${jsxStr}\n\`\`\``} />

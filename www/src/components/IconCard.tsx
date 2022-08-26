@@ -154,7 +154,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
         <CopyBtn onClick={download}>
           <BIBxsCloudDownload width={18} height={18} />
         </CopyBtn>
-        {prename && (
+        {prename && query && (
           <CopyBtn onClick={() => navigate(`/icons/${prename}`)}>
             <BIBxsHomeCircle width={18} height={18} />
           </CopyBtn>
