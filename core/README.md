@@ -9,6 +9,10 @@ IconGo
 
 Easily include popular icons in your React projects and provide an easy tool to convert `svg` into React components.
 
+<!--rehype:ignore:start-->
+![IconGo: Search Icons](https://user-images.githubusercontent.com/1680273/186862271-43f13434-47fc-4c60-a844-4a36e19be4d2.png)
+<!--rehype:ignore:end-->
+
 **All Packages**
 
 | Name | NPM Version | Website |
