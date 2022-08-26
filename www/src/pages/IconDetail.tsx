@@ -13,7 +13,13 @@ import { MCGithub } from '@icongo/mc/lib/MCGithub';
 import { NotFoundPage } from './NotFound';
 import { info } from '../data';
 
-const jsxString = (name: string, prename: string) => `import { ${name} } from '@icongo/${prename}/lib/${name}';
+const mdstr = (name: string, prename: string, html?: string) => `
+\`\`\`html\n${html?.replace(/\n+$/g, '')}\n\`\`\`
+
+\`\`\`shell\n$ npm install @icongo/${name} --save\n\`\`\`
+
+\`\`\`jsx
+import { ${name} } from '@icongo/${prename}/lib/${name}';
 
 function Demo() {
   return (
@@ -21,7 +27,8 @@ function Demo() {
       <${name} />
     </div>
   )
-}`;
+}
+\`\`\``;
 
 const Warpper = styled.div`
   display: flex;
@@ -139,7 +146,7 @@ export const IconDetailPage = () => {
     return <NotFoundPage />
   }
 
-  const jsxStr = jsxString(comName, params.name!);
+  const source = mdstr(comName, params.name!, svgString);
   const copyComName = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();
     evn.preventDefault();
@@ -178,9 +185,7 @@ export const IconDetailPage = () => {
         <IconViewMini dangerouslySetInnerHTML={{ __html: svgString! }} />
         {filename}
       </Title>
-      <MarkdownPreview source={`\`\`\`html\n${svgString?.replace(/\n+$/g, '')}\n\`\`\``} />
-      <MarkdownPreview source={`\`\`\`shell\n$ npm install @icongo/${params.name!} --save\n\`\`\``} />
-      <MarkdownPreview source={`\`\`\`jsx\n${jsxStr}\n\`\`\``} />
+      <MarkdownPreview source={source} />
     </Warpper>
   );
 }
