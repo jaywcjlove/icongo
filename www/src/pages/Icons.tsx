@@ -17,8 +17,8 @@ export const WarpperIcons = styled.div`
 
 export const Panel = styled.div`
   background-color: var(--color-neutral-muted);
-  padding: 10px 20px 20px 20px;
-  margin-bottom: 20px;
+  padding: 1rem 1.3rem 1.3rem 1.3rem;
+  margin-bottom: 1.3rem;
   color: var(--color-fg-default);
   a {
     text-decoration: none;
@@ -44,6 +44,10 @@ const Badges = styled.p`
   display: flex;
   gap: 5px;
   align-items: center;
+  a:last-child {
+    text-overflow:ellipsis;
+    overflow: hidden;
+  }
 `;
 
 export const IconsPage = () => {

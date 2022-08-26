@@ -3,33 +3,53 @@ import { HISearch } from '@icongo/hi/lib/HISearch';
 import { FC, PropsWithRef, useRef } from 'react';
 
 const Search = styled.input`
-  line-height: 1.8rem;
-  font-size: 1.2rem;
-  border-radius: 6px;
-  outline: none;
-  border: 2px solid var(--color-fg-subtle);
-  height: 42px;
-  padding: 3px 45px 3px 12px;
   width: 100%;
-  &:focus {
-    border: 2px solid var(--color-accent-fg);
-  }
+  height: 3.5rem;
+  padding: 0.2rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 2%), 0 0 0.5rem 0 rgb(0 0 0 / 1%), 0.25rem 0.5rem 1rem 0 rgb(0 48 111 / 8%);
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: geomanistregular,Arial,Helvetica,sans-serif;
+  padding-right: 4rem;
+  border: 1px solid var(--color-neutral-muted);
 `;
 
 const Warpper = styled.div`
-  margin: 36px auto 0 auto;
-  max-width: 360px;
+  margin: 0 auto 0 auto;
+  max-width: 640px;
   width: 100%;
+  position: relative;
+  @media (max-width: 600px) {
+    padding: 0 1.5rem;
+  }
 `;
 
-const SearchBtn = styled(HISearch)`
-  font-size: 29px;
+const SearchButton = styled.div`
   position: absolute;
-  margin-left: -38px;
-  margin-top: 6px;
+  right: 0;
+  top: 0;
+  height: 3.5rem;
+  padding: 0 0.8rem;
+  border-left: 1px solid var(--color-neutral-muted);
+  border-radius: 0 0.5rem 0.5rem 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all .3s;
+  @media (max-width: 600px) {
+    margin-right: 1.5rem;
+  }
   path {
     fill: var(--color-fg-default);
+    transition: all .3s;
+  }
+  &:hover {
+    background-color: var(--color-accent-emphasis);
+    path {
+      fill: var(--color-canvas-default);
+    }
   }
 `;
 
@@ -42,7 +62,9 @@ export const SearchInput: FC<PropsWithRef<SearchInputProps>> = ({ onSearch, ...p
   return (
     <Warpper>
       <Search ref={$ref} type="text" name="query" {...props} />
-      <SearchBtn onClick={() => onSearch && onSearch($ref.current?.value || '')} />
+      <SearchButton onClick={() => onSearch && onSearch($ref.current?.value || '')}>
+        <HISearch width={38} height={38} />
+      </SearchButton>
     </Warpper>
   );
 }

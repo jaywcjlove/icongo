@@ -1,195 +1,123 @@
-import { ChangeEvent, useEffect, useState } from 'react';
-import { NavLink, Outlet, useNavigate, useSearchParams } from 'react-router-dom';
 import styled from 'styled-components';
+import { ChangeEvent, useEffect, useState } from 'react';
+import { Outlet, NavLink } from 'react-router-dom';
+import { useNavigate, useSearchParams, useLocation } from 'react-router-dom';
 import { SearchInput } from './components/Search';
-
 import { searchNames } from './data';
+import { LGSvg } from '@icongo/lg';
+import { Footer } from './components/Footer';
 
-const Warpper = styled.div`
+const Nav = styled.nav`
+  margin: 2.75rem 0 0;
 `;
 
-const Header = styled.header`
-  padding-top: 23px;
-  padding-bottom: 20px;
+const Warpper = styled.div``;
+
+const Container = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  background-color: var(--color-canvas-subtle);
-  height: 50vh;
-  margin-bottom: 26px;
+  max-width: 81.875rem;
+  padding: 0 1rem;
+  margin: 0 auto 1rem;
 `;
 
-const Title = styled.h1`
-  text-align: center;
-  margin-bottom: 0;
-`;
-
-const Detail = styled.div`
-  text-align: center;
-`;
 
 const Form = styled.form`
   width: 100%;
   display: flex;
+
+  margin: 0 0 0 2.9125rem;
+  max-width: 53.125rem;
 `;
 
 const Content = styled.div`
-  display: grid;
-  grid-template-areas: 'sidebar main';
-  grid-template-columns: 220px minmax(0, 3.5fr);
-  gap: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 120px;
-`;
-
-const Aside = styled.aside`
-  position: sticky;
-  top: 0px;
-  overflow: auto;
-  max-height: calc(100vh - 10px);
-  padding: 5px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  > a {
-    color: var(--color-fg-default);
-    text-decoration: none;
-    display: block;
-    padding: 5px 8px;
-    border-radius: 3px;
-    transition: all .3s;
-    &.active, &.active:hover {
-      background-color: var(--color-accent-fg);
-    }
-    &:hover {
-      background-color: var(--color-border-muted);
-    }
-    &.active {
-      color: var(--color-canvas-default);
+  position: relative;
+  margin-top: 3.75rem;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+  ${Container} {
+    flex-direction: column;
+    max-width: 63.125rem;
+    @media (max-width: 600px) {
+      padding: 0 0;
     }
   }
 `;
 
-const AsideWarpper = styled.div`
-  grid-area: sidebar;
-  background-color: var(--color-canvas-subtle);
+const Section = styled.section`
+  padding: 2rem 2rem;
+  border-radius: 0.375rem;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgb(8 15 41 / 8%), 0 0 1px 0 rgb(8 15 41 / 8%);
+  border: 1px solid var(--color-border-muted);
+  width: 100%;
+  @media (max-width: 600px) {
+    padding: 1.5rem 1.5rem;
+  }
 `;
 
-const Bold = styled.strong`
-  font-weight: bold;
+const Logo = styled(NavLink)`
+  margin-top: 0.6125rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 900;
+  text-decoration: none;
+  color: #000;
+  font-family: geomanistregular,Arial,Helvetica,sans-serif;
+  display: flex;
+  gap: 10px;
 `;
 
 export const Layout = () => {
+  const location = useLocation();
   const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
   const [searchValue, setSearchValue] = useState(query);
-  const focusHandle = () => {
-    navigate('/search');
-  }
-  const changeHandle = (evn: ChangeEvent<HTMLInputElement>) => {
-    setSearchValue(evn.target.value);
-  }
 
   useEffect(() => {
-    setSearchValue(query);
-  }, [query]);
+    if (location.state) {
+      setSearchValue(location.state as string);
+      setSearchParams({ q: location.state as string });
+    }
+  }, [location.state])
 
   const handleSubmit = (evn: React.FormEvent<HTMLFormElement>) => {
     evn && evn.preventDefault();
     const field = new FormData(evn.currentTarget!);
-    setSearchParams({ q: field.get('query')?.toString() || '' });
+    navigate('/search', {
+      state: field.get('query')?.toString() || ''
+    });
   }
-
+  const handleSearch = (val: string) => {
+    navigate('/search', { state: val });
+  }
+  const changeHandle = (evn: ChangeEvent<HTMLInputElement>) => {
+    setSearchValue(evn.target.value);
+  }
   return (
     <Warpper>
-      <Header>
-        <Title>SVG To React Component</Title>
-        <Detail>
-          Include popular icons in your React projects easily <Bold>({searchNames.length} icons)</Bold>
-        </Detail>
-        <Form onSubmit={handleSubmit}>
-          <SearchInput
-            placeholder={`Search ${searchNames.length} icons...`}
-            value={searchValue}
-            onSearch={(val) => setSearchParams({ q: val })}
-            onChange={changeHandle}
-            onFocus={focusHandle}
-          />
-        </Form>
-      </Header>
+      <Nav>
+        <Container>
+          <Logo to="/">
+            <LGSvg />
+            IconGo
+          </Logo>
+          <Form onSubmit={handleSubmit}>
+            <SearchInput
+              placeholder={`Search ${searchNames.length} icons...`}
+              value={searchValue}
+              onSearch={(val) => handleSearch(val)}
+              onChange={changeHandle}
+            />
+          </Form>
+        </Container>
+      </Nav>
       <Content>
-        <AsideWarpper>
-          <Aside>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/icons/ad">Ant Design Icons</NavLink>
-            <NavLink to="/icons/ae">Aegis Icons</NavLink>
-            <NavLink to="/icons/bi">Boxicons</NavLink>
-            <NavLink to="/icons/bl">Bank Logos</NavLink>
-            <NavLink to="/icons/br">Browser Logos Icons</NavLink>
-            <NavLink to="/icons/bs">Bootstrap Icons</NavLink>
-            <NavLink to="/icons/bts">Bytesize Icons</NavLink>
-            <NavLink to="/icons/ccp">Credit Card & Payment</NavLink>
-            <NavLink to="/icons/cg">CSS.gg Icons</NavLink>
-            <NavLink to="/icons/ci">CoreUI Icons</NavLink>
-            <NavLink to="/icons/ct">Cryptocurrency Icons</NavLink>
-            <NavLink to="/icons/di">Devicons</NavLink>
-            <NavLink to="/icons/ei">Evil Icons</NavLink>
-            <NavLink to="/icons/ev">Eva Icons</NavLink>
-            <NavLink to="/icons/fa">Font Awesome Icons</NavLink>
-            <NavLink to="/icons/fc">Flat Color Icons</NavLink>
-            <NavLink to="/icons/fd">Foundation Icons</NavLink>
-            <NavLink to="/icons/fg">Flag Icons</NavLink>
-            <NavLink to="/icons/fi">Feather Icons</NavLink>
-            <NavLink to="/icons/fl">Flag Icons</NavLink>
-            <NavLink to="/icons/fp">Flagpack Icons</NavLink>
-            <NavLink to="/icons/gi">Game Icons</NavLink>
-            <NavLink to="/icons/go">Github Octicons Icons</NavLink>
-            <NavLink to="/icons/gr">Grommet Icons</NavLink>
-            <NavLink to="/icons/gy">Glyph Iconset Icons</NavLink>
-            <NavLink to="/icons/hi">Heroicons</NavLink>
-            <NavLink to="/icons/ic">Icon Collection</NavLink>
-            <NavLink to="/icons/ii">Iconic Icons</NavLink>
-            <NavLink to="/icons/ik">Ikonate Icons</NavLink>
-            <NavLink to="/icons/im">IcoMoon-Free Icons</NavLink>
-            <NavLink to="/icons/io">Ionicons Icons</NavLink>
-            <NavLink to="/icons/ir">Iconoir Icons</NavLink>
-            <NavLink to="/icons/is">Icons</NavLink>
-            <NavLink to="/icons/iu">Issuer Icons</NavLink>
-            <NavLink to="/icons/ji">Jam Icons</NavLink>
-            <NavLink to="/icons/lg">Logos Icons</NavLink>
-            <NavLink to="/icons/li">LibreICONS Icons</NavLink>
-            <NavLink to="/icons/lu">Lucide Icons</NavLink>
-            <NavLink to="/icons/pbi">Power BI Icons</NavLink>
-            <NavLink to="/icons/pk">IconPark Icons</NavLink>
-            <NavLink to="/icons/ps">Pixeden Stroke7 Icons</NavLink>
-            <NavLink to="/icons/mc">Micon Icons</NavLink>
-            <NavLink to="/icons/md">Material Design Icons</NavLink>
-            <NavLink to="/icons/mi">Maki Icons</NavLink>
-            <NavLink to="/icons/mn">Mono Icons</NavLink>
-            <NavLink to="/icons/mp">Map Icons</NavLink>
-            <NavLink to="/icons/ri">RemixIcon Icons</NavLink>
-            <NavLink to="/icons/scwi">Spectrum Workflow Icons</NavLink>
-            <NavLink to="/icons/si">Simple Icons</NavLink>
-            <NavLink to="/icons/sn">Small-n-flat Icons</NavLink>
-            <NavLink to="/icons/sti">Super Tiny Icons</NavLink>
-            <NavLink to="/icons/tb">Tabler Icons</NavLink>
-            <NavLink to="/icons/ti">Typicons Icons</NavLink>
-            <NavLink to="/icons/tn">Teenyicons Icons</NavLink>
-            <NavLink to="/icons/uiw">UIW Icons</NavLink>
-            <NavLink to="/icons/vl">Vector Logo Zone Icons</NavLink>
-            <NavLink to="/icons/vsc">Visual Studio Code Icons</NavLink>
-            <NavLink to="/icons/vv">Vivid Icons</NavLink>
-            <NavLink to="/icons/wi">Weather Icons</NavLink>
-            <NavLink to="/icons/wl">We Love SVG Icons</NavLink>
-          </Aside>
-        </AsideWarpper>
-        <main>
-          <Outlet />
-        </main>
+        <Container>
+          <Section>
+            <Outlet />
+          </Section>
+          <Footer />
+        </Container>
       </Content>
     </Warpper>
   )
