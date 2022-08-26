@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 120 60">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 120 60" height="1em" width="1em">
+  <style>
+    .st0{fill:#032e38}.st1{fill:#00a89f}
+  </style>
   <switch>
     <g>
       <path class="st0" d="M55.3 8.7c0 .3-.1.5-.1.8V43h-3.4c-.2-.2-.1-.5-.1-.8V9.6c0-.3-.1-.6.2-.9h3.4z"/>

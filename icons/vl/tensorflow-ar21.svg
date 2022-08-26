@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" stroke-miterlimit="1.41400003" fill-rule="evenodd" stroke-linejoin="round" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" stroke-miterlimit="1.41400003" fill-rule="evenodd" stroke-linejoin="round" viewBox="0 0 120 60" height="1em" width="1em">
+  <style>
+    <![CDATA[.B{fill-rule:nonzero}]]>
+  </style>
   <path d="M17.832 31.153l4.06-2.356 4 2.356-4 2.306-4.06-2.256zM5.65 24.185L21.9 14.96l12.08 6.868-4 6.968-8.07-4.612-12.18 6.918z" fill="#f6bd3a" class="B"/>
   <path d="M17.832 40.376v-4.612l4-2.306 4.06-2.306v4.612l-4 2.306v4.612l-4.06 2.356zm0-9.223l-4.06-2.306-4.06 2.256V26.49l12.18-6.918v9.224zm12.08-4.662v-2.306l4.06-2.356.05 4.612-4.06 2.356z" fill="#eb8c23" class="B"/>
   <path d="M13.77 42.582V28.847l4-2.256.05 4.562 4.06 2.256v4.662l-4.06-2.156v9.123zM7.656 29.9L5.65 28.697v-4.51l4.06 2.306v4.612L7.656 29.9zm14.236-5.715v-4.612l8.02 4.612.05 4.612-8.07-4.612z" fill="#e35a2b" class="B"/>

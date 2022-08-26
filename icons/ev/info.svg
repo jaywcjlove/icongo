@@ -1,3 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path class="cls-2" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm1 14a1 1 0 0 1-2 0v-5a1 1 0 0 1 2 0Zm-1-7a1 1 0 1 1 1-1 1 1 0 0 1-1 1Z"/>
+  <g id="Layer_2">
+    <g id="info">
+      <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm1 14a1 1 0 0 1-2 0v-5a1 1 0 0 1 2 0Zm-1-7a1 1 0 1 1 1-1 1 1 0 0 1-1 1Z" style="fill:#231f20" id="info-2"/>
+    </g>
+  </g>
 </svg>

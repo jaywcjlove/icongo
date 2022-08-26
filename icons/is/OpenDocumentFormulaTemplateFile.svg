@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" version="1.1" height="1em" width="1em">
   <g>
     <path style="stroke:none;fill-rule:nonzero;fill:rgb(47.058824%,35.294118%,54.509804%);fill-opacity:1" d="M 10 2 C 9.054688 2 8 3.054688 8 4 L 8 44 C 8 44.890625 9.109375 46 10 46 L 38 46 C 38.890625 46 40 44.890625 40 44 L 40 4 C 40 3.054688 38.945312 2 38 2 Z M 10 2"/>
     <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 16 16 L 16 30 L 12 30 L 16 36 L 18 36 L 18 18 L 36 18 L 36 16 Z M 22.746094 19.820312 L 20.324219 22.433594 L 24.566406 26.992188 L 20.324219 31.566406 L 22.746094 34.179688 L 27 29.601562 L 31.242188 34.179688 L 33.675781 31.566406 L 29.417969 26.992188 L 33.675781 22.433594 L 31.242188 19.820312 L 27 24.382812 Z M 22.746094 19.820312"/>

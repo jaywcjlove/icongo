@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="1em" width="1em">
+  <style>
+    <![CDATA[.D{fill:#2f406a}.E{fill:#2379bd}.F{fill:#03afef}]]>
+  </style>
   <path d="M51.733 20.414v23.073L32.14 54.974l-.18.164v8.697l.18.164 27.586-15.934v-32.13h-.263l-7.778 4.35v.18" class="D"/>
   <path d="M12.48 43.65l19.692 11.405V64L4.357 48V16h.28l7.762 4.513.082.263V43.75" class="E"/>
   <path d="M12.48 20.726L4.275 16l27.8-16 27.65 15.934-7.992 4.48L32.04 9.206 12.447 20.693" class="F"/>

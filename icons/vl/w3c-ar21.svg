@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" overflow="visible" viewBox="0 0 120 60" height="1em" width="1em">
   <g image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
     <g transform="matrix(1.143572 0 0 1.129667 20.352879 -5.500562)">
       <path d="M20.15 8.815l5.76 19.58 5.76-19.58H47.28v1.946l-5.878 10.127c2.065.663 3.627 1.868 4.686 3.615s1.59 3.8 1.59 6.155c0 2.913-.774 5.362-2.323 7.348s-3.555 2.978-6.017 2.978c-1.854 0-3.47-.59-4.845-1.767s-2.396-2.773-3.058-4.786l3.256-1.35c.477 1.218 1.106 2.178 1.887 2.88a3.99 3.99 0 0 0 2.76 1.052c1.112 0 2.052-.622 2.82-1.866s1.152-2.74 1.152-4.488c0-1.933-.41-3.43-1.23-4.488-.954-1.244-2.45-1.866-4.49-1.866H36v-1.906l5.56-9.612H34.85l-.382.65-8.163 27.548h-.397L19.95 21.048l-5.958 19.937h-.397l-9.53-32.17h4.17l5.76 19.58L17.886 15.2 15.98 8.815h4.17z" fill="#005a9c" image-rendering="optimizeQuality" shape-rendering="geometricPrecision"/>

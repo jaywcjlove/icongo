@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Netflix" role="img" viewBox="0 0 512 512" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Netflix" role="img" viewBox="0 0 512 512" height="1em" width="1em">
   <rect width="512" height="512" rx="15%" fill="#fff"/>
   <path d="M161 89v335l12-1 21-2 32-2 1-71v-71l5 14 2 6 8-165-3-8-12-34v-1h-66zm118 0v148l-6-17-8 165 12 33 10 1a757 757 0 0 1 58 5V89h-66z" fill="#b20710"/>
   <linearGradient id="a" x1="209" x2="297" y1="271" y2="241" gradientUnits="userSpaceOnUse">

@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="2.16 12.42 64 48.687">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2.16 12.42 64 48.687" height="1em" width="1em">
+  <style>
+    <![CDATA[.N{fill:#918f8f}.O{fill:#575656}.P{fill:#acacac}.Q{fill:#cdcdcd}.R{fill:#a6a6a6}.S{fill:#6e6d6d}.T{fill:#424242}.U{fill:#504f4f}.V{fill:#9a9a9a}.W{fill:#d3d3d3}.X{fill:#bfbfbf}.Y{fill:#777676}.Z{fill:#676666}]]>
+  </style>
   <path d="M54.997 11.87h7.155v7.155h-7.155z" class="X"/>
   <path d="M62.154 11.87H55v7.155h.604v-6.55h6.55z" class="P"/>
   <path d="M61.547 12.324h-.604v5.493H55.6v.605h5.946z" class="N"/>

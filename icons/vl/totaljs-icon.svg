@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" stroke-miterlimit="1.41400003" fill-rule="evenodd" stroke-linejoin="round" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" stroke-miterlimit="1.41400003" fill-rule="evenodd" stroke-linejoin="round" viewBox="0 0 64 64" height="1em" width="1em">
   <g transform="matrix(1.325245 0 0 1.325245 -72.811733 -14.97665)">
     <path d="M79.09 11.3L100 23.374V47.52L79.09 59.594 58.177 47.52V23.374zm.023 14.003l8.364 4.83v9.66l-8.364 4.83-8.365-4.83v-9.66z" fill="#66b639"/>
     <path d="M77.624 35.112l-3.097 6.876-6.943.106 3.176-6.933-3.26-7.06 6.84-.02 3.284 6.816.07.063-.035.077.036.076zm-3.464 7.46l-5.064 11.272L58.192 47.5V23.283l11.1-6.33 4.804 10.65-7.528-.043 3.562 7.528-3.458 7.586z" fill="#9ad959"/>

@@ -1,6 +1,13 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64" height="1em" width="1em">
+  <style>
+    .st3{fill:#e35548}.st4{fill:#fff}.st5{fill:#5db2d3}.st6{fill:#aed0d4}.st7{fill:#a8aeb3}.st8{fill:url(#New_Pattern_Swatch_1)}
+  </style>
   <switch>
     <g>
+      <pattern y="792" width="20.5" height="18.2" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_1" viewBox="0 -18.2 20.5 18.2" overflow="visible">
+        <path fill="none" d="M0-18.2h20.5V0H0z"/>
+        <path fill="#1e2a35" d="M0-18.2h20.5V0H0z"/>
+      </pattern>
       <circle cx="32" cy="32" r="32" fill="#f0c42e"/>
       <path class="st3" d="M36.8 25.8l1 .5c.2.1.3.2.4.4l4.3 9.7c.1.2.1.5-.1.7-.1.2-.4.3-.6.3h-2.1v11.7h10.5V21.5H36.8v4.3z"/>
       <path class="st3" d="M50.1 49.2H39.7v.1c0 .1 0 .3-.1.4h10.6c.3 0 .5-.2.5-.5V21.6h-.5l-.1 27.6zM36.8 21.6h-.5v4l.5.2zM27.1 49.2H31l-2-2.5zM26.7 42.1l2.3 3 2.4-3zM20.3 49.2h3.9l-2-2.5zM19.9 42.1l2.3 3 2.4-3zM31.9 48.7V43l-2.2 2.9zM26.1 48.7l2.3-2.8-2.3-2.9zM25.1 48.7V43l-2.2 2.9zM19.3 48.7l2.3-2.8-2.3-2.9z"/>

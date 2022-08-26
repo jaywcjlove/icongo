@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
+  <style type="text/css">
+    .st0{fill:#326CE5}.st2{fill:none}
+  </style>
   <g>
     <path class="st0" d="M10.1,17c-0.9-0.6-1.1-1.7-0.5-2.6c0.1-0.2,0.3-0.4,0.5-0.5L31,0.3c0.6-0.4,1.4-0.4,2,0l20.9,13.6 c0.9,0.6,1.1,1.7,0.5,2.6c-0.1,0.2-0.3,0.4-0.5,0.5L33,30.5c-0.6,0.4-1.4,0.4-2,0L10.1,17z"/>
     <path d="M35.3,19.4h1.4c0.6,0,1.1-0.5,1.1-1.1c0-0.2-0.1-0.4-0.1-0.5L33,9.5c-0.3-0.5-1-0.7-1.5-0.4 c-0.2,0.1-0.3,0.2-0.4,0.4l-4.7,8.2c-0.3,0.5-0.1,1.2,0.4,1.5c0.2,0.1,0.4,0.1,0.5,0.1h1.4c0.6,0,1.1,0.5,1.1,1.1l0,0v9.4l1,0.6 c0.7,0.5,1.7,0.5,2.4,0l1-0.6v-9.4C34.2,19.9,34.7,19.4,35.3,19.4C35.3,19.4,35.3,19.4,35.3,19.4z" style="fill:#C1D2F7"/>

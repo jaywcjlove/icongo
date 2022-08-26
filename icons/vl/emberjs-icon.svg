@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.1 31.4 64 63.869" preserveAspectRatio="xMidYMid">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0.1 31.4 64 63.869" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+  <style>
+    <![CDATA[.H{stroke-miterlimit:10}.I{fill:none}.J{fill:#fcd4c3}.K{fill:#ba8449}.L{stroke-width:.68}.M{stroke-linejoin:round}.N{stroke-width:1.36}]]>
+  </style>
   <path d="M50.758 84.224z" fill="#fff"/>
   <path d="M50.758 84.224z" class="K"/>
   <g fill="#fff">

@@ -1,7 +1,11 @@
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" xml:space="preserve">
-  <g transform="matrix(0.3902439,0,0,0.3902439,2e-7,14.439025)">
-    <path class="st10" d="m 25.2863,90 h 47.2313 c 14.0881,0 24.3833,-7.9724 31.9692,-18.7795 4.5154,-6.4665 9.2115,-12.2244 17.9714,-12.2244 h 28.5375 V 44.2913 h -39.5551 c -8.7599,0 -13.3656,5.7579 -17.9714,12.2244 C 85.8833,67.3228 75.6784,75.2953 61.5,75.2953 H 25.2863 Z" style="fill:#2d36fb"/>
-    <path class="st10" d="m 0,70.1575 h 58.5198 c 14.0881,0 24.3833,-7.9724 31.9692,-18.7795 4.5154,-6.4665 9.2114,-12.2244 17.9714,-12.2244 H 164 V 20.8169 h -55.5396 c -17.2489,0 -22.3965,7.8839 -29.5308,17.0965 -5.2379,6.8209 -10.837,13.9075 -20.4097,13.9075 H 0 Z" style="fill:#2d36fb"/>
-    <path class="st10" d="m 14.0881,46.9488 h 40.7291 c 9.5727,0 15.1718,-7.1752 20.4097,-13.9075 7.1344,-9.2126 12.2819,-17.0965 29.5308,-17.0965 h 31.1564 V 0 H 96.8106 C 79.5617,0 74.4141,7.8839 67.2797,17.0965 62.0418,23.9174 56.4427,31.004 46.87,31.004 H 14.0881 Z" style="fill:#2d36fb"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 64 64" xml:space="preserve" sodipodi:docname="lightstep-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" id="namedview44" showgrid="false" inkscape:zoom="4.4313725" inkscape:cx="85.343437" inkscape:cy="21.975897" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="Layer_1"/>
+  <style type="text/css" id="style2">
+    .st1{display:none}.st9{fill:#333333}.st10{fill:#2D36FB}
+  </style>
+  <g id="dark_logo" transform="matrix(0.3902439,0,0,0.3902439,2e-7,14.439025)">
+    <path class="st10" d="m 25.2863,90 h 47.2313 c 14.0881,0 24.3833,-7.9724 31.9692,-18.7795 4.5154,-6.4665 9.2115,-12.2244 17.9714,-12.2244 h 28.5375 V 44.2913 h -39.5551 c -8.7599,0 -13.3656,5.7579 -17.9714,12.2244 C 85.8833,67.3228 75.6784,75.2953 61.5,75.2953 H 25.2863 Z" id="path28" inkscape:connector-curvature="0" style="fill:#2d36fb"/>
+    <path class="st10" d="m 0,70.1575 h 58.5198 c 14.0881,0 24.3833,-7.9724 31.9692,-18.7795 4.5154,-6.4665 9.2114,-12.2244 17.9714,-12.2244 H 164 V 20.8169 h -55.5396 c -17.2489,0 -22.3965,7.8839 -29.5308,17.0965 -5.2379,6.8209 -10.837,13.9075 -20.4097,13.9075 H 0 Z" id="path30" inkscape:connector-curvature="0" style="fill:#2d36fb"/>
+    <path class="st10" d="m 14.0881,46.9488 h 40.7291 c 9.5727,0 15.1718,-7.1752 20.4097,-13.9075 7.1344,-9.2126 12.2819,-17.0965 29.5308,-17.0965 h 31.1564 V 0 H 96.8106 C 79.5617,0 74.4141,7.8839 67.2797,17.0965 62.0418,23.9174 56.4427,31.004 46.87,31.004 H 14.0881 Z" id="path32" inkscape:connector-curvature="0" style="fill:#2d36fb"/>
   </g>
 </svg>

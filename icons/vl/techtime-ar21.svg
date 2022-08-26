@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" height="1em" width="1em">
   <defs>
     <radialGradient gradientUnits="userSpaceOnUse" r="69.991" cy="58.93" cx="88.231" id="a" gradientTransform="matrix(0.13259209,0,0,0.13259209,0,41.90118)">
       <stop offset="0" stop-color="#4f73b6"/>

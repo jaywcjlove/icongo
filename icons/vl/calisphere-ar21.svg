@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 60" style="enable-background:new 0 0 120 60" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 120 60" style="enable-background:new 0 0 120 60" xml:space="preserve" height="1em" width="1em">
+  <style type="text/css">
+    .st0{fill:#C74F0A}.st1{fill:#E45B0C}
+  </style>
   <g>
     <g>
       <path class="st0" d="M45,25.9c1.5,5.2,7.2,7,9.8,7.6c-2.3-1.3-6.5-3.4-7.9-8c-1.3-4.7,1.2-8.5,2.5-10.6 C47.5,16.5,43.5,20.7,45,25.9"/>

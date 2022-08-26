@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64" height="1em" width="1em">
+  <style>
+    .st0{fill:#00aeff}
+  </style>
   <switch>
     <g>
       <circle class="st0" cx="14.3" cy="13.7" r="13.7"/>

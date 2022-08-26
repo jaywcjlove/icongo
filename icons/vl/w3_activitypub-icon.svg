@@ -1,7 +1,10 @@
-<svg version="1.1" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+<svg version="1.1" id="svg8" inkscape:version="0.92.1 r15371" sodipodi:docname="ActivityPub-logo.svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
+  <style type="text/css">
+    .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#F1027E}
+  </style>
   <g>
-    <path class="st0" d="M34.9,11.8L64,28.6v6.7 L34.9,52.2v-6.7L58.2,32L34.9,18.6L34.9,11.8z"/>
-    <path class="st0" d="M34.9,25.3L46.5,32l-11.6,6.7 V25.3z"/>
-    <path d="M29.1,11.8L0,28.6v6.7l23.3-13.4v26.9l5.8,3.4V11.8z M17.5,32L5.8,38.7l11.6,6.7V32z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#6D6D6D"/>
+    <path id="path5404-0-0" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccccc" class="st0" d="M34.9,11.8L64,28.6v6.7 L34.9,52.2v-6.7L58.2,32L34.9,18.6L34.9,11.8z"/>
+    <path id="path5406-6-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" class="st0" d="M34.9,25.3L46.5,32l-11.6,6.7 V25.3z"/>
+    <path id="path5467-2-0" inkscape:connector-curvature="0" d="M29.1,11.8L0,28.6v6.7l23.3-13.4v26.9l5.8,3.4V11.8z M17.5,32L5.8,38.7l11.6,6.7V32z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#6D6D6D"/>
   </g>
 </svg>

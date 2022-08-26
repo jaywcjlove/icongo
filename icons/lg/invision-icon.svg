@@ -1,4 +1,4 @@
-<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
   <g>
     <rect fill="#FF0066" x="0" y="0" width="256" height="256"/>
     <path d="M87.11168,82.3808 C95.209435,82.2624485 101.689441,75.6228904 101.610827,67.5246522 C101.532212,59.426414 94.9245317,52.9139057 86.8260052,52.9526078 C78.7274787,52.9916561 72.1826248,59.5673003 72.18176,67.66592 C72.1951648,71.601798 73.7793543,75.3694466 76.582571,78.1322878 C79.3857877,80.895129 83.1760217,82.4244944 87.11168,82.3808 L87.11168,82.3808 Z" fill="#FFFFFF"/>

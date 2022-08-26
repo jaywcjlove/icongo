@@ -1,4 +1,5 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64" height="1em" width="1em">
+  <style/>
   <switch>
     <g>
       <path fill="#fb7010" d="M59.7 48V16L32 0 4.3 16v32L32 64z"/>

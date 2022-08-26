@@ -1,3 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path class="cls-2" d="M18 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm-6 3a1 1 0 1 1-1 1 1 1 0 0 1 1-1ZM8 6a1 1 0 1 1-1 1 1 1 0 0 1 1-1Zm11 12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7h14Z"/>
+  <g id="Layer_2">
+    <g id="browser">
+      <path d="M18 3H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm-6 3a1 1 0 1 1-1 1 1 1 0 0 1 1-1ZM8 6a1 1 0 1 1-1 1 1 1 0 0 1 1-1Zm11 12a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-7h14Z" style="fill:#231f20" id="browser-2"/>
+    </g>
+  </g>
 </svg>

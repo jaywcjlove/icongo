@@ -1,12 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="14.447" y1="36.867" x2="18.048" y2="33.266">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="1em" width="1em">
+  <style>
+    <![CDATA[.D{fill:#441a0d}.E{fill:#d89687}.F{fill:#aa2322}]]>
+  </style>
+  <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="14.447" y1="36.867" x2="18.048" y2="33.266">
     <stop offset=".198" stop-color="#914f00"/>
     <stop offset=".335" stop-color="#9f5600"/>
     <stop offset=".609" stop-color="#b76200"/>
     <stop offset=".841" stop-color="#c66900"/>
     <stop offset="1" stop-color="#cb6c00"/>
   </linearGradient>
-  <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="18.392" y1="33.123" x2="38.261" y2="13.255">
+  <linearGradient id="B" gradientUnits="userSpaceOnUse" x1="18.392" y1="33.123" x2="38.261" y2="13.255">
     <stop offset="0" stop-color="#fbba00"/>
     <stop offset=".065" stop-color="#fdc000"/>
     <stop offset=".306" stop-color="#ffd500"/>
@@ -20,8 +23,8 @@
     <path d="M14.673 38.626l-2.108-2.108c-2.353-.8-4.548 1.718-4.548 6.656 4.995.058 7.464-2.2 6.656-4.548z" fill="#f39200"/>
     <path d="M17.633 43.26l-9.587-9.587 3.58-1.53 7.536 7.536z" fill="#4b5b5c"/>
     <path d="M19.163 39.68l-7.536-7.536-1.285.55a37.46 37.46 0 0 0 3.638 4.49 38.85 38.85 0 0 0 4.505 4.086z" fill="#3a4949"/>
-    <path d="M18.052 33.37c-2.57-2.73-4.577-5.934-5.905-9.442L7.47 25.704a33.69 33.69 0 0 0 6.93 11.103c3.017 3.22 6.64 5.8 10.655 7.594l2.05-4.562c-3.407-1.545-6.497-3.74-9.052-6.468z" fill="url(#a)"/>
-    <path d="M12.55 23.77c1.314 3.45 3.277 6.612 5.804 9.298s5.558 4.85 8.922 6.367l11.55-25.612z" fill="url(#b)"/>
+    <path d="M18.052 33.37c-2.57-2.73-4.577-5.934-5.905-9.442L7.47 25.704a33.69 33.69 0 0 0 6.93 11.103c3.017 3.22 6.64 5.8 10.655 7.594l2.05-4.562c-3.407-1.545-6.497-3.74-9.052-6.468z" fill="url(#A)"/>
+    <path d="M12.55 23.77c1.314 3.45 3.277 6.612 5.804 9.298s5.558 4.85 8.922 6.367l11.55-25.612z" fill="url(#B)"/>
     <path d="M26.295 18.572a3 3 0 0 0 5.992-.202 2.91 2.91 0 0 0-.635-1.834zm8.23 2.858a1.98 1.98 0 0 0-1.978 1.978 1.99 1.99 0 0 0 1.155 1.8l1.617-3.595c-.245-.116-.52-.173-.794-.173z" class="F"/>
     <g class="D">
       <circle r=".419" cy="20.117" cx="28.938"/>

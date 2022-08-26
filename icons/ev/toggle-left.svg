@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path class="cls-2" d="M15 5H9a7 7 0 0 0 0 14h6a7 7 0 0 0 0-14ZM9 15a3 3 0 1 1 3-3 3 3 0 0 1-3 3Z"/>
-  <path class="cls-2" d="M9 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"/>
+  <defs/>
+  <g id="Layer_2">
+    <g id="toggle-left">
+      <g id="toggle-left-2">
+        <path class="cls-2" d="M15 5H9a7 7 0 0 0 0 14h6a7 7 0 0 0 0-14ZM9 15a3 3 0 1 1 3-3 3 3 0 0 1-3 3Z"/>
+        <path class="cls-2" d="M9 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2Z"/>
+      </g>
+    </g>
+  </g>
 </svg>

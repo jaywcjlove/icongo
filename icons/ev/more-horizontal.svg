@@ -1,5 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <circle class="cls-2" cx="12" cy="12" r="2"/>
-  <circle class="cls-2" cx="19" cy="12" r="2"/>
-  <circle class="cls-2" cx="5" cy="12" r="2"/>
+  <defs/>
+  <g id="Layer_2">
+    <g id="more-horizotnal">
+      <g id="more-horizotnal-2">
+        <circle class="cls-2" cx="12" cy="12" r="2"/>
+        <circle class="cls-2" cx="19" cy="12" r="2"/>
+        <circle class="cls-2" cx="5" cy="12" r="2"/>
+      </g>
+    </g>
+  </g>
 </svg>

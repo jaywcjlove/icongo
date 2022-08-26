@@ -1,26 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 60" height="1em" width="1em">
+  <style>
+    <![CDATA[.C{fill:#16946e}.D{fill:#97c848}.E{mask:url(#L)}]]>
+  </style>
   <defs>
-    <g id="c">
+    <g id="A">
       <animateTransform attributeName="transform" type="rotate" from="0 327 327" to="360 327 327" dur="50s" repeatCount="indefinite"/>
-      <use xlink:href="#a"/>
+      <use xlink:href="#G"/>
     </g>
-    <g id="e">
+    <g id="B">
       <animateTransform attributeName="transform" type="rotate" from="360 327 327" to="0 327 327" dur="50s" repeatCount="indefinite"/>
-      <use xlink:href="#a"/>
+      <use xlink:href="#G"/>
     </g>
-    <g id="j">
+    <g id="C">
       <animateTransform fill="freeze" attributeName="transform" type="translate" from="0 0" to="0 331" dur="5s" repeatCount="1"/>
-      <use xlink:href="#b"/>
+      <use xlink:href="#F"/>
     </g>
-    <g id="i">
+    <g id="D">
       <animateTransform attributeName="transform" type="translate" from="0 0" to="0 662" dur="10s" repeatCount="indefinite"/>
-      <use y="-331" xlink:href="#b"/>
+      <use y="-331" xlink:href="#F"/>
     </g>
-    <g id="k">
+    <g id="E">
       <animateTransform attributeName="transform" type="translate" from="0 0" to="0 662" dur="10s" begin="5s" repeatCount="indefinite"/>
-      <use y="-331" xlink:href="#b"/>
+      <use y="-331" xlink:href="#F"/>
     </g>
-    <g id="b">
+    <g id="F">
       <circle cx="2.5" cy="92.5" r="2.5" class="C"/>
       <circle cx="2.5" cy="82.5" r="2.5" class="D"/>
       <circle cx="2.5" cy="72.5" r="2.5" class="C"/>
@@ -55,7 +58,7 @@
       <circle cx="2.5" cy="114.5" r="2.5" class="D"/>
       <circle cx="2.5" cy="104.5" r="2.5" class="C"/>
     </g>
-    <g id="a">
+    <g id="G">
       <circle cx="652.5" cy="327.5" r="2.5" class="C"/>
       <circle cx="652.34" cy="337.709" r="2.5" transform="rotate(2 652.34 337.708)" class="D"/>
       <circle cx="651.859" cy="347.907" r="2.5" transform="rotate(4 651.86 347.907)" class="C"/>
@@ -257,26 +260,29 @@
       <circle cx="651.859" cy="307.093" r="2.5" transform="rotate(356 651.86 307.093)" class="C"/>
       <circle cx="652.34" cy="317.292" r="2.5" transform="rotate(358 652.34 317.292)" class="D"/>
     </g>
-    <mask id="h" width="213" height="155" x="391" y="7" maskUnits="userSpaceOnUse">
+    <mask id="H" width="213" height="155" x="391" y="7" maskUnits="userSpaceOnUse">
       <path d="M391 7h213v155H391z" fill="#666"/>
     </mask>
-    <mask id="g" width="213" height="155" x="50" y="7" maskUnits="userSpaceOnUse">
+    <mask id="I" width="213" height="155" x="50" y="7" maskUnits="userSpaceOnUse">
       <path d="M50 7h213v155H50z" fill="#666"/>
     </mask>
-    <mask id="f" width="213" height="155" x="52" y="496" maskUnits="userSpaceOnUse">
+    <mask id="J" width="213" height="155" x="52" y="496" maskUnits="userSpaceOnUse">
       <path d="M52 496h213v155H52z" fill="#666"/>
     </mask>
-    <mask id="d" width="213" height="155" x="391" y="495" maskUnits="userSpaceOnUse">
+    <mask id="K" width="213" height="155" x="391" y="495" maskUnits="userSpaceOnUse">
       <path d="M391 495h213v155H391z" fill="#666"/>
     </mask>
+    <mask id="L" width="20" height="117" x="0" y="0">
+      <path d="M0 0h20v120H0zm0 193h20v130H0z" fill="#666"/>
+    </mask>
   </defs>
-  <use x="-95" y="-773" xlink:href="#c" mask="url(#d)"/>
-  <use x="-35" y="-773" xlink:href="#e" mask="url(#f)"/>
-  <use x="-35" y="-111" xlink:href="#e" mask="url(#g)"/>
-  <use x="-95" y="-111" xlink:href="#c" mask="url(#h)"/>
-  <use x="264" xlink:href="#i" y="-268" class="E"/>
-  <use x="264" xlink:href="#j" y="-268" class="E"/>
-  <use x="264" xlink:href="#k" y="-268" class="E"/>
+  <use x="-95" y="-773" xlink:href="#A" mask="url(#K)"/>
+  <use x="-35" y="-773" xlink:href="#B" mask="url(#J)"/>
+  <use x="-35" y="-111" xlink:href="#B" mask="url(#I)"/>
+  <use x="-95" y="-111" xlink:href="#A" mask="url(#H)"/>
+  <use x="264" xlink:href="#D" y="-268" class="E"/>
+  <use x="264" xlink:href="#C" y="-268" class="E"/>
+  <use x="264" xlink:href="#E" y="-268" class="E"/>
   <path d="M29 19.19H15.508v13.5h13.5v-13.5zM13.56 36.3c-.447 0-.858-.16-1.162-.482-.304-.304-.465-.697-.465-1.144v-17.44c0-.893.733-1.626 1.626-1.626h17.46c.894 0 1.626.733 1.626 1.626v17.44c0 .91-.733 1.644-1.626 1.644L13.56 36.3" fill="#9fc83b"/>
   <path d="M20.904 27.284h-13.5v13.5h13.5zM5.43 44.403c-.447 0-.84-.18-1.162-.465a1.64 1.64 0 0 1-.465-1.144v-17.46c0-.893.733-1.626 1.626-1.626h17.46c.893 0 1.626.733 1.626 1.626v17.44c0 .894-.733 1.626-1.626 1.626H5.43" fill="#31986e"/>
   <path d="M29 32.698H11.934v1.966c0 .447.18.84.465 1.144.304.322.715.482 1.162.482h17.46c.894 0 1.626-.733 1.626-1.644V32.68L29 32.698" fill="#9fc83b"/>

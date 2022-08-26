@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
+  <style type="text/css">
+    .st2{fill:#00AAE7}
+  </style>
   <g>
     <g>
       <polygon points="60.7,8.7 49.3,8.7 34.6,22.3 40.4,27.7" style="fill:#8A8C8E"/>

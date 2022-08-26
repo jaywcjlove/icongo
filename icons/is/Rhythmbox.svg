@@ -1,25 +1,15 @@
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="rhythmbox.svg" inkscape:export-filename="/mnt/Data/Visuals/Icons/Test/48x48/applications/utilities-terminal.png" inkscape:export-xdpi="180" inkscape:export-ydpi="180" viewBox="0 0 48 48" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="rhythmbox.svg" inkscape:export-filename="/mnt/Data/Visuals/Icons/Test/48x48/applications/utilities-terminal.png" inkscape:export-xdpi="180" inkscape:export-ydpi="180" viewBox="0 0 48 48" height="1em" width="1em">
   <defs>
-    <linearGradient inkscape:collect="always" id="d">
+    <linearGradient inkscape:collect="always" id="b">
       <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
       <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
     </linearGradient>
-    <linearGradient inkscape:collect="always" id="c">
+    <linearGradient inkscape:collect="always" id="a">
       <stop style="stop-color:#e0e0e0;stop-opacity:1" offset="0"/>
       <stop style="stop-color:#fafafa;stop-opacity:1" offset="1"/>
     </linearGradient>
-    <linearGradient inkscape:collect="always" id="b">
-      <stop style="stop-color:#ffffff;stop-opacity:1" offset="0"/>
-      <stop style="stop-color:#ffffff;stop-opacity:0" offset="1"/>
-    </linearGradient>
-    <linearGradient inkscape:collect="always" id="a">
-      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
-      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
-    </linearGradient>
-    <linearGradient inkscape:collect="always" xlink:href="#a" id="h" x1="24" y1="24" x2="24" y2="45" gradientUnits="userSpaceOnUse"/>
-    <linearGradient inkscape:collect="always" xlink:href="#b" id="g" x1="25" y1="24" x2="25" y2="3" gradientUnits="userSpaceOnUse"/>
-    <linearGradient inkscape:collect="always" xlink:href="#c" id="e" x1="24" y1="1049.3622" x2="24" y2="1007.3622" gradientUnits="userSpaceOnUse" gradientTransform="translate(-2,0)"/>
-    <linearGradient inkscape:collect="always" xlink:href="#d" id="f" x1="20" y1="24" x2="43" y2="45" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#a" id="c" x1="24" y1="1049.3622" x2="24" y2="1007.3622" gradientUnits="userSpaceOnUse" gradientTransform="translate(-2,0)"/>
+    <linearGradient inkscape:collect="always" xlink:href="#b" id="d" x1="20" y1="24" x2="43" y2="45" gradientUnits="userSpaceOnUse"/>
   </defs>
   <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="34.541667" inkscape:cx="24" inkscape:cy="13.74608" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:window-width="1920" inkscape:window-height="1020" inkscape:window-x="0" inkscape:window-y="32" inkscape:window-maximized="1" inkscape:snap-bbox="true" inkscape:bbox-nodes="true" inkscape:snap-bbox-edge-midpoints="true" inkscape:snap-bbox-midpoints="true" inkscape:bbox-paths="true" inkscape:object-paths="true" inkscape:snap-intersection-paths="true" inkscape:snap-smooth-nodes="true" inkscape:snap-midpoints="true" inkscape:object-nodes="true" showguides="true" inkscape:guide-bbox="true">
     <inkscape:grid type="xygrid" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true"/>
@@ -30,8 +20,8 @@
     <path style="opacity:0.16000001;fill:#000000;fill-opacity:1;stroke:none" d="m 3,43 0,0.5 c 0,1.108 0.892,2 2,2 l 38,0 c 1.108,0 2,-0.892 2,-2 L 45,43 c 0,1.108 -0.892,2 -2,2 L 5,45 C 3.892,45 3,44.108 3,43 Z" inkscape:connector-curvature="0" sodipodi:nodetypes="csssscssc"/>
   </g>
   <g inkscape:label="Body" inkscape:groupmode="layer" transform="translate(0,-1004.3622)">
-    <rect ry="2" rx="2" y="1007.3622" x="3" height="42" width="42" style="opacity:1;fill:url(#e);fill-opacity:1;stroke:none"/>
-    <path style="opacity:0.15;fill:url(#f);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 34.125,13.35 14,34.75 26,45 43,45 c 1.108,0 2.08185,-0.895027 2,-2 l 0,-18 z" transform="translate(0,1004.3622)" inkscape:connector-curvature="0" sodipodi:nodetypes="cccsscc"/>
+    <rect ry="2" rx="2" y="1007.3622" x="3" height="42" width="42" style="opacity:1;fill:url(#c);fill-opacity:1;stroke:none"/>
+    <path style="opacity:0.15;fill:url(#d);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M 34.125,13.35 14,34.75 26,45 43,45 c 1.108,0 2.08185,-0.895027 2,-2 l 0,-18 z" transform="translate(0,1004.3622)" inkscape:connector-curvature="0" sodipodi:nodetypes="cccsscc"/>
     <circle style="opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" cx="24" cy="1028.3622" r="12"/>
     <circle r="10" cy="1028.3622" cx="24" style="opacity:1;fill:#ffc107;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
     <circle r="5" cy="1028.3622" cx="24" style="opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
@@ -40,9 +30,5 @@
     <circle style="opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" cx="15" cy="1037.3622" r="2"/>
     <circle style="opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" cx="33" cy="1019.3622" r="2"/>
     <circle r="2" cy="1037.3622" cx="33" style="opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"/>
-  </g>
-  <g inkscape:groupmode="layer" inkscape:label="Fold" style="display:none;opacity:0.05" sodipodi:insensitive="true">
-    <path style="opacity:1;fill:url(#g);fill-opacity:1;stroke:none" d="m 5,3 38,0 c 1.108,0 2,0.892 2,2 L 45,24 3,24 3,5 C 3,3.892 3.892,3 5,3 Z" inkscape:connector-curvature="0" sodipodi:nodetypes="ssccccs"/>
-    <path sodipodi:nodetypes="ssccccs" inkscape:connector-curvature="0" d="m 5,45 38,0 c 1.108,0 2,-0.892 2,-2 L 45,24 3,24 3,43 c 0,1.108 0.892,2 2,2 z" style="opacity:1;fill:url(#h);fill-opacity:1;stroke:none"/>
   </g>
 </svg>

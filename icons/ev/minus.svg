@@ -1,3 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path class="cls-2" d="M19 13H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2Z"/>
+  <g id="Layer_2">
+    <g id="minus">
+      <path d="M19 13H5a1 1 0 0 1 0-2h14a1 1 0 0 1 0 2Z" style="fill:#231f20" id="minus-2"/>
+    </g>
+  </g>
 </svg>

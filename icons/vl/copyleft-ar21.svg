@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" height="1em" width="1em">
   <g transform="matrix(.034428 0 0 .034428 5.106558 13.130295)">
     <circle cx="490" cy="490" r="440" fill="none" stroke="#000" stroke-width="100"/>
     <path d="M219 428h131a150 150 0 1 1 0 125H219a275 275 0 1 0 0-125z"/>

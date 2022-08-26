@@ -1,4 +1,4 @@
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 24 24" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" height="1em" width="1em">
   <g transform="translate(0 -1028.4)">
     <path d="m5 1031.4c-1.1046 0-2 0.9-2 2v14c0 1.1 0.8954 2 2 2h13 1c1.105 0 2-0.9 2-2v-13l-3-3h-13z" fill="#3498db"/>
     <path d="m7 1031.4v1 5c0 0.5 0.4477 1 1 1h8c0.552 0 1-0.5 1-1v-5-1h-10z" fill="#2980b9"/>

@@ -1,4 +1,4 @@
-<svg viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-game-controll" height="1em" width="1em">
+<svg viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-game-controll" height="1em" width="1em">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g transform="translate(1.000000, 1.000000)" fill="#434343">
       <path d="M5.352,6.083 C5.352,6.083 5.021,5.041 3.35,5.041 C1.679,5.041 1.344,7.047 1.344,7.047 L0.008,13.021 C0.008,14.127 0.843,15.026 2.013,15.026 C3.052,15.026 3.872,13.312 4.317,12.124 C4.547,12.267 4.815,12.353 5.104,12.353 C5.877,12.353 6.637,11.638 6.721,10.888 L9.471,10.888 C9.555,11.638 10.055,12.353 10.827,12.353 C11.142,12.353 11.435,12.255 11.677,12.089 C12.114,13.277 12.924,15.027 13.918,15.027 C15.423,15.027 15.924,14.129 15.924,13.022 L14.588,7.048 C14.588,7.048 14.337,5.042 12.582,5.042 C10.827,5.042 10.701,6.084 10.701,6.084 L5.352,6.084 L5.352,6.083 Z" class="si-glyph-fill"/>

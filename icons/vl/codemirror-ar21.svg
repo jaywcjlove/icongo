@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" height="1em" width="1em">
   <defs>
+    <style/>
     <clipPath id="a">
       <path d="M435.607 369.9h31.242v-64.782h-31.242z"/>
     </clipPath>

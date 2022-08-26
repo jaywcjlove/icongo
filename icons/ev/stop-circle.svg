@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <path class="cls-2" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm4 12.75A1.25 1.25 0 0 1 14.75 16h-5.5A1.25 1.25 0 0 1 8 14.75v-5.5A1.25 1.25 0 0 1 9.25 8h5.5A1.25 1.25 0 0 1 16 9.25Z"/>
-  <rect class="cls-2" x="10" y="10" width="4" height="4"/>
+  <defs/>
+  <g id="Layer_2">
+    <g id="stop-circle">
+      <g id="stop-circle-2">
+        <path class="cls-2" d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm4 12.75A1.25 1.25 0 0 1 14.75 16h-5.5A1.25 1.25 0 0 1 8 14.75v-5.5A1.25 1.25 0 0 1 9.25 8h5.5A1.25 1.25 0 0 1 16 9.25Z"/>
+        <rect class="cls-2" x="10" y="10" width="4" height="4"/>
+      </g>
+    </g>
+  </g>
 </svg>

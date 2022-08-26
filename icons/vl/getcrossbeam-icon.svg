@@ -1,6 +1,7 @@
-<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 616.9 132.4" viewBox="0 0 64 64.000003" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" enable-background="new 0 0 616.9 132.4" viewBox="0 0 64 64.000003" version="1.1" sodipodi:docname="crossbeam-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="4.3961742" inkscape:cx="85.007387" inkscape:cy="19.487343" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg26"/>
   <g transform="matrix(3.0772876,0,0,3.0772876,-30.772873,-60.268745)">
-    <path d="M 18.07262,33.92284 H 9.999999 v 6.451613 H 30.797535 V 33.92284 h -8.072621 l -2.334252,-3.93905 z" style="fill:#f53251;stroke-width:0.16210084"/>
-    <path d="m 9.999999,19.593127 v 6.451613 h 8.072621 l 2.318042,3.93905 2.334252,-3.93905 h 8.072621 v -6.451613 z" style="fill:#77d9e2;stroke-width:0.16210084"/>
+    <path d="M 18.07262,33.92284 H 9.999999 v 6.451613 H 30.797535 V 33.92284 h -8.072621 l -2.334252,-3.93905 z" inkscape:connector-curvature="0" style="fill:#f53251;stroke-width:0.16210084"/>
+    <path d="m 9.999999,19.593127 v 6.451613 h 8.072621 l 2.318042,3.93905 2.334252,-3.93905 h 8.072621 v -6.451613 z" inkscape:connector-curvature="0" style="fill:#77d9e2;stroke-width:0.16210084"/>
   </g>
 </svg>

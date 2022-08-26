@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="1em" width="1em">
+  <style>
+    <![CDATA[.B{fill:#3b2d55}.C{fill:#57d1e5}.D{stroke:#3b2d55}.E{stroke-width:1.26}.F{stroke-linejoin:round}.G{stroke-linecap:round}]]>
+  </style>
   <g transform="matrix(.931167 0 0 .931167 6.113553 -.065182)">
     <g class="C">
       <path d="M15.3 63.5c.4 2.1-.9 4.1-3 4.6-2.1.4-4.1-.9-4.6-3C7.7 65.1.6 31.8.6 25 .6 10.8 11.9.7 27.8.7S55 10.7 55 24.9c0 6.8-7.1 40.1-7.1 40.1-.4 2.1-2.4 3.5-4.5 3.1s-3.5-2.4-3.1-4.5" class="D E F G"/>

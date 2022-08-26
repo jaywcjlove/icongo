@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 120 60">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 120 60" height="1em" width="1em">
+  <style>
+    .st1,.st3,.st4,.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#5aacd8}.st3,.st4,.st5{fill:#fff}.st4,.st5{fill:#003c6a}.st5{fill:#f4fafb}
+  </style>
   <switch>
     <g>
       <path d="M30.1 45.8c7.2 0 13 .3 13 .6 0 .4-5.8.6-13 .6s-13-.3-13-.6c-.1-.3 5.8-.6 13-.6" opacity=".24" fill-rule="evenodd" clip-rule="evenodd"/>

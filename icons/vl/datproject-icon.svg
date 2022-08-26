@@ -1,4 +1,7 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
+  <style type="text/css">
+    .st1{fill:#2ACA4B}
+  </style>
   <g>
     <g>
       <path d="M59.3,47.9l0.2-0.1V16.2l-0.2-0.1L32.2,0.6L32,0.4l-0.2,0.1L4.7,16.1l-0.2,0.1v31.6l0.2,0.1l27.1,15.6 l0.2,0.1l0.2-0.1L59.3,47.9z" style="fill:#293648"/>

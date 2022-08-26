@@ -1,4 +1,4 @@
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 192 192" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="netflix.svg" inkscape:export-filename="C:\createme\Material Design Icons\PNG\netflix.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 192 192" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="netflix.svg" inkscape:export-filename="C:\createme\Material Design Icons\PNG\netflix.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" height="1em" width="1em">
   <defs>
     <linearGradient inkscape:collect="always" id="a">
       <stop style="stop-color:#ffffff;stop-opacity:1" offset="0"/>
@@ -58,7 +58,6 @@
       </g>
     </g>
   </g>
-  <g inkscape:label="objects" inkscape:groupmode="layer" transform="translate(0,-860.36216)"/>
   <g inkscape:groupmode="layer" inkscape:label="finish" sodipodi:insensitive="true">
     <path style="opacity:0.1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 32,20 c -6,0 -12,6 -12,12 l 0,1 c 0,-6 6,-12 12,-12 l 128,0 c 6,0 12,6 12,12 l 0,-1 c 0,-6 -6,-12 -12,-12 L 32,20 Z" inkscape:connector-curvature="0"/>
     <path style="opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 20,159 0,1 c 0,6 6,12 12,12 l 128,0 c 6,0 12,-6 12,-12 l 0,-1 c 0,6 -6,12 -12,12 l -128,0 c -6,0 -12,-6 -12,-12 z" inkscape:connector-curvature="0"/>

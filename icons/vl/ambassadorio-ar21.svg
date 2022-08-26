@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.62 -1.68 120 60">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.62 -1.68 120 60" height="1em" width="1em">
   <filter height="3.667" id="a" width="1.3" x="-.15" y="-1.333">
     <feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
   </filter>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" height="1em" width="1em">
   <pattern id="b" patternTransform="translate(.025315 .5463)" xlink:href="#a"/>
   <pattern id="a" height="29.836" patternTransform="translate(.025315 1020.9085)" patternUnits="userSpaceOnUse" width="31.93">
     <rect fill="#e74c3c" height="21.01" ry=".633" transform="matrix(.175462 -.984486 .984486 .175462 -.025 -1020.908)" width="6.602" x="-1030.786" y="184.455"/>

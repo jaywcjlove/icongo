@@ -31,7 +31,6 @@
       <mask id="b" fill="white">
         <use xlink:href="#a"/>
       </mask>
-      <g/>
       <polygon fill-opacity="0.25" fill="#000000" fill-rule="nonzero" mask="url(#b)" points="0.64705882 14.7647059 11 14.7647059 5.3529412 54.2941176 0.64705882 54.2941176"/>
     </g>
     <ellipse fill="#FFFFFF" fill-rule="nonzero" cx="105.232005" cy="98.7552946" rx="11.7849412" ry="11.7628235"/>
@@ -45,42 +44,36 @@
       <mask id="d" fill="white">
         <use xlink:href="#c"/>
       </mask>
-      <g/>
       <path d="M53.2823529,84.0117647 C53.2823529,84.0117647 41.9336471,86.2931765 36.2592941,86.2931765 C30.6861176,86.2931765 19.5402353,84.0117647 19.5402353,84.0117647 C9.1251765,84.0117647 0.68235294,77.8503529 0.68235294,67.4352941 L0.68235294,36.5642353 C0.68235294,16.8503529 16.6635294,0.86917647 36.3774118,0.86917647 C56.1585882,0.86917647 72.1397647,16.8503529 72.1397647,36.5642353 L72.1397647,67.4352941 C72.1402353,77.8503529 63.6969412,84.0117647 53.2823529,84.0117647 Z" fill="#00D8FE" fill-rule="nonzero" mask="url(#d)"/>
     </g>
     <g transform="translate(90.253182, 4.777882)">
       <mask id="f" fill="white">
         <use xlink:href="#e"/>
       </mask>
-      <g/>
       <path d="M10.5167059,66.4941176 L10.5167059,26.2112941 C10.5167059,8.1548235 23.9261176,-6.76094118 41.3284706,-9.14305882 C39.7101917,-9.36761553 38.0784884,-9.48160522 36.4447059,-9.48423529 L36.3774118,-9.48423529 C16.6635294,-9.48423529 0.68188235,6.4969412 0.68188235,26.2108235 L0.68188235,66.4936471 C0.68188235,76.9087059 9.1247059,85.3515294 19.5397647,85.3515294 L29.3741176,85.3515294 C18.9595294,85.352 10.5167059,76.9091765 10.5167059,66.4941176 Z" fill-opacity="0.25" fill="#000000" fill-rule="nonzero" mask="url(#f)"/>
     </g>
     <g transform="translate(90.253182, 4.777882)">
       <mask id="h" fill="white">
         <use xlink:href="#g"/>
       </mask>
-      <g/>
       <circle fill-opacity="0.25" fill="#000000" fill-rule="nonzero" mask="url(#h)" cx="32.5703529" cy="65.9821176" r="3.688"/>
     </g>
     <g transform="translate(90.253182, 4.777882)">
       <mask id="j" fill="white">
         <use xlink:href="#i"/>
       </mask>
-      <g/>
       <circle fill-opacity="0.25" fill="#000000" fill-rule="nonzero" mask="url(#j)" cx="22.688" cy="46.688" r="3.688"/>
     </g>
     <g transform="translate(90.253182, 4.777882)">
       <mask id="l" fill="white">
         <use xlink:href="#k"/>
       </mask>
-      <g/>
       <circle fill-opacity="0.25" fill="#000000" fill-rule="nonzero" mask="url(#l)" cx="36.4112941" cy="28.6847059" r="3.688"/>
     </g>
     <g transform="translate(90.253182, 4.777882)">
       <mask id="n" fill="white">
         <use xlink:href="#m"/>
       </mask>
-      <g/>
       <circle fill-opacity="0.25" fill="#000000" fill-rule="nonzero" mask="url(#n)" cx="49.9821176" cy="47.6291765" r="3.688"/>
     </g>
   </g>

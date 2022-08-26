@@ -1,4 +1,4 @@
-<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="si-glyph si-glyph-android" height="1em" width="1em">
+<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-android" height="1em" width="1em">
   <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
     <g transform="translate(1.000000, 0.000000)" fill="#434343">
       <path d="M3.018,6.062 C3.018,6.062 3.01,10.474 3.01,11.624 C3.01,12.658 3.127,12.88 4.031,12.974 L4.031,15.307 C4.031,15.663 4.468,15.953 5.005,15.953 C5.543,15.953 5.981,15.663 5.981,15.307 L5.981,12.995 C6.438,12.996 7.573,12.998 8.032,12.999 L8.032,15.307 C8.032,15.663 8.47,15.953 9.007,15.953 C9.544,15.953 9.982,15.663 9.982,15.307 L9.982,12.98 C10.908,12.88 10.96,12.609 10.96,11.645 C10.96,10.579 10.961,6.063 10.961,6.063 L3.018,6.063 L3.018,6.062 Z" class="si-glyph-fill"/>
