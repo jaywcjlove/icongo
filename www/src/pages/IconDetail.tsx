@@ -12,6 +12,7 @@ import { SINpm } from '@icongo/si/lib/SINpm';
 import { MCGithub } from '@icongo/mc/lib/MCGithub';
 import { NotFoundPage } from './NotFound';
 import { info } from '../data';
+import { PanelView } from './Icons';
 
 const mdstr = (name: string, prename: string, html?: string) => `
 \`\`\`html\n${html?.replace(/\n+$/g, '')}\n\`\`\`
@@ -186,6 +187,7 @@ export const IconDetailPage = () => {
         {filename}
       </Title>
       <MarkdownPreview source={source} />
+      <PanelView />
     </Warpper>
   );
 }

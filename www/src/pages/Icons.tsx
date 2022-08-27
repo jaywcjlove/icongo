@@ -6,6 +6,7 @@ import { STIGithub } from '@icongo/sti/lib/STIGithub';
 import { SINpm } from '@icongo/si/lib/SINpm';
 import { info } from '../data';
 import { IconsList } from '../components/IconsList';
+import { Fragment } from 'react';
 
 export const WarpperIcons = styled.div`
   display: grid;
@@ -50,33 +51,39 @@ const Badges = styled.p`
   }
 `;
 
+export const PanelView = () => {
+  const params = useParams<{ name: string; }>();
+  const baseData = info[params.name?.toLocaleLowerCase()!];
+  return (
+    <Panel>
+      <h1>{baseData.title}</h1>
+      <Badges>
+        <STITypescript />
+        {baseData.npm && (
+          <a href={`https://www.npmjs.com/package/${baseData.npm}`} target="__blank">
+            <SINpm style={{ fill: '#cb0200' }} />
+          </a>
+        )}
+        {baseData.gh && (
+          <a href={baseData.gh} target="__blank">
+            <STIGithub />
+          </a>
+        )}
+        {baseData.license}  {baseData.gh && <a href={baseData.gh} target="__blank">{baseData.gh}</a>}
+      </Badges>
+      <MarkdownPreview source={`\`\`\`js\nimport { IconName } from '${baseData.npm}';\n\`\`\``} />
+    </Panel>
+  );
+}
+
 export const IconsPage = () => {
   const params = useParams<{ name: string; }>();
   const baseData = info[params.name?.toLocaleLowerCase()!];
 
   return (
-    <div>
-      {baseData && (
-        <Panel>
-          <h1>{baseData.title}</h1>
-          <Badges>
-            <STITypescript />
-            {baseData.npm && (
-              <a href={`https://www.npmjs.com/package/${baseData.npm}`} target="__blank">
-                <SINpm style={{ fill: '#cb0200' }} />
-              </a>
-            )}
-            {baseData.gh && (
-              <a href={baseData.gh} target="__blank">
-                <STIGithub />
-              </a>
-            )}
-            {baseData.license}  {baseData.gh && <a href={baseData.gh} target="__blank">{baseData.gh}</a>}
-          </Badges>
-          <MarkdownPreview source={`\`\`\`js\nimport { IconName } from '${baseData.npm}';\n\`\`\``} />
-        </Panel>
-      )}
+    <Fragment>
+      {baseData && <PanelView />}
       <IconsList />
-    </div>
+    </Fragment>
   );
 }
