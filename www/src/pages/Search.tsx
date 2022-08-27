@@ -28,7 +28,9 @@ export const SearchPage = () => {
       {data.length === 0 && (
         <Title>
           Please enter at latest 3 characters to search...
-          <NotFoundIcons> Icon Not Found! </NotFoundIcons>
+          {query && (
+            <NotFoundIcons> Icon Not Found! </NotFoundIcons>
+          )}
         </Title>
       )}
       <IconsList />
