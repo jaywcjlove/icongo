@@ -145,6 +145,13 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
     document.body.removeChild(link);
     toast.success(<div>Successfully downloaded '<b>{name}</b>' icon!</div>, { position: 'top-right' });
   }
+  const goToDetail = (ev: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    ev.stopPropagation();
+  }
+  const goToHome = () => {
+    navigate(`/icons/${prename}`)
+  }
+  const detailLink = `/icon/${prename?.toLocaleLowerCase()}/${basename}`;
   return (
     <CardWarpper ref={$ref} {...other} tabIndex={0} onClick={copyName}>
       <WarpperBtn>
@@ -155,7 +162,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
           <BIBxsCloudDownload width={18} height={18} />
         </CopyBtn>
         {prename && query && (
-          <CopyBtn onClick={() => navigate(`/icons/${prename}`)}>
+          <CopyBtn onClick={goToHome}>
             <BIBxsHomeCircle width={18} height={18} />
           </CopyBtn>
         )}
@@ -165,7 +172,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
       </CardItem>
       {hideName && (
         <IconName>
-          <NavLink to={`/icon/${prename?.toLocaleLowerCase()}/${basename}`}>
+          <NavLink to={detailLink} onClick={goToDetail}>
             {query ? <Keywords value={query}>{name}</Keywords> : name}
           </NavLink>
         </IconName>
