@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { ChangeEvent, useEffect, useState } from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
 import { useNavigate, useSearchParams, useLocation } from 'react-router-dom';
+import BackToUp from '@uiw/react-back-to-top';
 import { SearchInput } from './components/Search';
 import { searchNames } from './data';
 import { STISvg } from '@icongo/sti';
@@ -127,6 +128,7 @@ export const Layout = () => {
           <Footer />
         </Container>
       </Content>
+      <BackToUp>Top</BackToUp>
     </Warpper>
   )
 }
