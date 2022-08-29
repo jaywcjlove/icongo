@@ -17,7 +17,6 @@ const Container = styled.div`
   margin: 0 auto 1rem;
 `;
 
-
 const Nav = styled.nav`
   margin: 2.75rem 0 0;
   ${Container} {

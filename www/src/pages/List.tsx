@@ -25,6 +25,7 @@ const Aside = styled.aside`
     border-radius: 3px;
     transition: all .3s;
     line-height: 16px;
+    user-select: none;
     &.active, &.active:hover {
       background-color: var(--color-accent-fg);
     }

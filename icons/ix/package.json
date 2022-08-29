@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/ix",
+  "description": "Iconsax Icons",
+  "version": "1.1.0",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/ix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/ix/*.svg' svg --flat",
+    "icongo": "icongo --prefix IX --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "ix",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}
