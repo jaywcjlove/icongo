@@ -58,6 +58,7 @@ import mnNames from '@icongo/mn/lib/data.json';
 import flNames from '@icongo/fl/lib/data.json';
 import iuNames from '@icongo/iu/lib/data.json';
 import fpNames from '@icongo/fp/lib/data.json';
+import vsiNames from '@icongo/vsi/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -466,6 +467,13 @@ export const info: Info = {
     gh: 'https://github.com/microsoft/vscode-codicons',
     npm: '@icongo/vsc',
     names: vscNames,
+  },
+  vsi: {
+    title: 'Visual Studio Code',
+    license: 'CC-BY-4.0',
+    gh: 'https://github.com/microsoft/vscode-icons',
+    npm: '@icongo/vsi',
+    names: vsiNames,
   },
   vv: {
     title: 'Vivid Icons',

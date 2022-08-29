@@ -252,6 +252,10 @@ jobs:
         working-directory: icons/vsc
         run: npm run build
 
+      - name: build icons vsi
+        working-directory: icons/vsi
+        run: npm run build
+
       - name: build icons vv
         working-directory: icons/vv
         run: npm run build
@@ -387,365 +391,373 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./core/package.json
 
-      - name: 📦  @icongo/ad publish to NPM
-        uses: JS-DevTools/npm-publish@v1
+      - name: npm publish for github action
+        uses: kktjs/npm-publish@main
         with:
           token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ad/package.json
+          workspaces: |
+            icons/*
+            core
 
-      - name: 📦  @icongo/ae publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ae/package.json
+      # - name: 📦  @icongo/ad publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ad/package.json
 
-      - name: 📦  @icongo/bi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bi/package.json
+      # - name: 📦  @icongo/ae publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ae/package.json
 
-      - name: 📦  @icongo/bl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bl/package.json
+      # - name: 📦  @icongo/bi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/bi/package.json
 
-      - name: 📦  @icongo/br publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/br/package.json
+      # - name: 📦  @icongo/bl publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/bl/package.json
 
-      - name: 📦  @icongo/bs publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bs/package.json
+      # - name: 📦  @icongo/br publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/br/package.json
 
-      - name: 📦  @icongo/bts publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bts/package.json
+      # - name: 📦  @icongo/bs publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/bs/package.json
 
-      - name: 📦  @icongo/ccp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ccp/package.json
+      # - name: 📦  @icongo/bts publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/bts/package.json
 
-      - name: 📦  @icongo/cg publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/cg/package.json
+      # - name: 📦  @icongo/ccp publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ccp/package.json
 
-      - name: 📦  @icongo/ci publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ci/package.json
+      # - name: 📦  @icongo/cg publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/cg/package.json
 
-      - name: 📦  @icongo/ct publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ct/package.json
+      # - name: 📦  @icongo/ci publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ci/package.json
 
-      - name: 📦  @icongo/di publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/di/package.json
+      # - name: 📦  @icongo/ct publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ct/package.json
 
-      - name: 📦  @icongo/ei publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ei/package.json
+      # - name: 📦  @icongo/di publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/di/package.json
 
-      - name: 📦  @icongo/ev publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ev/package.json
+      # - name: 📦  @icongo/ei publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ei/package.json
 
-      - name: 📦  @icongo/gi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gi/package.json
+      # - name: 📦  @icongo/ev publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ev/package.json
 
-      - name: 📦  @icongo/hi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/hi/package.json
+      # - name: 📦  @icongo/gi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/gi/package.json
 
-      - name: 📦  @icongo/ic publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ic/package.json
+      # - name: 📦  @icongo/hi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/hi/package.json
 
-      - name: 📦  @icongo/ii publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ii/package.json
+      # - name: 📦  @icongo/ic publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ic/package.json
 
-      - name: 📦  @icongo/ik publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ik/package.json
+      # - name: 📦  @icongo/ii publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ii/package.json
 
-      - name: 📦  @icongo/im publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/im/package.json
+      # - name: 📦  @icongo/ik publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ik/package.json
 
-      - name: 📦  @icongo/io publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/io/package.json
+      # - name: 📦  @icongo/im publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/im/package.json
 
-      - name: 📦  @icongo/ir publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ir/package.json
+      # - name: 📦  @icongo/io publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/io/package.json
 
-      - name: 📦  @icongo/is publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/is/package.json
+      # - name: 📦  @icongo/ir publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ir/package.json
 
-      - name: 📦  @icongo/iu publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/iu/package.json
+      # - name: 📦  @icongo/is publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/is/package.json
 
-      - name: 📦  @icongo/ji publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ji/package.json
+      # - name: 📦  @icongo/iu publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/iu/package.json
 
-      - name: 📦  @icongo/lg publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/lg/package.json
+      # - name: 📦  @icongo/ji publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ji/package.json
 
-      - name: 📦  @icongo/li publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/li/package.json
+      # - name: 📦  @icongo/lg publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/lg/package.json
 
-      - name: 📦  @icongo/lu publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/lu/package.json
+      # - name: 📦  @icongo/li publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/li/package.json
 
-      - name: 📦  @icongo/mc publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mc/package.json
+      # - name: 📦  @icongo/lu publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/lu/package.json
 
-      - name: 📦  @icongo/go publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/go/package.json
+      # - name: 📦  @icongo/mc publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/mc/package.json
 
-      - name: 📦  @icongo/gr publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gr/package.json
+      # - name: 📦  @icongo/go publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/go/package.json
 
-      - name: 📦  @icongo/gy publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gy/package.json
+      # - name: 📦  @icongo/gr publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/gr/package.json
 
-      - name: 📦  @icongo/md publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/md/package.json
+      # - name: 📦  @icongo/gy publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/gy/package.json
 
-      - name: 📦  @icongo/mi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mi/package.json
+      # - name: 📦  @icongo/md publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/md/package.json
 
-      - name: 📦  @icongo/mn publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mn/package.json
+      # - name: 📦  @icongo/mi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/mi/package.json
 
-      - name: 📦  @icongo/mp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mp/package.json
+      # - name: 📦  @icongo/mn publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/mn/package.json
 
-      - name: 📦  @icongo/pbi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/pbi/package.json
+      # - name: 📦  @icongo/mp publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/mp/package.json
 
-      - name: 📦  @icongo/fc publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fc/package.json
+      # - name: 📦  @icongo/pbi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/pbi/package.json
 
-      - name: 📦  @icongo/fa publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fa/package.json
+      # - name: 📦  @icongo/fc publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fc/package.json
 
-      - name: 📦  @icongo/fg publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fg/package.json
+      # - name: 📦  @icongo/fa publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fa/package.json
 
-      - name: 📦  @icongo/fd publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fd/package.json
+      # - name: 📦  @icongo/fg publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fg/package.json
 
-      - name: 📦  @icongo/fi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fi/package.json
+      # - name: 📦  @icongo/fd publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fd/package.json
 
-      - name: 📦  @icongo/fl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fl/package.json
+      # - name: 📦  @icongo/fi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fi/package.json
 
-      - name: 📦  @icongo/fp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fp/package.json
+      # - name: 📦  @icongo/fl publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fl/package.json
 
-      - name: 📦  @icongo/scwi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/scwi/package.json
+      # - name: 📦  @icongo/fp publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/fp/package.json
 
-      - name: 📦  @icongo/si publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/si/package.json
+      # - name: 📦  @icongo/scwi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/scwi/package.json
 
-      - name: 📦  @icongo/sn publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/sn/package.json
+      # - name: 📦  @icongo/si publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/si/package.json
 
-      - name: 📦  @icongo/pk publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/pk/package.json
+      # - name: 📦  @icongo/sn publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/sn/package.json
 
-      - name: 📦  @icongo/ps publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ps/package.json
+      # - name: 📦  @icongo/pk publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/pk/package.json
 
-      - name: 📦  @icongo/ri publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ri/package.json
+      # - name: 📦  @icongo/ps publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ps/package.json
 
-      - name: 📦  @icongo/sti publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/sti/package.json
+      # - name: 📦  @icongo/ri publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ri/package.json
 
-      - name: 📦  @icongo/tb publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/tb/package.json
+      # - name: 📦  @icongo/sti publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/sti/package.json
 
-      - name: 📦  @icongo/ti publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ti/package.json
+      # - name: 📦  @icongo/tb publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/tb/package.json
 
-      - name: 📦  @icongo/tn publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/tn/package.json
+      # - name: 📦  @icongo/ti publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/ti/package.json
 
-      - name: 📦  @icongo/uiw publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/uiw/package.json
+      # - name: 📦  @icongo/tn publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/tn/package.json
 
-      - name: 📦  @icongo/vl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vl/package.json
+      # - name: 📦  @icongo/uiw publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/uiw/package.json
 
-      - name: 📦  @icongo/vsc publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vsc/package.json
+      # - name: 📦  @icongo/vl publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/vl/package.json
 
-      - name: 📦  @icongo/vv publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vv/package.json
+      # - name: 📦  @icongo/vsc publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/vsc/package.json
 
-      - name: 📦  @icongo/wi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/wi/package.json
+      # - name: 📦  @icongo/vv publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/vv/package.json
 
-      - name: 📦  @icongo/wl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/wl/package.json
+      # - name: 📦  @icongo/wi publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/wi/package.json
+
+      # - name: 📦  @icongo/wl publish to NPM
+      #   uses: JS-DevTools/npm-publish@v1
+      #   with:
+      #     token: ${{ secrets.NPM_TOKEN }}
+      #     package: ./icons/wl/package.json
 
 
     outputs:
@@ -995,6 +1007,10 @@ jobs:
 
       - name: build icons vsc
         working-directory: icons/vsc
+        run: npm run build
+
+      - name: build icons vsi
+        working-directory: icons/vsi
         run: npm run build
 
       - name: build icons vv
@@ -1810,6 +1826,19 @@ jobs:
             { "name": "@jaywcjlove/icongo-vsc" }
       - run: npm publish
         working-directory: icons/vsc
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: "Modify @icongo/vsi => @jaywcjlove/icongo-vsi"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/vsi/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-vsi" }
+      - run: npm publish
+        working-directory: icons/vsi
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
