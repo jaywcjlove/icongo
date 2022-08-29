@@ -59,6 +59,7 @@ import flNames from '@icongo/fl/lib/data.json';
 import iuNames from '@icongo/iu/lib/data.json';
 import fpNames from '@icongo/fp/lib/data.json';
 import vsiNames from '@icongo/vsi/lib/data.json';
+import laNames from '@icongo/la/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -313,6 +314,13 @@ export const info: Info = {
     gh: 'https://github.com/michaelampr/jam',
     npm: '@icongo/ji',
     names: jiNames,
+  },
+  la: {
+    title: 'Icons8 Line Awesome',
+    license: 'MIT',
+    gh: 'https://github.com/icons8/line-awesome',
+    npm: '@icongo/la',
+    names: laNames,
   },
   lg: {
     title: 'Logos Icons',
