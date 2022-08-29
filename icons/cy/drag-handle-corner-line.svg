@@ -1,0 +1,9 @@
+<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <circle cx="12" cy="24" r="1.5" class="clr-i-outline clr-i-outline-path-1"/>
+  <circle cx="18" cy="24" r="1.5" class="clr-i-outline clr-i-outline-path-2"/>
+  <circle cx="18" cy="18" r="1.5" class="clr-i-outline clr-i-outline-path-3"/>
+  <circle cx="24" cy="12" r="1.5" class="clr-i-outline clr-i-outline-path-4"/>
+  <circle cx="24" cy="24" r="1.5" class="clr-i-outline clr-i-outline-path-5"/>
+  <circle cx="24" cy="18" r="1.5" class="clr-i-outline clr-i-outline-path-6"/>
+  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+</svg>

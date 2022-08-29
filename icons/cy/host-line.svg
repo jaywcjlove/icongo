@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" height="1em" width="1em">
+  <g data-name="Layer 5">
+    <path d="M26.5,2H9.5A1.5,1.5,0,0,0,8,3.5V34H28V3.5A1.5,1.5,0,0,0,26.5,2ZM26,32H10V4H26Z"/>
+    <rect x="12" y="6.2" width="12" height="1.6"/>
+    <rect x="12" y="10.2" width="12" height="1.6"/>
+    <path d="M18,22.78a3,3,0,1,0,3,3A3,3,0,0,0,18,22.78Zm0,4.5a1.5,1.5,0,1,1,1.5-1.5A1.5,1.5,0,0,1,18,27.28Z"/>
+  </g>
+</svg>
