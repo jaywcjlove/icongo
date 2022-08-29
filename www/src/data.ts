@@ -60,6 +60,7 @@ import iuNames from '@icongo/iu/lib/data.json';
 import fpNames from '@icongo/fp/lib/data.json';
 import vsiNames from '@icongo/vsi/lib/data.json';
 import laNames from '@icongo/la/lib/data.json';
+import fsNames from '@icongo/fs/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -216,6 +217,13 @@ export const info: Info = {
     gh: 'https://github.com/Yummygum/flagpack-core.git',
     npm: '@icongo/fp',
     names: fpNames,
+  },
+  fs: {
+    title: 'Fluent UI System Icons',
+    license: 'MIT',
+    gh: 'https://github.com/microsoft/fluentui-system-icons',
+    npm: '@icongo/fs',
+    names: fsNames,
   },
   gi: {
     title: 'Game Icons',
