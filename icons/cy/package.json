@@ -1,0 +1,30 @@
+{
+  "name": "@icongo/cy",
+  "description": "Clarity Icons",
+  "version": "1.1.0",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "homepage": "http://icongo.github.io/#/icons/cy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/cy/*.svg' svg --flat",
+    "tsbb": "tsbb build --no-source-maps",
+    "icongo": "icongo --prefix CY --source svg -o ./src",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "cy",
+    "react-icons",
+    "icons",
+    "icon"
+  ],
+  "author": "jaywcjlove",
+  "license": "MIT"
+}

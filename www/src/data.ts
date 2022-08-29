@@ -66,6 +66,7 @@ import ppNames from '@icongo/pp/lib/data.json';
 import mrNames from '@icongo/mr/lib/data.json';
 import coNames from '@icongo/co/lib/data.json';
 import cbNames from '@icongo/cb/lib/data.json';
+import cyNames from '@icongo/cy/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -166,6 +167,13 @@ export const info: Info = {
     gh: 'https://github.com/spothq/cryptocurrency-icons',
     npm: '@icongo/ct',
     names: ctNames,
+  },
+  cy: {
+    title: 'Clarity Icons',
+    license: 'CC0-1.0',
+    gh: 'https://github.com/vmware/clarity-assets',
+    npm: '@icongo/cy',
+    names: cyNames,
   },
   di: {
     title: 'Devicons',
