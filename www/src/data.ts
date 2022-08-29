@@ -63,6 +63,7 @@ import laNames from '@icongo/la/lib/data.json';
 import fsNames from '@icongo/fs/lib/data.json';
 import ixNames from '@icongo/ix/lib/data.json';
 import ppNames from '@icongo/pp/lib/data.json';
+import mrNames from '@icongo/mr/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -394,6 +395,13 @@ export const info: Info = {
     gh: 'https://github.com/scottdejonge/map-icons',
     npm: '@icongo/mp',
     names: mpNames,
+  },
+  mr: {
+    title: 'Microns Icons',
+    license: 'CC BY-SA',
+    gh: 'https://github.com/stephenhutchings/microns',
+    npm: '@icongo/mr',
+    names: mrNames,
   },
   pbi: {
     title: 'Power BI Icons',
