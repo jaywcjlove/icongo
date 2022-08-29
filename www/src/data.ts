@@ -62,6 +62,7 @@ import vsiNames from '@icongo/vsi/lib/data.json';
 import laNames from '@icongo/la/lib/data.json';
 import fsNames from '@icongo/fs/lib/data.json';
 import ixNames from '@icongo/ix/lib/data.json';
+import ppNames from '@icongo/pp/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -414,6 +415,13 @@ export const info: Info = {
     gh: 'https://github.com/bytedance/IconPark',
     npm: '@icongo/pk',
     names: pkNames,
+  },
+  pp: {
+    title: 'Pepicons icons',
+    license: 'CC-BY-4.0',
+    gh: 'https://github.com/CyCraft/pepicons',
+    npm: '@icongo/pp',
+    names: ppNames,
   },
   ri: {
     title: 'RemixIcon icons',
