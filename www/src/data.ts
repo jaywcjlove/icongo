@@ -65,6 +65,7 @@ import ixNames from '@icongo/ix/lib/data.json';
 import ppNames from '@icongo/pp/lib/data.json';
 import mrNames from '@icongo/mr/lib/data.json';
 import coNames from '@icongo/co/lib/data.json';
+import cbNames from '@icongo/cb/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -123,6 +124,13 @@ export const info: Info = {
     gh: 'https://github.com/danklammer/bytesize-icons',
     npm: '@icongo/bts',
     names: btsNames,
+  },
+  cb: {
+    title: 'Carbon Icons',
+    license: 'MIT',
+    gh: 'https://github.com/carbon-design-system/carbon-icons',
+    npm: '@icongo/cb',
+    names: cbNames,
   },
   ccp: {
     title: 'Credit Card & Payment',
