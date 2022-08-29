@@ -64,6 +64,10 @@ jobs:
         working-directory: icons/ci
         run: npm run build
 
+      - name: build icons co
+        working-directory: icons/co
+        run: npm run build
+
       - name: build icons ct
         working-directory: icons/ct
         run: npm run build
@@ -479,6 +483,12 @@ jobs:
           token: ${{ secrets.NPM_TOKEN }}
           package: ./icons/ci/package.json
 
+      - name: 📦  @icongo/co publish to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          package: ./icons/co/package.json
+
       - name: 📦  @icongo/ct publish to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
@@ -881,6 +891,10 @@ jobs:
         working-directory: icons/ci
         run: npm run build
 
+      - name: build icons co
+        working-directory: icons/co
+        run: npm run build
+
       - name: build icons ct
         working-directory: icons/ct
         run: npm run build
@@ -1251,6 +1265,20 @@ jobs:
             { "name": "@jaywcjlove/icongo-ci" }
       - run: npm publish
         working-directory: icons/ci
+        if: success() || failure()
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+
+      - name: "Modify @icongo/co => @jaywcjlove/icongo-co"
+        uses: jaywcjlove/github-action-package@main
+        if: success() || failure()
+        with:
+          path: icons/co/package.json
+          data: |
+            { "name": "@jaywcjlove/icongo-co" }
+      - run: npm publish
+        working-directory: icons/co
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

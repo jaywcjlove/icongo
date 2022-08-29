@@ -64,6 +64,7 @@ import fsNames from '@icongo/fs/lib/data.json';
 import ixNames from '@icongo/ix/lib/data.json';
 import ppNames from '@icongo/pp/lib/data.json';
 import mrNames from '@icongo/mr/lib/data.json';
+import coNames from '@icongo/co/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -143,6 +144,13 @@ export const info: Info = {
     gh: 'https://github.com/coreui/coreui-icons',
     npm: '@icongo/ci',
     names: ciNames,
+  },
+  co: {
+    title: 'Coolicons Icons',
+    license: 'CC BY 4.0',
+    gh: 'https://github.com/krystonschwarze/coolicons',
+    npm: '@icongo/co',
+    names: coNames,
   },
   ct: {
     title: 'Cryptocurrency Icons',
