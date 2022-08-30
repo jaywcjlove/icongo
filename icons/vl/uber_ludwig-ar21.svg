@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60" viewBox="0 0 120 60" version="1.1">
-  <g style="fill:#000;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.2381 0 0 .2381 4.915 16.241)">
-    <g style="fill:#000;fill-rule:nonzero">
-      <path d="M61.357 47.788v20h60v-20zm-40-40v80h20v-80Zm0 80v20h100v-20Zm140 0v20h20v-20Zm0-80v20h20v-20Zm-100 0v40h20v-40Zm40 0v40h20v-40Zm40 0v100h20v-100Zm40 20v60h20v-60zm40-20v80h20v-80Zm40 0v80h20v-80Zm40 0v80h20v-80Zm40 0v100h20v-100Zm40 0v100h20v-100Zm20 80v20h40v-20Zm10-40v20h30v-20zm10 20v20h20v-20zm-20-60v20h40v-20Zm-180 80v20h100v-20Zm-40 20 8.693-.144 11.307-11.646v-8.21h-20zm0-100v20h20v-8.21L190.05 7.93Z" style="fill:#000"/>
-    </g>
-  </g>
-</svg>
