@@ -15,7 +15,9 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/vl/*.svg' svg --flat",
-    "build": "npm run cpy && icongo --prefix VL --source svg -o ./src && tsbb build --no-source-maps",
+    "icongo": "icongo --prefix VL --source svg -o ./src",
+    "tsbb": "tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },
   "keywords": [

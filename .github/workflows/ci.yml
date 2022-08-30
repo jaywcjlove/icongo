@@ -300,6 +300,8 @@ jobs:
         working-directory: icons/wl
         run: npm run build
 
+      - run: npm install
+      
       - name: build webiste
         working-directory: www
         run: npm run build

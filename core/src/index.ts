@@ -137,7 +137,7 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
     if (error instanceof Error) {
       const basename = path.basename(file.path, '.svg');
       const filename = toPascalCase(basename)!;
-      console.log(`\x1b[31;1m ::ERR::\x1b[0m \x1b[33;1m${filename}\x1b[0m -> \x1b[35;1m${error.message}\x1b[0m`);
+      console.log(`\x1b[31;1m✘ ::ERR::\x1b[0m ${basename} \x1b[33;1m${filename}\x1b[0m -> \x1b[35;1m${error.message}\x1b[0m`);
     }
     writeFile(files, index + 1, options);
   }
