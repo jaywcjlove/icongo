@@ -1,9 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" version="1.1" height="1em" width="1em">
-  <g>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(72.156863%,76.470588%,0%);fill-opacity:1" d="M 10 2 C 9.054688 2 8 3.054688 8 4 L 8 44 C 8 44.890625 9.109375 46 10 46 L 38 46 C 38.890625 46 40 44.890625 40 44 L 40 4 C 40 3.054688 38.945312 2 38 2 Z M 10 2"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 26 32 L 26 22 L 30 22 L 30 32 Z M 26 32"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 20 32 L 20 16 L 24 16 L 24 32 Z M 20 32"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 14 32 L 14 20 L 18 20 L 18 32 Z M 14 32"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 32 32 L 32 28 L 36 28 L 36 32 Z M 32 32"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
+  <path style="stroke:none;fill-rule:nonzero;fill:#b8c300;fill-opacity:1" d="M10 2c-.945 0-2 1.055-2 2v40c0 .89 1.11 2 2 2h28c.89 0 2-1.11 2-2V4c0-.945-1.055-2-2-2Zm0 0"/>
+  <path style="stroke:none;fill-rule:nonzero;fill:#fff;fill-opacity:1" d="M26 32V22h4v10Zm-6 0V16h4v16Zm-6 0V20h4v12Zm18 0v-4h4v4Zm0 0"/>
 </svg>

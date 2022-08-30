@@ -1,7 +1,7 @@
-<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" version="1.1" viewBox="-.00010527 109.62 500 280.76" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g transform="matrix(3.575 0 0 3.4973 -551.38 -3757.9)" fill-rule="nonzero">
-    <path d="m189.62 1153.6v18.94h13.62v-53.67l-49.004 53.67h18.346l17.038-18.94z" fill="#e2001a"/>
-    <path d="m208.69 1119.4v54.67l62.377-68.25h-18.594l-30.693 34.21v-20.63h-13.09z" fill="#0089d1"/>
-    <path d="m294.09 1172.5v-56.5l-26.223 28.7-6e-3 -28.1-63.531 69.49h18.49l31.937-35.37v28.35l25.184-27.88v21.31h14.149z"/>
+<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 109.62 500 280.76" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <g fill-rule="nonzero">
+    <path d="M126.512 276.585v66.24h48.691v-187.7L.013 342.824h65.588l60.91-66.24z" fill="#e2001a"/>
+    <path d="M194.687 156.978v191.197l222.998-238.69H351.21L241.484 229.126v-72.15h-46.797z" fill="#0089d1"/>
+    <path d="M499.992 342.684V145.087l-93.747 100.372-.022-98.274L179.1 390.213h66.102l114.174-123.7v99.149l90.033-97.505v74.527h50.583z"/>
   </g>
 </svg>

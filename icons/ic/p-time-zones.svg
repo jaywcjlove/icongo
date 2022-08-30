@@ -15,5 +15,5 @@
   <path d="M45.081.33h-3.204v48h3.204v-48z" fill="#0078D4"/>
   <path d="M48.28.33h-3.205v48h3.204v-48z" fill="#50E6FF"/>
   <path d="M33.801 36.33c6.625 0 11.995-5.372 11.995-12 0-6.627-5.37-12-11.995-12-6.624 0-11.994 5.373-11.994 12 0 6.628 5.37 12 11.994 12z" fill="#fff"/>
-  <path d="M33.801 24.33v-4.884m0 4.884l3.452 3.454" stroke="#0078D4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33.801 24.33v-4.884m0 4.884 3.452 3.454" stroke="#0078D4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

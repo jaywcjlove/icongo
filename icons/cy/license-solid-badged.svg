@@ -1,6 +1,6 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M27.46,17.23a6.36,6.36,0,0,0-4.4,11l-1.94,2.37.9,3.61,3.66-4.46a6.26,6.26,0,0,0,3.55,0l3.66,4.46.9-3.61-1.94-2.37a6.36,6.36,0,0,0-4.4-11Zm0,10.68a4.31,4.31,0,1,1,4.37-4.31A4.35,4.35,0,0,1,27.46,27.91Z" class="clr-i-solid--badged clr-i-solid-path-1--badged"/>
-  <path d="M30,13.5A7.5,7.5,0,0,1,22.5,6H4A2,2,0,0,0,2,8V28a2,2,0,0,0,2,2H19l.57-.7.93-1.14A8.34,8.34,0,0,1,34,18.37v-6A7.46,7.46,0,0,1,30,13.5ZM17,24.6H7V23H17Zm1-7H7V16H18Zm6-4H7V12H24Z" class="clr-i-solid--badged clr-i-solid-path-2--badged"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M27.46 17.23a6.36 6.36 0 0 0-4.4 11l-1.94 2.37.9 3.61 3.66-4.46a6.26 6.26 0 0 0 3.55 0l3.66 4.46.9-3.61-1.94-2.37a6.36 6.36 0 0 0-4.4-11Zm0 10.68a4.31 4.31 0 1 1 4.37-4.31 4.35 4.35 0 0 1-4.37 4.31Z" class="clr-i-solid--badged clr-i-solid-path-1--badged"/>
+  <path d="M30 13.5A7.5 7.5 0 0 1 22.5 6H4a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h15l.57-.7.93-1.14A8.34 8.34 0 0 1 34 18.37v-6a7.46 7.46 0 0 1-4 1.13ZM17 24.6H7V23h10Zm1-7H7V16h11Zm6-4H7V12h17Z" class="clr-i-solid--badged clr-i-solid-path-2--badged"/>
   <circle cx="30" cy="6" r="5" class="clr-i-solid--badged clr-i-solid-path-3--badged clr-i-badge"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

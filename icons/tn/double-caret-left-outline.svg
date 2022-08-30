@@ -1,3 +1,3 @@
 <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M8 1L1 7.5L8 14M13.5 1L6.5 7.5L13.5 14" stroke="black" stroke-linecap="square"/>
+  <path d="M8 1 1 7.5 8 14m5.5-13-7 6.5 7 6.5" stroke="#000" stroke-linecap="square"/>
 </svg>

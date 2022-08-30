@@ -1,9 +1,3 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M4 24H44" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8 10H12" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M20 10H28" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M36 10H40" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M8 38H12" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M20 38H28" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M36 38H40" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M4 24h40M8 10h4m8 0h8m8 0h4M8 38h4m8 0h8m8 0h4" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

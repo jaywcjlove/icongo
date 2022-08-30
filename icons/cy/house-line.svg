@@ -1,5 +1,5 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path class="clr-i-outline clr-i-outline-path-1" d="M33.71,17.29l-15-15a1,1,0,0,0-1.41,0l-15,15a1,1,0,0,0,1.41,1.41L18,4.41,32.29,18.71a1,1,0,0,0,1.41-1.41Z"/>
-  <path class="clr-i-outline clr-i-outline-path-2" d="M28,32h-5V22H13V32H8V18L6,20V32a2,2,0,0,0,2,2h7V24h6V34h7a2,2,0,0,0,2-2V19.76l-2-2Z"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-outline clr-i-outline-path-1" d="m33.71 17.29-15-15a1 1 0 0 0-1.41 0l-15 15a1 1 0 0 0 1.41 1.41L18 4.41l14.29 14.3a1 1 0 0 0 1.41-1.41Z"/>
+  <path class="clr-i-outline clr-i-outline-path-2" d="M28 32h-5V22H13v10H8V18l-2 2v12a2 2 0 0 0 2 2h7V24h6v10h7a2 2 0 0 0 2-2V19.76l-2-2Z"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

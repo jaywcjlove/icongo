@@ -1,16 +1,6 @@
-<svg viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-paper-shredder" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g fill="#434343">
-      <g transform="translate(3.000000, 0.000000)">
-        <path d="M9.96899973,3.00268555 L4.98499973,3.00268555 L4.985,0 L-4.09272616e-11,0 L-1.3737008e-07,6.9822998 L9.96899986,6.9822998 L9.969,3.125 L9.96899973,3.00268555 Z" class="si-glyph-fill"/>
-        <path d="M6.111,0 L6.111,1.938 L9.969,1.938 L6.111,0 Z" class="si-glyph-fill"/>
-      </g>
-      <path d="M3,13 L3.00000002,15.9855957 L3.9777832,15.9855957 L3.97778319,13 L3,13 Z" class="si-glyph-fill"/>
-      <path d="M5.01277508,13.0000001 L5.01277508,16 L5.98722492,15.9999999 L5.98722492,13 L5.01277508,13.0000001 Z" class="si-glyph-fill"/>
-      <path d="M7,13 L7.00000002,15.9981689 L7.99755859,15.9981689 L7.99755858,13 L7,13 Z" class="si-glyph-fill"/>
-      <path d="M9,13 L9,15.9927979 L9.9855957,15.9927977 L9.9855957,12.9999999 L9,13 Z" class="si-glyph-fill"/>
-      <path d="M11,13 L11,15.9639893 L11.9630737,15.9639893 L11.9630737,13 L11,13 Z" class="si-glyph-fill"/>
-      <path d="M0,8.031 L0,12 L15.958,12 L15.958,8.031 L0,8.031 L0,8.031 Z M2.969,10.031 L1.969,10.031 L1.969,9 L2.969,9 L2.969,10.031 L2.969,10.031 Z M3.969,10.031 L3.969,9 L5.031,9 L5.031,10.031 L3.969,10.031 Z" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-paper-shredder" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="M12.969 3.003H7.985V0H3v6.982h9.969V3.003Z" class="si-glyph-fill"/>
+    <path d="M9.111 0v1.938h3.858L9.111 0ZM3 13v2.986h.978V13H3Zm2.013 0v3h.974v-3h-.974ZM7 13v2.998h.998V13H7Zm2 0v2.993h.986V13H9Zm2 0v2.964h.963V13H11ZM0 8.031V12h15.958V8.031H0Zm2.969 2h-1V9h1v1.031Zm1 0V9h1.062v1.031H3.969Z" class="si-glyph-fill"/>
   </g>
 </svg>

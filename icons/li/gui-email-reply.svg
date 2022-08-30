@@ -1,3 +1,3 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path fill="green" d="M.99999993 6.66666666l4.66666669-4.66666669v2.66666668c4.66666669.66666667 6.6666667 4.00000002 7.33333337 7.33333337C11.33333331 9.66666667 8.99999997 8.6 5.66666662 8.6v2.73333335L.99999993 6.66666666z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path fill="green" d="M1 6.667 5.667 2v2.667c4.666.666 6.666 4 7.333 7.333-1.667-2.333-4-3.4-7.333-3.4v2.733L1 6.667z"/>
 </svg>

@@ -1,8 +1,8 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" xml:space="preserve" viewBox="0 0 64 64" height="1em" width="1em">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" width="64" height="64">
   <switch>
     <g>
       <path fill="#00a89f" d="M0 0h64v64H0z"/>
-      <path d="M54.5 24v4.9H9.6V24h44.9zM9.5 40v-4.9h44.9V40H9.5z" style="fill:#fff"/>
+      <path d="M54.5 24v4.9H9.6V24h44.9zm-45 16v-4.9h44.9V40H9.5z" style="fill:#fff"/>
     </g>
   </switch>
 </svg>

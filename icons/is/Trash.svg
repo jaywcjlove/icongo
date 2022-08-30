@@ -1,38 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" inkscape:version="0.48.5 r10040" sodipodi:docname="application-x-trash.svg" viewBox="0 0 48 48" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" height="1em" width="1em">
   <defs>
     <linearGradient id="a">
       <stop style="stop-color:#bfc7cb;stop-opacity:1" offset="0"/>
       <stop style="stop-color:#c6ced2;stop-opacity:1" offset="1"/>
     </linearGradient>
-    <linearGradient inkscape:collect="always" xlink:href="#a" id="d" x1="25" y1="1050.3622" x2="25" y2="1018.3622" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-2.9999652)"/>
-    <linearGradient inkscape:collect="always" xlink:href="#b" id="f" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-1005.3622)" x1="24" y1="1014.3622" x2="24" y2="1018.3622"/>
-    <linearGradient inkscape:collect="always" id="b">
-      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
-      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    <linearGradient xlink:href="#a" id="d" x1="25" y1="1050.362" x2="25" y2="1018.362" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -3)"/>
+    <linearGradient xlink:href="#b" id="f" gradientUnits="userSpaceOnUse" gradientTransform="translate(0 -1005.362)" x1="24" y1="1014.362" x2="24" y2="1018.362"/>
+    <linearGradient id="b">
+      <stop style="stop-color:#000;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#000;stop-opacity:0" offset="1"/>
     </linearGradient>
-    <linearGradient inkscape:collect="always" id="c">
-      <stop style="stop-color:#000000;stop-opacity:1" offset="0"/>
-      <stop style="stop-color:#000000;stop-opacity:0" offset="1"/>
+    <linearGradient id="c">
+      <stop style="stop-color:#000;stop-opacity:1" offset="0"/>
+      <stop style="stop-color:#000;stop-opacity:0" offset="1"/>
     </linearGradient>
-    <linearGradient y2="22" x2="24" y1="18" x1="24" gradientTransform="translate(0,-2.9999828)" gradientUnits="userSpaceOnUse" id="e" xlink:href="#c" inkscape:collect="always"/>
+    <linearGradient y2="22" x2="24" y1="18" x1="24" gradientTransform="translate(0 -3)" gradientUnits="userSpaceOnUse" id="e" xlink:href="#c"/>
   </defs>
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="11.130331" inkscape:cx="-5.2549106" inkscape:cy="13.027156" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" inkscape:window-width="1920" inkscape:window-height="1052" inkscape:window-x="0" inkscape:window-y="28" inkscape:window-maximized="1">
-    <inkscape:grid type="xygrid" empspacing="5" visible="true" enabled="true" snapvisiblegridlinesonly="true"/>
-  </sodipodi:namedview>
-  <g inkscape:groupmode="layer" inkscape:label="Shadow" sodipodi:insensitive="true">
-    <rect ry="2" rx="2" y="12" x="8" height="32" width="32" style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"/>
+  <rect ry="2" rx="2" y="12" x="8" height="32" width="32" style="opacity:.15;fill:#000;fill-opacity:1;stroke:none"/>
+  <g transform="translate(0 -1004.362)">
+    <rect style="fill:#bfc7cb;fill-opacity:1;stroke:none" width="8" height="8" x="20" y="1009.362" rx="2" ry="2"/>
+    <rect style="fill:url(#d);fill-opacity:1;stroke:none" width="32" height="32" x="8" y="1015.362" rx="2" ry="2"/>
+    <rect style="fill:#bfc7cb;fill-opacity:1;stroke:none" width="40" height="6" x="4" y="1013.362" rx="2" ry="2"/>
+    <rect style="fill:#a2a5ac;fill-opacity:1;stroke:none" width="4" height="18" x="17" y="1025.362" rx="2" ry="2"/>
+    <path style="opacity:.1;fill:#000;fill-opacity:1;stroke:none" d="M19 1025.362c-1.108 0-2 .892-2 2v2c0-1.108.892-2 2-2s2 .892 2 2v-2c0-1.108-.892-2-2-2z"/>
+    <rect style="fill:#a2a5ac;fill-opacity:1;stroke:none" width="4" height="18" x="27" y="1025.362" rx="2" ry="2"/>
+    <path style="opacity:.1;fill:#000;fill-opacity:1;stroke:none" d="M29 1025.362c-1.108 0-2 .892-2 2v2c0-1.108.892-2 2-2s2 .892 2 2v-2c0-1.108-.892-2-2-2z"/>
   </g>
-  <g inkscape:label="Body" inkscape:groupmode="layer" transform="translate(0,-1004.3622)">
-    <rect style="fill:#bfc7cb;fill-opacity:1;stroke:none" width="8" height="8" x="20" y="1009.3622" rx="2" ry="2"/>
-    <rect style="fill:url(#d);fill-opacity:1;stroke:none" width="32" height="32" x="8" y="1015.3622" rx="2" ry="2"/>
-    <rect style="fill:#bfc7cb;fill-opacity:1;stroke:none" width="40" height="6" x="4" y="1013.3622" rx="2" ry="2"/>
-    <rect style="fill:#a2a5ac;fill-opacity:1;stroke:none" width="4" height="18" x="17" y="1025.3622" rx="2" ry="2"/>
-    <path style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none" d="m 19,1025.3622 c -1.108,0 -2,0.892 -2,2 l 0,2 c 0,-1.108 0.892,-2 2,-2 1.108,0 2,0.892 2,2 l 0,-2 c 0,-1.108 -0.892,-2 -2,-2 z" inkscape:connector-curvature="0"/>
-    <rect style="fill:#a2a5ac;fill-opacity:1;stroke:none" width="4" height="18" x="27" y="1025.3622" rx="2" ry="2"/>
-    <path inkscape:connector-curvature="0" style="opacity:0.1;fill:#000000;fill-opacity:1;stroke:none" d="m 29,1025.3622 c -1.108,0 -2,0.892 -2,2 l 0,2 c 0,-1.108 0.892,-2 2,-2 1.108,0 2,0.892 2,2 l 0,-2 c 0,-1.108 -0.892,-2 -2,-2 z"/>
-  </g>
-  <g inkscape:groupmode="layer" inkscape:label="Shadows">
-    <rect style="opacity:0.1;fill:url(#e);fill-opacity:1;stroke:none" width="32" height="4" x="8" y="15"/>
-    <path style="opacity:0.075;fill:url(#f);fill-opacity:1;stroke:none" d="m 6,9.0000172 c -1.108,0 -2,0.892 -2,1.9999998 l 0,1 40,0 0,-1 C 44,9.8920172 43.108,9.0000172 42,9.0000172 z" inkscape:connector-curvature="0" sodipodi:nodetypes="ssccsss"/>
-  </g>
+  <path style="opacity:.1;fill:url(#e);fill-opacity:1;stroke:none" d="M8 15h32v4H8z"/>
+  <path style="opacity:.075;fill:url(#f);fill-opacity:1;stroke:none" d="M6 9c-1.108 0-2 .892-2 2v1h40v-1c0-1.108-.892-2-2-2z"/>
 </svg>

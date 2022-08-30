@@ -1,4 +1,4 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path d="M4 5.5V1h9v4.5h-.750612V1.75061H4.750612v3.75061H4zm9 2.25061V13H4V7.75061h.750612v4.5h7.5v-4.5H13z"/>
-  <path fill="red" d="M7 6.25061h1.5V7H7v-.74939zm-2.249388 0h1.5V7h-1.5v-.74939zm4.5 0h1.5V7h-1.5v-.74939zm2.249388 0H13V7h-1.5v-.74939zM1 4.37469l2.250612 2.25062L1 8.87469v-4.5z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path d="M4 5.5V1h9v4.5h-.75V1.75h-7.5v3.751H4zm9 2.25V13H4V7.75h.75v4.5h7.5v-4.5H13z"/>
+  <path fill="red" d="M7 6.25h1.5V7H7v-.75zm-2.25 0h1.5V7h-1.5v-.75zm4.5 0h1.5V7h-1.5v-.75zm2.25 0H13V7h-1.5v-.75zM1 4.376l2.25 2.25L1 8.875v-4.5z"/>
 </svg>

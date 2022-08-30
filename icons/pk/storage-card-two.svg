@@ -1,8 +1,7 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <rect x="8" y="4" width="32" height="40" rx="2" stroke="black" stroke-width="4"/>
-  <path d="M14 4V14H34V4" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="14" y="24" width="20" height="20" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M14 32H34" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M34 29L34 35" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M14 29L14 35" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="8" y="4" width="32" height="40" rx="2" stroke="#000" stroke-width="4"/>
+  <path d="M14 4v10h20V4" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M14 24h20v20H14z"/>
+  <path d="M14 32h20" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M34 29v6m-20-6v6" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

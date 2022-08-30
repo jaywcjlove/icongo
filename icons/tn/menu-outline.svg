@@ -1,3 +1,3 @@
 <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M0 5.5H15M0 1.5H15M0 9.5H15M0 13.5H15" stroke="black"/>
+  <path d="M0 5.5h15m-15-4h15m-15 8h15m-15 4h15" stroke="#000"/>
 </svg>

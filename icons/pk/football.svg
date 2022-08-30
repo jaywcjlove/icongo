@@ -1,8 +1,7 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M30.0926 6.5L24.0693 10.859V15.2179L31.8135 21.3205L36.1158 19.5769L38.6972 12.6026" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18.0461 6.5L24.0693 10.859V15.2179L16.3251 21.3205L12.0228 19.5769L9.44141 12.6026" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M6 22.1923L12.0233 19.5769L16.3256 21.3205L18.907 30.9102L16.3256 34.3974H8.5814" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16.3252 40.4999V34.3973L18.9066 30.9102H29.2322L31.8136 34.3973V40.4999" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M39.558 34.3974H31.8138L29.2324 30.9102L31.8138 21.3205L36.1161 19.5769L42.9999 23.0641" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4 4 12.954 4 24s8.954 20 20 20Z" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m30.093 6.5-6.024 4.359v4.359l7.745 6.102 4.302-1.743 2.581-6.974M18.046 6.5l6.023 4.359v4.359l-7.744 6.102-4.302-1.743-2.582-6.974" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m6 22.192 6.023-2.615 4.303 1.743 2.581 9.59-2.581 3.487H8.58" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M16.325 40.5v-6.103l2.582-3.487h10.325l2.582 3.487V40.5" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M39.558 34.397h-7.744l-2.582-3.487 2.582-9.59 4.302-1.743L43 23.064" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

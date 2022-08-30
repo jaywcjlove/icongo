@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" sodipodi:docname="aol-ar21.svg" inkscape:version="0.92.2 5c3e80d, 2017-08-06" viewBox="0 0 120 60" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1440" inkscape:window-height="799" showgrid="false" inkscape:zoom="3.24" inkscape:cx="50" inkscape:cy="7.654321" inkscape:window-x="0" inkscape:window-y="1" inkscape:window-maximized="1" inkscape:current-layer="svg14"/>
-  <g transform="matrix(0.80044871,0,0,0.80044871,-146.88606,-502.08766)">
-    <g transform="matrix(0.2576927,0,0,0.2576927,155.23992,508.16265)">
-      <path d="m 420,564.1 c -34.5,0 -60.6,26.8 -60.6,60 0,35 27.2,60 60.6,60 33.4,0 60.5,-25 60.5,-60 0,-33.2 -26,-60 -60.5,-60 z m 0,31.7 c 14.9,-0.1 27.1,12.6 27.1,28.3 0,15.6 -12.2,28.3 -27.1,28.3 -14.9,0 -27.1,-12.7 -27.1,-28.3 0,-15.7 12.2,-28.3 27.1,-28.3 z" style="stroke:none;stroke-width:0.43820944" inkscape:connector-curvature="0"/>
-      <path d="m 507,397.4 c 0,11.6 -9.4,21 -21,21 -11.6,0 -21,-9.4 -21,-21 0,-11.6 9.4,-21 21,-21 11.6,0 21,9.4 21,21 z" style="stroke:none;stroke-width:0.1" transform="translate(85.630073,265.696)" inkscape:connector-curvature="0"/>
-      <path style="stroke:none;stroke-width:1px" d="m 531.5,680.1 h -33 v -149 h 33 z" inkscape:connector-curvature="0"/>
-      <path d="m 208.5,680.1 60,-149 h 31 l 59,149 h -42 l -7,-21 h -52 l -7,21 z m 91,-52 h -31 l 15.5,-50 z" style="fill-rule:evenodd;stroke:none;stroke-width:0.2" inkscape:connector-curvature="0"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60" version="1.1">
+  <g transform="matrix(.80045 0 0 .80045 -146.886 -502.088) matrix(.2577 0 0 .2577 155.24 508.163)">
+    <path d="M420 564.1c-34.5 0-60.6 26.8-60.6 60 0 35 27.2 60 60.6 60 33.4 0 60.5-25 60.5-60 0-33.2-26-60-60.5-60zm0 31.7c14.9-.1 27.1 12.6 27.1 28.3 0 15.6-12.2 28.3-27.1 28.3-14.9 0-27.1-12.7-27.1-28.3 0-15.7 12.2-28.3 27.1-28.3z" style="stroke:none;stroke-width:.43820944"/>
+    <path d="M507 397.4c0 11.6-9.4 21-21 21s-21-9.4-21-21 9.4-21 21-21 21 9.4 21 21z" style="stroke:none;stroke-width:.1" transform="translate(85.63 265.696)"/>
+    <path style="stroke:none;stroke-width:1px" d="M531.5 680.1h-33v-149h33z"/>
+    <path d="m208.5 680.1 60-149h31l59 149h-42l-7-21h-52l-7 21zm91-52h-31l15.5-50z" style="fill-rule:evenodd;stroke:none;stroke-width:.2"/>
   </g>
 </svg>

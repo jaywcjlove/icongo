@@ -27,8 +27,8 @@
     <use fill="url(#c)" fill-rule="evenodd" style="mix-blend-mode:soft-light" xlink:href="#b"/>
     <circle cx="16" cy="15" r="14.5" stroke="#000" stroke-opacity=".097"/>
     <g fill="#FFF" filter="url(#d)" transform="translate(9 5)">
-      <path fill-opacity=".304" d="M0 1.281l11.114 5.383 2.845-1.282L2.891 0z"/>
-      <path fill-opacity=".646" d="M11.114 6.651l2.845-1.281v2.865l-2.845 1.281V6.651zm0 13.284v-8.937l2.845-1.295v8.951l-2.845 1.281z"/>
+      <path fill-opacity=".304" d="m0 1.281 11.114 5.383 2.845-1.282L2.891 0z"/>
+      <path fill-opacity=".646" d="m11.114 6.651 2.845-1.281v2.865l-2.845 1.281V6.651zm0 13.284v-8.937l2.845-1.295v8.951l-2.845 1.281z"/>
       <path d="M0 1.284v2.897l7.693 3.737L0 11.728v2.856l11.114 5.373v-2.874l-7.548-3.671 7.548-3.881V6.666z"/>
     </g>
   </g>

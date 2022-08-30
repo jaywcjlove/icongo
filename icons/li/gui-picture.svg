@@ -1,8 +1,8 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
   <g transform="matrix(.3 0 0 .3 -.2 -.2)">
     <path fill="#90caf9" d="M40 41H8c-2.2 0-4-1.8-4-4V11c0-2.2 1.8-4 4-4h32c2.2 0 4 1.8 4 4v26c0 2.2-1.8 4-4 4z"/>
     <circle cx="35" cy="16" r="3" fill="#ff0"/>
-    <path fill="green" d="M20 16L9 32h22z"/>
-    <path fill="#0f0" d="M31 22l-8 10h16z"/>
+    <path fill="green" d="M20 16 9 32h22z"/>
+    <path fill="#0f0" d="m31 22-8 10h16z"/>
   </g>
 </svg>

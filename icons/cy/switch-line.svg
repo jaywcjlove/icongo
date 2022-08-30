@@ -1,9 +1,9 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M5.71,14H20.92V12H5.71L9.42,8.27A1,1,0,1,0,8,6.86L1.89,13,8,19.14a1,1,0,1,0,1.42-1.4Z" class="clr-i-outline clr-i-outline-path-1"/>
-  <rect x="23" y="12" width="3" height="2" class="clr-i-outline clr-i-outline-path-2"/>
-  <rect x="28" y="12" width="2" height="2" class="clr-i-outline clr-i-outline-path-3"/>
-  <path d="M27.92,17.86a1,1,0,0,0-1.42,1.41L30.21,23H15v2H30.21L26.5,28.74a1,1,0,1,0,1.42,1.4L34,24Z" class="clr-i-outline clr-i-outline-path-4"/>
-  <rect x="10" y="23" width="3" height="2" class="clr-i-outline clr-i-outline-path-5"/>
-  <rect x="6" y="23" width="2" height="2" class="clr-i-outline clr-i-outline-path-6"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M5.71 14h15.21v-2H5.71l3.71-3.73A1 1 0 1 0 8 6.86L1.89 13 8 19.14a1 1 0 1 0 1.42-1.4Z" class="clr-i-outline clr-i-outline-path-1"/>
+  <path class="clr-i-outline clr-i-outline-path-2" d="M23 12h3v2h-3z"/>
+  <path class="clr-i-outline clr-i-outline-path-3" d="M28 12h2v2h-2z"/>
+  <path d="M27.92 17.86a1 1 0 0 0-1.42 1.41L30.21 23H15v2h15.21l-3.71 3.74a1 1 0 1 0 1.42 1.4L34 24Z" class="clr-i-outline clr-i-outline-path-4"/>
+  <path class="clr-i-outline clr-i-outline-path-5" d="M10 23h3v2h-3z"/>
+  <path class="clr-i-outline clr-i-outline-path-6" d="M6 23h2v2H6z"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

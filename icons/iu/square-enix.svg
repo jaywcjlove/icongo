@@ -1,8 +1,4 @@
-<svg viewBox="0 0 58 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
-  <g transform="matrix(1,0,0,1,-502.969,-13)">
-    <path d="M502.969,13L502.969,82L560.969,82L560.969,69L517.969,69L517.969,25L560.969,25L560.969,13L502.969,13Z" style="fill-rule:nonzero"/>
-  </g>
-  <g transform="matrix(1,0,0,1,-502.969,-13)">
-    <rect x="530.969" y="40" width="25" height="13" style="fill:rgb(226,10,22)"/>
-  </g>
+<svg viewBox="0 0 58 69" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
+  <path d="M502.969 13v69h58V69h-43V25h43V13h-58Z" style="fill-rule:nonzero" transform="translate(-502.969 -13)"/>
+  <path style="fill:#e20a16" d="M530.969 40h25v13h-25z" transform="translate(-502.969 -13)"/>
 </svg>

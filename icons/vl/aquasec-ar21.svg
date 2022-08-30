@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.52 1.76 120 60" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-0.52 1.76 120 60" width="120" height="60">
   <defs>
     <clipPath id="b">
       <use xlink:href="#a"/>
@@ -6,15 +6,13 @@
     <path id="a" d="M-7-14.6h490.4v176H-7z"/>
   </defs>
   <g transform="translate(-.347)" style="clip-path:url(#b)">
-    <g transform="matrix(.259891 0 0 .259891 6.660981 12.684002)">
-      <path d="M113.4 5.4H78.6l-34.8 34h69.6z" fill="#f1df36"/>
-      <path d="M113.4 39.4v68l34.8-34v-34z" fill="#faaf42"/>
-      <path d="M113.4 107.4H43.8v34h34.8z" fill="#9ad7ec"/>
-      <path d="M43.8 39.4L9 73.4v34h34.8z" fill="#07b1d5"/>
-      <path d="M113.4 5.4h34.8v34h-34.8z" fill="#f69421"/>
-      <path d="M9 107.4h34.8v34H9z" fill="#1280c4"/>
-    </g>
-    <g transform="matrix(.206465 0 0 .206465 15.886856 18.623261)">
+    <path d="M36.133 14.087h-9.045l-9.044 8.837h18.089z" fill="#f1df36"/>
+    <path d="M36.133 22.924v17.672l9.044-8.836v-8.836z" fill="#faaf42"/>
+    <path d="M36.133 40.596H18.044v8.837h9.044z" fill="#9ad7ec"/>
+    <path d="M18.044 22.924 9 31.76v8.836h9.044z" fill="#07b1d5"/>
+    <path d="M36.133 14.087h9.044v8.837h-9.044z" fill="#f69421"/>
+    <path d="M9 40.596h9.044v8.837H9z" fill="#1280c4"/>
+    <g transform="matrix(.20647 0 0 .20647 15.887 18.623)">
       <defs>
         <path id="c" d="M-7-14.6h490.4v176H-7z"/>
       </defs>

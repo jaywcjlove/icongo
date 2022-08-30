@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="11.272 1.898 4.356 4.357" height="1em" width="1em">
-  <g transform="matrix(.12913 0 0 .12913 9.376201 6.398296)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="11.272 1.898 4.356 4.357">
+  <g transform="translate(9.376 6.398) scale(.12913)">
     <use xlink:href="#a" fill="#666"/>
-    <radialGradient id="b" cx="-1186.125" cy="1608.61" r="14.351" gradientTransform="matrix(0,1.6935,1.5038,0,-2387.78,1988.934)" gradientUnits="userSpaceOnUse">
+    <radialGradient id="b" cx="-1186.125" cy="1608.61" r="14.351" gradientTransform="matrix(0 1.6935 1.5038 0 -2387.78 1988.934)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </radialGradient>

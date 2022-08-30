@@ -27,12 +27,12 @@
         <path fill-rule="evenodd" clip-rule="evenodd" d="M9.93 6.499s-.072.836-.072 1.176c0 .34.072 1.074.072 1.074h.183V7.675c0-.284-.107-1.176-.107-1.176H9.93z" fill="#FECA00"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M9.208 7.449s-.453.242-.453.96l.453.865h.816V7.848l-.816-.399z" fill="#C51918"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537 6.766S7.48 7.08 7.48 8.234l1.37.117s-.076-.671.346-.981l-.66-.604z" fill="#0A328C"/>
-        <path d="M8.1 6.326l1.813 1.66M7.471 6.702l2.528 1.642M7.036 7.337l2.85 1.304" stroke="#FFD018" stroke-width=".5"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.487 8.225l1.891.212-.106.263h-.3l.204.15.46.107V8.7h.404v.546h-.864l-.33-.396s-.28.274-.55.274c-.272 0-.54-.09-.54-.388v-.208l-.269-.091v-.212z" fill="#FECA00"/>
+        <path d="m8.1 6.326 1.813 1.66M7.471 6.702l2.528 1.642M7.036 7.337l2.85 1.304" stroke="#FFD018" stroke-width=".5"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="m7.487 8.225 1.891.212-.106.263h-.3l.204.15.46.107V8.7h.404v.546h-.864l-.33-.396s-.28.274-.55.274c-.272 0-.54-.09-.54-.388v-.208l-.269-.091v-.212z" fill="#FECA00"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M10.534 7.449s.452.242.452.96l-.452.865h-.817V7.848l.817-.399z" fill="#C51918"/>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M11.204 6.766s1.057.313 1.057 1.468l-1.369.117s.075-.671-.346-.981l.659-.604z" fill="#0A328C"/>
-        <path d="M11.64 6.326l-1.812 1.66m2.442-1.284L9.742 8.344m2.964-1.007l-2.85 1.304" stroke="#FFD018" stroke-width=".5"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.254 8.225l-1.891.212.106.263h.3l-.204.15-.46.107V8.7H9.7v.546h.864l.331-.396s.278.274.55.274.54-.09.54-.388v-.208l.268-.091v-.212z" fill="#FECA00"/>
+        <path d="m11.64 6.326-1.812 1.66m2.442-1.284L9.742 8.344m2.964-1.007-2.85 1.304" stroke="#FFD018" stroke-width=".5"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="m12.254 8.225-1.891.212.106.263h.3l-.204.15-.46.107V8.7H9.7v.546h.864l.331-.396s.278.274.55.274.54-.09.54-.388v-.208l.268-.091v-.212z" fill="#FECA00"/>
       </g>
     </g>
   </g>

@@ -1,12 +1,12 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <rect x="4" y="4" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-1--badged"/>
-  <rect x="4" y="15" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-2--badged"/>
-  <rect x="4" y="26" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-3--badged"/>
-  <rect x="15" y="4" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-4--badged"/>
-  <rect x="15" y="15" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-5--badged"/>
-  <rect x="15" y="26" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-6--badged"/>
-  <rect x="26" y="15" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-7--badged"/>
-  <rect x="26" y="26" width="6" height="6" class="clr-i-solid--badged clr-i-solid-path-8--badged"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-solid--badged clr-i-solid-path-1--badged" d="M4 4h6v6H4z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-2--badged" d="M4 15h6v6H4z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-3--badged" d="M4 26h6v6H4z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-4--badged" d="M15 4h6v6h-6z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-5--badged" d="M15 15h6v6h-6z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-6--badged" d="M15 26h6v6h-6z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-7--badged" d="M26 15h6v6h-6z"/>
+  <path class="clr-i-solid--badged clr-i-solid-path-8--badged" d="M26 26h6v6h-6z"/>
   <circle cx="30" cy="6" r="5" class="clr-i-solid--badged clr-i-solid-path-9--badged clr-i-badge"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

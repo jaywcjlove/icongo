@@ -1,0 +1,11 @@
+<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <circle cx="10" cy="14.25" r="1" fill="currentColor"/>
+  <circle cx="10" cy="10" r="7" stroke="currentColor" stroke-width="2"/>
+  <path d="M10.996 8.736a1 1 0 1 0 1.044 1.706l-1.044-1.706ZM8.346 6.5l.577.817-.577-.817Zm-1.794.98a1 1 0 0 0 1.96.397l-1.96-.396ZM10 7c1.048 0 1.5.644 1.5 1h2c0-1.854-1.787-3-3.5-3v2Zm1.5 1c0 .223-.132.509-.504.736l1.044 1.706c.823-.504 1.46-1.37 1.46-2.442h-2Zm-2.577-.683A1.876 1.876 0 0 1 10 7V5c-.83 0-1.612.246-2.23.683l1.153 1.634Zm-.41.56c.034-.174.156-.38.41-.56L7.77 5.683c-.594.42-1.065 1.038-1.218 1.798l1.96.396Z" fill="currentColor"/>
+  <path d="M10 10.5v1m0-1 1.52-.91" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <path d="M11 14.25a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M10 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12Zm-8 6a8 8 0 1 1 16 0 8 8 0 0 1-16 0Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M10 7c-.439 0-.814.131-1.077.317-.254.18-.376.386-.41.56a1 1 0 0 1-1.961-.396c.153-.76.624-1.378 1.218-1.798A3.872 3.872 0 0 1 10 5c1.713 0 3.5 1.146 3.5 3 0 1.072-.637 1.938-1.46 2.442a1 1 0 1 1-1.044-1.706c.372-.227.504-.513.504-.736 0-.356-.452-1-1.5-1Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M10 9.5a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.378 9.076a1 1 0 0 1-.344 1.372l-1.52.91a1 1 0 0 1-1.028-1.716l1.52-.91a1 1 0 0 1 1.372.344Z" fill="currentColor"/>
+</svg>

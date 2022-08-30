@@ -6,10 +6,10 @@
     <g transform="translate(31.669 74.524) scale(.29605)" id="g874">
       <g id="g13" transform="translate(-60.532 -240.797) scale(.3441)">
         <g id="hull">
-          <path class="st0" id="polygon4" fill="#466bb0" d="M129.4 479.2l-118.1-59h314.8z"/>
+          <path class="st0" id="polygon4" fill="#466bb0" d="m129.4 479.2-118.1-59h314.8z"/>
         </g>
         <g id="mainsail">
-          <path class="st0" id="polygon7" fill="#466bb0" d="M129.4 164.4L11.3 400.5l118.1-19.7z"/>
+          <path class="st0" id="polygon7" fill="#466bb0" d="M129.4 164.4 11.3 400.5l118.1-19.7z"/>
         </g>
         <g id="headsail">
           <path class="st0" id="polygon10" fill="#466bb0" d="M149 7v373.8l177.1 19.7z"/>

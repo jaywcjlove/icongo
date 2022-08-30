@@ -7,7 +7,7 @@
     </linearGradient>
   </defs>
   <circle cx="9" cy="9" r="8.5" fill="url(#a)"/>
-  <path d="M10.282 2.757L3.941 12.82l7.939-3.078z" fill="#9cebff"/>
-  <path d="M9 4.79l3.934 9.54-2.652-11.573z" fill="#fff" opacity=".7"/>
-  <path d="M8.772 10.947l2.386-.925 1.776 4.308z" fill="#32bedd"/>
+  <path d="M10.282 2.757 3.941 12.82l7.939-3.078z" fill="#9cebff"/>
+  <path d="m9 4.79 3.934 9.54-2.652-11.573z" fill="#fff" opacity=".7"/>
+  <path d="m8.772 10.947 2.386-.925 1.776 4.308z" fill="#32bedd"/>
 </svg>

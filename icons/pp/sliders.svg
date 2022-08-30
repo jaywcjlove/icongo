@@ -1,0 +1,12 @@
+<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M3.5 4.75H10m6.5 0h-1.625" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="12.75" cy="5" r="1.75" stroke="currentColor" stroke-width="2"/>
+  <path d="M3.5 14.75H10m6.5 0h-1.625" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="12.75" cy="15" r="1.75" stroke="currentColor" stroke-width="2"/>
+  <path d="M3.5 9.75h1.625m11.375 0H10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="7.75" cy="10" r="1.75" stroke="currentColor" stroke-width="2"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5 4.75a1 1 0 0 1 1-1H10a1 1 0 1 1 0 2H3.5a1 1 0 0 1-1-1Zm11.375 0a1 1 0 0 1 1-1H16.5a1 1 0 1 1 0 2h-1.625a1 1 0 0 1-1-1Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.75 5.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 2a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Zm-10.25 7a1 1 0 0 1 1-1H10a1 1 0 1 1 0 2H3.5a1 1 0 0 1-1-1Zm11.375 0a1 1 0 0 1 1-1H16.5a1 1 0 1 1 0 2h-1.625a1 1 0 0 1-1-1Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M12.75 15.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 2a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Zm-10.25-8a1 1 0 0 1 1-1h1.625a1 1 0 0 1 0 2H3.5a1 1 0 0 1-1-1Zm6.5 0a1 1 0 0 1 1-1h6.5a1 1 0 1 1 0 2H10a1 1 0 0 1-1-1Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 10.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 2a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5Z" fill="currentColor"/>
+</svg>

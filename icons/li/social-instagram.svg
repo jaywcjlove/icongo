@@ -1,13 +1,13 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <radialGradient id="a" cx="130.802" cy="895.86902" r="968.776" gradientTransform="matrix(.539 -.842 .618 .395 -492.923 652.145)" gradientUnits="userSpaceOnUse">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <radialGradient id="a" cx="130.802" cy="895.869" r="968.776" gradientTransform="matrix(.539 -.842 .618 .395 -492.923 652.145)" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-color="#F9ED32"/>
     <stop offset=".53" stop-color="#FF4700"/>
     <stop offset=".72" stop-color="#EE2A7B"/>
     <stop offset="1" stop-color="#002AFF"/>
   </radialGradient>
-  <path fill="url(#a)" d="M43.7 180h524.6c24.2 0 43.7 19.6 43.7 43.7v524.6c0 24.2-19.6 43.7-43.7 43.7H43.7C19.6 792 0 772.4 0 748.3V223.7C0 199.6 19.6 180 43.7 180z" transform="translate(1.000001 -2.5294102) scale(.0196)"/>
-  <g fill="#fff" stroke="#fff" stroke-miterlimit="10" transform="translate(1.000001 -2.5294102) scale(.0196)">
+  <path fill="url(#a)" d="M43.7 180h524.6c24.2 0 43.7 19.6 43.7 43.7v524.6c0 24.2-19.6 43.7-43.7 43.7H43.7C19.6 792 0 772.4 0 748.3V223.7C0 199.6 19.6 180 43.7 180z" transform="translate(1 -2.53) scale(.0196)"/>
+  <g fill="#fff" stroke="#fff" stroke-miterlimit="10" transform="translate(1 -2.53) scale(.0196)">
     <path stroke-width="8" d="M413.9 721.5H198.1c-70.3 0-127.6-57.2-127.6-127.6V378.1c0-70.3 57.2-127.6 127.6-127.6H414c70.3 0 127.6 57.2 127.6 127.6V594c-.1 70.3-57.3 127.5-127.7 127.5zM198.1 289.8c-48.7 0-88.3 39.6-88.3 88.3V594c0 48.7 39.6 88.3 88.3 88.3H414c48.7 0 88.3-39.6 88.3-88.3V378.1c0-48.7-39.6-88.3-88.3-88.3H198.1zm107.9 314c-64.9 0-117.8-52.8-117.8-117.8 0-64.9 52.8-117.8 117.8-117.8 64.9 0 117.8 52.8 117.8 117.8 0 64.9-52.9 117.8-117.8 117.8zm0-196.3c-43.3 0-78.5 35.2-78.5 78.5s35.2 78.5 78.5 78.5 78.5-35.2 78.5-78.5-35.2-78.5-78.5-78.5z"/>
-    <circle cx="427.70001" cy="364.29999" r="25" stroke-width="9"/>
+    <circle cx="427.7" cy="364.3" r="25" stroke-width="9"/>
   </g>
 </svg>

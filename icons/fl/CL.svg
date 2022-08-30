@@ -1,7 +1,7 @@
-<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+<svg viewBox="0 0 21 15" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
   <defs>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFF" offset="0%"/>
       <stop stop-color="#F0F0F0" offset="100%"/>
     </linearGradient>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
@@ -13,13 +13,11 @@
       <stop stop-color="#0239A7" offset="100%"/>
     </linearGradient>
   </defs>
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g>
-      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
-      <rect fill="url(#b)" x="0" y="7" width="21" height="8"/>
-      <rect fill="url(#a)" x="0" y="0" width="21" height="7"/>
-      <rect fill="url(#c)" x="0" y="0" width="7" height="7"/>
-      <polygon fill="url(#a)" points="3.5 4.28000003 2.3244295 5.11803399 2.75817589 3.74103327 1.59788697 2.88196601 3.04152748 2.86896672 3.5 1.5 3.95847252 2.86896672 5.40211303 2.88196601 4.24182411 3.74103327 4.6755705 5.11803399"/>
-    </g>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#a)" d="M0 0h21v15H0z"/>
+    <path fill="url(#b)" d="M0 7h21v8H0z"/>
+    <path fill="url(#a)" d="M0 0h21v7H0z"/>
+    <path fill="url(#c)" d="M0 0h7v7H0z"/>
+    <path fill="url(#a)" d="m3.5 4.28-1.176.838.434-1.377-1.16-.859 1.444-.013L3.5 1.5l.458 1.369 1.444.013-1.16.859.434 1.377z"/>
   </g>
 </svg>

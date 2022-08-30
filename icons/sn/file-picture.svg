@@ -1,10 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" height="1em" width="1em">
-  <g transform="translate(0 -1028.4)">
-    <path d="m23 1048.4c0 1.1-0.895 2-2 2h-8-4-6c-1.1046 0-2-0.9-2-2v-14c0-1.1 0.8954-2 2-2h6 4 4 4c1.105 0 2 0.9 2 2v4 10z" fill="#95a5a6"/>
-    <path d="m1 1047.4c0 1.1 0.8954 2 2 2h8 4 6c1.105 0 2-0.9 2-2v-14c0-1.1-0.895-2-2-2h-6-4-4-4c-1.1046 0-2 0.9-2 2v4 10z" fill="#bdc3c7"/>
-    <rect transform="translate(0 1028.4)" height="14" width="18" y="5" x="3" fill="#f39c12"/>
-    <path d="m16.625 8.625-10.344 10.375h14.719v-6l-4.375-4.375z" transform="translate(0 1028.4)" fill="#e67e22"/>
-    <path d="m8 8a2 2 0 1 1 -4 0 2 2 0 1 1 4 0z" transform="matrix(1.75 0 0 1.75 -3 1024.4)" fill="#f1c40f"/>
-    <path d="m8.0938 11.094-5.0938 5.094v2.812h13l-7.9062-7.906z" transform="translate(0 1028.4)" fill="#d35400"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
+  <path d="M23 20c0 1.1-.895 2-2 2H3c-1.105 0-2-.9-2-2V6c0-1.1.895-2 2-2h18c1.105 0 2 .9 2 2v14z" fill="#95a5a6"/>
+  <path d="M1 19c0 1.1.895 2 2 2h18c1.105 0 2-.9 2-2V5c0-1.1-.895-2-2-2H3c-1.105 0-2 .9-2 2v14z" fill="#bdc3c7"/>
+  <path fill="#f39c12" d="M3 5h18v14H3z"/>
+  <path d="M16.625 8.625 6.281 19H21v-6l-4.375-4.375z" fill="#e67e22"/>
+  <path d="M11 10a3.5 3.5 0 1 1-7 0 3.5 3.5 0 1 1 7 0z" fill="#f1c40f"/>
+  <path d="M8.094 11.094 3 16.188V19h13l-7.906-7.906z" fill="#d35400"/>
 </svg>

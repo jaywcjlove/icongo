@@ -1,5 +1,3 @@
-<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-circle-star" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <path d="M8,0.062 C3.581,0.062 0,3.621 0,8.009 C0,12.399 3.581,15.958 8,15.958 C12.418,15.958 16,12.398 16,8.009 C16,3.621 12.418,0.062 8,0.062 L8,0.062 Z M11.108,12.025 L8.021,9.902 L4.933,12.025 L6.112,8.59 L3.024,6.465 L6.841,6.465 L8.021,3.03 L9.201,6.465 L13.017,6.465 L9.93,8.59 L11.108,12.025 L11.108,12.025 Z" fill="#434343" class="si-glyph-fill"/>
-  </g>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-circle-star" height="1em" width="1em">
+  <path d="M8 .062c-4.419 0-8 3.559-8 7.947 0 4.39 3.581 7.949 8 7.949 4.418 0 8-3.56 8-7.949C16 3.621 12.418.062 8 .062Zm3.108 11.963L8.021 9.902l-3.088 2.123L6.112 8.59 3.024 6.465h3.817l1.18-3.435 1.18 3.435h3.816L9.93 8.59l1.178 3.435Z" fill="#434343" class="si-glyph-fill" fill-rule="evenodd"/>
 </svg>

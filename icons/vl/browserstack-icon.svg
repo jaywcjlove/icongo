@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
   <defs>
-    <radialGradient id="a" cx="23.012" cy="18.5" r="7.661" fx="23.012" fy="18.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.49488858,0,0,0.49488858,9.5546003,18.93924)">
+    <radialGradient id="a" cx="23.012" cy="18.5" r="7.661" fx="23.012" fy="18.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.49489 0 0 .49489 9.555 18.94)">
       <stop offset="0%" stop-color="#797979"/>
       <stop offset="100%" stop-color="#4c4c4c"/>
     </radialGradient>
   </defs>
-  <g transform="matrix(2.97292 0 0 2.97292 -29.729204 -57.187611)">
+  <g transform="translate(-29.73 -57.188) scale(2.97292)">
     <circle cx="20.789" cy="30.025" r="10.739" fill="#f4b960"/>
     <circle cx="19.7" cy="28.936" r="9.7" fill="#e66f32"/>
     <circle cx="21.036" cy="27.699" r="8.413" fill="#e43c41"/>

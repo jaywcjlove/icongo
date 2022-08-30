@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-label="Citrix" role="img" viewBox="0 0 512 512" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Citrix" viewBox="0 0 512 512" height="1em" width="1em">
   <rect width="512" height="512" rx="15%" fill="#fff"/>
   <path d="m390 266-29 35c-5 5-13-2-8-7l31-35-30-35c-5-5 2-13 8-7l29 34 29-34c5-6 13 1 7 7l-30 35 31 35c5 5-2 12-8 7l-30-35z"/>
   <circle cx="390.5" cy="194.5" r="8.7"/>

@@ -10,7 +10,7 @@
     <g mask="url(#b)" fill-rule="evenodd" clip-rule="evenodd">
       <path d="M0 0v4h16V0H0z" fill="#FC6500"/>
       <path d="M0 8v4h16V8H0z" fill="#5EAA22"/>
-      <path d="M8 8a2 2 0 100-4 2 2 0 000 4z" fill="#FC6500"/>
+      <path d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" fill="#FC6500"/>
     </g>
   </g>
 </svg>

@@ -1,7 +1,3 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M24 17V31" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M33 11V37" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M6 17V31" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M42 18V30" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M15 4V44" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 17v14m9-20v26M6 17v14m36-13v12M15 4v40" stroke="#000" stroke-width="4" stroke-linecap="round"/>
 </svg>

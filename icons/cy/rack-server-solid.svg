@@ -1,6 +1,6 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path class="clr-i-solid clr-i-solid-path-1" d="M2,22H34V14H2Zm8-5H24v2H10ZM6,17H8v2H6Z"/>
-  <path class="clr-i-solid clr-i-solid-path-2" d="M32,4H4A2,2,0,0,0,2,6v6H34V6A2,2,0,0,0,32,4ZM8,9H6V7H8ZM24,9H10V7H24Z"/>
-  <path class="clr-i-solid clr-i-solid-path-3" d="M2,30a2,2,0,0,0,2,2H32a2,2,0,0,0,2-2V24H2Zm8-3H24v2H10ZM6,27H8v2H6Z"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-solid clr-i-solid-path-1" d="M2 22h32v-8H2Zm8-5h14v2H10Zm-4 0h2v2H6Z"/>
+  <path class="clr-i-solid clr-i-solid-path-2" d="M32 4H4a2 2 0 0 0-2 2v6h32V6a2 2 0 0 0-2-2ZM8 9H6V7h2Zm16 0H10V7h14Z"/>
+  <path class="clr-i-solid clr-i-solid-path-3" d="M2 30a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2v-6H2Zm8-3h14v2H10Zm-4 0h2v2H6Z"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

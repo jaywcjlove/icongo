@@ -1,9 +1,5 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <g>
-    <g>
-      <path d="M32,0C22.1,0,10.2,2.3,0.4,7.3C0.4,18.3,0.2,45.4,32,64C63.8,45.4,63.6,18.3,63.6,7.3 C53.8,2.3,41.9,0,32,0L32,0z" style="fill:#68BC71"/>
-      <path d="M32,64C0.2,45.4,0.4,18.3,0.4,7.3C10.2,2.3,22.1,0,32,0V64L32,64z" style="fill:#67B279"/>
-    </g>
-    <path d="M30.8,42.7L50,17.3c-1.4-1.1-2.6-0.3-3.3,0.3l0,0L30.7,33.9l-6-7.1c-2.9-3.3-6.8-0.8-7.7-0.1 L30.8,42.7L30.8,42.7z" style="fill:#FFFFFF"/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <path d="M32 0C22.1 0 10.2 2.3.4 7.3.4 18.3.2 45.4 32 64 63.8 45.4 63.6 18.3 63.6 7.3 53.8 2.3 41.9 0 32 0z" style="fill:#68bc71"/>
+  <path d="M32 64C.2 45.4.4 18.3.4 7.3 10.2 2.3 22.1 0 32 0v64z" style="fill:#67b279"/>
+  <path d="M30.8 42.7 50 17.3c-1.4-1.1-2.6-.3-3.3.3l-16 16.3-6-7.1c-2.9-3.3-6.8-.8-7.7-.1l13.8 16z" style="fill:#fff"/>
 </svg>

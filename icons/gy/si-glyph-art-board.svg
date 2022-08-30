@@ -1,15 +1,3 @@
-<svg viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-art-board" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g fill="#434343">
-      <path d="M12.953,12.938 L3.046,12.938 L3.046,3.022 L12.953,3.022 L12.953,12.938 L12.953,12.938 Z M3.963,12.062 L12.098,12.062 L12.098,3.833 L3.963,3.833 L3.963,12.062 L3.963,12.062 Z" class="si-glyph-fill"/>
-      <rect x="12" y="0" width="0.959" height="1.943" class="si-glyph-fill"/>
-      <rect x="3" y="0" width="0.959" height="1.984" class="si-glyph-fill"/>
-      <rect x="12" y="14" width="0.938" height="1.922" class="si-glyph-fill"/>
-      <rect x="3" y="14" width="0.959" height="1.984" class="si-glyph-fill"/>
-      <rect x="14" y="12" width="1.875" height="0.994" class="si-glyph-fill"/>
-      <rect x="0" y="12" width="1.855" height="0.918" class="si-glyph-fill"/>
-      <rect x="14" y="3" width="1.98" height="0.938" class="si-glyph-fill"/>
-      <rect x="0" y="3" width="1.938" height="0.957" class="si-glyph-fill"/>
-    </g>
-  </g>
+<svg viewBox="0 0 16 17" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-art-board" height="1em" width="1em">
+  <path d="M12.953 12.938H3.046V3.022h9.907v9.916Zm-8.99-.876h8.135V3.833H3.963v8.229ZM12 0h.959v1.943H12zM3 0h.959v1.984H3zm9 14h.938v1.922H12zm-9 0h.959v1.984H3zm11-2h1.875v.994H14zM0 12h1.855v.918H0zm14-9h1.98v.938H14zM0 3h1.938v.957H0z" class="si-glyph-fill" fill="#434343" fill-rule="evenodd"/>
 </svg>

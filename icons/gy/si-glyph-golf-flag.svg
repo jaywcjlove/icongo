@@ -1,10 +1,7 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-golf-flag" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 0.000000)" fill="#434343">
-      <ellipse cx="5.433" cy="14.98" rx="5.433" ry="0.98" class="si-glyph-fill"/>
-      <rect x="5" y="0" width="0.956" height="12.959" class="si-glyph-fill"/>
-      <path d="M7.031,0.103 C7.031,0.103 8.675,-0.317 11.481,1.564 C14.287,3.446 13.73,5.076 15.584,5.21 C16.582,5.144 15.164,6.378 13.73,5.814 C10.949,4.721 10.13,3.177 7.031,4.604 L7.031,0.103 L7.031,0.103 Z" class="si-glyph-fill"/>
-      <circle cx="13.945" cy="13.945" r="1.945" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-golf-flag" height="1em" width="1em">
+  <g transform="translate(1)" fill="#434343" fill-rule="evenodd">
+    <ellipse cx="5.433" cy="14.98" rx="5.433" ry=".98" class="si-glyph-fill"/>
+    <path class="si-glyph-fill" d="M5 0h.956v12.959H5zm2.031.103s1.644-.42 4.45 1.461c2.806 1.882 2.249 3.512 4.103 3.646.998-.066-.42 1.168-1.854.604-2.781-1.093-3.6-2.637-6.699-1.21V.103Z"/>
+    <circle cx="13.945" cy="13.945" r="1.945" class="si-glyph-fill"/>
   </g>
 </svg>

@@ -9,10 +9,10 @@
     <mask id="b" fill="#fff">
       <use xlink:href="#a"/>
     </mask>
-    <path stroke="#FCD116" stroke-width="70" d="M.5 200.5l300-200" mask="url(#b)"/>
+    <path stroke="#FCD116" stroke-width="70" d="m.5 200.5 300-200" mask="url(#b)"/>
     <mask id="d" fill="#fff">
       <use xlink:href="#c"/>
     </mask>
-    <path stroke="#000" stroke-width="50" d="M.5 200.5l300-200" mask="url(#d)"/>
+    <path stroke="#000" stroke-width="50" d="m.5 200.5 300-200" mask="url(#d)"/>
   </g>
 </svg>

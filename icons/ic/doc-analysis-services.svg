@@ -14,7 +14,7 @@
   <rect x=".5" y="2.52" width="6.92" height="5.31" rx=".28" fill="url(#a)"/>
   <rect x="10.58" y="5.58" width="6.92" height="5.31" rx=".28" fill="url(#b)"/>
   <rect x="1.82" y="10.18" width="6.92" height="5.31" rx=".42" fill="url(#c)"/>
-  <path d="M13.15 8.92l.23-.64-8.56-3.15-.23.63zm.53-.09l-.32-.6-8.07 4.25.31.6zM5 13.37l.67-.12-1.36-7.71-.67.12z" fill="#773adc"/>
+  <path d="m13.15 8.92.23-.64-8.56-3.15-.23.63zm.53-.09-.32-.6-8.07 4.25.31.6zM5 13.37l.67-.12-1.36-7.71-.67.12z" fill="#773adc"/>
   <circle cx="14.04" cy="8.23" r="1.08" transform="rotate(-32.41 14.042 8.242)" fill="#fff"/>
   <circle cx="3.96" cy="5.17" r="1.08" transform="rotate(-32.41 3.966 5.164)" fill="#fff"/>
   <circle cx="5.29" cy="12.83" r="1.08" transform="rotate(-32.41 5.285 12.824)" fill="#fff"/>

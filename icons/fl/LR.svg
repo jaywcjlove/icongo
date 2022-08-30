@@ -1,7 +1,7 @@
-<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+<svg viewBox="0 0 21 15" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
   <defs>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFF" offset="0%"/>
       <stop stop-color="#F0F0F0" offset="100%"/>
     </linearGradient>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
@@ -12,21 +12,17 @@
       <stop stop-color="#0C3F8E" offset="0%"/>
       <stop stop-color="#032A67" offset="100%"/>
     </linearGradient>
-    <polygon id="e" points="5 6.17000005 3.23664424 7.42705098 3.88726383 5.3615499 2.14683045 4.07294902 4.31229123 4.05345008 5 2 5.68770877 4.05345008 7.85316955 4.07294902 6.11273617 5.3615499 6.76335576 7.42705098"/>
     <filter x="-4.2%" y="-4.2%" width="108.3%" height="116.7%" filterUnits="objectBoundingBox" id="d">
-      <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"/>
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" in="shadowOffsetOuter1"/>
     </filter>
+    <path id="e" d="M5 6.17 3.237 7.427l.65-2.065-1.74-1.29 2.165-.019L5 2l.688 2.053 2.165.02-1.74 1.289.65 2.065z"/>
   </defs>
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g>
-      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
-      <path d="M10,0 L21,0 L21,2 L10,2 L10,0 Z M10,4 L21,4 L21,6 L10,6 L10,4 Z M10,8 L21,8 L21,10 L10,10 L10,8 Z M0,12 L21,12 L21,14 L0,14 L0,12 Z" fill="url(#b)"/>
-      <rect fill="url(#c)" x="0" y="0" width="10" height="10"/>
-      <g>
-        <use fill="black" fill-opacity="1" filter="url(#d)" xlink:href="#e"/>
-        <use fill="url(#a)" fill-rule="evenodd" xlink:href="#e"/>
-      </g>
-    </g>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#a)" d="M0 0h21v15H0z"/>
+    <path d="M10 0h11v2H10V0Zm0 4h11v2H10V4Zm0 4h11v2H10V8ZM0 12h21v2H0v-2Z" fill="url(#b)"/>
+    <path fill="url(#c)" d="M0 0h10v10H0z"/>
+    <use fill="#000" filter="url(#d)" xlink:href="#e"/>
+    <use fill="url(#a)" xlink:href="#e"/>
   </g>
 </svg>

@@ -1,49 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49.917 49.931" height="1em" width="1em">
-  <g transform="matrix(.060252 0 0 .060252 -33.790421 .000006)">
-    <g opacity=".6">
-      <defs>
-        <path d="M720.6 306.4h508.7v266H720.6z" id="a"/>
-      </defs>
-      <clipPath id="b">
-        <use xlink:href="#a"/>
-      </clipPath>
-      <path clip-path="url(#b)" d="M975 306.4L720.6 422.1 975 572.4l254.3-150.3z" fill="#010101"/>
-    </g>
-    <g opacity=".45">
-      <defs>
-        <path d="M720.6 0H975v572.4H720.6z" id="c"/>
-      </defs>
-      <clipPath id="d">
-        <use xlink:href="#c"/>
-      </clipPath>
-      <path clip-path="url(#d)" d="M720.6 422.1L975 572.4V0z" fill="#010101"/>
-    </g>
-    <g opacity=".8">
-      <defs>
-        <path d="M975 0h254.4v572.4H975z" id="e"/>
-      </defs>
-      <clipPath id="f">
-        <use xlink:href="#e"/>
-      </clipPath>
-      <path clip-path="url(#f)" d="M975 0v572.4l254.3-150.3z" fill="#010101"/>
-    </g>
-    <g opacity=".45">
-      <defs>
-        <path d="M720.6 470.3H975v358.4H720.6z" id="g"/>
-      </defs>
-      <clipPath id="h">
-        <use xlink:href="#g"/>
-      </clipPath>
-      <path clip-path="url(#h)" d="M720.6 470.3L975 828.7V620.6z" fill="#010101"/>
-    </g>
-    <g opacity=".8">
-      <defs>
-        <path d="M975 470.3h254.5v358.4H975z" id="i"/>
-      </defs>
-      <clipPath id="j">
-        <use xlink:href="#i"/>
-      </clipPath>
-      <path clip-path="url(#j)" d="M975 620.6v208.1l254.5-358.4z" fill="#010101"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 49.917 49.931" width="64" height="64">
+  <g opacity=".6" transform="translate(-33.79) scale(.06025)">
+    <defs>
+      <path d="M720.6 306.4h508.7v266H720.6z" id="a"/>
+    </defs>
+    <clipPath id="b">
+      <use xlink:href="#a"/>
+    </clipPath>
+    <path clip-path="url(#b)" d="M975 306.4 720.6 422.1 975 572.4l254.3-150.3z" fill="#010101"/>
+  </g>
+  <g opacity=".45" transform="translate(-33.79) scale(.06025)">
+    <defs>
+      <path d="M720.6 0H975v572.4H720.6z" id="c"/>
+    </defs>
+    <clipPath id="d">
+      <use xlink:href="#c"/>
+    </clipPath>
+    <path clip-path="url(#d)" d="M720.6 422.1 975 572.4V0z" fill="#010101"/>
+  </g>
+  <g opacity=".8" transform="translate(-33.79) scale(.06025)">
+    <defs>
+      <path d="M975 0h254.4v572.4H975z" id="e"/>
+    </defs>
+    <clipPath id="f">
+      <use xlink:href="#e"/>
+    </clipPath>
+    <path clip-path="url(#f)" d="M975 0v572.4l254.3-150.3z" fill="#010101"/>
+  </g>
+  <g opacity=".45" transform="translate(-33.79) scale(.06025)">
+    <defs>
+      <path d="M720.6 470.3H975v358.4H720.6z" id="g"/>
+    </defs>
+    <clipPath id="h">
+      <use xlink:href="#g"/>
+    </clipPath>
+    <path clip-path="url(#h)" d="M720.6 470.3 975 828.7V620.6z" fill="#010101"/>
+  </g>
+  <g opacity=".8" transform="translate(-33.79) scale(.06025)">
+    <defs>
+      <path d="M975 470.3h254.5v358.4H975z" id="i"/>
+    </defs>
+    <clipPath id="j">
+      <use xlink:href="#i"/>
+    </clipPath>
+    <path clip-path="url(#j)" d="M975 620.6v208.1l254.5-358.4z" fill="#010101"/>
   </g>
 </svg>

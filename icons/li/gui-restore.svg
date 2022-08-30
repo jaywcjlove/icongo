@@ -1,3 +1,3 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path d="M 21,11 14,4 V 8 C 7,9 4,14 3,19 5.5,15.5 9,13.9 14,13.9 V 18 l 7,-7 z" transform="matrix(-0.66666667,0,0,0.66666667,15,-0.66666671)"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path d="M1 6.667 5.667 2v2.667c4.666.666 6.666 4 7.333 7.333-1.667-2.333-4-3.4-7.333-3.4v2.733L1 6.667z"/>
 </svg>

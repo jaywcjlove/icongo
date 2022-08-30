@@ -1,17 +1,7 @@
-<svg clip-rule="evenodd" fill-rule="evenodd" version="1.1" viewBox="7.5829e-7 18.917 100 62.166" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g transform="matrix(1.3369 0 0 1.3369 -.26738 17.58)">
-    <circle cx="37.7" cy="10.5" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28px"/>
-  </g>
-  <g transform="matrix(1.3369 0 0 1.3369 -.26738 17.58)">
-    <circle cx="65.5" cy="10.5" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28px"/>
-  </g>
-  <g transform="matrix(1.3369 0 0 1.3369 -.26738 17.58)">
-    <circle cx="37.7" cy="38" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28px"/>
-  </g>
-  <g transform="matrix(1.3369 0 0 1.3369 -.26738 17.58)">
-    <circle cx="65.5" cy="38" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28px"/>
-  </g>
-  <g transform="matrix(1.3369 0 0 1.3369 -.26738 17.58)">
-    <circle cx="9.7" cy="38" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28px"/>
-  </g>
+<svg clip-rule="evenodd" fill-rule="evenodd" viewBox="0 18.917 100 62.166" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <circle cx="37.7" cy="10.5" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28" transform="translate(-.267 17.58) scale(1.3369)"/>
+  <circle cx="65.5" cy="10.5" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28" transform="translate(-.267 17.58) scale(1.3369)"/>
+  <circle cx="37.7" cy="38" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28" transform="translate(-.267 17.58) scale(1.3369)"/>
+  <circle cx="65.5" cy="38" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28" transform="translate(-.267 17.58) scale(1.3369)"/>
+  <circle cx="9.7" cy="38" r="9.5" fill="#ee7203" stroke="#ee7203" stroke-width=".28" transform="translate(-.267 17.58) scale(1.3369)"/>
 </svg>

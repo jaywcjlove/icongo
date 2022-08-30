@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
   <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="13.528" y1="-36.176" x2="88.264" y2="-36.176">
     <stop offset="0" stop-color="#656565"/>
     <stop offset="1" stop-color="#010101"/>
@@ -19,11 +19,9 @@
     <stop offset="0" stop-color="#9f1c20"/>
     <stop offset="1" stop-color="#ed2224"/>
   </linearGradient>
-  <g transform="matrix(.492308 0 0 .492308 6.941539 39.876923)">
-    <path d="M13.4-31s75 7.5 75 20v-30s0-12.5-75-20z" fill="url(#a)"/>
-    <path d="M13.4 9s75 7.5 75 20V-1s0-12.5-75-20z" fill="url(#b)"/>
-    <path d="M88.4-81v30s0 12.5-75 20v-30s75-7.5 75-20" fill="url(#c)"/>
-    <path d="M13.4-21s75-7.5 75-20v30s0 12.5-75 20z" fill="url(#d)"/>
-    <path d="M13.4 49V19s75-7.5 75-20v30s0 12.5-75 20" fill="url(#e)"/>
-  </g>
+  <path d="M13.4-31s75 7.5 75 20v-30s0-12.5-75-20z" fill="url(#a)" transform="matrix(.4923 0 0 .4923 6.942 39.877)"/>
+  <path d="M13.4 9s75 7.5 75 20V-1s0-12.5-75-20z" fill="url(#b)" transform="matrix(.4923 0 0 .4923 6.942 39.877)"/>
+  <path d="M88.4-81v30s0 12.5-75 20v-30s75-7.5 75-20" fill="url(#c)" transform="matrix(.4923 0 0 .4923 6.942 39.877)"/>
+  <path d="M13.4-21s75-7.5 75-20v30s0 12.5-75 20z" fill="url(#d)" transform="matrix(.4923 0 0 .4923 6.942 39.877)"/>
+  <path d="M13.4 49V19s75-7.5 75-20v30s0 12.5-75 20" fill="url(#e)" transform="matrix(.4923 0 0 .4923 6.942 39.877)"/>
 </svg>

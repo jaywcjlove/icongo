@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 64" version="1.1" sodipodi:docname="geekflare-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="5.2110695" inkscape:cx="92" inkscape:cy="20" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg32"/>
-  <g style="fill:#f9690e" transform="matrix(1.59996,0,0,1.59996,2.0000008e-8,8e-4)">
-    <polygon points="24,28 28,32 40.001,20 28.001,8 16,20 20,24 28.001,16 32.001,20"/>
-    <polygon points="20,32 8.308,20.308 8,20 24.001,4 20,0 0,20 20,40 24,36"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" version="1.1" width="64" height="64">
+  <g style="fill:#f9690e" transform="scale(1.59996)">
+    <path d="m24 28 4 4 12.001-12-12-12L16 20l4 4 8.001-8 4 4z"/>
+    <path d="M20 32 8.308 20.308 8 20 24.001 4 20 0 0 20l20 20 4-4z"/>
   </g>
 </svg>

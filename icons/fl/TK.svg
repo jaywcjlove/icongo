@@ -1,7 +1,7 @@
-<svg viewBox="0 0 21 15" version="1.1" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+<svg viewBox="0 0 21 15" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
   <defs>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFF" offset="0%"/>
       <stop stop-color="#F0F0F0" offset="100%"/>
     </linearGradient>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
@@ -13,15 +13,10 @@
       <stop stop-color="#FED02F" offset="100%"/>
     </linearGradient>
   </defs>
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g>
-      <rect fill="url(#a)" x="0" y="0" width="21" height="15"/>
-      <rect fill="url(#b)" x="0" y="0" width="21" height="15"/>
-      <path d="M4,12 L19,12 L19,13 L3,13 L4,12 Z M11.5,6 C14.5,4 18,2 18,2 C18,2 16.3573445,5.07344524 16.5,6.5 C16.6906779,8.40677857 19,11 19,11 L5,11 C5,11 8.5,8 11.5,6 Z" fill="url(#c)"/>
-      <polygon fill="#FFFFFF" points="4 9 3.29289322 9.20710678 3.5 8.5 3.29289322 7.79289322 4 8 4.70710678 7.79289322 4.5 8.5 4.70710678 9.20710678"/>
-      <polygon fill="#FFFFFF" points="5 2.5 4.29289322 2.70710678 4.5 2 4.29289322 1.29289322 5 1.5 5.70710678 1.29289322 5.5 2 5.70710678 2.70710678"/>
-      <polygon fill="#FFFFFF" points="7 5.5 6.29289322 5.70710678 6.5 5 6.29289322 4.29289322 7 4.5 7.70710678 4.29289322 7.5 5 7.70710678 5.70710678"/>
-      <polygon fill="#FFFFFF" points="2 5.5 1.29289322 5.70710678 1.5 5 1.29289322 4.29289322 2 4.5 2.70710678 4.29289322 2.5 5 2.70710678 5.70710678"/>
-    </g>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#a)" d="M0 0h21v15H0z"/>
+    <path fill="url(#b)" d="M0 0h21v15H0z"/>
+    <path d="M4 12h15v1H3l1-1Zm7.5-6c3-2 6.5-4 6.5-4s-1.643 3.073-1.5 4.5C16.69 8.407 19 11 19 11H5s3.5-3 6.5-5Z" fill="url(#c)"/>
+    <path fill="#FFF" d="m4 9-.707.207L3.5 8.5l-.207-.707L4 8l.707-.207L4.5 8.5l.207.707zm1-6.5-.707.207L4.5 2l-.207-.707L5 1.5l.707-.207L5.5 2l.207.707zm2 3-.707.207L6.5 5l-.207-.707L7 4.5l.707-.207L7.5 5l.207.707zm-5 0-.707.207L1.5 5l-.207-.707L2 4.5l.707-.207L2.5 5l.207.707z"/>
   </g>
 </svg>

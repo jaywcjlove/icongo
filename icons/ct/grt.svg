@@ -21,7 +21,7 @@
     <use fill="url(#c)" style="mix-blend-mode:soft-light" xlink:href="#b"/>
     <circle stroke-opacity=".097" stroke="#000" stroke-linejoin="square" cx="16" cy="15" r="14.5"/>
     <g filter="url(#d)">
-      <path d="M20.707 18.543a1 1 0 010 1.414l-4 4a1 1 0 11-1.414-1.414l4-4a1 1 0 011.414 0zM15 6.25a6 6 0 110 12 6 6 0 010-12zm0 2a4 4 0 100 8 4 4 0 000-8zm7-2a1 1 0 110 2 1 1 0 010-2z" fill="#000" fill-rule="nonzero"/>
+      <path d="M20.707 18.543a1 1 0 0 1 0 1.414l-4 4a1 1 0 1 1-1.414-1.414l4-4a1 1 0 0 1 1.414 0zM15 6.25a6 6 0 1 1 0 12 6 6 0 0 1 0-12zm0 2a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm7-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="#000" fill-rule="nonzero"/>
     </g>
   </g>
 </svg>

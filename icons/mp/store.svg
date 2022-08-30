@@ -1,3 +1,3 @@
 <svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" overflow="inherit" height="1em" width="1em">
-  <path d="M25.562 2.966l-25.562 18.034h6v22h4v-15h8v15h27v-22h5l-24.438-18.034zm16.438 34.034h-19v-9h19v9zm0-12h-33v-8h33v8zm-2-6v4h-29v-4h29m1-1h-31v6h31v-6z"/>
+  <path d="M25.562 2.966 0 21h6v22h4V28h8v15h27V21h5L25.562 2.966zM42 37H23v-9h19v9zm0-12H9v-8h33v8zm-2-6v4H11v-4h29m1-1H10v6h31v-6z"/>
 </svg>

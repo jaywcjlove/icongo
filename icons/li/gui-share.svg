@@ -1,5 +1,5 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path d="M11.23 9.16L5.62 7l5.61-2.16c.45-.18.69-.69.51-1.17-.18-.45-.69-.69-1.17-.51l-7.8 3c-.33.12-.57.48-.57.84s.24.72.57.84l7.8 3c.12.03.21.06.33.06.36 0 .69-.21.84-.57.18-.48-.06-.99-.51-1.17z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path d="M11.23 9.16 5.62 7l5.61-2.16a.91.91 0 0 0 .51-1.17.91.91 0 0 0-1.17-.51l-7.8 3c-.33.12-.57.48-.57.84s.24.72.57.84l7.8 3c.12.03.21.06.33.06.36 0 .69-.21.84-.57a.91.91 0 0 0-.51-1.17z"/>
   <g fill="gray" transform="matrix(.3 0 0 .3 -.2 -.2)">
     <circle cx="11" cy="24" r="7"/>
     <circle cx="37" cy="14" r="7"/>

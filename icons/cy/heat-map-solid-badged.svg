@@ -1,5 +1,5 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path class="clr-i-solid--badged clr-i-solid-path-1--badged" d="M 34 12.34 L 34 29 C 34 30.105 33.105 31 32 31 L 4 31 C 2.896 31 2 30.105 2 29 L 2 7 C 2 5.896 2.896 5 4 5 L 22.57 5 C 22.312 6.817 22.732 8.566 23.633 10 L 8 10 L 8 26 L 28 26 L 28 13.232 C 28.421 13.345 28.859 13.422 29.31 13.46 L 30.32 13.48 C 31.626 13.429 32.895 13.036 34 12.34 Z M 10 19 L 14 19 L 14 24 L 10 24 Z M 22 24 L 22 19 L 26 19 L 26 24 Z M 20 19 L 20 24 L 16 24 L 16 19 Z M 26 17 L 22 17 L 22 12 L 25.584 12 C 25.719 12.1 25.858 12.196 26 12.287 Z M 20 12 L 20 17 L 16 17 L 16 12 Z M 14 12 L 14 17 L 10 17 L 10 12 Z"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-solid--badged clr-i-solid-path-1--badged" d="M34 12.34V29a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h18.57a7.404 7.404 0 0 0 1.063 5H8v16h20V13.232c.421.113.859.19 1.31.228l1.01.02A7.45 7.45 0 0 0 34 12.34ZM10 19h4v5h-4Zm12 5v-5h4v5Zm-2-5v5h-4v-5Zm6-2h-4v-5h3.584c.135.1.274.196.416.287Zm-6-5v5h-4v-5Zm-6 0v5h-4v-5Z"/>
   <circle class="clr-i-solid--badged clr-i-solid-path-22--badged clr-i-badge" cx="30" cy="6" r="5"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

@@ -1,12 +1,9 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-database-download" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(2.000000, 0.000000)" fill="#434343">
-      <g>
-        <ellipse cx="6.43" cy="2.421" rx="6.43" ry="2.421" class="si-glyph-fill"/>
-        <path d="M6.494,6.051 C2.978,6.051 0.047,5.049 0.047,4.377 L0.047,7.723 C0.047,8.937 2.934,9.919 6.494,9.919 C10.054,9.919 12.941,8.937 12.941,7.723 L12.941,4.377 C12.941,5.049 10.01,6.051 6.494,6.051 L6.494,6.051 Z" class="si-glyph-fill"/>
-      </g>
-      <path d="M9.014,12.003 L11.034,12.003 L11.034,10.5 C9.859,10.83 8.235,11.08 6.464,11.08 C2.948,11.08 0.017,10.1 0.017,9.444 L0.017,12.713 C0.017,13.901 2.904,14.859 6.464,14.859 C8.112,14.859 9.61,14.652 10.751,14.313 L9.014,12.003 L9.014,12.003 Z" class="si-glyph-fill"/>
-      <path d="M12.982,11.016 L12.982,13.003 L13.984,13.003 L12.492,14.969 L11.016,13.003 L12.033,13.003 L12.033,11.016 L12.982,11.016 Z" class="si-glyph-fill"/>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-database-download" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <g transform="translate(2)">
+      <ellipse cx="6.43" cy="2.421" rx="6.43" ry="2.421" class="si-glyph-fill"/>
+      <path d="M6.494 6.051C2.978 6.051.047 5.049.047 4.377v3.346c0 1.214 2.887 2.196 6.447 2.196s6.447-.982 6.447-2.196V4.377c0 .672-2.931 1.674-6.447 1.674Z" class="si-glyph-fill"/>
     </g>
+    <path d="M11.014 12.003h2.02V10.5c-1.175.33-2.799.58-4.57.58-3.516 0-6.447-.98-6.447-1.636v3.269c0 1.188 2.887 2.146 6.447 2.146 1.648 0 3.146-.207 4.287-.546l-1.737-2.31Zm3.968-.987v1.987h1.002l-1.492 1.966-1.476-1.966h1.017v-1.987h.949Z" class="si-glyph-fill"/>
   </g>
 </svg>

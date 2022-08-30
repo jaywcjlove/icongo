@@ -1,14 +1,13 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
   <g clip-path="url(#a)">
-    <path d="M27 12.0002C27 12.0002 33.9994 19.0002 33.9995 28.0002C33.9996 37.0002 29.5554 44.2229 25.9995 44.0001C22.4437 43.7774 18.9999 37.0001 20 28.0002C21 19.0002 27 12.0002 27 12.0002Z" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M26.9998 12.0003C26.9998 12.0003 28.0011 7.87556 31.0002 5.93792C33.9994 4.00028 39.8901 9.00031 39 12.0003C38.1099 15.0003 34.9996 15.0003 33.9997 12.0003C32.9998 9.00031 38 5.50031 41 5.93792C44 6.37553 44.2569 11.1801 44 14.0003C43.499 19.5003 42 24.0003 42 24.0003" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M26.9999 11.9999C26.9999 11.9999 26.9999 19.9999 20 27.9999C13.0001 35.9999 6.32546 37.6995 4.00039 34.9999C1.67532 32.3003 4.00039 24.9999 11.0001 17.9999C17.9997 10.9999 26.9999 11.9999 26.9999 11.9999Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="27.2432" cy="27.4077" r="2.5" fill="black"/>
-    <circle cx="26.2432" cy="34.4077" r="2.5" fill="black"/>
+    <path d="M27 12s7 7 7 16-4.445 16.223-8 16c-3.556-.223-7-7-6-16s7-16 7-16Zm0 0s1-4.124 4-6.062C34 4 39.89 9 39 12c-.89 3-4 3-5 0s4-6.5 7-6.062c3 .438 3.257 5.242 3 8.062-.501 5.5-2 10-2 10" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M27 12s0 8-7 16-13.675 9.7-16 7c-2.325-2.7 0-10 7-17s16-6 16-6Z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="27.243" cy="27.408" r="2.5" fill="#000"/>
+    <circle cx="26.243" cy="34.408" r="2.5" fill="#000"/>
   </g>
   <defs>
     <clipPath id="a">
-      <rect width="48" height="48" fill="white"/>
+      <path fill="#fff" d="M0 0h48v48H0z"/>
     </clipPath>
   </defs>
 </svg>

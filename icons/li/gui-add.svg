@@ -1,7 +1,7 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
   <circle cx="7" cy="7" r="6" fill="#4caf50"/>
   <g fill="#fff">
-    <path d="M6.14285713 4.1428571h1.71428574v5.7142858H6.14285713z"/>
-    <path d="M4.1428571 6.14285713h5.7142858v1.71428574H4.1428571z"/>
+    <path d="M6.143 4.143h1.714v5.714H6.143z"/>
+    <path d="M4.143 6.143h5.714v1.714H4.143z"/>
   </g>
 </svg>

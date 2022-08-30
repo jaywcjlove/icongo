@@ -1,6 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-play" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M4 3.71v16.58a0.7 .7 0 0 0 1.05 .606l14.622 -8.42a0.55 .55 0 0 0 0 -.953l-14.622 -8.419a0.7 .7 0 0 0 -1.05 .607z"/>
-  <line x1="15" y1="9" x2="4.5" y2="20.5"/>
-  <line x1="4.5" y1="3.5" x2="15" y2="15"/>
+  <path d="M0 0h24v24H0z" stroke="none"/>
+  <path d="M4 3.71v16.58a.7.7 0 0 0 1.05.606l14.622-8.42a.55.55 0 0 0 0-.953L5.05 3.104A.7.7 0 0 0 4 3.711zM15 9 4.5 20.5m0-17L15 15"/>
 </svg>

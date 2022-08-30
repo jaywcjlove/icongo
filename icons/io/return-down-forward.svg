@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="1em" width="1em">
-  <polyline points="400 352 464 288 400 224" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
-  <path d="M448,288H154C95.24,288,48,238.67,48,180V160" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
+  <path style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="m400 352 64-64-64-64"/>
+  <path d="M448 288H154c-58.76 0-106-49.33-106-108v-20" style="fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"/>
 </svg>

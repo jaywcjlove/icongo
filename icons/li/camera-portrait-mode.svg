@@ -1,5 +1,5 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <g transform="translate(-.71443689 .14225272) scale(.28574)">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="translate(-.714 .142) scale(.28574)">
     <path fill="#ff9800" d="M22 38c-4.8 0-5-7-5-7v-6h10v6s-.2 7-5 7z"/>
     <g fill="#ffa726">
       <circle cx="31" cy="19" r="2"/>
@@ -13,7 +13,7 @@
     </g>
     <path fill="#009688" d="M27 31s-1.8 2-5 2-5-2-5-2S6 33 6 44h32c0-11-11-13-11-13z"/>
     <g fill="#ff9800">
-      <path d="M40.99699866 4.06539852l6.99929971 6.99929971-6.99929971 6.99929972-6.99929972-6.99929972z"/>
+      <path d="m40.997 4.065 7 7-7 6.999-7-7z"/>
       <path d="M36 6h10v10H36z"/>
     </g>
     <circle cx="41" cy="11" r="3" fill="#ffeb3b"/>

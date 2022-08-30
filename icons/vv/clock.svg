@@ -1,10 +1,10 @@
 <svg id="clock" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <defs>
     <style>
-      .vi-primary{fill:#FF6E6E}.vi-primary{stroke:#fff;stroke-linecap:round;stroke-width:0}
+      .vi-primary{fill:#ff6e6e;stroke:#fff;stroke-linecap:round;stroke-width:0}
     </style>
   </defs>
   <circle class="vi-primary" cx="24" cy="24" r="18"/>
-  <circle cx="24" cy="24" r="14" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0"/>
-  <path class="vi-primary" d="M21,16V27h9V24H24V16H21Z"/>
+  <circle cx="24" cy="24" r="14" style="fill:#0c0058;stroke:#fff;stroke-linecap:round;stroke-width:0"/>
+  <path class="vi-primary" d="M21 16v11h9v-3h-6v-8h-3Z"/>
 </svg>

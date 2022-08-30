@@ -1,18 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10.420005798339844 157.17999267578125 157.17999267578125" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10.42 157.18 157.18" height="1em" width="1em">
   <g data-name="Layer 2">
     <g data-name="Layer 1">
       <g data-name="Group 2480">
-        <g>
-          <g data-name="Layer 2-3">
-            <g>
-              <g data-name="TurboTax - Clearspace Lockup">
-                <g data-name="Cornerstone Lockup">
-                  <g>
-                    <circle cx="78.59" cy="89.01" r="78.59" style="fill:#d52b1e"/>
-                    <path d="M61.14,117.76a295.47,295.47,0,0,1-26-20.83c-3,6.65-5.77,13.68-8.16,20.59C40.3,128.69,57.88,141.62,70.18,149c15.69-40.93,40.42-67.42,63.9-86.13A60.81,60.81,0,0,0,122,45.83,213.35,213.35,0,0,0,61.14,117.76Z" style="fill:#fff"/>
-                  </g>
-                </g>
-              </g>
+        <g data-name="Layer 2-3">
+          <g data-name="TurboTax - Clearspace Lockup">
+            <g data-name="Cornerstone Lockup">
+              <circle cx="78.59" cy="89.01" r="78.59" style="fill:#d52b1e"/>
+              <path d="M61.14 117.76a295.47 295.47 0 0 1-26-20.83c-3 6.65-5.77 13.68-8.16 20.59 13.32 11.17 30.9 24.1 43.2 31.48 15.69-40.93 40.42-67.42 63.9-86.13A60.81 60.81 0 0 0 122 45.83a213.35 213.35 0 0 0-60.86 71.93Z" style="fill:#fff"/>
             </g>
           </g>
         </g>

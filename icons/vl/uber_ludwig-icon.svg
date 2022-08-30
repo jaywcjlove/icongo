@@ -1,10 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 64" version="1.1" sodipodi:docname="ludwig-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="5.8956522" inkscape:cx="64.454277" inkscape:cy="22.507375" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg9"/>
-  <g>
-    <path sodipodi:nodetypes="ccccccccccccccccccccccccc" inkscape:connector-curvature="0" style="fill:#000000;fill-rule:nonzero;stroke:none;stroke-width:0.39414245" d="m 28.058576,28.058577 v 7.882849 H 51.707121 V 28.058577 Z M 12.292879,12.292879 v 31.531395 h 7.88285 V 12.292879 Z m 0,31.531395 v 7.882848 H 51.707121 V 43.824274 Z M 28.058576,12.292879 v 15.765697 h 7.882849 V 12.292879 Z m 15.765699,0 v 15.765697 h 7.882846 V 12.292879 Z"/>
-    <rect y="0" x="0" height="64" width="5.1146593" style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.89971137"/>
-    <rect y="0" x="58.885342" height="64" width="5.1146593" style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.89971137"/>
-    <rect y="0" x="0" height="4.7619052" width="64" style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.83303034"/>
-    <rect y="59.238094" x="1.9073486e-06" height="4.7619052" width="64" style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.83303034"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" version="1.1">
+  <path style="fill:#000;fill-rule:nonzero;stroke:none;stroke-width:.39414245" d="M28.059 28.059v7.882h23.648V28.06ZM12.293 12.293v31.531h7.883V12.293Zm0 31.531v7.883h39.414v-7.883Zm15.766-31.531v15.766h7.882V12.293Zm15.765 0v15.766h7.883V12.293Z"/>
+  <path style="fill:#000;fill-opacity:1;stroke:none;stroke-width:1.89971137" d="M0 0h5.115v64H0z"/>
+  <path style="fill:#000;fill-opacity:1;stroke:none;stroke-width:1.89971137" d="M58.885 0H64v64h-5.115z"/>
+  <path style="fill:#000;fill-opacity:1;stroke:none;stroke-width:1.83303034" d="M0 0h64v4.762H0z"/>
+  <path style="fill:#000;fill-opacity:1;stroke:none;stroke-width:1.83303034" d="M0 59.238h64V64H0z"/>
 </svg>

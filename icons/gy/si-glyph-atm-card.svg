@@ -1,8 +1,3 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-atm-card" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 3.000000)" fill="#434343">
-      <path d="M14.666,0.07 L1.333,0.07 C0.597,0.07 -2.27373675e-13,0.641 -2.27373675e-13,1.347 L-2.27373675e-13,1.986 L16,1.986 L16,1.347 C16,0.642 15.402,0.07 14.666,0.07 L14.666,0.07 Z" class="si-glyph-fill"/>
-      <path d="M0,8.648 C0,9.379 0.597,9.971 1.333,9.971 L14.666,9.971 C15.402,9.971 16,9.379 16,8.648 L16,4.07 L2.27373675e-13,4.07 L2.27373675e-13,8.648 L0,8.648 Z M6,5.903 L10,5.903 L10,7.028 L6,7.028 L6,5.903 L6,5.903 Z M3.958,7.933 L12,7.933 L12,9.029 L3.958,9.029 L3.958,7.933 L3.958,7.933 Z" class="si-glyph-fill"/>
-    </g>
-  </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-atm-card" height="1em" width="1em">
+  <path d="M15.666 3.07H2.333C1.597 3.07 1 3.641 1 4.347v.639h16v-.639c0-.705-.598-1.277-1.334-1.277ZM1 11.648c0 .731.597 1.323 1.333 1.323h13.333c.736 0 1.334-.592 1.334-1.323V7.07H1v4.578Zm6-2.745h4v1.125H7V8.903Zm-2.042 2.03H13v1.096H4.958v-1.096Z" class="si-glyph-fill" fill="#434343" fill-rule="evenodd"/>
 </svg>

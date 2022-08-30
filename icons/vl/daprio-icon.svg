@@ -1,11 +1,6 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <style type="text/css">
-    .st0{opacity:8.000000e-02;fill:#FFFFFF;enable-background:new}.st1{fill:#0D2192}
-  </style>
-  <g>
-    <path class="st0" d="M13.3,15.6h-0.8v0.8C12.5,16,12.8,15.6,13.3,15.6z"/>
-    <path class="st1" d="M19.8,41.7v6.7h42.8c0.8,0,1.4-0.6,1.4-1.4v-3.8c0-0.8-0.6-1.4-1.4-1.4H52V16.4c0-0.4-0.3-0.8-0.8-0.8H27.1v26 h-7.3V41.7z"/>
-    <path class="st1" d="M1.4,48.4h18.4v-6.7h7.3v-26H13.3c-0.4,0-0.8,0.3-0.8,0.8v25.3H1.4c-0.8,0-1.4,0.6-1.4,1.4V47 C0,47.7,0.6,48.4,1.4,48.4z"/>
-    <path class="st0" d="M1.4,48.4h18.4v-6.7h7.3v-26H13.3c-0.4,0-0.8,0.3-0.8,0.8v25.3H1.4c-0.8,0-1.4,0.6-1.4,1.4V47 C0,47.7,0.6,48.4,1.4,48.4z"/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <path class="st0" d="M13.3 15.6h-.8v.8c0-.4.3-.8.8-.8z"/>
+  <path class="st1" d="M19.8 41.7v6.7h42.8c.8 0 1.4-.6 1.4-1.4v-3.8c0-.8-.6-1.4-1.4-1.4H52V16.4c0-.4-.3-.8-.8-.8H27.1v26h-7.3v.1z"/>
+  <path class="st1" d="M1.4 48.4h18.4v-6.7h7.3v-26H13.3c-.4 0-.8.3-.8.8v25.3H1.4c-.8 0-1.4.6-1.4 1.4V47c0 .7.6 1.4 1.4 1.4z"/>
+  <path class="st0" d="M1.4 48.4h18.4v-6.7h7.3v-26H13.3c-.4 0-.8.3-.8.8v25.3H1.4c-.8 0-1.4.6-1.4 1.4V47c0 .7.6 1.4 1.4 1.4z"/>
 </svg>

@@ -1,21 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-400 -525 94.5 123.375" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-400 -525 94.5 123.375" width="72" height="94">
   <defs>
     <clipPath id="a">
-      <circle r="298" cx="0" cy="0"/>
+      <circle r="298"/>
     </clipPath>
   </defs>
-  <g transform="matrix(.114075 0 0 .114075 -353.51639 -462.80534)">
-    <circle r="100" cx="0" cy="0" fill="#970000"/>
+  <g transform="matrix(.11407 0 0 .11407 -353.516 -462.805)">
+    <circle r="100" fill="#970000"/>
     <g fill="#006499" stroke="#006499">
       <g clip-path="url(#a)">
         <g id="b">
           <path d="M0 300V180" stroke-width="22"/>
-          <path d="M-43 185l43-75 43 75z" stroke="none"/>
+          <path d="m-43 185 43-75 43 75z" stroke="none"/>
         </g>
         <g id="c">
-          <use xlink:href="#b" transform="matrix(.707107 .707107 -.707107 .707107 0 0)" width="798" height="1050"/>
-          <use xlink:href="#b" transform="matrix(0 1 -1 0 0 0)" width="798" height="1050"/>
-          <use xlink:href="#b" transform="matrix(-.707107 .707107 -.707107 -.707107 0 0)" width="798" height="1050"/>
+          <use xlink:href="#b" transform="rotate(45)" width="798" height="1050"/>
+          <use xlink:href="#b" transform="rotate(90)" width="798" height="1050"/>
+          <use xlink:href="#b" transform="rotate(135)" width="798" height="1050"/>
         </g>
         <use xlink:href="#c" transform="scale(-1 1)" width="798" height="1050"/>
       </g>
@@ -24,7 +24,7 @@
     </g>
   </g>
   <defs>
-    <path id="d" d="M0 720L320 0h144l195 438.75L854 0h144l320 720h-197L926 281.25 731 720H587L392 281.25 197 720z"/>
+    <path id="d" d="M0 720 320 0h144l195 438.75L854 0h144l320 720h-197L926 281.25 731 720H587L392 281.25 197 720z"/>
     <path id="e" d="M0 0h180v720H0z"/>
     <path id="f" d="M0 0h180v720H0zm90 360L450 0h255L345 360l360 360H450z"/>
     <path id="g" d="M0 0h180v466l220-220 220 220V0h180v720H620L400 500 180 720H0z"/>
@@ -36,8 +36,8 @@
     <path id="m" d="M0 0h180v434L504 0h180v720H504V286L180 720H0z"/>
     <path id="n" d="M15 83C93 14 186 0 265 0c160 0 280 156 220 292S190 445 190 525s180 85 300-20v150c-55 35-120 65-230 65S-35 615 30 460s300-160 300-240-180-100-315 25z"/>
   </defs>
-  <g transform="matrix(.114075 0 0 .114075 -353.51639 -462.80534)" fill="#666">
-    <g transform="matrix(.111111 0 0 -.111111 -370.55556 415)">
+  <g fill="#666">
+    <g transform="matrix(.01267 0 0 -.01267 -395.788 -415.464)">
       <use xlink:href="#d" width="798" height="1050"/>
       <use xlink:href="#e" x="1440" width="798" height="1050"/>
       <use xlink:href="#f" x="1860" width="798" height="1050"/>
@@ -48,7 +48,7 @@
       <use xlink:href="#e" x="5610" width="798" height="1050"/>
       <use xlink:href="#j" x="5890" width="798" height="1050"/>
     </g>
-    <g transform="matrix(.111111 0 0 -.111111 -325.55556 515)">
+    <g transform="matrix(.01267 0 0 -.01267 -390.654 -404.057)">
       <use xlink:href="#k" width="798" height="1050"/>
       <use xlink:href="#l" x="768" width="798" height="1050"/>
       <use xlink:href="#g" x="1686" width="798" height="1050"/>

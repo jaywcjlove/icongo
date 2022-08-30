@@ -17,13 +17,13 @@
       <stop offset="1" stop-color="#979797"/>
     </linearGradient>
   </defs>
-  <path d="M1.47 1.47l15.06 15.06a.57.57 0 001-.4V1.07a.57.57 0 00-.6-.57H1.87a.57.57 0 00-.4.97z" fill="url(#a)"/>
-  <path d="M5.53 5.53l6.94 6.94 5-5v-6.4a.57.57 0 00-.54-.57h-6.37z" fill="#50e6ff"/>
+  <path d="m1.47 1.47 15.06 15.06a.57.57 0 0 0 1-.4V1.07a.57.57 0 0 0-.6-.57H1.87a.57.57 0 0 0-.4.97z" fill="url(#a)"/>
+  <path d="m5.53 5.53 6.94 6.94 5-5v-6.4a.57.57 0 0 0-.54-.57h-6.37z" fill="#50e6ff"/>
   <rect x="-.38" y="12.85" width="9.37" height="1.7" rx=".27" transform="rotate(-45 4.307 13.706)" fill="url(#b)"/>
   <rect x=".12" y="9.23" width="5.99" height="1.7" rx=".27" transform="rotate(-45 3.107 10.083)" fill="url(#c)"/>
   <rect x="4.89" y="14.04" width="5.99" height="1.7" rx=".27" transform="rotate(-45 7.877 14.887)" fill="url(#d)"/>
   <rect x="9.19" y="4.75" width="1.7" height="1.7" rx=".38" transform="rotate(-45 10.04 5.601)" fill="#fff"/>
   <rect x="11.59" y="2.35" width="1.7" height="1.7" rx=".38" transform="rotate(-45 12.435 3.2)" fill="#fff"/>
   <rect x="11.59" y="7.15" width="1.7" height="1.7" rx=".38" transform="rotate(-45 12.442 7.996)" fill="#fff"/>
-  <path d="M13.91 5.33l.66-.66a.38.38 0 01.54 0l.66.66a.38.38 0 010 .54l-.66.66a.38.38 0 01-.54 0l-.66-.66a.38.38 0 010-.54" fill="#fff"/>
+  <path d="m13.91 5.33.66-.66a.38.38 0 0 1 .54 0l.66.66a.38.38 0 0 1 0 .54l-.66.66a.38.38 0 0 1-.54 0l-.66-.66a.38.38 0 0 1 0-.54" fill="#fff"/>
 </svg>

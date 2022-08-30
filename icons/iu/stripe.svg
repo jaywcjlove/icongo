@@ -1,9 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.5 0.49999046325683594 44 62.00300979614258" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" font-family="Roboto" font-size="14" text-anchor="middle" height="1em" width="1em">
-  <defs>
-    <style/>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0.5 0.5 44 62.003" fill="#fff" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" font-family="Roboto" font-size="14" text-anchor="middle" height="1em" width="1em">
   <use xlink:href="#a" x=".5" y=".5"/>
   <symbol id="a" overflow="visible">
-    <path d="M17.52 18.443c0-2.66 2.25-3.7 5.88-3.7 6.02.13 11.92 1.63 17.25 4.4V3.103A46.6 46.6 0 0023.4.003C9.4.003 0 7.203 0 19.243c0 18.82 26.33 15.77 26.33 23.88 0 3.17-2.77 4.16-6.65 4.16-5.74 0-13.14-2.33-18.95-5.43v16.23c5.98 2.56 12.43 3.9 18.95 3.92 14.4 0 24.32-6.98 24.32-19.23 0-20.3-26.48-16.68-26.48-24.33" stroke="none" fill="#6772e5"/>
+    <path d="M17.52 18.443c0-2.66 2.25-3.7 5.88-3.7 6.02.13 11.92 1.63 17.25 4.4V3.103A46.6 46.6 0 0 0 23.4.003C9.4.003 0 7.203 0 19.243c0 18.82 26.33 15.77 26.33 23.88 0 3.17-2.77 4.16-6.65 4.16-5.74 0-13.14-2.33-18.95-5.43v16.23c5.98 2.56 12.43 3.9 18.95 3.92 14.4 0 24.32-6.98 24.32-19.23 0-20.3-26.48-16.68-26.48-24.33" stroke="none" fill="#6772e5"/>
   </symbol>
 </svg>

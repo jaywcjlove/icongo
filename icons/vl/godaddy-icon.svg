@@ -1,8 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="1em" width="1em">
-  <style>
-    <![CDATA[.E{fill:none}.F{stroke:#231f20}.G{stroke-width:1.101}.H{fill:#bed63d}]]>
-  </style>
-  <g transform="matrix(.585426 0 0 .585426 5.993001 13.606268)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64">
+  <g transform="matrix(.58543 0 0 .58543 5.993 13.606)">
     <path d="M8.3 9.3c-3.1 1.1-3.6 2.3-3.4 4.1s2.3 2.6 4.4 2.4" fill="#fff"/>
     <path d="M8.3 9.3c-3.1 1.1-3.6 2.3-3.4 4.1s2.3 2.6 4.4 2.4" class="E F G"/>
     <path d="M4.1-5.6c6.4-2.9 14.4-3.6 19.9.7s7.4 15 7.4 17.6c0 .6-4.4 1.1-5.7 2.1-1.6 1.4 2.8 6.7 2.8 9.2 0 0 .5 3.5-2.8 4.3-3.7.8-6.3-2.1-9.3 0-.5.4-2 1.4-3.7 2.3L4.1-5.6" fill="#fff"/>

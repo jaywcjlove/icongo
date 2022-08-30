@@ -11,6 +11,6 @@
   </defs>
   <path data-name="Path 28" d="M6.88.5h4.25v6.38H6.88z" fill="url(#a)"/>
   <path data-name="Path 29" d="M15.83 17.5H2.17l-1.06-4.1h15.78z" fill="#198ab3"/>
-  <path data-name="Path 30" d="M2.17 17.5l-1.06-4.1 5.77-6.52h4.25z" fill="url(#b)"/>
-  <path data-name="Path 31" d="M15.83 17.5l-6.22-6.37 2.58-3 4.7 5.31z" fill="#32bedd"/>
+  <path data-name="Path 30" d="m2.17 17.5-1.06-4.1 5.77-6.52h4.25z" fill="url(#b)"/>
+  <path data-name="Path 31" d="m15.83 17.5-6.22-6.37 2.58-3 4.7 5.31z" fill="#32bedd"/>
 </svg>

@@ -1,3 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
-  <polygon fill="none" stroke="#000" stroke-width="2" points="3 22 21 12 3 2"/>
+  <path fill="none" stroke="#000" stroke-width="2" d="m3 22 18-10L3 2z"/>
 </svg>

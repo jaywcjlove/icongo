@@ -1,12 +1,12 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g clip-path="url(#a)">
-    <path d="M3.99989 31.0001C4.00014 24.5001 8.0004 22.0374 11.0001 21.0187C13.9997 20.0001 16.0003 20.0001 18.9999 17.0001C21.9995 14.0001 22.0004 8.00008 28 6.00008C33.9995 4.00007 41.091 7.00011 42.9997 14.0001C44.9084 21.0001 39.5006 30.0001 37.0006 33.0001C34.5006 36.0001 29.4987 41.0001 20.9996 42.0001C12.5006 43.0001 3.99963 37.5001 3.99989 31.0001Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linejoin="round"/>
-    <path d="M12 21.0435C19 30 29 21.0435 22 12" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M11.0005 21.0187C14.0002 20.0001 16.0008 20.0001 19.0004 17.0001C22 14.0001 22.0009 8.00007 28.0004 6.00007" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#a)" stroke-width="4" stroke-linejoin="round">
+    <path d="M4 31c0-6.5 4-8.963 7-9.981C14 20 16 20 19 17s3-9 9-11 13.091 1 15 8c1.908 7-3.5 16-6 19s-7.501 8-16 9c-8.5 1-17-4.5-17-11Z" fill="#2F88FF" stroke="#000"/>
+    <path d="M12 21.044c7 8.956 17 0 10-9.044" stroke="#fff" stroke-linecap="round"/>
+    <path d="M11 21.019C14 20 16 20 19 17s3-9 9-11" stroke="#000" stroke-linecap="round"/>
   </g>
   <defs>
     <clipPath id="a">
-      <rect width="48" height="48" fill="white"/>
+      <path fill="#fff" d="M0 0h48v48H0z"/>
     </clipPath>
   </defs>
 </svg>

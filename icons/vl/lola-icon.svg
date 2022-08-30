@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 64" version="1.1" sodipodi:docname="lola-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="1.9316239" inkscape:cx="24.590708" inkscape:cy="33.75" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="background"/>
-  <path inkscape:connector-curvature="0" style="fill:#7c2a8b;fill-opacity:1;stroke-width:1.03553534" d="M 8.42687,0 H 55.57313 C 60.21306,0 64,3.76824 64,8.42653 V 55.57562 C 64,60.21568 60.23206,64 55.57313,64 H 8.42687 C 3.78694,63.998 0,60.23391 0,55.57455 V 8.40401 C 0,3.76717 3.76494,0 8.42687,0"/>
-  <path d="M 30.793378,13.068595 H 29.861695 V 50.931546 H 34.13827 V 16.398214 a 3.3143446,3.3143446 0 0 0 -3.344892,-3.329619 z" style="fill:#ffffff;fill-opacity:1;stroke-width:1.52734768" inkscape:connector-curvature="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" version="1.1" width="64" height="64">
+  <path style="fill:#7c2a8b;fill-opacity:1;stroke-width:1.03553534" d="M8.427 0h47.146C60.213 0 64 3.768 64 8.427v47.149C64 60.216 60.232 64 55.573 64H8.427C3.787 63.998 0 60.234 0 55.575V8.404C0 3.767 3.765 0 8.427 0"/>
+  <path d="M30.793 13.069h-.931v37.863h4.276V16.398a3.314 3.314 0 0 0-3.345-3.33z" style="fill:#fff;fill-opacity:1;stroke-width:1.52734768"/>
 </svg>

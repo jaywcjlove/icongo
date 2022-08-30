@@ -1,9 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" height="1em" width="1em">
-  <g transform="translate(0 -1028.4)">
-    <g>
-      <path d="m7 1028.4-5 12h8l-4 10 14-14h-9l6-8z" fill="#f1c40f"/>
-      <path fill="#f39c12" d="m7 1028.4-5 12h3l5-12zm3 12-4 10 3-3 4-7z"/>
-      <path fill="#e67e22" d="m10 1040.4-0.4062 1h2.9062l0.5-1h-3z"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
+  <path d="M7 0 2 12h8L6 22 20 8h-9l6-8z" fill="#f1c40f"/>
+  <path fill="#f39c12" d="M7 0 2 12h3l5-12zm3 12L6 22l3-3 4-7z"/>
+  <path fill="#e67e22" d="m10 12-.406 1H12.5l.5-1h-3z"/>
 </svg>

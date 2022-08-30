@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <rect x="6" y="11" width="36" height="26" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill:#FF6E6E"/>
-  <path d="M6,37L19,24l5,5L35,18l7,7V37H6ZM24.5,17A2.5,2.5,0,1,1,22,19.5,2.5,2.5,0,0,1,24.5,17Z" style="fill:#0C0058;fill-rule:evenodd;stroke:#fff;stroke-linecap:round;stroke-width:0"/>
+  <path style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill:#ff6e6e" d="M6 11h36v26H6z"/>
+  <path d="m6 37 13-13 5 5 11-11 7 7v12H6Zm18.5-20a2.5 2.5 0 1 1-2.5 2.5 2.5 2.5 0 0 1 2.5-2.5Z" style="fill:#0c0058;fill-rule:evenodd;stroke:#fff;stroke-linecap:round;stroke-width:0"/>
 </svg>

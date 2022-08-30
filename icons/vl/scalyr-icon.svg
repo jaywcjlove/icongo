@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="37.72 38.3 64 64" height="1em" width="1em">
-  <g transform="matrix(.460763 0 0 .460763 -20.15185 18.348956)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="37.72 38.3 64 64" width="64" height="64">
+  <g transform="matrix(.46076 0 0 .46076 -20.152 18.349)">
     <use xlink:href="#a" fill="#577a82"/>
     <use xlink:href="#b" fill="#65a08f"/>
     <use xlink:href="#a" y="59.1" fill="#40aaa5"/>

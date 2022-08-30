@@ -1,38 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" height="1em" width="1em">
-  <style>
-    <![CDATA[.B{clip-path:url(#B)}.C{stroke:#f54a42}.D{stroke-width:3.75}.E{stroke-miterlimit:10}.G{stroke-linecap:round}]]>
-  </style>
-  <g transform="matrix(.504032 0 0 .504032 -4.052398 -2.577616)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
+  <g transform="translate(-4.052 -2.578) scale(.50403)">
     <defs>
-      <path id="A" d="M3.997 1.998h135.06v135.06H3.997z"/>
+      <path id="a" d="M3.997 1.998h135.06v135.06H3.997z"/>
     </defs>
-    <clipPath id="B">
-      <use xlink:href="#A"/>
+    <clipPath>
+      <use xlink:href="#a"/>
     </clipPath>
     <g class="B">
       <defs>
-        <path id="C" d="M4 2h135.058v135.058H4z"/>
+        <path id="b" d="M4 2h135.058v135.058H4z"/>
       </defs>
-      <clipPath id="D">
-        <use xlink:href="#C"/>
+      <clipPath id="c">
+        <use xlink:href="#b"/>
       </clipPath>
-      <g fill="none" class="C D" style="clip-path:url(#D)">
-        <path d="M117.773 100.585c0-2.525 2.045-4.575 4.574-4.575s4.575 2.05 4.575 4.575-2.045 4.574-4.575 4.574-4.574-2.05-4.574-4.574z" class="E"/>
+      <g fill="none" class="C D" style="clip-path:url(#c)">
+        <path d="M117.773 100.585a4.574 4.574 0 1 1 9.149 0c0 2.525-2.045 4.574-4.575 4.574s-4.574-2.05-4.574-4.574z" class="E"/>
         <circle cx="20.708" cy="100.585" r="4.574"/>
         <circle cx="71.525" cy="11.563" r="4.574"/>
       </g>
     </g>
-    <path d="M56.6 20.468L20.7 41.904l-.003 29.84m101.638 17.783l.002-47.622-30.78-18.376" fill="none" class="C D E G B"/>
+    <path d="M56.6 20.468 20.7 41.904l-.003 29.84m101.638 17.783.002-47.622-30.78-18.376" fill="none" class="C D E G B"/>
     <g class="B">
       <defs>
-        <path id="E" d="M4 2h135.058v135.058H4z"/>
+        <path id="d" d="M4 2h135.058v135.058H4z"/>
       </defs>
-      <clipPath id="F">
-        <use xlink:href="#E"/>
+      <clipPath id="e">
+        <use xlink:href="#d"/>
       </clipPath>
-      <path clip-path="url(#F)" d="M33.608 108.032l37.918 21.893 27.94-16.13" fill="none" class="C D E G"/>
+      <path clip-path="url(#e)" d="m33.608 108.032 37.918 21.893 27.94-16.13" fill="none" class="C D E G"/>
     </g>
-    <path d="M122.345 89.527l.002 3.433m-88.74 15.072l-6.284-3.723M56.6 20.468l8.387-5.008" fill="none" class="C D E G B"/>
+    <path d="m122.345 89.527.002 3.433m-88.74 15.072-6.284-3.723M56.6 20.468l8.387-5.008" fill="none" class="C D E G B"/>
     <path d="M45.554 63.85h16.798v33.6h7.974V51.996H45.554zm26.892-11.854v45.45h7.98V63.85H97.5V51.996z" fill="#f54a42" class="B"/>
   </g>
 </svg>

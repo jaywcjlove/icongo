@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-label="Pocket Casts" role="img" viewBox="0 0 512 512" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Pocket Casts" viewBox="0 0 512 512" height="1em" width="1em">
   <rect width="512" height="512" rx="15%" fill="#f43e37"/>
-  <path fill="#fff" d="M256 400a144 144 0 11144-144h48a192 192 0 10-192 192v-48zm0-71a73 73 0 1173-73h42a115 115 0 10-115 115v-42z"/>
+  <path fill="#fff" d="M256 400a144 144 0 1 1 144-144h48a192 192 0 1 0-192 192v-48zm0-71a73 73 0 1 1 73-73h42a115 115 0 1 0-115 115v-42z"/>
 </svg>

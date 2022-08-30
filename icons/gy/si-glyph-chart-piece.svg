@@ -1,8 +1,6 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-chart-piece" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 0.000000)" fill="#434343">
-      <path d="M8.392,1.049 C8.043,0.998 7.83,1.016 7.467,1.016 C3.372,1.016 0.043,4.35 0.043,8.446 C0.043,12.542 3.372,15.877 7.467,15.877 C11.561,15.877 14.89,12.542 14.89,8.446 C14.89,8.1 14.934,7.848 14.888,7.517 L7.489,8.478 L8.392,1.049 L8.392,1.049 Z" class="si-glyph-fill"/>
-      <path d="M10.375,0.047 L9.43,6.586 L16.043,5.658 C15.638,2.764 13.314,0.466 10.375,0.047 L10.375,0.047 Z" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-chart-piece" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="M9.392 1.049c-.349-.051-.562-.033-.925-.033-4.095 0-7.424 3.334-7.424 7.43s3.329 7.431 7.424 7.431c4.094 0 7.423-3.335 7.423-7.431 0-.346.044-.598-.002-.929l-7.399.961.903-7.429Z" class="si-glyph-fill"/>
+    <path d="m11.375.047-.945 6.539 6.613-.928C16.638 2.764 14.314.466 11.375.047Z" class="si-glyph-fill"/>
   </g>
 </svg>

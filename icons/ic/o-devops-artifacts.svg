@@ -1,26 +1,26 @@
 <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" height="1em" width="1em">
   <mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="96">
-    <path d="M16 4a4 4 0 014-4h56a4 4 0 014 4v44h12a4 4 0 014 4v40a4 4 0 01-4 4H4a4 4 0 01-4-4V52a4 4 0 014-4h12V4z" fill="#fff"/>
+    <path d="M16 4a4 4 0 0 1 4-4h56a4 4 0 0 1 4 4v44h12a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V52a4 4 0 0 1 4-4h12V4z" fill="#fff"/>
   </mask>
   <g mask="url(#a)">
-    <path d="M0 52a4 4 0 014-4h40a4 4 0 014 4v40a4 4 0 01-4 4H4a4 4 0 01-4-4V52z" fill="#B21756"/>
-    <path d="M35.2 48H44a4 4 0 014 4v38a4 4 0 01-4 4h-8.8V48z" fill="#A61550"/>
+    <path d="M0 52a4 4 0 0 1 4-4h40a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V52z" fill="#B21756"/>
+    <path d="M35.2 48H44a4 4 0 0 1 4 4v38a4 4 0 0 1-4 4h-8.8V48z" fill="#A61550"/>
     <rect width="16" height="6" rx="3" transform="translate(16 56)" fill="#8D0A3F"/>
     <g filter="url(#b)">
-      <path d="M16 4a4 4 0 014-4h56a4 4 0 014 4v44H16V4z" fill="#890038"/>
+      <path d="M16 4a4 4 0 0 1 4-4h56a4 4 0 0 1 4 4v44H16V4z" fill="#890038"/>
     </g>
-    <path d="M16 4a4 4 0 014-4h56a4 4 0 014 4v44H16V4z" fill="#CB2E6D"/>
+    <path d="M16 4a4 4 0 0 1 4-4h56a4 4 0 0 1 4 4v44H16V4z" fill="#CB2E6D"/>
     <rect width="16" height="6" rx="3" transform="translate(32 10)" fill="#B01C57"/>
-    <path d="M64 0h12a4 4 0 014 4v44H64V0z" fill="#BD2461"/>
+    <path d="M64 0h12a4 4 0 0 1 4 4v44H64V0z" fill="#BD2461"/>
     <g opacity=".5" filter="url(#c)">
-      <path d="M32 48h60a4 4 0 014 4v40a4 4 0 01-4 4H36a4 4 0 01-4-4V48z" fill="#780031"/>
+      <path d="M32 48h60a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H36a4 4 0 0 1-4-4V48z" fill="#780031"/>
     </g>
-    <path d="M32 48h60a4 4 0 014 4v40a4 4 0 01-4 4H36a4 4 0 01-4-4V48z" fill="#EF74A6"/>
+    <path d="M32 48h60a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H36a4 4 0 0 1-4-4V48z" fill="#EF74A6"/>
     <path d="M4.571 48H32V0H0v43.826C0 46.131 2.047 48 4.571 48z" transform="translate(32 48)" fill="url(#d)"/>
     <rect width="16" height="6" rx="3" transform="translate(48 56)" fill="#C82F6D"/>
-    <path d="M80 48h12a4 4 0 014 4v40a4 4 0 01-4 4H80V48z" fill="#E66398"/>
+    <path d="M80 48h12a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H80V48z" fill="#E66398"/>
     <path d="M64 76H40v4h24v-4zm-10 8H40v4h14v-4z" fill="#FC92BE"/>
-    <path opacity=".2" d="M16 4a4 4 0 014-4h56a4 4 0 014 4v44h12a4 4 0 014 4v40a4 4 0 01-4 4H4a4 4 0 01-4-4V52a4 4 0 014-4h12V4z" fill="url(#e)"/>
+    <path opacity=".2" d="M16 4a4 4 0 0 1 4-4h56a4 4 0 0 1 4 4v44h12a4 4 0 0 1 4 4v40a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V52a4 4 0 0 1 4-4h12V4z" fill="url(#e)"/>
   </g>
   <defs>
     <linearGradient id="d" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 48 -32 0 32 0)">

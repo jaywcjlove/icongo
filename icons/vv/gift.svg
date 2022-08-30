@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <path d="M8,20H40V43H8V20Zm3-9a4.939,4.939,0,0,1,4.875-5c1.866,0,2.2.489,4.125,2l4,3,4-3c1.711-1.621,2.259-2,4.125-2A4.939,4.939,0,0,1,37,11a4.939,4.939,0,0,1-4.875,5H15.875A4.939,4.939,0,0,1,11,11Zm21,2a2,2,0,0,0,0-4,2.463,2.463,0,0,0-1.776,1.1L27,13h5ZM17.776,10.1A2.463,2.463,0,0,0,16,9a2,2,0,0,0,0,4h5Z" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd;fill:#FF6E6E"/>
-  <path d="M15.875,16H39.99v4H26V43H22V20H7.99V16h7.885Z" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
+  <path d="M8 20h32v23H8V20Zm3-9a4.939 4.939 0 0 1 4.875-5c1.866 0 2.2.489 4.125 2l4 3 4-3c1.711-1.621 2.259-2 4.125-2A4.939 4.939 0 0 1 37 11a4.939 4.939 0 0 1-4.875 5h-16.25A4.939 4.939 0 0 1 11 11Zm21 2a2 2 0 0 0 0-4 2.463 2.463 0 0 0-1.776 1.1L27 13h5Zm-14.224-2.9A2.463 2.463 0 0 0 16 9a2 2 0 0 0 0 4h5Z" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd;fill:#ff6e6e"/>
+  <path d="M15.875 16H39.99v4H26v23h-4V20H7.99v-4h7.885Z" style="fill:#0c0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
 </svg>

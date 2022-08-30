@@ -1,7 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="#fff" fill-rule="evenodd" font-family="Roboto" font-size="14" text-anchor="middle" viewBox="0 0 120 60" height="1em" width="1em">
-  <defs>
-    <style/>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="60" stroke="#000" stroke-linecap="round" stroke-linejoin="round" fill="#fff" fill-rule="evenodd" font-family="Roboto" font-size="14" text-anchor="middle">
   <text fill="#4f4f4f" font-size="24" font-weight="bold" stroke="none"><tspan x="85.5" y="38.42">nano</tspan></text>
   <g stroke="none">
     <path d="M29.667 50.305q-3.683 3.683-7.366 0L7.57 35.573q-3.683-3.683 0-7.366l14.732-14.732q3.683-3.683 7.366 0L44.4 28.208q3.683 3.683 0 7.366z" fill="#e91e63"/>

@@ -1,11 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="Lag_1" x="0px" y="0px" viewBox="0 0 64 64" xml:space="preserve" sodipodi:docname="nordnet-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" id="namedview186" showgrid="false" inkscape:zoom="4" inkscape:cx="80.975112" inkscape:cy="68.743164" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="Lag_1"/>
-  <style type="text/css" id="style2">
-    .st0{display:none}.st1{display:inline}.st2{fill:#808181}.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#808181}.st4{display:inline;fill:#0975BB}.st5{display:inline;fill:#E84E0F}.st17{display:none;fill:#724B98}.st18{fill:#FFFFFF}
-  </style>
-  <g style="fill:#000000" id="g167" transform="matrix(0.25498008,0,0,0.25498008,-2.5498008,-19.034263)">
-    <polygon style="fill:#000000" id="polygon161" points="261,169.3 224.6,169.3 149.9,230.9 186.3,230.9" class="st18"/>
-    <polygon style="fill:#000000" id="polygon163" points="121,169.3 84.6,169.3 10,230.9 46.4,230.9" class="st18"/>
-    <rect style="fill:#000000" id="rect165" height="61.700001" width="28.9" class="st18" y="169.3" x="121"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 64 64" width="64" height="64">
+  <g style="fill:#000" transform="translate(-2.55 -19.034) scale(.25498)">
+    <path style="fill:#000" class="st18" d="M261 169.3h-36.4l-74.7 61.6h36.4z"/>
+    <path style="fill:#000" class="st18" d="M121 169.3H84.6L10 230.9h36.4z"/>
+    <path style="fill:#000" class="st18" d="M121 169.3h28.9V231H121z"/>
   </g>
 </svg>

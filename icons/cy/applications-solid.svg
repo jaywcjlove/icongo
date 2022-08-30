@@ -1,12 +1,12 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <rect x="4" y="4" width="6" height="6" class="clr-i-solid clr-i-solid-path-1"/>
-  <rect x="4" y="15" width="6" height="6" class="clr-i-solid clr-i-solid-path-2"/>
-  <rect x="4" y="26" width="6" height="6" class="clr-i-solid clr-i-solid-path-3"/>
-  <rect x="15" y="4" width="6" height="6" class="clr-i-solid clr-i-solid-path-4"/>
-  <rect x="15" y="15" width="6" height="6" class="clr-i-solid clr-i-solid-path-5"/>
-  <rect x="15" y="26" width="6" height="6" class="clr-i-solid clr-i-solid-path-6"/>
-  <rect x="26" y="4" width="6" height="6" class="clr-i-solid clr-i-solid-path-7"/>
-  <rect x="26" y="15" width="6" height="6" class="clr-i-solid clr-i-solid-path-8"/>
-  <rect x="26" y="26" width="6" height="6" class="clr-i-solid clr-i-solid-path-9"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-solid clr-i-solid-path-1" d="M4 4h6v6H4z"/>
+  <path class="clr-i-solid clr-i-solid-path-2" d="M4 15h6v6H4z"/>
+  <path class="clr-i-solid clr-i-solid-path-3" d="M4 26h6v6H4z"/>
+  <path class="clr-i-solid clr-i-solid-path-4" d="M15 4h6v6h-6z"/>
+  <path class="clr-i-solid clr-i-solid-path-5" d="M15 15h6v6h-6z"/>
+  <path class="clr-i-solid clr-i-solid-path-6" d="M15 26h6v6h-6z"/>
+  <path class="clr-i-solid clr-i-solid-path-7" d="M26 4h6v6h-6z"/>
+  <path class="clr-i-solid clr-i-solid-path-8" d="M26 15h6v6h-6z"/>
+  <path class="clr-i-solid clr-i-solid-path-9" d="M26 26h6v6h-6z"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

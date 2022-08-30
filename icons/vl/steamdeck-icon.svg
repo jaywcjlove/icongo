@@ -1,5 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 64" version="1.1" sodipodi:docname="steamdeck-icon.svg" style="fill:none" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1447" inkscape:window-height="644" showgrid="false" inkscape:zoom="1.9661017" inkscape:cx="88.5" inkscape:cy="25" inkscape:window-x="2211" inkscape:window-y="277" inkscape:window-maximized="0" inkscape:current-layer="svg30"/>
-  <path d="m 44.511819,32 c 0,-11.32897 -9.183809,-20.51281 -20.512757,-20.51281 V 0 C 41.672196,0 55.999,14.326832 55.999,32 c 0,17.673168 -14.326804,32 -31.999938,32 V 52.512797 C 35.32801,52.512797 44.511819,43.32897 44.511819,32 Z" inkscape:connector-curvature="0" style="clip-rule:evenodd;fill:#1b1b1b;fill-rule:evenodd;stroke-width:1.29592431"/>
-  <ellipse data-cycle="fill" cx="23.999969" cy="32.034084" style="fill:#82bf54;stroke-width:1.29592431" rx="15.999969" ry="16"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" version="1.1" style="fill:none">
+  <path d="M44.512 32c0-11.329-9.184-20.513-20.513-20.513V0c17.673 0 32 14.327 32 32 0 17.673-14.327 32-32 32V52.513c11.329 0 20.513-9.184 20.513-20.513Z" style="clip-rule:evenodd;fill:#1b1b1b;fill-rule:evenodd;stroke-width:1.29592431"/>
+  <circle cx="24" cy="32.034" style="fill:#82bf54;stroke-width:1.29592431" r="16"/>
+  <defs>
+    <linearGradient x1="-9.5" y1="16.932" x2="19.5" y2="30.932" gradientUnits="userSpaceOnUse">
+      <stop offset=".107" stop-color="#C957E6"/>
+      <stop offset="1" stop-color="#1A9FFF"/>
+    </linearGradient>
+  </defs>
 </svg>

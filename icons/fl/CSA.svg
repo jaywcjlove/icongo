@@ -1,42 +1,36 @@
-<svg viewBox="0 0 23 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
+<svg viewBox="0 0 23 17" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em">
   <defs>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
-      <stop stop-color="#FFFFFF" offset="0%"/>
+      <stop stop-color="#FFF" offset="0%"/>
       <stop stop-color="#F0F0F0" offset="100%"/>
     </linearGradient>
-    <rect id="a" x="0" y="0" width="21" height="15" rx="1.5"/>
-    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="b">
-      <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
-      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"/>
-    </filter>
     <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="d">
       <stop stop-color="#19BFBF" offset="0%"/>
       <stop stop-color="#10ACAC" offset="100%"/>
     </linearGradient>
-    <path d="M7.5,12.2523422 C7.5,12.1129775 7.52688217,11.8924713 7.56130981,11.7547607 L7.93869019,10.2452393 C7.97255066,10.1097974 8.02688217,9.89247131 8.06130981,9.75476074 L8.43869019,8.24523926 C8.47255066,8.10979736 8.4671936,7.90158081 8.421875,7.765625 L8.078125,6.734375 C8.03497775,6.60493326 7.90771484,6.45385742 7.76806641,6.3840332 L7.23193359,6.1159668 C7.10384021,6.0519201 7,5.89247131 7,5.75476074 L7,4.24523926 C7,4.10979736 7.04614258,3.90771484 7.1159668,3.76806641 L7.3840332,3.23193359 C7.4480799,3.10384021 7.54614258,2.90771484 7.6159668,2.76806641 L7.8840332,2.23193359 C7.9480799,2.10384021 8.11394024,2 8.25577831,2 L10.7442217,2 C10.8854841,2 11,2.10701752 11,2.25234222 L11,2.74765778 C11,2.88702254 11.1070175,3 11.2523422,3 L11.7476578,3 C11.8870225,3 12,3.10701752 12,3.25234222 L12,3.74765778 C12,3.88702254 12.1075287,4.05376434 12.2294254,4.11471272 L13.7705746,4.88528728 C13.8972827,4.94864137 14,5.10701752 14,5.25234222 L14,5.74765778 C14,5.88702254 13.9538574,6.09228516 13.8840332,6.23193359 L13.6159668,6.76806641 C13.5519201,6.89615979 13.4015808,7.06561279 13.2914314,7.13904572 L12.2085686,7.86095428 C12.0933793,7.93774711 11.9462357,8.10752869 11.8852873,8.22942543 L11.1147127,9.77057457 C11.0513586,9.89728274 10.9015808,10.0656128 10.7914314,10.1390457 L9.70856857,10.8609543 C9.59337933,10.9377471 9.44623566,11.1075287 9.38528728,11.2294254 L8.61471272,12.7705746 C8.55135863,12.8972827 8.39298248,13 8.24765778,13 L7.75234222,13 C7.61297746,13 7.5,12.8929825 7.5,12.7476578 L7.5,12.2523422 Z" id="g"/>
-    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="f">
-      <feOffset dx="0" dy="0.5" in="SourceAlpha" result="shadowOffsetOuter1"/>
-      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" type="matrix" in="shadowOffsetOuter1"/>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="b">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation=".5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0" in="shadowBlurOuter1"/>
     </filter>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="f">
+      <feOffset dy=".5" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0" in="shadowOffsetOuter1"/>
+    </filter>
+    <rect id="a" x="0" y="0" width="21" height="15" rx="1.5"/>
+    <path d="M7.5 12.252c0-.139.027-.36.061-.497l.378-1.51.122-.49.378-1.51a.985.985 0 0 0-.017-.48l-.344-1.03a.673.673 0 0 0-.31-.351l-.536-.268A.444.444 0 0 1 7 5.755v-1.51c0-.135.046-.337.116-.477l.268-.536.232-.464.268-.536A.455.455 0 0 1 8.256 2h2.488a.25.25 0 0 1 .256.252v.496c0 .139.107.252.252.252h.496c.139 0 .252.107.252.252v.496c0 .139.108.306.23.367l1.54.77c.127.064.23.222.23.367v.496c0 .139-.046.344-.116.484l-.268.536a1.159 1.159 0 0 1-.325.371l-1.082.722a1.149 1.149 0 0 0-.324.368l-.77 1.542a1.152 1.152 0 0 1-.324.368l-1.082.722a1.149 1.149 0 0 0-.324.368l-.77 1.542a.442.442 0 0 1-.367.229h-.496a.249.249 0 0 1-.252-.252v-.496Z" id="g"/>
   </defs>
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g>
-      <g transform="translate(1.000000, 1.000000)">
-        <mask id="e" fill="white">
-          <use xlink:href="#a"/>
-        </mask>
-        <g>
-          <use fill="black" fill-opacity="1" filter="url(#b)" xlink:href="#a"/>
-          <use fill="url(#c)" fill-rule="evenodd" xlink:href="#a"/>
-        </g>
-        <rect fill="url(#d)" mask="url(#e)" x="0" y="0" width="21" height="15"/>
-        <g mask="url(#e)">
-          <use fill="black" fill-opacity="1" filter="url(#f)" xlink:href="#g"/>
-          <use fill="url(#c)" fill-rule="evenodd" xlink:href="#g"/>
-        </g>
-        <rect mask="url(#e)" x="0" y="0" width="21" height="15" rx="1.5"/>
-      </g>
+  <g transform="translate(1 1)" fill="none" fill-rule="evenodd">
+    <mask id="e" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+    <use fill="url(#c)" xlink:href="#a"/>
+    <path fill="url(#d)" mask="url(#e)" d="M0 0h21v15H0z"/>
+    <g mask="url(#e)">
+      <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+      <use fill="url(#c)" xlink:href="#g"/>
     </g>
+    <rect mask="url(#e)" width="21" height="15" rx="1.5"/>
   </g>
 </svg>

@@ -1,5 +1,3 @@
-<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
-  <g>
-    <path d="M256,0 L256,256 L0,256 L0,0 L256,0 Z M229.818182,26.1818182 L26.1818182,26.1818182 L26.1818182,229.818182 L229.818182,229.818182 L229.818182,26.1818182 Z" fill="#000000"/>
-  </g>
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+  <path d="M256 0v256H0V0h256Zm-26.182 26.182H26.182v203.636h203.636V26.182Z"/>
 </svg>

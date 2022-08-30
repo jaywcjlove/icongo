@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 64 64" xml:space="preserve" sodipodi:docname="legalshield-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="5.9462747" inkscape:cx="65.146054" inkscape:cy="26.529191" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="Layer_1"/>
-  <g transform="matrix(3.0953177,0,0,3.0953177,-42.004487,-60.859533)">
-    <path d="m 15.381519,22.787306 v 7.372977 c 0,7.901907 8.527008,10.177913 8.527008,10.177913 0,0 8.527008,-2.276006 8.527008,-10.177913 v -7.372977 c 0,0 -4.648181,-0.44879 -8.527008,-3.125501 -3.878827,2.676711 -8.527008,3.125501 -8.527008,3.125501" inkscape:connector-curvature="0" style="fill:#472d59;stroke-width:0.16028211"/>
-    <path d="m 23.87647,20.68761 c -2.965218,1.891329 -6.202917,2.59657 -7.661484,2.836994 v 6.61965 c 0,2.965219 1.298285,5.433564 3.862799,7.324892 1.154031,0.849495 2.436288,1.506652 3.798685,1.955442" inkscape:connector-curvature="0" style="fill:#70468c;stroke-width:0.16028211"/>
-    <path d="m 27.146225,31.923386 -0.432761,2.131752 H 23.87647 v -0.06411 0 -8.222472 0 l 1.234173,-0.144254 v -0.769354 h -4.856548 v 0.769354 l 1.234172,0.144254 v 0 8.222472 0 l -1.234172,0.144254 v 0.753325 h 7.949992 l 0.160282,-2.965218 z m -4.728322,2.083667 h -0.384677 v -8.270556 h 0.384677 z m 0.913608,0 h -0.384677 v -8.270556 h 0.384677 z" inkscape:connector-curvature="0" style="fill:#ffffff;stroke-width:0.16028211"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 64 64" width="64" height="64">
+  <g transform="matrix(3.09532 0 0 3.09532 -42.004 -60.86)">
+    <path d="M15.382 22.787v7.373c0 7.902 8.527 10.178 8.527 10.178s8.527-2.276 8.527-10.178v-7.373s-4.649-.448-8.527-3.125c-3.88 2.677-8.527 3.125-8.527 3.125" style="fill:#472d59;stroke-width:.16028211"/>
+    <path d="M23.876 20.688c-2.965 1.89-6.202 2.596-7.661 2.837v6.62c0 2.964 1.298 5.433 3.863 7.324a13.557 13.557 0 0 0 3.798 1.956" style="fill:#70468c;stroke-width:.16028211"/>
+    <path d="m27.146 31.923-.433 2.132h-2.837V25.77l1.235-.145v-.77h-4.857v.77l1.234.145v8.222l-1.234.144v.754h7.95l.16-2.966zm-4.728 2.084h-.385v-8.27h.385zm.914 0h-.385v-8.27h.385z" style="fill:#fff;stroke-width:.16028211"/>
   </g>
 </svg>

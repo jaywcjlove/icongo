@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" version="1.1" height="1em" width="1em">
-  <g>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(41.960784%,49.019608%,66.666667%);fill-opacity:1" d="M 10 2 C 9.054688 2 8 3.054688 8 4 L 8 44 C 8 44.890625 9.109375 46 10 46 L 38 46 C 38.890625 46 39.984375 44.890625 40 44 L 40 14 L 28 2 Z M 10 2"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.196078" d="M 30 14 L 40 24 L 40 14 Z M 30 14"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:0.392157" d="M 28 2 L 40 14 L 30 14 C 29.109375 14 28 12.890625 28 12 Z M 28 2"/>
-    <path style="stroke:none;fill-rule:nonzero;fill:rgb(100%,100%,100%);fill-opacity:1" d="M 27.5625 17.175781 C 24.011719 17.121094 24 21.1875 24 21.1875 L 24 24.875 C 24 26.347656 26 28.75 26 28.75 L 26 30 L 22 32 L 22 36 L 36 36 L 36 32 L 32 30 L 32 28.75 C 32 28.75 34 26.347656 34 24.875 L 34 21.1875 C 34 21.1875 33.988281 17.175781 30.4375 17.175781 L 29.0625 17.175781 C 29.050781 17.175781 29.015625 17.175781 29 17.175781 C 28.667969 17.140625 27.882812 17.1875 27.5625 17.175781 Z M 19.3125 20 C 19.3125 20 16 19.910156 16 23.6875 L 16 24.875 C 16 26.140625 18 28.75 18 28.75 L 18 30 L 14 32 L 14 34 L 20 34 L 20 31.125 L 24 28.75 C 24 28.75 22 26.203125 22 24.9375 L 22 20 Z M 19.3125 20"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
+  <path style="stroke:none;fill-rule:nonzero;fill:#6b7daa;fill-opacity:1" d="M10 2c-.945 0-2 1.055-2 2v40c0 .89 1.11 2 2 2h28c.89 0 1.984-1.11 2-2V14L28 2Zm0 0"/>
+  <path style="stroke:none;fill-rule:nonzero;fill:#000;fill-opacity:.196078" d="m30 14 10 10V14Zm0 0"/>
+  <path style="stroke:none;fill-rule:nonzero;fill:#fff;fill-opacity:.392157" d="m28 2 12 12H30c-.89 0-2-1.11-2-2Zm0 0"/>
+  <path style="stroke:none;fill-rule:nonzero;fill:#fff;fill-opacity:1" d="M27.563 17.176C24.011 17.12 24 21.188 24 21.188v3.687c0 1.473 2 3.875 2 3.875V30l-4 2v4h14v-4l-4-2v-1.25s2-2.402 2-3.875v-3.688s-.012-4.011-3.563-4.011H29c-.332-.035-1.117.012-1.438 0ZM19.313 20S16 19.91 16 23.688v1.187c0 1.266 2 3.875 2 3.875V30l-4 2v2h6v-2.875l4-2.375s-2-2.547-2-3.813V20Zm0 0"/>
 </svg>

@@ -1,9 +1,7 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-billiard-ball" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 0.000000)" fill="#434343">
-      <path d="M8.01,0.057 C3.627,0.057 0.071,3.611 0.071,7.997 C0.071,12.382 3.628,15.937 8.01,15.937 C12.395,15.937 15.95,12.381 15.95,7.997 C15.95,3.61 12.395,0.057 8.01,0.057 L8.01,0.057 Z M7.01,12.114 C4.206,12.114 1.934,9.831 1.934,7.015 C1.934,4.201 4.206,1.917 7.01,1.917 C9.815,1.917 12.088,4.2 12.088,7.015 C12.088,9.831 9.814,12.114 7.01,12.114 L7.01,12.114 Z" class="si-glyph-fill"/>
-      <rect x="7" y="4" width="0.938" height="5.938" class="si-glyph-fill"/>
-      <rect x="6" y="4" width="1.969" height="0.938" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-billiard-ball" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="M9.01.057a7.94 7.94 0 1 0 .002 15.88A7.94 7.94 0 0 0 9.01.057Zm-1 12.057c-2.804 0-5.076-2.283-5.076-5.099 0-2.814 2.272-5.098 5.076-5.098 2.805 0 5.078 2.283 5.078 5.098 0 2.816-2.274 5.099-5.078 5.099Z" class="si-glyph-fill"/>
+    <path class="si-glyph-fill" d="M8 4h.938v5.938H8z"/>
+    <path class="si-glyph-fill" d="M7 4h1.969v.938H7z"/>
   </g>
 </svg>

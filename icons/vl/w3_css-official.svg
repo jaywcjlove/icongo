@@ -1,16 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 240.00001 240" version="1.1" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="w3_css-official.svg" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.35" inkscape:cx="-678.633" inkscape:cy="244.57143" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1850" inkscape:window-height="1016" inkscape:window-x="70" inkscape:window-y="27" inkscape:window-maximized="1" units="px"/>
-  <g inkscape:label="Calque 1" inkscape:groupmode="layer" transform="translate(-193.633,-548.36217)">
-    <g transform="matrix(0.46875001,0,0,0.46875001,194.74253,548.36217)">
-      <polygon points="107.644,470.877 74.633,100.62 437.367,100.62 404.321,470.819 255.778,512" style="fill:#264de4"/>
-      <polygon points="376.03,447.246 404.27,130.894 256,130.894 256,480.523" style="fill:#2965f1"/>
-      <polygon points="150.31,268.217 154.38,313.627 256,313.627 256,268.217" style="fill:#ebebeb"/>
-      <polygon points="146.26,221.716 256,221.716 256,176.305 255.843,176.305 142.132,176.305" style="fill:#ebebeb"/>
-      <polygon points="255.791,433.457 256,433.399 256,386.153 255.801,386.206 205.227,372.55 201.994,336.333 177.419,336.333 156.409,336.333 162.771,407.634" style="fill:#ebebeb"/>
-      <path d="m 160,0 h 55 v 23 h -32 v 23 h 32 v 23 h -55 z" inkscape:connector-curvature="0"/>
-      <path d="m 226,0 h 55 v 20 h -32 v 4 h 32 V 70 H 226 V 49 h 32 v -4 h -32 z" inkscape:connector-curvature="0"/>
-      <path d="m 292,0 h 55 v 20 h -32 v 4 h 32 V 70 H 292 V 49 h 32 v -4 h -32 z" inkscape:connector-curvature="0"/>
-      <polygon points="369.597,176.305 255.843,176.305 255.843,221.716 319.831,221.716 315.699,268.217 255.843,268.217 255.843,313.627 311.761,313.627 306.49,372.521 255.843,386.191 255.843,433.435 348.937,407.634 349.62,399.962 360.291,280.411 361.399,268.217" style="fill:#ffffff"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 240 240" version="1.1">
+  <g transform="translate(-193.633 -548.362) translate(194.743 548.362) scale(.46875)">
+    <path style="fill:#264de4" d="M107.644 470.877 74.633 100.62h362.734l-33.046 370.199L255.778 512z"/>
+    <path style="fill:#2965f1" d="m376.03 447.246 28.24-316.352H256v349.629z"/>
+    <path style="fill:#ebebeb" d="m150.31 268.217 4.07 45.41H256v-45.41z"/>
+    <path style="fill:#ebebeb" d="M146.26 221.716H256v-45.411H142.132z"/>
+    <path style="fill:#ebebeb" d="m255.791 433.457.209-.058v-47.246l-.199.053-50.574-13.656-3.233-36.217h-45.585l6.362 71.301z"/>
+    <path d="M160 0h55v23h-32v23h32v23h-55z"/>
+    <path d="M226 0h55v20h-32v4h32v46h-55V49h32v-4h-32z"/>
+    <path d="M292 0h55v20h-32v4h32v46h-55V49h32v-4h-32z"/>
+    <path style="fill:#fff" d="M369.597 176.305H255.843v45.411h63.988l-4.132 46.501h-59.856v45.41h55.918l-5.271 58.894-50.647 13.67v47.244l93.094-25.801.683-7.672 10.671-119.551 1.108-12.194z"/>
   </g>
 </svg>

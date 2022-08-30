@@ -7,8 +7,8 @@
       <stop offset=".78" stop-color="#32d4f5"/>
     </linearGradient>
   </defs>
-  <path d="M.5 5.66h17v9.48a.57.57 0 01-.57.57H1.07a.57.57 0 01-.57-.57V5.66z" fill="url(#a)"/>
-  <path d="M1.07 2h15.86a.57.57 0 01.57.57v3.09H.5V2.6a.57.57 0 01.57-.6z" fill="#0078d4"/>
+  <path d="M.5 5.66h17v9.48a.57.57 0 0 1-.57.57H1.07a.57.57 0 0 1-.57-.57V5.66z" fill="url(#a)"/>
+  <path d="M1.07 2h15.86a.57.57 0 0 1 .57.57v3.09H.5V2.6a.57.57 0 0 1 .57-.6z" fill="#0078d4"/>
   <circle cx="12.82" cy="10.06" r="1.38" fill="#f2f2f2"/>
   <circle cx="9.06" cy="10.06" r="1.38" fill="#f2f2f2"/>
   <circle cx="5.18" cy="10.06" r="1.38" fill="#f2f2f2"/>

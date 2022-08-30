@@ -1,6 +1,4 @@
-<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
-  <g>
-    <polygon fill="#C12127" points="0 256 0 0 256 0 256 256"/>
-    <polygon fill="#FFFFFF" points="48 48 208 48 208 208 176 208 176 80 128 80 128 208 48 208"/>
-  </g>
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+  <path fill="#C12127" d="M0 256V0h256v256z"/>
+  <path fill="#FFF" d="M48 48h160v160h-32V80h-48v128H48z"/>
 </svg>

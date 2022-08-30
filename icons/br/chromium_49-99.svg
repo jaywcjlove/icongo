@@ -36,7 +36,7 @@
   </linearGradient>
   <radialGradient id="o" cx="92.18" cy="55.95" r="84.08" xlink:href="#d"/>
   <clipPath id="q">
-    <path d="M61.36 116L96 56h88V8H21.97v40.34"/>
+    <path d="M61.36 116 96 56h88V8H21.97v40.34"/>
   </clipPath>
   <linearGradient id="p" x1="8" x2="130.65" y1="104.24" y2="104.24" gradientUnits="userSpaceOnUse">
     <stop offset="0" stop-color="#f4b400" stop-opacity=".4"/>
@@ -55,10 +55,10 @@
     <use fill="url(#f)" xlink:href="#a"/>
     <use fill="#3367d6" xlink:href="#g"/>
     <use fill="url(#h)" xlink:href="#g"/>
-    <path fill="#1a237e" fill-opacity=".15" d="M62.3 115.65l-39.83-68.3-.58 1 39.54 67.8z"/>
+    <path fill="#1a237e" fill-opacity=".15" d="m62.3 115.65-39.83-68.3-.58 1 39.54 67.8z"/>
     <use fill="#5e97f6" xlink:href="#a"/>
     <use fill="url(#i)" xlink:href="#a"/>
-    <path fill="#1a237e" fill-opacity=".15" d="M129.84 117.33l-.83-.48L90.62 184h1.15l38.1-66.64z"/>
+    <path fill="#1a237e" fill-opacity=".15" d="m129.84 117.33-.83-.48L90.62 184h1.15l38.1-66.64z"/>
     <g clip-path="url(#j)">
       <use fill="#a1c2fa" xlink:href="#c"/>
       <use fill="url(#k)" xlink:href="#c"/>
@@ -71,20 +71,20 @@
     </g>
     <path fill="url(#o)" d="M96 56v20.95L174.4 56z"/>
     <use fill="url(#p)" clip-path="url(#q)" xlink:href="#a"/>
-    <path fill="url(#r)" d="M21.97 48.45l57.25 57.24L61.36 116z"/>
-    <path fill="url(#s)" d="M91.83 183.9l20.96-78.2 17.86 10.3z"/>
+    <path fill="url(#r)" d="m21.97 48.45 57.25 57.24L61.36 116z"/>
+    <path fill="url(#s)" d="m91.83 183.9 20.96-78.2 17.86 10.3z"/>
     <circle cx="96" cy="96" r="40" fill="#f5f5f5"/>
     <circle cx="96" cy="96" r="32" fill="#4285f4"/>
-    <path fill="#1a237e" fill-opacity=".2" d="M96 55a40 40 0 00-40 40v1a40 40 0 0140-40h88v-1z"/>
-    <path fill="#fff" fill-opacity=".1" d="M130.6 116A39.96 39.96 0 0196 136a39.97 39.97 0 01-34.61-20h-.04L8 24.48v1L61.36 117h.04a39.94 39.94 0 0069.21 0h.05v-1z"/>
-    <path fill="#1a237e" d="M97 56c-.17 0-.33.02-.5.03a39.98 39.98 0 010 79.94c.17 0 .33.03.5.03a40 40 0 000-80z" opacity=".1"/>
-    <path fill="#fff" fill-opacity=".2" d="M131 117.33a39.72 39.72 0 003.5-32.05 39.72 39.72 0 01-3.87 30.69l.02.04-38.87 68h1.16l38.1-66.64zM96 9a88 88 0 0187.99 87.5l.01-.5A88 88 0 008 96v.5A88 88 0 0196 9z"/>
-    <path fill="#1a237e" fill-opacity=".15" d="M96 183a88 88 0 0087.99-87.5l.01.5A88 88 0 018 96l.01-.5A88 88 0 0096 183z"/>
+    <path fill="#1a237e" fill-opacity=".2" d="M96 55a40 40 0 0 0-40 40v1a40 40 0 0 1 40-40h88v-1z"/>
+    <path fill="#fff" fill-opacity=".1" d="M130.6 116A39.96 39.96 0 0 1 96 136a39.97 39.97 0 0 1-34.61-20h-.04L8 24.48v1L61.36 117h.04a39.94 39.94 0 0 0 69.21 0h.05v-1z"/>
+    <path fill="#1a237e" d="M97 56c-.17 0-.33.02-.5.03a39.98 39.98 0 0 1 0 79.94c.17 0 .33.03.5.03a40 40 0 0 0 0-80z" opacity=".1"/>
+    <path fill="#fff" fill-opacity=".2" d="M131 117.33a39.72 39.72 0 0 0 3.5-32.05 39.72 39.72 0 0 1-3.87 30.69l.02.04-38.87 68h1.16l38.1-66.64zM96 9a88 88 0 0 1 87.99 87.5l.01-.5A88 88 0 0 0 8 96v.5A88 88 0 0 1 96 9z"/>
+    <path fill="#1a237e" fill-opacity=".15" d="M96 183a88 88 0 0 0 87.99-87.5l.01.5A88 88 0 0 1 8 96l.01-.5A88 88 0 0 0 96 183z"/>
   </g>
   <circle cx="96" cy="96" r="88" fill="url(#t)"/>
   <defs>
     <path id="a" d="M8 184h83.77l38.88-38.88V116H61.36L8 24.48z"/>
-    <path id="c" d="M96 56l34.65 60-38.88 68H184V56z"/>
+    <path id="c" d="m96 56 34.65 60-38.88 68H184V56z"/>
     <path id="g" d="M21.97 8v108h39.4L96 56h88V8z"/>
   </defs>
 </svg>

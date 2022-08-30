@@ -1,9 +1,7 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <rect x="4" y="4" width="40" height="40" rx="2" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M4 14H44" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="4" y1="11" x2="4" y2="23" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="44" y1="11" x2="44" y2="23" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path fill-rule="evenodd" clip-rule="evenodd" d="M28 22V36H36V22H28Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M12 22H20V36H12" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M20 29H14" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="4" y="4" width="40" height="40" rx="2" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M4 14h40" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M4 11v12m40-12v12"/>
+  <path clip-rule="evenodd" d="M28 22v14h8V22h-8Z" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 22h8v14h-8m8-7h-6" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

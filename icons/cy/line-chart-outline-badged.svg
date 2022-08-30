@@ -1,6 +1,6 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path class="clr-i-outline--badged clr-i-outline-path-1--badged" d="M 32 13.22 L 32 29 L 4 29 L 4 7 L 22.57 7 C 22.524 6.668 22.501 6.334 22.5 6 C 22.501 5.665 22.524 5.331 22.57 5 L 4 5 C 2.895 5 2 5.895 2 7 L 2 29 C 2 30.104 2.895 31 4 31 L 32 31 C 33.104 31 34 30.104 34 29 L 34 12.34 C 33.38 12.73 32.706 13.026 32 13.22 Z"/>
-  <polygon points="15.62 15.222 9.602 23.968 5.55 20.384 6.61 19.186 9.308 21.572 15.634 12.38 22.384 22.395 29.138 13.47 30.414 14.436 22.308 25.145" class="clr-i-outline--badged clr-i-outline-path-2--badged"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-outline--badged clr-i-outline-path-1--badged" d="M32 13.22V29H4V7h18.57a7.447 7.447 0 0 1-.07-1c.001-.335.024-.669.07-1H4a2 2 0 0 0-2 2v22a2 2 0 0 0 2 2h28a2 2 0 0 0 2-2V12.34c-.62.39-1.294.686-2 .88Z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-2--badged" d="m15.62 15.222-6.018 8.746-4.052-3.584 1.06-1.198 2.698 2.386 6.326-9.192 6.75 10.015 6.754-8.925 1.276.966-8.106 10.709z"/>
   <circle class="clr-i-outline--badged clr-i-outline-path-3--badged clr-i-badge" cx="30" cy="6" r="5"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

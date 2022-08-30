@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 12069.33 49472" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.41420996" height="1em" width="1em">
-  <g transform="matrix(64.0344 0 0 64.0344 -21034.405 -3520.6502)" fill="#c12f93">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 12069.33 49472" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+  <g transform="translate(-21034.405 -3520.65) scale(64.0344)" fill="#c12f93">
     <use xlink:href="#a"/>
     <use xlink:href="#a" y="264.55"/>
     <use xlink:href="#a" x="-230.44" y="132.28"/>
@@ -9,6 +9,6 @@
     <use xlink:href="#a" y="530.1"/>
   </g>
   <defs>
-    <path id="a" d="M282.6 176.2l70-121.25h140l70 121.25-70 121.25h-140z"/>
+    <path id="a" d="m282.6 176.2 70-121.25h140l70 121.25-70 121.25h-140z"/>
   </defs>
 </svg>

@@ -1,20 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" id="Lag_1" x="0px" y="0px" viewBox="0 0 120 60" xml:space="preserve" sodipodi:docname="nordnet-ar21.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" id="namedview186" showgrid="false" inkscape:zoom="4" inkscape:cx="80.975112" inkscape:cy="68.743164" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="Lag_1"/>
-  <style type="text/css" id="style2">
-    .st0{display:none}.st1{display:inline}.st2{fill:#808181}.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#808181}.st4{display:inline;fill:#0975BB}.st5{display:inline;fill:#E84E0F}.st17{display:none;fill:#724B98}.st18{fill:#FFFFFF}
-  </style>
-  <g id="g183" style="fill:#000000" transform="matrix(0.18189655,0,0,0.18189655,5.431035,-6.3702152)">
-    <g id="g167" style="fill:#000000">
-      <polygon class="st18" points="186.3,230.9 261,169.3 224.6,169.3 149.9,230.9" id="polygon161" style="fill:#000000"/>
-      <polygon class="st18" points="46.4,230.9 121,169.3 84.6,169.3 10,230.9" id="polygon163" style="fill:#000000"/>
-      <rect x="121" y="169.3" class="st18" width="28.9" height="61.700001" id="rect165" style="fill:#000000"/>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 120 60" width="120" height="60">
+  <g style="fill:#000" transform="matrix(.1819 0 0 .1819 5.431 -6.37)">
+    <g style="fill:#000">
+      <path class="st18" style="fill:#000" d="m186.3 230.9 74.7-61.6h-36.4l-74.7 61.6z"/>
+      <path class="st18" style="fill:#000" d="m46.4 230.9 74.6-61.6H84.6L10 230.9z"/>
+      <path class="st18" style="fill:#000" d="M121 169.3h28.9V231H121z"/>
     </g>
-    <path class="st18" d="m 337.8,230.8 h -13.6 l -0.1,-0.2 -15.7,-25.2 c -3.8,-5.9 -8,-12.7 -11.7,-19.3 0.3,6.9 0.5,14.6 0.5,22.8 v 21.8 h -12.6 v -63 h 13.9 l 0.1,0.2 16.6,26.6 c 3.5,5.5 7.2,11.5 10.5,17.3 -0.3,-7 -0.4,-14.5 -0.4,-21.1 v -23 h 12.6 z" id="path169" style="fill:#000000" inkscape:connector-curvature="0"/>
-    <path class="st18" d="m 365.4,194.1 c -6.9,0 -11.4,5.5 -11.4,13.9 0,8.4 4.5,13.9 11.4,13.9 6.8,0 11.3,-5.5 11.3,-13.9 0,-8.3 -4.6,-13.9 -11.3,-13.9 m 0,38.1 c -13.9,0 -23.6,-10 -23.6,-24.2 0,-14.3 9.7,-24.2 23.6,-24.2 13.8,0 23.5,10 23.5,24.2 0,14.2 -9.7,24.2 -23.5,24.2" id="path171" style="fill:#000000" inkscape:connector-curvature="0"/>
-    <path class="st18" d="m 404.5,230.8 h -12.1 v -45.5 h 11.2 v 5.8 c 2.6,-4.4 6.3,-6.5 11.4,-6.5 2.1,0 4.2,0.2 5.6,0.4 l 0.3,0.1 v 11.1 h -0.4 c -1.6,-0.2 -3.4,-0.4 -5,-0.4 -7,0 -10.9,4.5 -10.9,12.8 v 22.2 z" id="path173" style="fill:#000000" inkscape:connector-curvature="0"/>
-    <path class="st18" d="m 443.2,194.4 c -6.5,0 -10.8,5.5 -10.8,13.6 0,8.3 4.2,13.7 10.6,13.7 6.6,0 11,-5.5 11,-13.7 0,-8.1 -4.3,-13.6 -10.8,-13.6 m -2.9,37.7 c -12.1,0 -20.2,-9.7 -20.2,-24 0,-14.2 8.4,-24.1 20.3,-24.1 5.6,0 10.1,1.8 13.2,5.3 v -21.5 h 12.1 v 63 h -11.3 v -5.3 c -3.2,4.4 -7.9,6.6 -14.1,6.6" id="path175" style="fill:#000000" inkscape:connector-curvature="0"/>
-    <path class="st18" d="M 512.4,230.8 H 500.3 V 203 c 0,-5.6 -2.9,-8.7 -8.1,-8.7 -5.2,0 -8.6,3.6 -8.6,9.1 v 27.5 h -12.1 v -45.5 h 11.2 v 4.5 c 3.1,-3.9 7.7,-6 13.3,-6 10.1,0 16.4,6.1 16.4,16 z" id="path177" style="fill:#000000" inkscape:connector-curvature="0"/>
-    <path class="st18" d="m 528.2,202.7 h 20.6 c -0.6,-5.9 -4.2,-9.3 -9.9,-9.3 -5.5,0 -9.3,3.3 -10.7,9.3 m 11.4,29.5 c -14.4,0 -23.4,-9.2 -23.4,-23.9 0,-14.6 9.2,-24.5 22.9,-24.5 13.5,0 21.3,8.3 21.3,22.8 0,1.4 -0.1,3.5 -0.2,4.4 v 0.3 h -32.3 c 1,6.7 5.2,10.6 11.5,10.6 3.2,0 7.4,-1 9.1,-5.8 l 0.1,-0.2 h 11.6 l -0.1,0.4 c -2.1,9.9 -9.8,15.9 -20.5,15.9" id="path179" style="fill:#000000" inkscape:connector-curvature="0"/>
-    <path class="st18" d="m 580.5,231.8 c -9.3,0 -13.2,-3.8 -13.2,-12.8 v -24.6 h -8 v -9.2 h 8 v -13.7 h 12.1 v 13.7 H 590 v 9.2 H 579.3 V 217 c 0,3.5 1.6,4.2 4.2,4.2 1.4,0 3,-0.2 5.3,-0.7 l 0.4,-0.1 v 10.1 l -0.2,0.1 c -3,0.8 -6,1.2 -8.5,1.2" id="path181" style="fill:#000000" inkscape:connector-curvature="0"/>
+    <path class="st18" d="M337.8 230.8h-13.6l-.1-.2-15.7-25.2c-3.8-5.9-8-12.7-11.7-19.3.3 6.9.5 14.6.5 22.8v21.8h-12.6v-63h13.9l.1.2 16.6 26.6c3.5 5.5 7.2 11.5 10.5 17.3-.3-7-.4-14.5-.4-21.1v-23h12.6z" style="fill:#000"/>
+    <path class="st18" d="M365.4 194.1c-6.9 0-11.4 5.5-11.4 13.9s4.5 13.9 11.4 13.9c6.8 0 11.3-5.5 11.3-13.9 0-8.3-4.6-13.9-11.3-13.9m0 38.1c-13.9 0-23.6-10-23.6-24.2 0-14.3 9.7-24.2 23.6-24.2 13.8 0 23.5 10 23.5 24.2s-9.7 24.2-23.5 24.2" style="fill:#000"/>
+    <path class="st18" d="M404.5 230.8h-12.1v-45.5h11.2v5.8c2.6-4.4 6.3-6.5 11.4-6.5 2.1 0 4.2.2 5.6.4l.3.1v11.1h-.4c-1.6-.2-3.4-.4-5-.4-7 0-10.9 4.5-10.9 12.8v22.2z" style="fill:#000"/>
+    <path class="st18" d="M443.2 194.4c-6.5 0-10.8 5.5-10.8 13.6 0 8.3 4.2 13.7 10.6 13.7 6.6 0 11-5.5 11-13.7 0-8.1-4.3-13.6-10.8-13.6m-2.9 37.7c-12.1 0-20.2-9.7-20.2-24 0-14.2 8.4-24.1 20.3-24.1 5.6 0 10.1 1.8 13.2 5.3v-21.5h12.1v63h-11.3v-5.3c-3.2 4.4-7.9 6.6-14.1 6.6" style="fill:#000"/>
+    <path class="st18" d="M512.4 230.8h-12.1V203c0-5.6-2.9-8.7-8.1-8.7-5.2 0-8.6 3.6-8.6 9.1v27.5h-12.1v-45.5h11.2v4.5c3.1-3.9 7.7-6 13.3-6 10.1 0 16.4 6.1 16.4 16z" style="fill:#000"/>
+    <path class="st18" d="M528.2 202.7h20.6c-.6-5.9-4.2-9.3-9.9-9.3-5.5 0-9.3 3.3-10.7 9.3m11.4 29.5c-14.4 0-23.4-9.2-23.4-23.9 0-14.6 9.2-24.5 22.9-24.5 13.5 0 21.3 8.3 21.3 22.8 0 1.4-.1 3.5-.2 4.4v.3h-32.3c1 6.7 5.2 10.6 11.5 10.6 3.2 0 7.4-1 9.1-5.8l.1-.2h11.6l-.1.4c-2.1 9.9-9.8 15.9-20.5 15.9" style="fill:#000"/>
+    <path class="st18" d="M580.5 231.8c-9.3 0-13.2-3.8-13.2-12.8v-24.6h-8v-9.2h8v-13.7h12.1v13.7H590v9.2h-10.7V217c0 3.5 1.6 4.2 4.2 4.2 1.4 0 3-.2 5.3-.7l.4-.1v10.1l-.2.1c-3 .8-6 1.2-8.5 1.2" style="fill:#000"/>
   </g>
 </svg>

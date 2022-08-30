@@ -1,24 +1,24 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M19.88,3H6.12A2.12,2.12,0,0,0,4,5.12V33H22V5.12A2.12,2.12,0,0,0,19.88,3ZM20,31H17V28H9v3H6V5.12A.12.12,0,0,1,6.12,5H19.88a.12.12,0,0,1,.12.12Z" class="clr-i-outline--badged clr-i-outline-path-1--badged"/>
-  <rect x="8" y="8" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-2--badged"/>
-  <rect x="12" y="8" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-3--badged"/>
-  <rect x="16" y="8" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-4--badged"/>
-  <rect x="8" y="13" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-5--badged"/>
-  <rect x="12" y="13" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-6--badged"/>
-  <rect x="16" y="13" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-7--badged"/>
-  <rect x="8" y="18" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-8--badged"/>
-  <rect x="12" y="18" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-9--badged"/>
-  <rect x="16" y="18" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-10--badged"/>
-  <rect x="8" y="23" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-11--badged"/>
-  <rect x="12" y="23" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-12--badged"/>
-  <rect x="16" y="23" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-13--badged"/>
-  <rect x="23" y="13" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-14--badged"/>
-  <rect x="27" y="13" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-15--badged"/>
-  <rect x="23" y="18" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-16--badged"/>
-  <rect x="27" y="18" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-17--badged"/>
-  <rect x="23" y="23" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-18--badged"/>
-  <rect x="27" y="23" width="2" height="2" class="clr-i-outline--badged clr-i-outline-path-19--badged"/>
-  <path d="M31,13.43V31H23v2H33V12.87A7.45,7.45,0,0,1,31,13.43Z" class="clr-i-outline--badged clr-i-outline-path-20--badged"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M19.88 3H6.12A2.12 2.12 0 0 0 4 5.12V33h18V5.12A2.12 2.12 0 0 0 19.88 3ZM20 31h-3v-3H9v3H6V5.12A.12.12 0 0 1 6.12 5h13.76a.12.12 0 0 1 .12.12Z" class="clr-i-outline--badged clr-i-outline-path-1--badged"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-2--badged" d="M8 8h2v2H8z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-3--badged" d="M12 8h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-4--badged" d="M16 8h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-5--badged" d="M8 13h2v2H8z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-6--badged" d="M12 13h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-7--badged" d="M16 13h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-8--badged" d="M8 18h2v2H8z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-9--badged" d="M12 18h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-10--badged" d="M16 18h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-11--badged" d="M8 23h2v2H8z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-12--badged" d="M12 23h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-13--badged" d="M16 23h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-14--badged" d="M23 13h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-15--badged" d="M27 13h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-16--badged" d="M23 18h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-17--badged" d="M27 18h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-18--badged" d="M23 23h2v2h-2z"/>
+  <path class="clr-i-outline--badged clr-i-outline-path-19--badged" d="M27 23h2v2h-2z"/>
+  <path d="M31 13.43V31h-8v2h10V12.87a7.45 7.45 0 0 1-2 .56Z" class="clr-i-outline--badged clr-i-outline-path-20--badged"/>
   <circle cx="30" cy="6" r="5" class="clr-i-outline--badged clr-i-outline-path-21--badged clr-i-badge"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

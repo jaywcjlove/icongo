@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="232.7 240.764 64 64" height="1em" width="1em">
-  <g transform="matrix(.293511 0 0 .293511 179.392263 170.097067)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="232.7 240.764 64 64">
+  <g transform="translate(179.392 170.097) scale(.29351)">
     <g fill="#407db8">
       <path d="M314.926 453.473v-6.15h10.52v6.15c0 2.913-2.43 5.342-5.342 5.342s-5.18-2.43-5.18-5.342z"/>
       <use xlink:href="#a"/>
       <use xlink:href="#a" x="-29.459"/>
-      <path d="M335.645 440.686l-4.856 8.093h-80.445l-4.532-8.093z"/>
+      <path d="m335.645 440.686-4.856 8.093h-80.445l-4.532-8.093z"/>
     </g>
     <linearGradient y2="316.028" x2="344.354" y1="316.028" x1="237.067" gradientUnits="userSpaceOnUse" id="b">
       <stop offset="0" stop-color="#f9ac1a"/>

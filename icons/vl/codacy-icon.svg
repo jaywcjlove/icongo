@@ -1,18 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 63.999999" version="1.1" id="svg39" sodipodi:docname="codacy-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" id="namedview41" showgrid="false" inkscape:zoom="5.2696369" inkscape:cx="65.414817" inkscape:cy="12.982468" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg39"/>
-  <defs id="defs4">
-    <style id="style2">
-      .cls-1{fill:#fff}
-    </style>
-  </defs>
-  <g id="g903" transform="matrix(3.3035712,0,0,3.3035712,-48.271795,-64.044702)">
-    <path class="cls-1" d="m 17.746194,27.316967 a 6.7918876,6.7918876 0 0 1 3.160296,-4.109759 l -1.45511,-2.513122 a 9.6952375,9.6952375 0 0 0 -4.510979,5.87128 z" id="path20" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 22.541599,22.529806 a 6.8015059,6.8015059 0 0 1 1.750529,-0.228091 v -2.901976 a 9.6993597,9.6993597 0 0 0 -2.50213,0.324274 z" id="path22" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 26.056397,22.532554 a 6.7863915,6.7863915 0 0 1 4.104263,3.160296 l 2.51587,-1.452362 a 9.6966116,9.6966116 0 0 0 -5.868532,-4.510979 z" id="path24" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 14.612005,29.072992 a 9.6897414,9.6897414 0 0 0 0.327022,2.500756 l 2.805793,-0.750227 a 6.7424221,6.7424221 0 0 1 -0.229465,-1.750529 z" id="path26" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 15.907726,33.912366 a 9.6732529,9.6732529 0 0 0 1.534805,1.997857 l 2.061062,-2.05007 a 6.8963148,6.8963148 0 0 1 -1.077249,-1.400149 z" id="path28" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 19.45138,37.451898 a 9.6086729,9.6086729 0 0 0 4.832504,1.294347 v -2.901976 a 6.7410481,6.7410481 0 0 1 -3.380143,-0.906868 z" id="path30" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 30.157912,32.466875 a 6.7836434,6.7836434 0 0 1 -4.111133,3.146555 l 0.751601,2.805793 a 9.710352,9.710352 0 0 0 5.874028,-4.50136 z" id="path32" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
-    <path class="cls-1" d="m 33.643855,31.672679 a 9.7021077,9.7021077 0 0 0 0.02199,-5.018 l -2.814037,0.7516 a 6.7795213,6.7795213 0 0 1 -0.01924,3.513425 z" id="path34" style="fill:#000000;stroke-width:0.13740416" inkscape:connector-curvature="0"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" version="1.1" width="64" height="64">
+  <g transform="translate(-48.272 -64.045) scale(3.30357)">
+    <path class="cls-1" d="M17.746 27.317a6.792 6.792 0 0 1 3.16-4.11l-1.455-2.513a9.695 9.695 0 0 0-4.51 5.871z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M22.542 22.53a6.802 6.802 0 0 1 1.75-.228V19.4a9.7 9.7 0 0 0-2.502.324z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M26.056 22.533a6.786 6.786 0 0 1 4.105 3.16l2.516-1.453a9.697 9.697 0 0 0-5.869-4.51z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M14.612 29.073a9.69 9.69 0 0 0 .327 2.5l2.806-.75a6.742 6.742 0 0 1-.23-1.75z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M15.908 33.912a9.673 9.673 0 0 0 1.535 1.998l2.06-2.05a6.896 6.896 0 0 1-1.077-1.4z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M19.451 37.452a9.609 9.609 0 0 0 4.833 1.294v-2.902a6.741 6.741 0 0 1-3.38-.907z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M30.158 32.467a6.784 6.784 0 0 1-4.111 3.146l.751 2.806a9.71 9.71 0 0 0 5.874-4.501z" style="fill:#000;stroke-width:.13740416"/>
+    <path class="cls-1" d="M33.644 31.673a9.702 9.702 0 0 0 .022-5.018l-2.814.751a6.78 6.78 0 0 1-.02 3.514z" style="fill:#000;stroke-width:.13740416"/>
   </g>
 </svg>

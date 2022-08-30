@@ -1,17 +1,10 @@
-<svg version="1.1" xml:space="preserve" viewBox="143.9994659423828 263.7452392578125 768 288.50933837890625" sodipodi:docname="CAE_cmyk_navy.ai" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+<svg xml:space="preserve" viewBox="143.999 263.745 768 288.509" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
   <defs>
     <clipPath clipPathUnits="userSpaceOnUse" id="a">
-      <path d="M 0,612 H 792 V 0 H 0 Z"/>
+      <path d="M0 612h792V0H0Z"/>
     </clipPath>
   </defs>
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"/>
-  <g inkscape:groupmode="layer" inkscape:label="CAE" transform="matrix(1.3333333,0,0,-1.3333333,0,816)">
-    <g>
-      <g clip-path="url(#a)">
-        <g transform="translate(449.2496,248.9921)">
-          <path d="m 0,0 h -78.695 l -18.928,-48.393 h -46.509 L -95.988,75.975 Z M -15.307,162.446 H -61.926 L 20.147,-48.393 H 67.138 Z M -232.565,-51.183 c 34.823,0 66.813,14.555 86.706,42.338 l -34.071,26.966 c -10.025,-14.772 -27.498,-27.933 -51.428,-27.933 -35.547,0 -63.393,29.411 -63.393,66.82 0,37.409 27.846,66.82 63.393,66.82 23.93,0 41.403,-13.161 51.428,-27.933 l 34.071,26.965 c -19.893,27.784 -51.883,42.339 -86.706,42.339 -59.044,0 -108.685,-47.983 -108.685,-108.191 0,-60.208 49.641,-108.191 108.685,-108.191 M 131.971,122.421 V 77.375 h 89.944 V 37.343 H 131.971 V -8.368 H 234.75 V -48.393 H 87.079 V 162.446 H 234.75 v -40.025 z" style="fill:#001e51;fill-opacity:1;fill-rule:nonzero;stroke:none"/>
-        </g>
-      </g>
-    </g>
+  <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 816)">
+    <path d="M0 0h-78.695l-18.928-48.393h-46.509l48.144 124.368Zm-15.307 162.446h-46.619L20.147-48.393h46.991ZM-232.565-51.183c34.823 0 66.813 14.555 86.706 42.338l-34.071 26.966c-10.025-14.772-27.498-27.933-51.428-27.933-35.547 0-63.393 29.411-63.393 66.82 0 37.409 27.846 66.82 63.393 66.82 23.93 0 41.403-13.161 51.428-27.933l34.071 26.965c-19.893 27.784-51.883 42.339-86.706 42.339-59.044 0-108.685-47.983-108.685-108.191 0-60.208 49.641-108.191 108.685-108.191m364.536 173.604V77.375h89.944V37.343h-89.944V-8.368H234.75v-40.025H87.079v210.839H234.75v-40.025z" style="fill:#001e51;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="translate(449.25 248.992)"/>
   </g>
 </svg>

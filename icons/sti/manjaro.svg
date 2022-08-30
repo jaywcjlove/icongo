@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-label="Manjaro" role="img" viewBox="0 0 512 512" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="Manjaro" viewBox="0 0 512 512" height="1em" width="1em">
   <rect width="512" height="512" rx="15%" fill="#fff"/>
-  <polygon fill="#4db05e" points="301 192 301 102 102 102 102 410 192 410 192 192 301 192"/>
-  <rect fill="#4db05e" x="211" y="211" width="90" height="199"/>
-  <rect fill="#4db05e" x="320" y="102" width="90" height="308"/>
+  <path fill="#4db05e" d="M301 192v-90H102v308h90V192h109z"/>
+  <path fill="#4db05e" d="M211 211h90v199h-90zm109-109h90v308h-90z"/>
 </svg>

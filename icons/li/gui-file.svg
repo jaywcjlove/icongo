@@ -1,4 +1,4 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path fill="#90caf9" d="M11.57142864 3.85714281v9.14285728H2.42857136V.99999991h6.28571438z"/>
-  <path fill="#e1f5fe" d="M11.1428572 4.1428571H8.42857145V1.42857135z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path fill="#90caf9" d="M11.571 3.857V13H2.43V1h6.285z"/>
+  <path fill="#e1f5fe" d="M11.143 4.143H8.429V1.429z"/>
 </svg>

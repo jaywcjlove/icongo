@@ -3,6 +3,6 @@
   <path fill="#55d2f6" d="M63 43V7H1z"/>
   <path fill="none" stroke="#556a8a" stroke-width="2" stroke-miterlimit="10" d="M1 7h62v36H1z"/>
   <path fill="none" stroke="#556a8a" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" d="M1 53h62"/>
-  <path fill="#fff" d="M39 24.943l-12 7v-14z"/>
+  <path fill="#fff" d="m39 24.943-12 7v-14z"/>
   <circle cx="11" cy="53" r="4" fill="#55d2f6"/>
 </svg>

@@ -1,51 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 84" fill="none" version="1.1" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 84" fill="none" height="1em" width="1em">
   <defs>
-    <filter id="e">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="0.4" result="effect1_foregroundBlur"/>
-    </filter>
-    <filter id="f">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-      <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur"/>
-    </filter>
     <linearGradient id="c" x1="66.5" y1="90.5" x2="38.5" y2="8" gradientUnits="userSpaceOnUse">
       <stop stop-color="#E6AD10"/>
       <stop offset="1" stop-color="#F2C811"/>
     </linearGradient>
-    <linearGradient id="d" x1="46" y1="-5.46875" x2="79.298897" y2="90.713402" gradientUnits="userSpaceOnUse">
+    <linearGradient id="d" x1="46" y1="-5.469" x2="79.299" y2="90.713" gradientUnits="userSpaceOnUse">
       <stop stop-color="#E6AD10"/>
       <stop offset="1" stop-color="#C87E0E"/>
     </linearGradient>
-    <linearGradient id="g" x1="36.998199" y1="46" x2="61.786201" y2="93.593002" gradientUnits="userSpaceOnUse">
+    <linearGradient id="g" x1="36.998" y1="46" x2="61.786" y2="93.593" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F6D751"/>
       <stop offset="1" stop-color="#E6AD10"/>
     </linearGradient>
-    <linearGradient id="h" x1="23.998199" y1="64" x2="39.527199" y2="108.11" gradientUnits="userSpaceOnUse">
+    <linearGradient id="h" x1="23.998" y1="64" x2="39.527" y2="108.11" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F9E589"/>
       <stop offset="1" stop-color="#F6D751"/>
     </linearGradient>
+    <filter id="e">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation=".4" result="effect1_foregroundBlur"/>
+    </filter>
+    <filter id="f">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur"/>
+    </filter>
     <clipPath id="a">
-      <rect width="96" height="96" fill="#ffffff" x="0" y="0"/>
+      <path fill="#fff" d="M0 0h96v96H0z"/>
     </clipPath>
   </defs>
-  <g clip-path="url(#a)" transform="translate(-1.3167499e-7,-12)">
+  <g clip-path="url(#a)" transform="translate(0 -12)">
     <mask id="b" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="12" width="96" height="84">
-      <path d="M 1.17157,34.8284 C 0.421427,35.5786 4.73648e-8,36.596 1.31675e-7,37.6569 L 3.49681e-6,80 C 3.67237e-6,82.2091 1.79086,84 4,84 h 20 v 8 c 0,2.2091 1.7909,4 4,4 h 40 c 2.2091,0 4,-1.7909 4,-4 v -8 h 20 c 2.2091,0 4,-1.7909 4,-4 V 16 c 0,-2.2091 -1.7909,-4 -4,-4 H 25.6569 c -1.0609,0 -2.0783,0.4214 -2.8285,1.1716 z" fill="#c4c4c4"/>
+      <path d="M1.172 34.828A4 4 0 0 0 0 37.657V80a4 4 0 0 0 4 4h20v8a4 4 0 0 0 4 4h40a4 4 0 0 0 4-4v-8h20a4 4 0 0 0 4-4V16a4 4 0 0 0-4-4H25.657a4 4 0 0 0-2.829 1.172z" fill="#c4c4c4"/>
     </mask>
     <g mask="url(#b)">
-      <path d="M 0,84 -3.14722e-6,12 H 96 v 72 z" fill="url(#c)" style="fill:url(#c)"/>
-      <path d="m 24,12 v 20 c 0,2.2091 -1.7909,4 -4,4 H 0 Z" fill="#f9e589"/>
-      <path d="M 72,32 V 96 H 54 c -2.2091,0 -4,-1.7909 -4,-4 V 32 c 0,-2.2091 1.7909,-4 4,-4 h 14 c 2.2091,0 4,1.7909 4,4 z" fill="url(#d)" style="fill:url(#d)"/>
+      <path d="M0 84V12h96v72z" fill="url(#c)" style="fill:url(#c)"/>
+      <path d="M24 12v20a4 4 0 0 1-4 4H0Z" fill="#f9e589"/>
+      <path d="M72 32v64H54a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z" fill="url(#d)" style="fill:url(#d)"/>
       <g filter="url(#e)">
-        <path d="m 59,96.4 v -46 c 0,-2.2091 -1.7909,-4 -4,-4 H 41 c -2.2091,0 -4,1.7909 -4,4 v 14 h -9 c -2.2091,0 -4,1.7909 -4,4 v 28 z" fill="#000000" fill-opacity="0.2"/>
+        <path d="M59 96.4v-46a4 4 0 0 0-4-4H41a4 4 0 0 0-4 4v14h-9a4 4 0 0 0-4 4v28z" fill="#000" fill-opacity=".2"/>
       </g>
       <g filter="url(#f)">
-        <path d="M 59,98 V 52 c 0,-2.2091 -1.7909,-4 -4,-4 H 41 c -2.2091,0 -4,1.7909 -4,4 v 14 h -9 c -2.2091,0 -4,1.7909 -4,4 v 28 z" fill="#000000" fill-opacity="0.18"/>
+        <path d="M59 98V52a4 4 0 0 0-4-4H41a4 4 0 0 0-4 4v14h-9a4 4 0 0 0-4 4v28z" fill="#000" fill-opacity=".18"/>
       </g>
-      <path d="M 59,50 V 96 H 41 c -2.2091,0 -4,-1.7909 -4,-4 V 50 c 0,-2.2091 1.7909,-4 4,-4 h 14 c 2.2091,0 4,1.7909 4,4 z" fill="url(#g)" style="fill:url(#g)"/>
-      <path d="M 24,68 V 96 H 46 V 68 c 0,-2.2091 -1.7909,-4 -4,-4 H 28 c -2.2091,0 -4,1.7909 -4,4 z" fill="url(#h)" style="fill:url(#h)"/>
+      <path d="M59 50v46H41a4 4 0 0 1-4-4V50a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4z" fill="url(#g)" style="fill:url(#g)"/>
+      <path d="M24 68v28h22V68a4 4 0 0 0-4-4H28a4 4 0 0 0-4 4z" fill="url(#h)" style="fill:url(#h)"/>
     </g>
   </g>
 </svg>

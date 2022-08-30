@@ -1,6 +1,6 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <g transform="translate(7.9887007 -1035.3565503)">
-    <circle cx="2.2093029" cy="1045.5715" r="2.7906978" fill="#f44336"/>
-    <path fill="#fff" d="M.53488415 1045.0133h3.3488371v1.1162791H.53488415z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="translate(7.989 -1035.357)">
+    <circle cx="2.209" cy="1045.572" r="2.791" fill="#f44336"/>
+    <path fill="#fff" d="M.535 1045.013h3.349v1.117H.534z"/>
   </g>
 </svg>

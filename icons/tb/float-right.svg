@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-float-right" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M0 0h24v24H0z" stroke="none"/>
   <rect width="6" height="6" x="14" y="5" rx="1"/>
-  <line x1="4" y1="7" x2="10" y2="7"/>
-  <line x1="4" y1="11" x2="10" y2="11"/>
-  <line x1="4" y1="15" x2="20" y2="15"/>
-  <line x1="4" y1="19" x2="20" y2="19"/>
+  <path d="M4 7h6m-6 4h6m-6 4h16M4 19h16"/>
 </svg>

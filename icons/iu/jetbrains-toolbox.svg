@@ -1,15 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="1em" width="1em">
   <defs>
-    <linearGradient id="a" x1="2.1803" y1="23.2551" x2="30.0411" y2="8.7819" gradientUnits="userSpaceOnUse">
-      <stop offset="0.043" stop-color="#ff8618"/>
-      <stop offset="0.3817" stop-color="#ff246e"/>
-      <stop offset="0.9892" stop-color="#af1df5"/>
+    <linearGradient id="a" x1="2.18" y1="23.255" x2="30.041" y2="8.782" gradientUnits="userSpaceOnUse">
+      <stop offset=".043" stop-color="#ff8618"/>
+      <stop offset=".382" stop-color="#ff246e"/>
+      <stop offset=".989" stop-color="#af1df5"/>
     </linearGradient>
   </defs>
-  <path d="M26,22.4713l-6.83,3.8311V23.2578L26,19.4268v3.0445Z" fill="#fff"/>
-  <g>
-    <polygon points="16 32.076 30 24.065 30 8.057 16 16.067 16 32.076" fill="#000001"/>
-    <polygon points="18.925 24.641 18.925 27.041 25.026 23.55 25.026 21.15 18.925 24.641" fill="#fff"/>
-    <polygon points="16 0.076 2 8.057 2 8.057 2 8.057 2 24.065 16 32.076 16 16.067 30 8.057 16 0.076" fill="url(#a)"/>
-  </g>
+  <path d="m26 22.471-6.83 3.831v-3.044L26 19.427v3.044Z" fill="#fff"/>
+  <path fill="#000001" d="m16 32.076 14-8.011V8.057l-14 8.01v16.009z"/>
+  <path fill="#fff" d="M18.925 24.641v2.4l6.101-3.491v-2.4l-6.101 3.491z"/>
+  <path fill="url(#a)" d="M16 .076 2 8.057v16.008l14 8.011V16.067l14-8.01L16 .076z"/>
 </svg>

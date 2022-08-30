@@ -1,19 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24" height="1em" width="1em">
-  <g transform="translate(0 -1028.4)">
-    <path d="m4 2-2 5h20l-2-5h-4-8z" transform="translate(0 1028.4)" fill="#ecf0f1"/>
-    <path d="m9 1035.4h6l-1-5h-4z" fill="#1abc9c"/>
-    <path fill="none" d="m2 6h20l-2 13h-17z" transform="translate(0 1028.4)"/>
-    <g>
-      <rect height="16" width="20" y="1035.4" x="2" fill="#bdc3c7"/>
-      <path d="m5 1045.4c-0.5523 0-1 0.4-1 1v2c0 0.5 0.4477 1 1 1h6c0.552 0 1-0.5 1-1v-2c0-0.6-0.448-1-1-1h-6z" fill="#ecf0f1"/>
-      <path d="m9 7v6 1l1-1 1 1 1-1 1 1 1-1 1 1v-1-6h-6z" transform="translate(0 1028.4)" fill="#16a085"/>
-    </g>
-    <g fill="#95a5a6">
-      <rect height="2" width="1" y="1046.4" x="5"/>
-      <rect height="2" width="1" y="1046.4" x="7"/>
-      <rect height="2" width="1" y="1046.4" x="9"/>
-    </g>
-    <rect height="2" width="1" y="1046.4" x="10" fill="#7f8c8d"/>
-    <rect height="2" width="1" y="1046.4" x="8" fill="#bdc3c7"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
+  <path d="M4 2 2 7h20l-2-5H8z" fill="#ecf0f1"/>
+  <path d="M9 7h6l-1-5h-4z" fill="#1abc9c"/>
+  <path fill="none" d="M2 6h20l-2 13H3z"/>
+  <path fill="#bdc3c7" d="M2 7h20v16H2z"/>
+  <path d="M5 17c-.552 0-1 .4-1 1v2c0 .5.448 1 1 1h6c.552 0 1-.5 1-1v-2c0-.6-.448-1-1-1H5z" fill="#ecf0f1"/>
+  <path d="M9 7v7l1-1 1 1 1-1 1 1 1-1 1 1V7H9z" fill="#16a085"/>
+  <path d="M5 18h1v2H5zm2 0h1v2H7zm2 0h1v2H9z" fill="#95a5a6"/>
+  <path fill="#7f8c8d" d="M10 18h1v2h-1z"/>
+  <path fill="#bdc3c7" d="M8 18h1v2H8z"/>
 </svg>

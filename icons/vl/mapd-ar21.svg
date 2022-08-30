@@ -1,26 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 60" height="1em" width="1em">
-  <g transform="matrix(.236482 0 0 .236482 12.219991 18.84518)">
-    <g fill="#fff">
-      <use xlink:href="#a"/>
-      <use xlink:href="#b"/>
-      <path d="M207.95 60.84V31.36h9.63v29.48z"/>
-      <use xlink:href="#c"/>
-      <use xlink:href="#d"/>
-      <use xlink:href="#e"/>
-      <path d="M373.64 31.37v29.5H364v-29.5z"/>
-      <circle r="5.67" cy="46.02" cx="244.44"/>
-    </g>
-    <path d="M0 0h404.1v92.12H0z" fill="#1c4798"/>
-    <g fill="#fff">
-      <use xlink:href="#a"/>
-      <use xlink:href="#b"/>
-      <path d="M207.95 60.84V31.36h9.63v29.48z"/>
-      <use xlink:href="#c"/>
-      <use xlink:href="#d"/>
-      <use xlink:href="#e"/>
-      <path d="M373.64 31.37v29.5H364v-29.5z"/>
-      <circle r="5.67" cy="46.02" cx="244.44"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="60">
+  <g fill="#fff" transform="translate(12.22 18.845) scale(.23648)">
+    <use xlink:href="#a"/>
+    <use xlink:href="#b"/>
+    <path d="M207.95 60.84V31.36h9.63v29.48z"/>
+    <use xlink:href="#c"/>
+    <use xlink:href="#d"/>
+    <use xlink:href="#e"/>
+    <path d="M373.64 31.37v29.5H364v-29.5z"/>
+    <circle r="5.67" cy="46.02" cx="244.44"/>
+  </g>
+  <path d="M12.22 18.845h95.562V40.63H12.22z" fill="#1c4798"/>
+  <g fill="#fff" transform="translate(12.22 18.845) scale(.23648)">
+    <use xlink:href="#a"/>
+    <use xlink:href="#b"/>
+    <path d="M207.95 60.84V31.36h9.63v29.48z"/>
+    <use xlink:href="#c"/>
+    <use xlink:href="#d"/>
+    <use xlink:href="#e"/>
+    <path d="M373.64 31.37v29.5H364v-29.5z"/>
+    <circle r="5.67" cy="46.02" cx="244.44"/>
   </g>
   <defs>
     <path id="a" d="M119.5 60.84v-16.2a15.31 15.31 0 0 0-.18-2.38 5.64 5.64 0 0 0-.64-2 3.8 3.8 0 0 0-1.26-1.32 3.92 3.92 0 0 0-2.09-.5 4.19 4.19 0 0 0-2.14.61 4.68 4.68 0 0 0-1.53 1.41 6.26 6.26 0 0 0-.91 2 9.27 9.27 0 0 0-.29 2.37v16h-9.63v-16.9a7.05 7.05 0 0 0-1-4 3.57 3.57 0 0 0-3.17-1.47 4.1 4.1 0 0 0-3.56 1.82 7.67 7.67 0 0 0-1.26 4.47v16.1H82.2V31.36h9.34v4.05h.12a9.65 9.65 0 0 1 1.32-1.82 8.23 8.23 0 0 1 1.91-1.56 10.84 10.84 0 0 1 2.49-1.09 10.73 10.73 0 0 1 3-.41 10.47 10.47 0 0 1 5.37 1.3 8.87 8.87 0 0 1 3.44 3.7 11.18 11.18 0 0 1 3.75-3.65 10.83 10.83 0 0 1 5.58-1.35 10.56 10.56 0 0 1 5 1.09 9.34 9.34 0 0 1 3.26 2.82 11.67 11.67 0 0 1 1.79 3.88 16.16 16.16 0 0 1 .56 4.19v18.33z"/>

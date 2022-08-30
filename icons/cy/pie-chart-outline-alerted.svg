@@ -1,7 +1,7 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path class="clr-i-outline--alerted clr-i-outline-path-1--alerted" d="M 34 29 C 34 30.105 33.105 31 32 31 L 4 31 C 2.895 31 2 30.105 2 29 L 2 7 C 2 5.895 2.895 5 4 5 L 21.958 5 L 20.786 7 L 4 7 L 4 29 L 32 29 L 32 15.357 L 34 15.357 Z"/>
-  <path d="M 17 27 C 12.582 27 9 23.418 9 19 C 9 14.582 12.582 11 17 11 L 17 19 L 25 19 C 25 23.418 21.418 27 17 27 Z M 23.247 20.4 L 15.4 20.4 L 15.4 12.802 C 12.64 13.513 10.601 16.018 10.6 19 C 10.6 22.535 13.465 25.4 17 25.4 C 20.054 25.401 22.608 23.261 23.247 20.4 Z" class="clr-i-outline--alerted clr-i-outline-path-2--alerted"/>
-  <path d="M 27 17 L 19 17 L 19 15.345 C 19.021 15.348 19.043 15.349 19.064 15.351 C 19.134 15.357 19.201 15.359 19.27 15.357 L 26.831 15.357 C 26.942 15.887 27 16.437 27 17 Z" class="clr-i-outline--alerted clr-i-outline-path-3--alerted"/>
-  <path class="clr-i-outline--alerted clr-i-outline-path-4--alerted clr-i-alert" d="M 26.854 1.144 L 21.134 11.004 C 20.579 11.818 21.114 12.928 22.097 13.001 C 22.142 13.005 22.188 13.006 22.234 13.004 L 33.684 13.004 C 34.669 13.036 35.319 11.991 34.855 11.122 C 34.834 11.081 34.81 11.042 34.784 11.004 L 29.064 1.144 C 28.57 0.299 27.348 0.299 26.854 1.144 Z"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-outline--alerted clr-i-outline-path-1--alerted" d="M34 29a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h17.958l-1.172 2H4v22h28V15.357h2Z"/>
+  <path d="M17 27a8 8 0 0 1 0-16v8h8a8 8 0 0 1-8 8Zm6.247-6.6H15.4v-7.598A6.4 6.4 0 0 0 17 25.4a6.403 6.403 0 0 0 6.247-5Z" class="clr-i-outline--alerted clr-i-outline-path-2--alerted"/>
+  <path d="M27 17h-8v-1.655c.021.003.043.004.064.006.07.006.137.008.206.006h7.561c.111.53.169 1.08.169 1.643Z" class="clr-i-outline--alerted clr-i-outline-path-3--alerted"/>
+  <path class="clr-i-outline--alerted clr-i-outline-path-4--alerted clr-i-alert" d="m26.854 1.144-5.72 9.86a1.28 1.28 0 0 0 1.1 2h11.45a1.28 1.28 0 0 0 1.1-2l-5.72-9.86a1.28 1.28 0 0 0-2.21 0Z"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

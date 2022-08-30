@@ -1,10 +1,7 @@
-<svg version="1.1" id="Convo" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <style type="text/css">
-    .Arched_x0020_Green{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:1}
-  </style>
-  <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-276.5427" y1="537.5254" x2="-275.8356" y2="536.8183">
-    <stop offset="0" style="stop-color:#20AC4B"/>
-    <stop offset="0.9831" style="stop-color:#19361A"/>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <linearGradient gradientUnits="userSpaceOnUse" x1="-276.543" y1="537.525" x2="-275.836" y2="536.818">
+    <stop offset="0" style="stop-color:#20ac4b"/>
+    <stop offset=".983" style="stop-color:#19361a"/>
   </linearGradient>
-  <path id="C" d="M2.8,31.8C2.8,12.6,19.2,0,36.1,0c3.1,0,6.6,0.5,9.8,1.4c4.7,1.4,15,6.3,15,10.9c0,3-2.9,4.7-5.4,4.7	c-1.3,0-2.7-0.4-3.7-1.3c-4.6-4.2-9.8-6.2-15.8-6.2c-11.8,0-22.9,9.5-22.9,22.3c0,11.7,9.9,22.6,22.9,22.6c4.8,0,9-1.5,12.6-3.8	c0.8-0.4,1.4-1.1,2.2-1.6c1.6-1.2,3-2.6,4.9-2.6c2.9,0,5.4,2.1,5.4,4.7c0,1.4-0.6,2.5-1.5,3.3C53.4,60.9,44.6,64,36,64	c-10.8,0-21.4-5.3-27.6-14.3C4.6,44.5,2.8,38.5,2.8,31.8z" style="fill:#8BC63F"/>
+  <path d="M2.8 31.8C2.8 12.6 19.2 0 36.1 0c3.1 0 6.6.5 9.8 1.4 4.7 1.4 15 6.3 15 10.9 0 3-2.9 4.7-5.4 4.7-1.3 0-2.7-.4-3.7-1.3C47.2 11.5 42 9.5 36 9.5c-11.8 0-22.9 9.5-22.9 22.3 0 11.7 9.9 22.6 22.9 22.6 4.8 0 9-1.5 12.6-3.8.8-.4 1.4-1.1 2.2-1.6 1.6-1.2 3-2.6 4.9-2.6 2.9 0 5.4 2.1 5.4 4.7 0 1.4-.6 2.5-1.5 3.3-6.2 6.5-15 9.6-23.6 9.6-10.8 0-21.4-5.3-27.6-14.3-3.8-5.2-5.6-11.2-5.6-17.9z" style="fill:#8bc63f"/>
 </svg>

@@ -1,9 +1,9 @@
 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path opacity="0.4" d="M9 10C10.1046 10 11 9.10457 11 8C11 6.89543 10.1046 6 9 6C7.89543 6 7 6.89543 7 8C7 9.10457 7.89543 10 9 10Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M13 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15V10" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <g opacity="0.45">
-    <path d="M19.1409 2.59015L15.5109 6.22015C15.3709 6.36015 15.2309 6.63015 15.2109 6.83015L15.0109 8.22015C14.9409 8.72015 15.2909 9.07015 15.7909 9.00015L17.1809 8.80015C17.3709 8.77015 17.6509 8.64015 17.7909 8.50015L21.4209 4.87015C22.0509 4.24015 22.3409 3.52015 21.4209 2.60015C20.4909 1.66015 19.7709 1.96015 19.1409 2.59015Z" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M18.6191 3.10986C18.9291 4.20986 19.7891 5.06986 20.8891 5.37986" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path opacity=".4" d="M9 10a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13 2H9C4 2 2 4 2 9v6c0 5 2 7 7 7h6c5 0 7-2 7-7v-5" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g opacity=".45" stroke="#292D32" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m19.14 2.59-3.63 3.63c-.14.14-.28.41-.3.61l-.2 1.39c-.07.5.28.85.78.78l1.39-.2c.19-.03.47-.16.61-.3l3.63-3.63c.63-.63.92-1.35 0-2.27-.93-.94-1.65-.64-2.28-.01Z"/>
+    <path d="M18.62 3.11c.31 1.1 1.17 1.96 2.27 2.27"/>
   </g>
-  <path opacity="0.4" d="M2.66992 18.9501L7.59992 15.6401C8.38992 15.1101 9.52992 15.1701 10.2399 15.7801L10.5699 16.0701C11.3499 16.7401 12.6099 16.7401 13.3899 16.0701L17.5499 12.5001C18.3299 11.8301 19.5899 11.8301 20.3699 12.5001L21.9999 13.9001" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path opacity=".4" d="m2.67 18.95 4.93-3.31c.79-.53 1.93-.47 2.64.14l.33.29c.78.67 2.04.67 2.82 0l4.16-3.57c.78-.67 2.04-.67 2.82 0L22 13.9" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

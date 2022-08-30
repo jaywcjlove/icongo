@@ -4,10 +4,10 @@
   <circle fill="#2E69B2" cx="238.5" cy="238.6" r="23.3"/>
   <circle fill="#2E69B2" cx="146" cy="222.5" r="20.1"/>
   <circle fill="#2E69B2" cx="64.6" cy="161.3" r="20.1"/>
-  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="M125.281 72.11l10.554-7.419 56.935 80.992-10.554 7.419z"/>
-  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="M182.467 152.176l11.196-6.409 50.375 88.005-11.195 6.41z"/>
-  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="M63.983 153.325l122.78-10.194 1.068 12.856L65.05 166.181z"/>
-  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="M139.073 218.064l43.197-71.689 11.05 6.658-43.198 71.689z"/>
+  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="m125.281 72.11 10.554-7.419 56.935 80.992-10.554 7.419z"/>
+  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="m182.467 152.176 11.196-6.409 50.375 88.005-11.195 6.41z"/>
+  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="m63.983 153.325 122.78-10.194 1.068 12.856L65.05 166.181z"/>
+  <path fill="#2e69b2" stroke="#2e69b2" stroke-width="5.212" stroke-miterlimit="10" d="m139.073 218.064 43.197-71.689 11.05 6.658-43.198 71.689z"/>
   <circle fill="#2E69B2" cx="37.2" cy="88.2" r="24"/>
   <circle fill="#2E69B2" cx="293.2" cy="88.2" r="24"/>
   <circle fill="#2E69B2" cx="171.6" cy="316.2" r="24"/>

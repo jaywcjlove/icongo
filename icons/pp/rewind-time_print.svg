@@ -1,0 +1,17 @@
+<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <g clip-path="url(#a)">
+    <g opacity=".8" fill="currentColor">
+      <path d="M18.5 11a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5 16a5 5 0 1 0 0-10 5 5 0 0 0 0 10Zm0 2a7 7 0 1 0 0-14 7 7 0 0 0 0 14Z"/>
+    </g>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.604 5.45a6.44 6.44 0 0 0-1.883 5.278.5.5 0 0 1-.994.105 7.44 7.44 0 0 1 2.175-6.096c2.937-2.897 7.675-2.85 10.582.098 2.907 2.947 2.888 7.685-.05 10.582a7.425 7.425 0 0 1-5.097 2.142 7.527 7.527 0 0 1-2.14-.271.5.5 0 0 1 .266-.964 6.524 6.524 0 0 0 1.856.235 6.424 6.424 0 0 0 4.413-1.854c2.541-2.506 2.562-6.61.04-9.168-2.522-2.558-6.627-2.594-9.168-.088Z" fill="#000"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.594 11.363a.5.5 0 0 1-.706.04l-1.72-1.53a.5.5 0 1 1 .664-.746l1.72 1.53a.5.5 0 0 1 .042.706Z" fill="#000"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82 11.3a.5.5 0 0 0 .7.1l2-1.5a.5.5 0 1 0-.6-.8l-2 1.5a.5.5 0 0 0-.1.7ZM10 6.5a.5.5 0 0 1 .5.5v3.5a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5Z" fill="#000"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.5 10.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 .5.5Z" fill="#000"/>
+  </g>
+  <defs>
+    <clipPath id="a">
+      <path fill="#fff" d="M0 0h20v20H0z"/>
+    </clipPath>
+  </defs>
+</svg>

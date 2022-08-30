@@ -1,8 +1,6 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-battery-half-2" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(5.000000, 0.000000)" fill="#434343">
-      <path d="M2.062,13.472 C2.062,13.741 2.274,13.959 2.533,13.959 L6.469,13.959 C6.727,13.959 6.939,13.74 6.939,13.472 L6.939,8.094 L2.063,10.159 L2.063,13.472 L2.062,13.472 Z" class="si-glyph-fill"/>
-      <path d="M7.252,1 L6,1 L6,0 L3.023,0 L3.023,1 L1.715,1 C0.779,1 0.021,1.492 0.021,2.417 L0.021,14.542 C0.021,15.466 0.78,16 1.715,16 L7.251,16 C8.187,16 8.999,15.465 8.999,14.542 L8.999,2.417 C9,1.492 8.188,1 7.252,1 L7.252,1 Z M8,14 C8,14.516 7.516,15 7,15 L2,15 C1.485,15 1,14.516 1,14 L1,3 C1,2.486 1.485,2 2,2 L7,2 C7.516,2 8,2.485 8,3 L8,14 L8,14 Z" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-battery-half-2" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="M7.062 13.472a.48.48 0 0 0 .471.487h3.936a.48.48 0 0 0 .47-.487V8.094l-4.876 2.065v3.313h-.001Z" class="si-glyph-fill"/>
+    <path d="M12.252 1H11V0H8.023v1H6.715c-.936 0-1.694.492-1.694 1.417v12.125c0 .924.759 1.458 1.694 1.458h5.536c.936 0 1.748-.535 1.748-1.458V2.417C14 1.492 13.188 1 12.252 1ZM13 14c0 .516-.484 1-1 1H7c-.515 0-1-.484-1-1V3c0-.514.485-1 1-1h5c.516 0 1 .485 1 1v11Z" class="si-glyph-fill"/>
   </g>
 </svg>

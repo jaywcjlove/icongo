@@ -1,7 +1,5 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <g>
-    <path d="M32,21.3h21.7V0h-43v0.2L32,21.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#67DBFF"/>
-    <path d="M32,21.3H10.3v21.3h43v-0.2L32,21.3L32,21.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#01A3FF"/>
-    <path d="M10.3,42.5h21.5V64L10.3,42.5z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#0162FF"/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <path d="M32 21.3h21.7V0h-43v.2L32 21.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#67dbff"/>
+  <path d="M32 21.3H10.3v21.3h43v-.2L32 21.3z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#01a3ff"/>
+  <path d="M10.3 42.5h21.5V64L10.3 42.5z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#0162ff"/>
 </svg>

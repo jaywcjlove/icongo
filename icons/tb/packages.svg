@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-packages" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M0 0h24v24H0z" stroke="none"/>
   <rect x="2" y="13" width="8" height="8" rx="2"/>
   <path d="M6 13v3"/>
   <rect x="8" y="3" width="8" height="8" rx="2"/>

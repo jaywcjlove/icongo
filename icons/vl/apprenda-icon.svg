@@ -1,34 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="97.68 63.36 42.293 49.92" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="97.68 63.36 42.293 49.92" height="64" width="64">
   <defs>
     <clipPath id="b">
-      <path d="M181.472 265.113L216 230.864l34.534 34.25L216 336.658z"/>
+      <path d="M181.472 265.113 216 230.864l34.534 34.25L216 336.658z"/>
     </clipPath>
-    <radialGradient id="a" spreadMethod="pad" gradientTransform="matrix(-65.142693,0,0,65.142693,247.82208,264.47232)" gradientUnits="userSpaceOnUse" r="1" cy="0" cx="0" fy="0" fx="0">
+    <clipPath id="d">
+      <path d="m216 230.864 43.9-43.56h28.513l-37.9 77.808z"/>
+    </clipPath>
+    <clipPath id="f">
+      <path d="M143.574 187.305h28.514l43.9 43.56-34.527 34.25z"/>
+    </clipPath>
+    <radialGradient id="a" spreadMethod="pad" gradientTransform="matrix(-65.1427 0 0 65.1427 247.822 264.472)" gradientUnits="userSpaceOnUse" r="1" cy="0" cx="0" fy="0" fx="0">
       <stop offset="0" stop-color="#0068ab"/>
       <stop offset=".263" stop-color="#0068ab"/>
       <stop offset="1" stop-color="#133e67"/>
     </radialGradient>
-    <clipPath id="d">
-      <path d="M216 230.864l43.9-43.56h28.513l-37.9 77.808z"/>
-    </clipPath>
-    <radialGradient id="c" spreadMethod="pad" gradientTransform="matrix(-67.471374,0,0,67.471374,249.63017,265.50821)" gradientUnits="userSpaceOnUse" r="1" cy="0" cx="0" fy=".166" fx=".307">
+    <radialGradient id="c" spreadMethod="pad" gradientTransform="matrix(-67.47137 0 0 67.47137 249.63 265.508)" gradientUnits="userSpaceOnUse" r="1" cy="0" cx="0" fy=".166" fx=".307">
       <stop offset="0" stop-color="#2688c8"/>
       <stop offset="1" stop-color="#0068ab"/>
     </radialGradient>
-    <clipPath id="f">
-      <path d="M143.574 187.305h28.514l43.9 43.56-34.527 34.25z"/>
-    </clipPath>
     <linearGradient id="e" spreadMethod="pad" gradientUnits="userSpaceOnUse" y2="226.209" x2="216" y1="226.209" x1="143.574">
       <stop offset="0" stop-color="#92c0dd"/>
       <stop offset="1" stop-color="#c4daeb"/>
     </linearGradient>
   </defs>
-  <g transform="matrix(2.545528 0 0 2.545528 -176.08928 -129.6114)">
-    <path d="M111.492 95.173l-5.44-6.824 1.943-8.507 7.863-3.788 7.864 3.788 1.94 8.507-5.44 6.824z" fill="#e6eef5"/>
-    <g transform="matrix(.078598 0 0 -.078598 98.86926 105.76389)">
-      <path d="M181.472 265.113L216 230.864l34.534 34.25L216 336.658z" fill="url(#a)" clip-path="url(#b)"/>
-      <path d="M216 230.864l43.9-43.56h28.513l-37.9 77.808z" fill="url(#c)" clip-path="url(#d)"/>
-      <path d="M143.574 187.305h28.514l43.9 43.56-34.527 34.25z" fill="url(#e)" clip-path="url(#f)"/>
-    </g>
-  </g>
+  <path d="m107.717 112.654-13.848-17.37 4.946-21.655 20.016-9.643 20.018 9.643 4.938 21.654-13.848 17.371z" fill="#e6eef5"/>
+  <path d="M181.472 265.113 216 230.864l34.534 34.25L216 336.658z" fill="url(#a)" clip-path="url(#b)" transform="matrix(.20007 0 0 -.20007 75.585 139.614)"/>
+  <path d="m216 230.864 43.9-43.56h28.513l-37.9 77.808z" fill="url(#c)" clip-path="url(#d)" transform="matrix(.20007 0 0 -.20007 75.585 139.614)"/>
+  <path d="M143.574 187.305h28.514l43.9 43.56-34.527 34.25z" fill="url(#e)" clip-path="url(#f)" transform="matrix(.20007 0 0 -.20007 75.585 139.614)"/>
 </svg>

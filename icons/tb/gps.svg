@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-gps" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M0 0h24v24H0z" stroke="none"/>
   <circle cx="12" cy="12" r="9"/>
-  <path d="M12 17l-1 -4l-4 -1l9 -4z"/>
+  <path d="m12 17-1-4-4-1 9-4z"/>
 </svg>

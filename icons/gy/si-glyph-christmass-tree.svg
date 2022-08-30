@@ -1,12 +1,7 @@
-<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-christmass-tree" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(2.000000, -0.005000)" fill="#434343">
-      <path d="M4.781,3.986 L6.002,3.05 L7.219,3.986 L6.754,2.47 L7.973,1.532 L6.467,1.532 L6.002,0.016 L5.535,1.532 L4.028,1.532 L5.248,2.47 L4.781,3.986 Z" class="si-glyph-fill"/>
-      <path d="M8.984,11.984 L10.918,12 L8.016,7.969 L10,7.969 L5.985,3.985 L2.031,8.001 L4.062,8.001 L1.015,11.954 L3.031,11.954 L0.015,15.97 L11.992,15.953 L8.984,11.984 L8.984,11.984 Z M4.016,15.016 L2.969,15.016 L2.969,13.954 L4.016,13.954 L4.016,15.016 L4.016,15.016 Z M5.016,11.016 L3.969,11.016 L3.969,9.954 L5.016,9.954 L5.016,11.016 L5.016,11.016 Z M6.031,7.016 L4.969,7.016 L4.969,5.954 L6.031,5.954 L6.031,7.016 L6.031,7.016 Z M6.969,9.953 L8.016,9.953 L8.016,11.015 L6.969,11.015 L6.969,9.953 L6.969,9.953 Z M7.969,15.016 L7.969,13.954 L9.016,13.954 L9.016,15.016 L7.969,15.016 L7.969,15.016 Z" class="si-glyph-fill"/>
-      <rect x="10" y="8" width="0.969" height="0.984" class="si-glyph-fill"/>
-      <rect x="11" y="12" width="0.969" height="0.984" class="si-glyph-fill"/>
-      <rect x="0" y="12" width="0.969" height="0.984" class="si-glyph-fill"/>
-      <rect x="1" y="8" width="0.969" height="0.984" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-christmass-tree" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="m6.781 3.981 1.221-.936 1.217.936-.465-1.516 1.219-.938H8.467L8.002.011l-.467 1.516H6.028l1.22.938-.467 1.516Z" class="si-glyph-fill"/>
+    <path d="m10.984 11.979 1.934.016-2.902-4.031H12L7.985 3.98 4.031 7.996h2.031l-3.047 3.953h2.016l-3.016 4.016 11.977-.017-3.008-3.969Zm-4.968 3.032H4.969v-1.062h1.047v1.062Zm1-4H5.969V9.949h1.047v1.062Zm1.015-4H6.969V5.949h1.062v1.062Zm.938 2.937h1.047v1.062H8.969V9.948Zm1 5.063v-1.062h1.047v1.062H9.969Z" class="si-glyph-fill"/>
+    <path class="si-glyph-fill" d="M12 7.995h.969v.984H12zm1 4h.969v.984H13zm-11 0h.969v.984H2zm1-4h.969v.984H3z"/>
   </g>
 </svg>

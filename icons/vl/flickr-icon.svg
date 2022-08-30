@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="1em" width="1em">
-  <g transform="matrix(.088232 0 0 .088232 0 29.176574)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64">
+  <g transform="translate(0 29.177) scale(.08823)">
     <circle r="85.8" cy="-149.34" cx="85.8" fill="#005de1"/>
     <circle r="85.8" cy="-149.34" cx="276.88" fill="#ff007e"/>
   </g>

@@ -1,5 +1,5 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <g transform="translate(-.02439032 .12195114) scale(.29268)">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <g transform="translate(-.024 .122) scale(.29268)">
     <path fill="#cfd8dc" d="M12 40V20h32v20c0 2.2-1.8 4-4 4H16c-2.2 0-4-1.8-4-4z"/>
     <path fill="#78909c" d="M44 16v6H12v-6c0-2.2 1.8-4 4-4h24c2.2 0 4 1.8 4 4z"/>
     <g fill="#37474f">
@@ -11,7 +11,7 @@
     <circle cx="16" cy="15" r="12" fill="#f44336"/>
     <circle cx="16" cy="15" r="9" fill="#eee"/>
     <path d="M15 8h2v7h-2z"/>
-    <path d="M20.5183 18.1009l-1.3433 1.3433-3.81780007-3.81780007 1.3433-1.3433z"/>
+    <path d="m20.518 18.1-1.343 1.344-3.818-3.818 1.343-1.343z"/>
     <circle cx="16" cy="15" r="1.5"/>
   </g>
 </svg>

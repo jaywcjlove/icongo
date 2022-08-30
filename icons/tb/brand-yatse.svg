@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-yatse" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M7.002 3l4.998 2.876v5.088l4.197 -2.73l4.803 2.731l-9.281 5.478l-2.383 1.41l-2.334 1.377l-3.002 1.77v-5.565l3.002 -1.771z"/>
+  <path d="M0 0h24v24H0z" stroke="none"/>
+  <path d="M7.002 3 12 5.876v5.088l4.197-2.73L21 10.965l-9.281 5.478-2.383 1.41-2.334 1.377L4 21v-5.565l3.002-1.771z"/>
 </svg>

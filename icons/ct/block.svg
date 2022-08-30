@@ -17,7 +17,7 @@
       <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.204257246 0"/>
     </filter>
     <path id="e" d="M5.522 0H15.75L21 9l-5.25 9H5.431l5.16-9-5.07-9zm5.43 3.166L14.303 9l-3.35 5.834h2.988L17.289 9l-3.35-5.834h-2.986z"/>
-    <path id="g" d="M6.613 4.026L3.711 9l2.876 4.93-1.839 3.209L0 9 4.789.789z"/>
+    <path id="g" d="M6.613 4.026 3.711 9l2.876 4.93-1.839 3.209L0 9 4.789.789z"/>
     <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
       <stop offset="0%" stop-color="#FFF" stop-opacity=".5"/>
       <stop offset="100%" stop-opacity=".5"/>

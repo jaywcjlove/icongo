@@ -1,7 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
-  <g fill="none">
-    <polygon stroke="#444" stroke-linejoin="round" stroke-width="2" points="3 2 3 22 21 12"/>
-    <path stroke="#444" stroke-width="2" d="M3,2 L14,16"/>
-    <path stroke="#444" stroke-width="2" d="M3,8 L14,22" transform="matrix(1 0 0 -1 0 30)"/>
+  <g fill="none" stroke="#444" stroke-width="2">
+    <path stroke-linejoin="round" d="M3 2v20l18-10z"/>
+    <path d="m3 2 11 14M3 22 14 8"/>
   </g>
 </svg>

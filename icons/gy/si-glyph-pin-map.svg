@@ -1,9 +1,6 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-pin-map" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(6.000000, 0.000000)" fill="#434343">
-      <path d="M5.953,8.979 L0.025,8.979 L0.025,7.668 L1,6.991 L1,4.926 L0.025,4.122 L0.025,2.021 L5.953,2.021 L5.953,4.249 L4.979,4.926 L4.979,6.991 L5.954,7.625 L5.953,8.979 Z" class="si-glyph-fill"/>
-      <path d="M3.986,7.993 L2.038,7.993 L2.038,10.607 L3.027,15.979 L3.986,10.607 L3.986,7.993 Z" class="si-glyph-fill"/>
-      <rect x="0" y="0" width="5.959" height="0.942" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-pin-map" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="M11.953 8.979H6.025V7.668L7 6.991V4.926l-.975-.804V2.021h5.928v2.228l-.974.677v2.065l.975.634-.001 1.354Z" class="si-glyph-fill"/>
+    <path d="M9.986 7.993H8.038v2.614l.989 5.372.959-5.372V7.993ZM6 0h5.959v.942H6z" class="si-glyph-fill"/>
   </g>
 </svg>

@@ -1,12 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" id="Layer_1" data-name="Layer 1" viewBox="0 0 64 64" version="1.1" sodipodi:docname="eclipse_che-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" id="namedview15" showgrid="false" inkscape:zoom="4.794184" inkscape:cx="68.619023" inkscape:cy="46.192512" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="Layer_1"/>
-  <defs id="defs4">
-    <style id="style2">
-      .cls-1{fill:#58595b}
-    </style>
-  </defs>
-  <g id="g29" transform="matrix(2.6006537,0,0,2.6006537,-21.719519,-46.019612)">
-    <path style="fill:#525c86;stroke-width:0.25598848" inkscape:connector-curvature="0" id="path10" d="m 9.9999991,28.490436 v 7.661992 l 10.6560329,6.152171 10.656289,-6.152171 v -7.661992 l -10.656289,6.152428 z"/>
-    <path style="fill:#fdb940;stroke-width:0.25598848" inkscape:connector-curvature="0" id="path12" d="M 20.656032,17.695402 9.9999991,23.847573 v 7.661992 l 10.6560329,-6.152428 4.020811,2.32156 6.635478,-3.831124 z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" version="1.1" width="64" height="64">
+  <g transform="matrix(2.60065 0 0 2.60065 -21.72 -46.02)">
+    <path style="fill:#525c86;stroke-width:.25598848" d="M10 28.49v7.662l10.656 6.153 10.656-6.153V28.49l-10.656 6.153z"/>
+    <path style="fill:#fdb940;stroke-width:.25598848" d="M20.656 17.695 10 23.848v7.662l10.656-6.153 4.02 2.322 6.636-3.831z"/>
   </g>
 </svg>

@@ -16,7 +16,7 @@
       <stop offset="100%" stop-opacity=".5"/>
     </linearGradient>
     <circle id="b" cx="16" cy="15" r="15"/>
-    <path id="e" d="M6 22.5l10.051-17L26 22.477 6 22.5zm10.027-10.12l-4.108 6.786h8.235l-4.127-6.786z"/>
+    <path id="e" d="m6 22.5 10.051-17L26 22.477 6 22.5zm10.027-10.12-4.108 6.786h8.235l-4.127-6.786z"/>
   </defs>
   <g fill="none">
     <use fill="#000" filter="url(#a)" xlink:href="#b"/>

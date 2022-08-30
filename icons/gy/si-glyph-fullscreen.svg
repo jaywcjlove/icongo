@@ -1,11 +1,3 @@
-<svg viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-fullscreen" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 3.000000)" fill="#434343">
-      <rect x="2" y="2" width="12" height="8" class="si-glyph-fill"/>
-      <path d="M2.918,11.938 L0,11.938 L0,9.062 L1,9.062 L1,11.042 L2.918,11.042 L2.918,11.938 Z" class="si-glyph-fill"/>
-      <path d="M16,11.938 L13.062,11.938 L13.062,11.042 L15,11.042 L15,9.058 L16,9.058 L16,11.938 Z" class="si-glyph-fill"/>
-      <path d="M16,2.917 L15,2.917 L15,0.967 L13.057,0.967 L13.057,0.021 L16,0.021 L16,2.917 Z" class="si-glyph-fill"/>
-      <path d="M1,2.938 L0,2.938 L0,0 L2.938,0 L2.938,0.938 L1,0.938 L1,2.938 Z" class="si-glyph-fill"/>
-    </g>
-  </g>
+<svg viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-fullscreen" height="1em" width="1em">
+  <path class="si-glyph-fill" d="M3 5h12v8H3zm.918 9.938H1v-2.876h1v1.98h1.918v.896Zm13.082 0h-2.938v-.896H16v-1.984h1v2.88Zm0-9.021h-1v-1.95h-1.943v-.946H17v2.896ZM2 5.938H1V3h2.938v.938H2v2Z" fill="#434343" fill-rule="evenodd"/>
 </svg>

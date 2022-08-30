@@ -1,5 +1,3 @@
-<svg viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <polygon fill="#000000" fill-rule="nonzero" transform="translate(3.511682, 5.998096) rotate(90.000000) translate(-3.511682, -5.998096)" points="3.50766704 3.94097547 -1.7599524 9.50949248 -2.48641409 8.82228551 3.5070954 2.48641409 9.50977787 8.82200011 8.78385656 9.50977787"/>
-  </g>
+<svg viewBox="0 0 7 12" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M5.569 5.994 0 .726.687 0l6.336 5.994-6.335 6.002L0 11.27z"/>
 </svg>

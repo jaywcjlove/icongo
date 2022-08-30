@@ -6,8 +6,8 @@
       <stop offset=".775" stop-color="#5ea0ef"/>
     </linearGradient>
   </defs>
-  <path d="M.5 5.788h17v9.478a.568.568 0 01-.568.568H1.068a.568.568 0 01-.568-.568V5.788z" fill="url(#a)"/>
-  <path d="M1.071 2.166h15.858a.568.568 0 01.568.568v3.054H.5V2.734a.568.568 0 01.571-.568z" fill="#0078d4"/>
+  <path d="M.5 5.788h17v9.478a.568.568 0 0 1-.568.568H1.068a.568.568 0 0 1-.568-.568V5.788z" fill="url(#a)"/>
+  <path d="M1.071 2.166h15.858a.568.568 0 0 1 .568.568v3.054H.5V2.734a.568.568 0 0 1 .571-.568z" fill="#0078d4"/>
   <rect x="2.304" y="7.121" width="3.65" height="1.85" rx=".283" fill="#fff" opacity=".9"/>
   <rect x="7.2" y="7.095" width="3.65" height="1.85" rx=".283" fill="#fff" opacity=".9"/>
   <rect x="12.096" y="7.095" width="3.65" height="1.85" rx=".283" fill="#fff" opacity=".9"/>

@@ -1,5 +1,3 @@
-<svg viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <polygon fill="#000000" fill-rule="nonzero" points="8.49778895 5.32907052e-15 10 1.50221105 3.67222048 7.82999057 1.19015908e-13 4.1577701 1.50221105 2.65555905 3.67222048 4.82556848"/>
-  </g>
+<svg viewBox="0 0 10 8" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M8.498 0 10 1.502 3.672 7.83 0 4.158l1.502-1.502 2.17 2.17z"/>
 </svg>

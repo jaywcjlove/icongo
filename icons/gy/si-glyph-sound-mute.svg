@@ -1,10 +1,3 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-sound-mute" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 0.000000)" fill="#434343">
-      <rect transform="translate(8.823150, 8.300450) rotate(-38.512169) translate(-8.823150, -8.300450)" x="-0.177126926" y="7.80043462" width="17.8925505" height="1.40204314" class="si-glyph-fill"/>
-      <path d="M3.953,9.912 L3.953,5.01 L2.128,5.01 C0.845,5.01 0.013,6.094 0.013,7.47 L0.013,8.494 C0.013,9.953 0.782,10.953 2.128,10.953 L2.514,10.953 L3.953,9.912 Z" class="si-glyph-fill"/>
-      <path d="M6.877,12.659 L11.936,15.972 C12.522,15.972 12.996,15.572 12.996,15.077 L12.996,7.919 L6.877,12.659 L6.877,12.659 Z" class="si-glyph-fill"/>
-      <path d="M12.987,0.971 C12.987,0.464 12.488,0.051 11.872,0.051 L6.114,3.73 C5.499,3.73 5,4.142 5,4.65 L5,8.839 L12.987,2.596 L12.987,0.971 L12.987,0.971 Z" class="si-glyph-fill"/>
-    </g>
-  </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-sound-mute" height="1em" width="1em">
+  <path class="si-glyph-fill" d="m2.47 13.513 14-11.142.873 1.097-14 11.142zm2.483-3.601V5.01H3.128c-1.283 0-2.115 1.084-2.115 2.46v1.024c0 1.459.769 2.459 2.115 2.459h.386l1.439-1.041Zm2.924 2.747 5.059 3.313c.586 0 1.06-.4 1.06-.895V7.919l-6.119 4.74ZM13.987.971c0-.507-.499-.92-1.115-.92L7.114 3.73C6.499 3.73 6 4.142 6 4.65v4.189l7.987-6.243V.971Z" fill="#434343" fill-rule="evenodd"/>
 </svg>

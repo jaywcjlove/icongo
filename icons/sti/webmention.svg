@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-label="WebMention" role="img" viewBox="0 0 512 512" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" aria-label="WebMention" viewBox="0 0 512 512" height="1em" width="1em">
   <rect width="512" height="512" rx="15%" fill="#fff"/>
-  <path fill="#610371" d="m 292,418 -42,-129 h -0 l -41,129 h -55 l -66,-249 h 55 l 39,169 h 0 l 43,-129 h 51 l 42,131 h 0 l 30,-131 -40,0 82,-76 51,76 -40,0 -56,208 z"/>
+  <path fill="#610371" d="m292 418-42-129-41 129h-55L88 169h55l39 169 43-129h51l42 131 30-131h-40l82-76 51 76h-40l-56 208z"/>
 </svg>

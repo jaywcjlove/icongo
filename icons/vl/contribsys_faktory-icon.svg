@@ -1,11 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 64" version="1.1" sodipodi:docname="faktory-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="3.3881159" inkscape:cx="153.30597" inkscape:cy="42" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg18"/>
-  <g transform="matrix(2.4115485,0,0,2.4115485,-24.158166,-30.663558)">
-    <path style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.35385284" inkscape:connector-curvature="0" d="m 30.281494,23.385407 6.275169,3.514095 V 38.634418 L 29.184728,39.224173 10.017699,38.634418 V 26.899502 l 9.209293,-1.98354 0.374222,-9.979237 c 0.204043,-0.281382 0.695505,-0.422073 1.474387,-0.422073 0.778881,0 1.270343,0.140691 1.474387,0.422073 l 0.344598,9.189294 3.423987,-0.737475 0.408844,-10.221084 c 0.217647,-0.281381 0.741873,-0.422072 1.572679,-0.422072 0.830807,0 1.355033,0.140691 1.57268,0.422072 z"/>
-    <g style="fill:#f8ac3e;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.35385285,0,0,0.35385285,12.376718,26.604625)">
-      <path inkscape:connector-curvature="0" d="m 30.083333,5.5371889 c 0.403096,-3.070155 2.118374,-4.85864601 5.145834,-5.36547321 3.02746,-0.5068272 4.742737,0.78193376 5.145833,3.86628291 V 27.57126 l -10.291667,0.138153 z"/>
-      <path inkscape:connector-curvature="0" d="M 0,9.841239 C 0,7.4804504 1.3194444,6.0643503 3.9583333,5.5929388 6.5972222,5.1215273 7.9166667,6.173209 7.9166667,8.7479838 V 27.987367 L 0,28.11622 Z"/>
-      <path inkscape:connector-curvature="0" d="m 14.25,7.8504507 c 0.193022,-2.6968382 1.64441,-4.2785473 4.354167,-4.7451274 2.709756,-0.4665801 4.161145,0.684614 4.354166,3.4535822 V 27.796646 L 14.25,27.908872 Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" version="1.1">
+  <g transform="matrix(2.41155 0 0 2.41155 -24.158 -30.664)">
+    <path style="fill:#000;fill-rule:evenodd;stroke:none;stroke-width:.35385284" d="m30.281 23.385 6.276 3.515v11.734l-7.372.59-19.167-.59V26.9l9.209-1.984.374-9.98c.204-.28.696-.421 1.475-.421.778 0 1.27.14 1.474.422l.345 9.189 3.424-.737.408-10.222c.218-.28.742-.422 1.573-.422.83 0 1.355.141 1.573.422z"/>
+    <g style="fill:#f8ac3e;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.35385 0 0 .35385 12.377 26.605)">
+      <path d="M30.083 5.537C30.486 2.467 32.202.68 35.23.172c3.028-.507 4.743.782 5.146 3.866v23.533l-10.292.138z"/>
+      <path d="M0 9.841c0-2.36 1.32-3.777 3.958-4.248 2.64-.471 3.959.58 3.959 3.155v19.24L0 28.115Z"/>
+      <path d="M14.25 7.85c.193-2.696 1.644-4.278 4.354-4.745 2.71-.466 4.161.685 4.354 3.454v21.238l-8.708.112Z"/>
     </g>
   </g>
 </svg>

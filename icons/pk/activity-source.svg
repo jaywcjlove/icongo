@@ -1,5 +1,3 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M42 5H6V13H42V5Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M42 20H6V28H42V20Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M42 35H6V43H42V35Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M42 5H6v8h36V5Zm0 15H6v8h36v-8Zm0 15H6v8h36v-8Z" fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linejoin="round"/>
 </svg>

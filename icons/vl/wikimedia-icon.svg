@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" height="1em" width="1em">
-  <g transform="matrix(.147817 0 0 .147817 22.971804 -20.859922)" fill="#fff">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 32 32">
+  <g transform="matrix(.14782 0 0 .14782 22.972 -20.86)" fill="#fff">
     <path d="M259.6 173.9c31.7-4.5 56.1-31.7 56.1-64.6 0-20-9-37.9-23.2-49.9l-32.9 32.9zm-18.4 0V92.3l-32.9-32.9c-14.2 12-23.2 29.9-23.2 49.9 0 32.9 24.4 60.1 56.1 64.6z"/>
     <use xlink:href="#a"/>
     <circle cx="250.4" cy="35.6" r="33.1"/>
   </g>
-  <g transform="matrix(.150376 0 0 .150376 -21.669173 -.37594)">
+  <g transform="matrix(.15038 0 0 .15038 -21.67 -.376)">
     <path d="M259.6 173.9c31.7-4.5 56.1-31.7 56.1-64.6 0-20-9-37.9-23.2-49.9l-32.9 32.9zm-18.4 0V92.3l-32.9-32.9c-14.2 12-23.2 29.9-23.2 49.9 0 32.9 24.4 60.1 56.1 64.6z"/>
     <use xlink:href="#a"/>
     <circle cx="250.4" cy="35.6" r="33.1"/>

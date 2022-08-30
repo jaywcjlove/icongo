@@ -1,3 +1,3 @@
-<svg class="social-cargo" role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path d="M 4.68533,13 10.60363,6.06501 7,6.06501 8.77004,1 3.39637,8.2799 l 2.99547,0 z"/>
+<svg class="social-cargo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path d="m4.685 13 5.919-6.935H7L8.77 1 3.396 8.28h2.996z"/>
 </svg>

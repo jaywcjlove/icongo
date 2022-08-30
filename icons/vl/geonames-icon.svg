@@ -1,12 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="1em" width="1em">
-  <g transform="matrix(.355505 0 0 .355505 -58.613857 -67.968776)">
-    <g fill="none" stroke="#0970ac">
-      <circle r="43" cy="236.2" cx="209.9" transform="matrix(.9693 -.2458 .2458 .9693 -51.632 58.8413)" stroke-width="4"/>
-      <g stroke-miterlimit="10" stroke-width="4">
-        <path d="M220.4 277.9l-21.1-83.3"/>
-        <path d="M251.5 225.9L168.2 247"/>
-      </g>
-      <ellipse ry="42.5" rx="24.7" cy="236.4" cx="209.9" transform="matrix(.9717 -.2363 .2363 .9717 -49.9331 56.2992)" stroke-width="4"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64">
+  <g fill="none" stroke="#0970ac" stroke-width="4" transform="matrix(.3555 0 0 .3555 -58.614 -67.969)">
+    <circle r="43" cy="236.2" cx="209.9" transform="rotate(-14.234 209.877 236.27)"/>
+    <path d="m220.4 277.9-21.1-83.3m52.2 31.3L168.2 247" stroke-miterlimit="10"/>
+    <ellipse ry="42.5" rx="24.7" cy="236.4" cx="209.9" transform="rotate(-13.663 209.935 236.455)"/>
   </g>
 </svg>

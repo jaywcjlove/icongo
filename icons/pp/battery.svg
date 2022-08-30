@@ -1,0 +1,5 @@
+<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <rect x="17" y="7.5" width="2" height="5" rx=".5" fill="currentColor"/>
+  <path d="M4 7.5h3v5H4v-5Zm3.5 0h3v5h-3v-5Zm3.5 0h3v5h-3v-5Z" fill="currentColor"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M14 4.5H4a3 3 0 0 0-3 3v5a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-5a3 3 0 0 0-3-3Zm-11 3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-5Z" fill="currentColor"/>
+</svg>

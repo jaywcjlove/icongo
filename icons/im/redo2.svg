@@ -1,3 +1,3 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="1em" width="1em">
-  <path fill="#000000" d="M9 3.881v-3.881l6 6-6 6v-3.966c-6.98-0.164-6.681 4.747-4.904 7.966-4.386-4.741-3.455-12.337 4.904-12.119z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" height="1em" width="1em">
+  <path d="M9 3.881V0l6 6-6 6V8.034C2.02 7.87 2.319 12.781 4.096 16-.29 11.259.641 3.663 9 3.881z"/>
 </svg>

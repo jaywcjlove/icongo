@@ -1,5 +1,3 @@
-<svg viewBox="0 0 256 368" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
-  <g>
-    <polygon fill="#49A2F8" points="109.586274 217.013141 0 217.013141 200.340162 2.84217094e-14 146.413726 150.233087 256 150.233087 55.6451483 367.246227 109.571584 217.013141"/>
-  </g>
+<svg viewBox="0 0 256 368" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+  <path fill="#49A2F8" d="M109.586 217.013H0L200.34 0l-53.926 150.233H256L55.645 367.246l53.927-150.233z"/>
 </svg>

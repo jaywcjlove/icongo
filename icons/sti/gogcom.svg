@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="GOG.com" role="img" viewBox="0 0 512 512" fill="#333" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="GOG.com" viewBox="0 0 512 512" fill="#333" height="1em" width="1em">
   <rect width="512" height="512" rx="15%" fill="#fff"/>
   <path id="a" d="M84 265h82q17-1 18-18V139q-1-17-18-18h-64q-17 1-18 18v64q1 17 18 18h43v-24h-29q-8 0-8-8v-36q0-8 8-8h36q8 0 8 8v80q0 8-8 8H84z"/>
   <path id="b" d="M224 221h64q17-1 18-18v-64q-1-17-18-18h-64q-17 1-18 18v64q1 17 18 18zm14-24q-8 0-8-8v-36q0-8 8-8h36q8 0 8 8v36q0 8-8 8z"/>

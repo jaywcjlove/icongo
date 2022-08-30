@@ -1,3 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8" height="1em" width="1em">
-  <path d="M4 0l-4 4 4 4v-8z" transform="translate(2)"/>
+  <path d="M6 0 2 4l4 4V0z"/>
 </svg>

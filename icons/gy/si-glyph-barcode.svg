@@ -1,12 +1,3 @@
-<svg viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-barcode" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(1.000000, 2.000000)" fill="#434343">
-      <rect x="13" y="0" width="1.953" height="10.914" class="si-glyph-fill"/>
-      <rect x="10" y="0" width="1.967" height="10.914" class="si-glyph-fill"/>
-      <rect x="8" y="0" width="0.95" height="10.914" class="si-glyph-fill"/>
-      <rect x="4" y="0" width="1.972" height="10.914" class="si-glyph-fill"/>
-      <rect x="2" y="0" width="0.973" height="10.914" class="si-glyph-fill"/>
-      <rect x="0" y="0" width="0.973" height="10.914" class="si-glyph-fill"/>
-    </g>
-  </g>
+<svg viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-barcode" height="1em" width="1em">
+  <path class="si-glyph-fill" d="M14 2h1.953v10.914H14zm-3 0h1.967v10.914H11zM9 2h.95v10.914H9zM5 2h1.972v10.914H5zM3 2h.973v10.914H3zM1 2h.973v10.914H1z" fill="#434343" fill-rule="evenodd"/>
 </svg>

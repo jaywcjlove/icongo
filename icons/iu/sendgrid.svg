@@ -1,14 +1,10 @@
-<svg version="1.1" viewBox="0 0 127.3 127.3" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <style type="text/css">
-    .st0{fill:#FFFFFF}.st1{fill:#243746}.st2{fill:#99E1F4}.st3{fill:#1A82E2}.st4{fill:#00B2E3}.st6{opacity:0.35;fill:#FFFFFF}.st7{opacity:0.75;fill:#FFFFFF}
+<svg viewBox="0 0 127.3 127.3" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <style>
+    .st3{fill:#1a82e2}
   </style>
-  <g transform="translate(-28.2,-66)">
-    <rect class="st2" x="70.6" y="150.9" width="42.4" height="42.4"/>
-    <polygon class="st2" points="70.6 108.5 28.2 108.5 28.2 150.9 70.6 150.9"/>
-    <rect class="st3" x="28.2" y="150.9" width="42.4" height="42.4"/>
-    <polygon class="st4" points="113.1 108.5 113.1 150.9 155.5 150.9 155.5 108.5"/>
-    <rect class="st4" x="70.6" y="66" width="42.4" height="42.4"/>
-    <polygon points="70.6 150.9 113.1 150.9 113.1 108.5 70.6 108.5" style="fill:#009DD9"/>
-    <rect class="st3" x="113.1" y="66" width="42.4" height="42.4"/>
-  </g>
+  <path d="M42.4 84.9h42.4v42.4H42.4zm0-42.4H0v42.4h42.4z" style="fill:#99e1f4"/>
+  <path class="st3" d="M0 84.9h42.4v42.4H0z"/>
+  <path d="M84.9 42.5v42.4h42.4V42.5zM42.4 0h42.4v42.4H42.4z" style="fill:#00b2e3"/>
+  <path style="fill:#009dd9" d="M70.6 150.9h42.5v-42.4H70.6z" transform="translate(-28.2 -66)"/>
+  <path class="st3" d="M84.9 0h42.4v42.4H84.9z"/>
 </svg>

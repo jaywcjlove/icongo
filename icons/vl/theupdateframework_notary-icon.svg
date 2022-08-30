@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" data-name="Layer 1" viewBox="0 0 64 64" version="1.1" sodipodi:docname="notary-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="3.2601162" inkscape:cx="13.57958" inkscape:cy="78.560737" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg8"/>
-  <g transform="matrix(1.1191746,0,0,1.1191746,50.926562,74.365674)">
-    <path sodipodi:nodetypes="cccccccccccccccccccccccc" inkscape:connector-curvature="0" d="m -23.950179,-20.698892 v -27.273 h 13.637 v 27.273 H 3.3238211 V -9.2618918 H -37.586179 V -20.698892 Z m -13.636,-45.748 H 3.7638211 v 11.437 H -37.586179 Z m 0,11.437 h 7.039 v 34.311 h -7.039 z m 34.3110001,0 h 7.039 v 34.311 h -7.039 z"/>
-    <rect y="-20.698893" x="-0.25496602" height="11.437" width="4.0187869" style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.0221858"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" version="1.1" width="64" height="64">
+  <g transform="matrix(1.11917 0 0 1.11917 50.927 74.366)">
+    <path d="M-23.95-20.699v-27.273h13.637v27.273H3.324v11.437h-40.91v-11.437Zm-13.636-45.748h41.35v11.437h-41.35Zm0 11.437h7.039v34.311h-7.04zm34.31 0h7.04v34.311h-7.04z"/>
+    <path style="fill:#000;fill-opacity:1;stroke:none;stroke-width:3.0221858" d="M-.255-20.699h4.019v11.437H-.255z"/>
   </g>
 </svg>

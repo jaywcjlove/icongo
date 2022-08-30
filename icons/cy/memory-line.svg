@@ -1,9 +1,9 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <rect x="8" y="12" width="4" height="8" class="clr-i-outline clr-i-outline-path-1"/>
-  <rect x="16" y="12" width="4" height="8" class="clr-i-outline clr-i-outline-path-2"/>
-  <rect x="24" y="12" width="4" height="8" class="clr-i-outline clr-i-outline-path-3"/>
-  <path d="M15,27H4V17H2V27a2,2,0,0,0,2,2H16.61V25.55h2.26V24H15Z" class="clr-i-outline clr-i-outline-path-4"/>
-  <path d="M32,7H4A2,2,0,0,0,2,9v4H4V9H32v4h2V9A2,2,0,0,0,32,7Z" class="clr-i-outline clr-i-outline-path-5"/>
-  <path d="M32,27H19v2H32a2,2,0,0,0,2-2V17H32Z" class="clr-i-outline clr-i-outline-path-6"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-outline clr-i-outline-path-1" d="M8 12h4v8H8z"/>
+  <path class="clr-i-outline clr-i-outline-path-2" d="M16 12h4v8h-4z"/>
+  <path class="clr-i-outline clr-i-outline-path-3" d="M24 12h4v8h-4z"/>
+  <path d="M15 27H4V17H2v10a2 2 0 0 0 2 2h12.61v-3.45h2.26V24H15Z" class="clr-i-outline clr-i-outline-path-4"/>
+  <path d="M32 7H4a2 2 0 0 0-2 2v4h2V9h28v4h2V9a2 2 0 0 0-2-2Z" class="clr-i-outline clr-i-outline-path-5"/>
+  <path d="M32 27H19v2h13a2 2 0 0 0 2-2V17h-2Z" class="clr-i-outline clr-i-outline-path-6"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

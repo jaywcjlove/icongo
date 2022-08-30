@@ -1,22 +1,20 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <g>
-    <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="54.6274" y1="565.3726" x2="9.3726" y2="610.6274" gradientTransform="matrix(1 0 0 1 0 -556)">
-      <stop offset="0" style="stop-color:#FFFFFF"/>
-      <stop offset="0.156" style="stop-color:#F9F9F9"/>
-      <stop offset="0.361" style="stop-color:#E9E9E9"/>
-      <stop offset="0.592" style="stop-color:#CECECE"/>
-      <stop offset="0.842" style="stop-color:#A8A8A8"/>
-      <stop offset="1" style="stop-color:#8D8D8D"/>
-    </linearGradient>
-    <circle cx="32" cy="32" r="32" style="fill:url(#a)"/>
-    <radialGradient id="b" cx="32" cy="33" r="25.9749" gradientTransform="matrix(1 0 0 -1 0 65)" gradientUnits="userSpaceOnUse">
-      <stop offset="0" style="stop-color:#0061A3"/>
-      <stop offset="0.579" style="stop-color:#005FA2"/>
-      <stop offset="0.841" style="stop-color:#00589F"/>
-      <stop offset="1" style="stop-color:#004E9A"/>
-    </radialGradient>
-    <circle cx="32" cy="32" r="26" style="fill:url(#b)"/>
-    <path d="M0,32c0,17.7,14.3,32,32,32c9.5,0,17.9-4.2,23.8-10.6c-5.6,5.1-13.1,8.2-21.3,8.2c-17.7,0-32-14.3-32-32 c0-8.2,3.1-15.7,8.2-21.3C4.2,14.1,0,22.5,0,32z" style="opacity:0.1;fill:#707070;enable-background:new"/>
-    <path d="M44.2,30.7H32.3l5.8-10h12.1L44.2,30.7z M26.2,20.6H14.5L32,51l5.9-10.2L26.2,20.6z" style="fill:#FFFFFF"/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="54.627" y1="565.373" x2="9.373" y2="610.627" gradientTransform="translate(0 -556)">
+    <stop offset="0" style="stop-color:#fff"/>
+    <stop offset=".156" style="stop-color:#f9f9f9"/>
+    <stop offset=".361" style="stop-color:#e9e9e9"/>
+    <stop offset=".592" style="stop-color:#cecece"/>
+    <stop offset=".842" style="stop-color:#a8a8a8"/>
+    <stop offset="1" style="stop-color:#8d8d8d"/>
+  </linearGradient>
+  <circle cx="32" cy="32" r="32" style="fill:url(#a)"/>
+  <radialGradient id="b" cx="32" cy="33" r="25.975" gradientTransform="matrix(1 0 0 -1 0 65)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" style="stop-color:#0061a3"/>
+    <stop offset=".579" style="stop-color:#005fa2"/>
+    <stop offset=".841" style="stop-color:#00589f"/>
+    <stop offset="1" style="stop-color:#004e9a"/>
+  </radialGradient>
+  <circle cx="32" cy="32" r="26" style="fill:url(#b)"/>
+  <path d="M0 32c0 17.7 14.3 32 32 32 9.5 0 17.9-4.2 23.8-10.6-5.6 5.1-13.1 8.2-21.3 8.2-17.7 0-32-14.3-32-32 0-8.2 3.1-15.7 8.2-21.3C4.2 14.1 0 22.5 0 32z" style="opacity:.1;fill:#707070;enable-background:new"/>
+  <path d="M44.2 30.7H32.3l5.8-10h12.1l-6 10zm-18-10.1H14.5L32 51l5.9-10.2-11.7-20.2z" style="fill:#fff"/>
 </svg>

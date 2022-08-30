@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-400 -525 157.5 78.75" height="1em" width="1em">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-400 -525 157.5 78.75" width="120" height="60">
   <defs>
     <clipPath id="a">
-      <circle r="298" cx="0" cy="0"/>
+      <circle r="298"/>
     </clipPath>
   </defs>
-  <g transform="matrix(.056205 0 0 .056205 -376.19602 -422.85834)">
-    <circle cy="-971.25" cx="0" r="100" fill="#970000"/>
-    <g transform="translate(0 -971.25)" fill="#006499" stroke="#006499">
-      <g clip-path="url(#a)">
+  <g transform="matrix(.0562 0 0 .0562 -376.196 -422.858)">
+    <circle cy="-971.25" r="100" fill="#970000"/>
+    <g fill="#006499" stroke="#006499">
+      <g clip-path="url(#a)" transform="translate(0 -971.25)">
         <g id="b">
           <path d="M0 300V180" stroke-width="22"/>
-          <path d="M-43 185l43-75 43 75z" stroke="none"/>
+          <path d="m-43 185 43-75 43 75z" stroke="none"/>
         </g>
         <g id="c">
-          <use height="1050" width="798" transform="matrix(.707107 .707107 -.707107 .707107 0 0)" xlink:href="#b"/>
-          <use height="1050" width="798" transform="matrix(0 1 -1 0 0 0)" xlink:href="#b"/>
-          <use height="1050" width="798" transform="matrix(-.707107 .707107 -.707107 -.707107 0 0)" xlink:href="#b"/>
+          <use height="1050" width="798" transform="rotate(45)" xlink:href="#b"/>
+          <use height="1050" width="798" transform="rotate(90)" xlink:href="#b"/>
+          <use height="1050" width="798" transform="rotate(135)" xlink:href="#b"/>
         </g>
         <use height="1050" width="798" transform="scale(-1 1)" xlink:href="#c"/>
       </g>
-      <path d="M-181.02-181.02c-99.974 99.974-99.974 262.064 0 362.04s262.064 99.974 362.04 0 99.974-262.064 0-362.04C110.31-251.73 3.536-215.668-17.678-371.23" fill="none" stroke-width="84"/>
-      <path d="M-23-515s-36 135-80 185 116-62 170-5-90-180-90-180z" stroke="none"/>
+      <path d="M-181.02-1152.27c-99.974 99.974-99.974 262.064 0 362.04s262.064 99.974 362.04 0 99.974-262.064 0-362.04c-70.71-70.71-177.484-34.648-198.698-190.21" fill="none" stroke-width="84"/>
+      <path d="M-23-1486.25s-36 135-80 185 116-62 170-5-90-180-90-180z" stroke="none"/>
     </g>
   </g>
   <defs>
-    <path id="d" d="M0 720L320 0h144l195 438.75L854 0h144l320 720h-197L926 281.25 731 720H587L392 281.25 197 720z"/>
+    <path id="d" d="M0 720 320 0h144l195 438.75L854 0h144l320 720h-197L926 281.25 731 720H587L392 281.25 197 720z"/>
     <path id="e" d="M0 0h180v720H0z"/>
     <path id="f" d="M0 0h180v720H0zm90 360L450 0h255L345 360l360 360H450z"/>
     <path id="g" d="M0 0h180v466l220-220 220 220V0h180v720H620L400 500 180 720H0z"/>
@@ -36,8 +36,8 @@
     <path id="m" d="M0 0h180v434L504 0h180v720H504V286L180 720H0z"/>
     <path id="n" d="M15 83C93 14 186 0 265 0c160 0 280 156 220 292S190 445 190 525s180 85 300-20v150c-55 35-120 65-230 65S-35 615 30 460s300-160 300-240-180-100-315 25z"/>
   </defs>
-  <g transform="matrix(.149798 0 0 .149798 -304.04532 -547.40046)" fill="#666">
-    <g transform="matrix(.111111 0 0 -.111111 -370.55556 415)">
+  <g fill="#666">
+    <g transform="matrix(.01664 0 0 -.01664 -359.554 -485.234)">
       <use xlink:href="#d" width="798" height="1050"/>
       <use xlink:href="#e" x="1440" width="798" height="1050"/>
       <use xlink:href="#f" x="1860" width="798" height="1050"/>
@@ -48,7 +48,7 @@
       <use xlink:href="#e" x="5610" width="798" height="1050"/>
       <use xlink:href="#j" x="5890" width="798" height="1050"/>
     </g>
-    <g transform="matrix(.111111 0 0 -.111111 -325.55556 515)">
+    <g transform="matrix(.01664 0 0 -.01664 -352.813 -470.254)">
       <use xlink:href="#k" width="798" height="1050"/>
       <use xlink:href="#l" x="768" width="798" height="1050"/>
       <use xlink:href="#g" x="1686" width="798" height="1050"/>

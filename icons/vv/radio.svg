@@ -1,7 +1,5 @@
 <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g transform="translate(6.000000, 4.000000)">
-    <polygon points="36.994 35.988 0.989 35.988 0.989 11.988 3.908 11.988 31.43 0.89 32.927 4.607 14.622 11.988 36.994 11.988" style="fill-rule:evenodd;fill:#FF6E6E"/>
-    <path d="M33.542,24.785 C33.542,28.893 30.213,32.223 26.106,32.223 C22,32.223 18.67,28.893 18.67,24.785 C18.67,20.677 22,17.346 26.106,17.346 C30.213,17.346 33.542,20.677 33.542,24.785 Z" style="fill:#0C0058;fill-rule:evenodd"/>
-    <path d="M5.002,29.013 L5.002,25.994 L14.988,25.994 L14.988,29.013 L5.002,29.013 Z M5.002,19.994 L14.988,19.994 L14.988,23.013 L5.002,23.013 L5.002,19.994 Z" fill-rule="nonzero" style="fill:#fff"/>
-  </g>
+  <path style="fill-rule:evenodd;fill:#ff6e6e" d="M36.994 35.988H.989v-24h2.919L31.43.89l1.497 3.717-18.305 7.381h22.372z" transform="translate(6 4)"/>
+  <path d="M33.542 24.785a7.437 7.437 0 1 1-14.872 0 7.438 7.438 0 0 1 7.436-7.439 7.438 7.438 0 0 1 7.436 7.439Z" style="fill:#0c0058;fill-rule:evenodd" transform="translate(6 4)"/>
+  <path d="M5.002 29.013v-3.019h9.986v3.019H5.002Zm0-9.019h9.986v3.019H5.002v-3.019Z" style="fill:#fff" transform="translate(6 4)"/>
 </svg>

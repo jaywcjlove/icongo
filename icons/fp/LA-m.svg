@@ -6,6 +6,6 @@
     <path d="M0 10h20v5H0v-5z" fill="#E31D1C"/>
     <path d="M0 5h20v5H0V5z" fill="#2E42A5"/>
     <path d="M0 0h20v5H0V0z" fill="#E31D1C"/>
-    <path d="M10 9.837a2.344 2.344 0 100-4.687 2.344 2.344 0 000 4.687z" fill="#F7FCFF"/>
+    <path d="M10 9.837a2.344 2.344 0 1 0 0-4.687 2.344 2.344 0 0 0 0 4.687z" fill="#F7FCFF"/>
   </g>
 </svg>

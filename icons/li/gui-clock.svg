@@ -1,9 +1,9 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
   <g transform="matrix(.3 0 0 .3 -.2 -.2)">
     <circle cx="24" cy="24" r="20" fill="gray"/>
     <circle cx="24" cy="24" r="16" fill="#eee"/>
     <path d="M23 11h2v13h-2z"/>
-    <path d="M31.2853993 29.6537993l-1.6261 1.6261-6.50439987-6.50439987 1.6261-1.6261z"/>
+    <path d="M31.285 29.654 29.66 31.28l-6.504-6.505 1.626-1.626z"/>
     <circle cx="24" cy="24" r="2"/>
     <circle cx="24" cy="24" r="1" fill="gray"/>
   </g>

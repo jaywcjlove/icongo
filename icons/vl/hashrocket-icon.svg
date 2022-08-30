@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 32 32" version="1.1" sodipodi:docname="hashrocket-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" inkscape:zoom="5.5121951" inkscape:cx="61.258845" inkscape:cy="33.926453" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="hashrocket_logo"/>
-  <g transform="matrix(4.4960981,0,0,4.4960981,-32.612641,-49.382558)">
-    <polygon transform="matrix(0.22951572,0,0,0.22951572,4.2572153,7.5406896)" points="44.06,15 18.57,15 13.06,21.64 17.9,24.32 13.39,29.92 18.81,33.06 17.08,42.03 25.68,39.98 28.87,45.4 34.48,40.8 37.38,46.01 44.06,40.45" style="fill:#af1f23"/>
-    <path d="m 10.027241,12.167727 v 0.651824 h 2.506311 v 2.504017 h 0.651825 v -3.153546 h -3.158136 z m 0.284599,3.392242 0.459031,0.459031 1.250861,-1.25086 -0.459031,-0.459032 z m 0.185908,-2.267615 -1.2508609,1.25086 0.4590314,0.459032 1.2508605,-1.250861 z" inkscape:connector-curvature="0" style="fill:#ffffff;stroke-width:0.22951572"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="64" height="64" version="1.1">
+  <g transform="matrix(4.4961 0 0 4.4961 -32.613 -49.383)">
+    <path transform="matrix(.22952 0 0 .22952 4.257 7.54)" style="fill:#af1f23" d="M44.06 15H18.57l-5.51 6.64 4.84 2.68-4.51 5.6 5.42 3.14-1.73 8.97 8.6-2.05 3.19 5.42 5.61-4.6 2.9 5.21 6.68-5.56z"/>
+    <path d="M10.027 12.168v.652h2.507v2.504h.651V12.17h-3.158zm.285 3.392.459.459 1.25-1.25-.458-.46zm.186-2.268-1.251 1.251.459.46 1.25-1.252z" style="fill:#fff;stroke-width:.22951572"/>
   </g>
 </svg>

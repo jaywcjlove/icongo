@@ -1,9 +1,3 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M17 33.9502V42.1102" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M9 40V42.0556" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M25 27V42.0714" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M33 18.9614V42.0878" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M41 10.9707V42.0833" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M7 33L34 6" stroke="black" stroke-width="4" stroke-linecap="round"/>
-  <path d="M23.5 6H34" stroke="black" stroke-width="4" stroke-linecap="round"/>
+  <path d="M17 33.95v8.16M9 40v2.056M25 27v15.071m8-23.11v23.127m8-31.118v31.113M7 33 34 6M23.5 6H34" stroke="#000" stroke-width="4" stroke-linecap="round"/>
 </svg>

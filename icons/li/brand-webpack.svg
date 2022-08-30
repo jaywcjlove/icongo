@@ -1,3 +1,3 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path d="m 7,1 -5.20408,3 0,6 L 7,13 l 5.20408,-3 0,-6 L 7,1 Z m 2.57143,7.530612 -2.57143,1.5 -2.57143,-1.5 0,-2.969388 2.57143,-1.5 2.57143,1.5 0,2.969388 z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path d="M7 1 1.796 4v6L7 13l5.204-3V4L7 1Zm2.571 7.53L7 10.03l-2.571-1.5V5.562L7 4.061l2.571 1.5v2.97z"/>
 </svg>

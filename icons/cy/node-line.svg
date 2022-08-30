@@ -1,4 +1,4 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path d="M18,30.66,7,24.33V11.67L18,5.34l11,6.33V24.33ZM9,23.18l9,5.17,9-5.17V12.82L18,7.65,9,12.82Z" class="clr-i-outline clr-i-outline-path-1"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M18 30.66 7 24.33V11.67l11-6.33 11 6.33v12.66Zm-9-7.48 9 5.17 9-5.17V12.82l-9-5.17-9 5.17Z" class="clr-i-outline clr-i-outline-path-1"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

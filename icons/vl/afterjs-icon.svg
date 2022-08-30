@@ -1,8 +1,6 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <g>
-    <polygon points="25.5,32 20.9,36.6 4.6,52.9 0,48.3 16.3,32 0,15.7 4.6,11.1" style="fill:#E60909"/>
-    <polygon points="44.8,32 40.1,36.6 23.9,52.9 19.2,48.3 35.5,32 19.2,15.7 23.9,11.1" style="fill:#04369B"/>
-    <polygon points="64,32 59.4,36.6 43.1,52.9 38.5,48.3 54.7,32 38.5,15.7 43.1,11.1" style="fill:#BAD1FF"/>
-    <polygon points="25.5,32 20.9,36.6 20.9,36.6 25.5,32" style="fill:#0C2F74"/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <path style="fill:#e60909" d="m25.5 32-4.6 4.6L4.6 52.9 0 48.3 16.3 32 0 15.7l4.6-4.6z"/>
+  <path style="fill:#04369b" d="m44.8 32-4.7 4.6-16.2 16.3-4.7-4.6L35.5 32 19.2 15.7l4.7-4.6z"/>
+  <path style="fill:#bad1ff" d="m64 32-4.6 4.6-16.3 16.3-4.6-4.6L54.7 32 38.5 15.7l4.6-4.6z"/>
+  <path class="st0" d="m25.5 32-4.6 4.6 4.6-4.6z"/>
 </svg>

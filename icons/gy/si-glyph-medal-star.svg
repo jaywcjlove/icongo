@@ -1,8 +1,6 @@
-<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-medal-star" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(3.000000, 0.000000)" fill="#434343">
-      <path d="M5.007,5.996 L6.078,9.016 L9.618,9.016 L6.74,11.318 L7.834,14.807 L4.969,12.65 L2.105,14.807 L3.199,11.318 L0.349,9.016 L3.889,9.016 L5.007,5.996 Z" class="si-glyph-fill"/>
-      <path d="M5.007,1.947 L7.283,7.986 L8.5,7.986 L8.969,1.367 C8.969,1.367 9.151,0.041 7.768,0.041 L2.252,0.041 C0.891,0.041 1.017,1.346 1.017,1.346 L1.505,7.987 L2.734,7.987 L5.007,1.947 L5.007,1.947 Z" class="si-glyph-fill"/>
-    </g>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-medal-star" height="1em" width="1em">
+  <g fill="#434343" fill-rule="evenodd">
+    <path d="m8.007 5.996 1.071 3.02h3.54L9.74 11.318l1.094 3.489-2.865-2.157-2.864 2.157 1.094-3.489-2.85-2.302h3.54l1.118-3.02Z" class="si-glyph-fill"/>
+    <path d="m8.007 1.947 2.276 6.039H11.5l.469-6.619S12.151.041 10.768.041H5.252c-1.361 0-1.235 1.305-1.235 1.305l.488 6.641h1.229l2.273-6.04Z" class="si-glyph-fill"/>
   </g>
 </svg>

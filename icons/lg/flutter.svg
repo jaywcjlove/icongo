@@ -1,15 +1,12 @@
-<svg viewBox="0 0 256 317" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
+<svg viewBox="0 0 256 317" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" height="1em" width="1em">
   <defs>
-    <linearGradient x1="3.9517088%" y1="26.9930287%" x2="75.8970734%" y2="52.9192657%" id="a">
-      <stop stop-color="#000000" offset="0%"/>
-      <stop stop-color="#000000" stop-opacity="0" offset="100%"/>
+    <linearGradient x1="3.952%" y1="26.993%" x2="75.897%" y2="52.919%" id="a">
+      <stop offset="0%"/>
+      <stop stop-opacity="0" offset="100%"/>
     </linearGradient>
   </defs>
-  <g>
-    <polygon fill="#47C5FB" points="157.665785 0.000549356223 0.000549356223 157.665785 48.8009614 206.466197 255.267708 0.000549356223"/>
-    <polygon fill="#47C5FB" points="156.567183 145.396793 72.1487107 229.815265 121.132608 279.530905 169.842925 230.820587 255.267818 145.396793"/>
-    <polygon fill="#00569E" points="121.133047 279.531124 158.214592 316.61267 255.267159 316.61267 169.842266 230.820807"/>
-    <polygon fill="#00B5F8" points="71.5995742 230.364072 120.401085 181.562561 169.842046 230.821136 121.132827 279.531454"/>
-    <polygon fill-opacity="0.8" fill="url(#a)" points="121.132827 279.531454 161.692896 266.072227 165.721875 234.941308"/>
-  </g>
+  <path fill="#47C5FB" d="M157.666 0 0 157.667l48.8 48.8L255.268.001zm-1.099 145.397L72.15 229.815l48.984 49.716 48.71-48.71 85.425-85.424z"/>
+  <path fill="#00569E" d="m121.133 279.531 37.082 37.082h97.052l-85.425-85.792z"/>
+  <path fill="#00B5F8" d="m71.6 230.364 48.801-48.801 49.441 49.258-48.71 48.71z"/>
+  <path fill-opacity=".8" fill="url(#a)" d="m121.133 279.531 40.56-13.459 4.029-31.13z"/>
 </svg>

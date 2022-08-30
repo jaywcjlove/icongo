@@ -9,7 +9,7 @@
       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0v24h32V0H0z" fill="#fff"/>
     </mask>
     <g mask="url(#b)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M16.062 15.98l-5.15 3.275 1.727-5.733-3.674-3.746 5.065-.11 2.241-5.66 2.042 5.734 5.053.089-3.797 3.814 1.773 5.454-5.28-3.117z" fill="#FFD221"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="m16.062 15.98-5.15 3.275 1.727-5.733-3.674-3.746 5.065-.11 2.241-5.66 2.042 5.734 5.053.089-3.797 3.814 1.773 5.454-5.28-3.117z" fill="#FFD221"/>
     </g>
   </g>
 </svg>

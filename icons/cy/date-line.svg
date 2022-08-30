@@ -1,19 +1,19 @@
-<svg version="1.1" viewBox="0 0 36 36" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <path class="clr-i-outline clr-i-outline-path-1" d="M32.25,6H29V8h3V30H4V8H7V6H3.75A1.78,1.78,0,0,0,2,7.81V30.19A1.78,1.78,0,0,0,3.75,32h28.5A1.78,1.78,0,0,0,34,30.19V7.81A1.78,1.78,0,0,0,32.25,6Z"/>
-  <rect class="clr-i-outline clr-i-outline-path-2" x="8" y="14" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-3" x="14" y="14" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-4" x="20" y="14" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-5" x="26" y="14" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-6" x="8" y="19" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-7" x="14" y="19" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-8" x="20" y="19" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-9" x="26" y="19" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-10" x="8" y="24" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-11" x="14" y="24" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-12" x="20" y="24" width="2" height="2"/>
-  <rect class="clr-i-outline clr-i-outline-path-13" x="26" y="24" width="2" height="2"/>
-  <path class="clr-i-outline clr-i-outline-path-14" d="M10,10a1,1,0,0,0,1-1V3A1,1,0,0,0,9,3V9A1,1,0,0,0,10,10Z"/>
-  <path class="clr-i-outline clr-i-outline-path-15" d="M26,10a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V9A1,1,0,0,0,26,10Z"/>
-  <rect class="clr-i-outline clr-i-outline-path-16" x="13" y="6" width="10" height="2"/>
-  <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+<svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path class="clr-i-outline clr-i-outline-path-1" d="M32.25 6H29v2h3v22H4V8h3V6H3.75A1.78 1.78 0 0 0 2 7.81v22.38A1.78 1.78 0 0 0 3.75 32h28.5A1.78 1.78 0 0 0 34 30.19V7.81A1.78 1.78 0 0 0 32.25 6Z"/>
+  <path class="clr-i-outline clr-i-outline-path-2" d="M8 14h2v2H8z"/>
+  <path class="clr-i-outline clr-i-outline-path-3" d="M14 14h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-4" d="M20 14h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-5" d="M26 14h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-6" d="M8 19h2v2H8z"/>
+  <path class="clr-i-outline clr-i-outline-path-7" d="M14 19h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-8" d="M20 19h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-9" d="M26 19h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-10" d="M8 24h2v2H8z"/>
+  <path class="clr-i-outline clr-i-outline-path-11" d="M14 24h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-12" d="M20 24h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-13" d="M26 24h2v2h-2z"/>
+  <path class="clr-i-outline clr-i-outline-path-14" d="M10 10a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"/>
+  <path class="clr-i-outline clr-i-outline-path-15" d="M26 10a1 1 0 0 0 1-1V3a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"/>
+  <path class="clr-i-outline clr-i-outline-path-16" d="M13 6h10v2H13z"/>
+  <path fill="none" d="M0 0h36v36H0z"/>
 </svg>

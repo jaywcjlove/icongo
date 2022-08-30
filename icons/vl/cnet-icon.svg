@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64" height="1em" width="1em">
-  <g transform="matrix(.284192 0 0 .284192 -.31261 47.488455)">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
+  <g transform="matrix(.2842 0 0 .2842 -.313 47.488)">
     <circle cx="113.7" cy="-54.5" r="112.6" fill="#b90000"/>
     <g transform="translate(0 -170)" opacity=".4">
       <defs>

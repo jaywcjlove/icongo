@@ -28,7 +28,7 @@
     <circle cx="16" cy="15" r="14.5" stroke="#000" stroke-opacity=".097"/>
     <g fill="#FFF" filter="url(#d)" transform="translate(9 4)">
       <path opacity=".6" d="M.4 15.78h2.818l-.072-7.327L13.64 21.776l-.033-15.732h-2.774l.072 7.401L.404.087z"/>
-      <path d="M.4 4.953L.416.102l13.183 16.752.055 4.942z"/>
+      <path d="M.4 4.953.416.102l13.183 16.752.055 4.942z"/>
     </g>
   </g>
 </svg>

@@ -1,8 +1,6 @@
-<svg viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g fill-rule="nonzero">
-      <circle fill="#38A065" cx="128" cy="128" r="128"/>
-      <path d="M135.96993,176.048945 L135.96993,207.928664 L120.03007,207.928664 L120.03007,176.048945 L135.96993,176.048945 Z M128,56.5 L183.789508,168.079015 L72.2104924,168.079015 L128,56.5 Z" fill="#FFFFFF"/>
-    </g>
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <g fill="none">
+    <circle fill="#38A065" cx="128" cy="128" r="128"/>
+    <path d="M135.97 176.049v31.88h-15.94v-31.88h15.94ZM128 56.5l55.79 111.579H72.21L128 56.5Z" fill="#FFF"/>
   </g>
 </svg>

@@ -1,10 +1,5 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64" xml:space="preserve" height="1em" width="1em">
-  <style type="text/css">
-    .st0{fill:#FF4438}
-  </style>
-  <g>
-    <polygon id="Path_4_" class="st0" points="32.5,4.3 32.5,21.3 22.8,21.3 19.3,27.3 45.4,27.3"/>
-    <polygon id="Path_5_" class="st0" points="32.5,47.7 32.5,53.6 3.4,53.6 0,59.7 64,59.7 57.2,47.7"/>
-    <polygon id="Path_6_" class="st0" points="47.7,31.4 32.5,31.4 32.5,37.4 13.4,37.4 9.8,43.5 54.5,43.5"/>
-  </g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 64 64" width="64" height="64" style="enable-background:new 0 0 64 64">
+  <path class="st0" d="M32.5 4.3v17h-9.7l-3.5 6h26.1z"/>
+  <path class="st0" d="M32.5 47.7v5.9H3.4L0 59.7h64l-6.8-12z"/>
+  <path class="st0" d="M47.7 31.4H32.5v6H13.4l-3.6 6.1h44.7z"/>
 </svg>

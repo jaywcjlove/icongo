@@ -1,9 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 64 64" version="1.1" sodipodi:docname="informatica-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1515" inkscape:window-height="806" showgrid="false" inkscape:zoom="8.0433396" inkscape:cx="32" inkscape:cy="32" inkscape:window-x="70" inkscape:window-y="27" inkscape:window-maximized="0" inkscape:current-layer="svg31"/>
-  <polygon points="34.294323,45.02225 57.257024,58.0385 58.113075,48.14225 51.737575,41.25875 42.329024,39.684125" style="fill:#ff4d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.838338,0,0,0.8270135,0,-5.3755877e-4)"/>
-  <polygon points="38.17028,0.00065 57.256703,58.03915 76.341523,38.6919" style="fill:#ff7d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.838338,0,0,0.8270135,0,-5.3755877e-4)"/>
-  <polygon points="35.099877,30.740775 34.295124,45.0229 63.62531,38.693525" style="fill:#001aff;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.838338,0,0,0.8270135,0,-5.3755877e-4)"/>
-  <polygon points="20.38076,59.353288 24.176883,54.200412 23.493966,48.009163 14.141523,41.856912 0.00064123711,38.694662" style="fill:#e23400;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.838338,0,0,0.8270135,0,-5.3755877e-4)"/>
-  <polygon points="0,38.694012 23.493325,48.008513 36.106459,2.0957625" style="fill:#ff4d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.838338,0,0,0.8270135,0,-5.3755877e-4)"/>
-  <polygon points="23.493966,48.009163 20.38076,59.353288 38.17028,77.387537 54.887332,60.443663" style="fill:#ff7d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(0.838338,0,0,0.8270135,0,-5.3755877e-4)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" version="1.1">
+  <path style="fill:#ff4d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.83834 0 0 .82701 0 0)" d="M34.294 45.022 57.257 58.04l.856-9.897-6.375-6.883-9.409-1.575z"/>
+  <path style="fill:#ff7d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.83834 0 0 .82701 0 0)" d="m38.17 0 19.087 58.04 19.085-19.348z"/>
+  <path style="fill:#001aff;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.83834 0 0 .82701 0 0)" d="m35.1 30.74-.805 14.283 29.33-6.33z"/>
+  <path style="fill:#e23400;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.83834 0 0 .82701 0 0)" d="m20.38 59.353 3.797-5.153-.683-6.19-9.352-6.153L0 38.695z"/>
+  <path style="fill:#ff4d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.83834 0 0 .82701 0 0)" d="m0 38.694 23.493 9.315L36.106 2.096z"/>
+  <path style="fill:#ff7d00;fill-rule:evenodd;stroke:none;stroke-width:1" transform="matrix(.83834 0 0 .82701 0 0)" d="m23.494 48.01-3.113 11.343 17.79 18.035 16.716-16.944z"/>
 </svg>

@@ -19,6 +19,6 @@
       <use fill="url(#c)" style="mix-blend-mode:soft-light" xlink:href="#b"/>
       <circle stroke-opacity=".097" stroke="#000" stroke-linejoin="square" cx="15" cy="15" r="14.5"/>
     </g>
-    <path d="M15.75 25l-4.68-12.48-1.89 8.61zm1.23-20.85l-5.13 6.24 5.13 13.11 5.16-13.11zM18.24 25l4.68-12.48 1.86 8.61z" fill="#FEFFFE"/>
+    <path d="m15.75 25-4.68-12.48-1.89 8.61zm1.23-20.85-5.13 6.24 5.13 13.11 5.16-13.11zM18.24 25l4.68-12.48 1.86 8.61z" fill="#FEFFFE"/>
   </g>
 </svg>

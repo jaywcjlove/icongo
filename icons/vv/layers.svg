@@ -1,10 +1,10 @@
 <svg id="layers" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
   <defs>
     <style>
-      .vi-primary{fill:#FF6E6E}.vi-primary{stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd}
+      .vi-primary{fill:#ff6e6e;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd}
     </style>
   </defs>
-  <path class="vi-primary" d="M24,20.6l17.013,9.7L24,39.99l-17.013-9.7Z"/>
-  <path d="M24,14.8l17.013,9.7L24,34.2,6.987,24.5Z" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
-  <path class="vi-primary" d="M24,9.01l17.013,9.7L24,28.4l-17.013-9.7Z"/>
+  <path class="vi-primary" d="m24 20.6 17.013 9.7L24 39.99l-17.013-9.7Z"/>
+  <path d="m24 14.8 17.013 9.7L24 34.2 6.987 24.5Z" style="fill:#0c0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
+  <path class="vi-primary" d="m24 9.01 17.013 9.7L24 28.4 6.987 18.7Z"/>
 </svg>

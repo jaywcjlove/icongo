@@ -1,13 +1,11 @@
-<svg viewBox="0 0 97 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
-  <g transform="matrix(1,0,0,1,-80,0)">
-    <path d="M155.733,47.358C144.107,47.358 134.684,56.781 134.684,68.405C134.684,80.03 144.107,89.455 155.733,89.455C167.357,89.455 176.78,80.03 176.78,68.405C176.78,56.781 167.357,47.358 155.733,47.358ZM101.048,47.359C89.424,47.36 80,56.781 80,68.406C80,80.03 89.424,89.454 101.048,89.454C112.673,89.454 122.097,80.03 122.097,68.406C122.097,56.781 112.673,47.359 101.047,47.359L101.048,47.359ZM149.438,21.048C149.438,32.672 140.015,42.098 128.391,42.098C116.765,42.098 107.342,32.672 107.342,21.048C107.342,9.424 116.765,0 128.391,0C140.015,0 149.437,9.424 149.437,21.048L149.438,21.048Z" style="fill:url(#a);fill-rule:nonzero"/>
-  </g>
+<svg viewBox="0 0 97 90" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" height="1em" width="1em">
+  <path d="M155.733 47.358c-11.626 0-21.049 9.423-21.049 21.047 0 11.625 9.423 21.05 21.049 21.05 11.624 0 21.047-9.425 21.047-21.05 0-11.624-9.423-21.047-21.047-21.047Zm-54.685.001C89.424 47.36 80 56.781 80 68.406c0 11.624 9.424 21.048 21.048 21.048 11.625 0 21.049-9.424 21.049-21.048 0-11.625-9.424-21.047-21.05-21.047h.001Zm48.39-26.311c0 11.624-9.423 21.05-21.047 21.05-11.626 0-21.049-9.426-21.049-21.05S116.765 0 128.391 0c11.624 0 21.046 9.424 21.046 21.048h.001Z" style="fill:url(#a);fill-rule:nonzero" transform="translate(-80)"/>
   <defs>
-    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(64.1293,0,0,64.1293,128.39,48.8889)">
-      <stop offset="0" style="stop-color:rgb(255,185,0);stop-opacity:1"/>
-      <stop offset="0.6" style="stop-color:rgb(249,93,143);stop-opacity:1"/>
-      <stop offset="1" style="stop-color:rgb(249,83,83);stop-opacity:1"/>
-      <stop offset="1" style="stop-color:rgb(249,83,83);stop-opacity:1"/>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(128.39 48.889) scale(64.1293)">
+      <stop offset="0" style="stop-color:#ffb900;stop-opacity:1"/>
+      <stop offset=".6" style="stop-color:#f95d8f;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#f95353;stop-opacity:1"/>
+      <stop offset="1" style="stop-color:#f95353;stop-opacity:1"/>
     </radialGradient>
   </defs>
 </svg>

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" height="1em" width="1em">
-  <path d="M8,36V32H40v4H8ZM8,22H40v4H8V22ZM8,12H40v4H8V12Z" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd;fill:#FF6E6E"/>
-  <path d="M30,29a5,5,0,1,1,5-5A5,5,0,0,1,30,29ZM19,19a5,5,0,1,1,5-5A5,5,0,0,1,19,19Zm3,15a5,5,0,1,1-5-5A5,5,0,0,1,22,34Z" style="fill:#0C0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
-  <path d="M19,12a2,2,0,1,1-2,2A2,2,0,0,1,19,12ZM30,22a2,2,0,1,1-2,2A2,2,0,0,1,30,22ZM17,32a2,2,0,1,1-2,2A2,2,0,0,1,17,32Z" style="fill:#fff;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
+  <path d="M8 36v-4h32v4H8Zm0-14h32v4H8v-4Zm0-10h32v4H8v-4Z" style="stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd;fill:#ff6e6e"/>
+  <path d="M30 29a5 5 0 1 1 5-5 5 5 0 0 1-5 5ZM19 19a5 5 0 1 1 5-5 5 5 0 0 1-5 5Zm3 15a5 5 0 1 1-5-5 5 5 0 0 1 5 5Z" style="fill:#0c0058;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
+  <path d="M19 12a2 2 0 1 1-2 2 2 2 0 0 1 2-2Zm11 10a2 2 0 1 1-2 2 2 2 0 0 1 2-2ZM17 32a2 2 0 1 1-2 2 2 2 0 0 1 2-2Z" style="fill:#fff;stroke:#fff;stroke-linecap:round;stroke-width:0;fill-rule:evenodd"/>
 </svg>

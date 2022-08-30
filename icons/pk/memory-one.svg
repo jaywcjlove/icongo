@@ -1,10 +1,8 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <rect x="5" y="28" width="38" height="14" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="5" y="6" width="38" height="14" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="11" y="11" width="4" height="4" rx="2" fill="white"/>
-  <rect x="11" y="33" width="4" height="4" rx="2" fill="white"/>
-  <rect x="19" y="11" width="4" height="4" rx="2" fill="white"/>
-  <rect x="19" y="33" width="4" height="4" rx="2" fill="white"/>
-  <path d="M31 13H35" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M31 35H35" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path fill="#2F88FF" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" d="M5 28h38v14H5zM5 6h38v14H5z"/>
+  <rect x="11" y="11" width="4" height="4" rx="2" fill="#fff"/>
+  <rect x="11" y="33" width="4" height="4" rx="2" fill="#fff"/>
+  <rect x="19" y="11" width="4" height="4" rx="2" fill="#fff"/>
+  <rect x="19" y="33" width="4" height="4" rx="2" fill="#fff"/>
+  <path d="M31 13h4m-4 22h4" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

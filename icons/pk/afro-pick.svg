@@ -1,14 +1,11 @@
 <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g clip-path="url(#a)">
-    <path d="M21 4.37207L4.02944 21.3426L26.6569 43.9701L43.6274 26.9995" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M26.6572 10.0288L9.68666 26.9994" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M32.3135 15.6855L15.3429 32.6561" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M37.9707 21.3428L21.0001 38.3133" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M16.0504 41.8487L20.2931 37.606L10.3936 27.7065L6.15091 31.9492L8.27223 34.0705L9.68645 38.3131L13.9291 39.7274L16.0504 41.8487Z" fill="#2F88FF" stroke="black" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g clip-path="url(#a)" stroke="#000" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 4.372 4.03 21.342 26.656 43.97 43.627 27m-16.97-16.971-16.97 16.97m22.626-11.314-16.97 16.971M37.97 21.343 21 38.313"/>
+    <path d="m16.05 41.849 4.243-4.243-9.9-9.9-4.242 4.243 2.121 2.122 1.414 4.242 4.243 1.414 2.121 2.122Z" fill="#2F88FF"/>
   </g>
   <defs>
     <clipPath id="a">
-      <rect width="48" height="48" fill="white"/>
+      <path fill="#fff" d="M0 0h48v48H0z"/>
     </clipPath>
   </defs>
 </svg>

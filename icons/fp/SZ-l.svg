@@ -6,9 +6,9 @@
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h32v24H0V0z" fill="#3D58DB"/>
     <path d="M0 5h-1v14h34V5H0z" fill="#C51918" stroke="#FFD018" stroke-width="2"/>
     <path d="M7.15 9.331c-.12 0-.218-.271-.218-.606 0-.334.097-.605.217-.605H24.56c.12 0 .217.27.217.605 0 .335-.097.606-.217.606H7.15z" fill="#FFD018"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.095 8.602l1.011-1.29 1.79 1.29-1.79 1.324-1.01-1.324z" fill="#F7FCFF"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="m24.095 8.602 1.011-1.29 1.79 1.29-1.79 1.324-1.01-1.324z" fill="#F7FCFF"/>
     <path d="M7.15 13.331c-.12 0-.218-.271-.218-.606 0-.334.097-.605.217-.605H24.56c.12 0 .217.27.217.605 0 .335-.097.606-.217.606H7.15z" fill="#FFD018"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M24.095 12.602l1.011-1.29 1.79 1.29-1.79 1.324-1.01-1.324z" fill="#F7FCFF"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="m24.095 12.602 1.011-1.29 1.79 1.29-1.79 1.324-1.01-1.324z" fill="#F7FCFF"/>
     <path d="M4.346 15.822c-.161 0-.292-.308-.292-.688 0-.38.13-.688.292-.688H27.69c.16 0 .29.308.29.688 0 .38-.13.688-.29.688H4.346z" fill="#FFD018"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.817 12.053s2.842-5.98 6.906-5.98c4.063 0 7 5.98 7 5.98s-3.586 5.901-6.953 5.901c-3.367 0-6.953-5.901-6.953-5.901z" fill="#F7FCFF"/>
     <mask id="b" maskUnits="userSpaceOnUse" x="8" y="6" width="15" height="12">

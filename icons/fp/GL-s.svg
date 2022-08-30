@@ -8,14 +8,14 @@
       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6h16v6H0V6z" fill="#fff"/>
     </mask>
     <g mask="url(#b)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M6 10a4 4 0 100-8 4 4 0 000 8z" fill="#F7FCFF"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#F7FCFF"/>
     </g>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h16v6H0V0z" fill="#F7FCFF"/>
     <mask id="c" maskUnits="userSpaceOnUse" x="0" y="0" width="16" height="6">
       <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h16v6H0V0z" fill="#fff"/>
     </mask>
     <g mask="url(#c)">
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M6 10a4 4 0 100-8 4 4 0 000 8z" fill="#C51918"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" fill="#C51918"/>
     </g>
   </g>
 </svg>

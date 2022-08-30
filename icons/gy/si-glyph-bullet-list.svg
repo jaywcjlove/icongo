@@ -1,12 +1,3 @@
-<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-bullet-list" height="1em" width="1em">
-  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g transform="translate(0.000000, 2.000000)" fill="#434343">
-      <path d="M3.016,7 L0.0159999999,7 L0.0159999999,4 L3.016,4 L3.016,7 L3.016,7 Z M0.953,6 L1.953,6 L1.953,4.969 L0.953,4.969 L0.953,6 L0.953,6 Z" class="si-glyph-fill"/>
-      <path d="M2.969,10.986 L0.0159999999,10.986 L0.0159999999,8 L2.969,8 L2.969,10.986 L2.969,10.986 Z M0.954,10 L1.954,10 L1.954,9 L0.954,9 L0.954,10 L0.954,10 Z" class="si-glyph-fill"/>
-      <path d="M3.016,3 L0.0159999999,3 L0.0159999999,0 L3.016,0 L3.016,3 L3.016,3 Z M0.953,2 L1.953,2 L1.953,0.969 L0.953,0.969 L0.953,2 L0.953,2 Z" class="si-glyph-fill"/>
-      <rect x="5" y="5" width="10.977" height="0.96" class="si-glyph-fill"/>
-      <rect x="5" y="1" width="10.977" height="0.96" class="si-glyph-fill"/>
-      <rect x="5" y="9" width="10.977" height="0.914" class="si-glyph-fill"/>
-    </g>
-  </g>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" class="si-glyph si-glyph-bullet-list" height="1em" width="1em">
+  <path d="M3.016 9h-3V6h3v3ZM.953 8h1V6.969h-1V8Zm2.016 4.986H.016V10h2.953v2.986ZM.954 12h1v-1h-1v1Zm2.062-7h-3V2h3v3ZM.953 4h1V2.969h-1V4ZM5 7h10.977v.96H5zm0-4h10.977v.96H5zm0 8h10.977v.914H5z" class="si-glyph-fill" fill="#434343" fill-rule="evenodd"/>
 </svg>

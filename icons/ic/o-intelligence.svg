@@ -19,7 +19,7 @@
       <circle class="fil3" cx="14" cy="11" r="1"/>
       <g fill-rule="nonzero">
         <path fill="#4668c5" d="M27 31h-6v-4h6z"/>
-        <path fill="#00188f" d="M22 31l1 1h2l1-1z"/>
+        <path fill="#00188f" d="m22 31 1 1h2l1-1z"/>
         <path d="M21 27h6c0-2 0-3 1-4 3-2 4-4 4-7 0-4-4-8-8-8s-8 4-8 8c0 3 1 5 4 7 1 1 1 2 1 4z" fill="#fff100"/>
         <path d="M21 27h6c0-2 0-3 1-4 3-2 4-4 4-7v-2L21 25v2z" fill="#fcd116"/>
       </g>

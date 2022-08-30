@@ -3,7 +3,7 @@
     <path fill="#fff" d="M0 0h16v12H0z"/>
   </mask>
   <g mask="url(#a)">
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h16v11a1 1 0 01-1 1H1a1 1 0 01-1-1V0z" fill="#C51918"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h16v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V0z" fill="#C51918"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0h16v12H0V0z" fill="#C51918"/>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M3 3h10v6H3V3z" fill="#579D20"/>
     <path d="M3.5 3.5h9v5h-9v-5z" stroke="#B6EB9A" stroke-opacity=".238"/>

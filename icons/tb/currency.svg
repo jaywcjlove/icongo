@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-currency" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M0 0h24v24H0z" stroke="none"/>
   <circle cx="12" cy="12" r="7"/>
-  <path d="M4 4l3 3"/>
-  <path d="M20 4l-3 3"/>
-  <path d="M4 20l3 -3"/>
-  <path d="M20 20l-3 -3"/>
+  <path d="m4 4 3 3m13-3-3 3M4 20l3-3m13 3-3-3"/>
 </svg>

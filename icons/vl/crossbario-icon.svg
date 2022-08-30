@@ -1,11 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 30282.88 5120" version="1.1" sodipodi:docname="crossbar-io-icon.svg" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" height="1em" width="1em">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1001" showgrid="false" units="px" inkscape:zoom="5.7315552" inkscape:cx="90.02792" inkscape:cy="40" inkscape:window-x="-9" inkscape:window-y="-9" inkscape:window-maximized="1" inkscape:current-layer="svg26"/>
-  <g transform="matrix(3.78536,0,0,3.78536,1.7682895e-4,-88277.397)">
-    <g transform="matrix(99.999999,0,0,99.999999,6.6467609e-4,19997.03)">
-      <path style="fill:#ffff00" inkscape:connector-curvature="0" transform="translate(-6.7139e-6)" d="M 0,0 V 16.938 L 22.344,16.812 37.188,31.656 31.406,37.438 18.844,24.906 0,24.938 v 30.25 H 19.5 L 57.656,16.844 H 80 V 0 Z M 61.156,24.938 22.844,63.188 H 0 V 80 H 80 V 63.125 H 57.094 L 42.75,48.781 48.531,43 60.625,55.094 H 80 V 24.938 Z"/>
-      <path style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m -6.7139e-6,24.938 v -8 L 22.343993,16.812 l 14.844,14.844 -5.782,5.782 -12.562,-12.532 z" inkscape:connector-curvature="0"/>
-      <path style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 57.655993,16.844 h 22.344 v 8.094 h -18.844 l -38.312,38.25 H -6.7139e-6 v -8 H 19.499993 l 38.156,-38.344" inkscape:connector-curvature="0"/>
-      <path style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m 48.530993,43 -5.781,5.781 14.344,14.344 h 22.906 v -8.031 h -19.375 L 48.530993,43" inkscape:connector-curvature="0"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" height="64" viewBox="0 0 30282.88 5120" version="1.1" width="64">
+  <g transform="translate(0 -88277.397) scale(3.78536) matrix(100 0 0 100 0 19997.03)">
+    <path style="fill:#ff0" d="M0 0v16.938l22.344-.126 14.844 14.844-5.782 5.782-12.562-12.532L0 24.938v30.25h19.5l38.156-38.344H80V0Zm61.156 24.938-38.312 38.25H0V80h80V63.125H57.094L42.75 48.781 48.531 43l12.094 12.094H80V24.938Z"/>
+    <path style="fill:#333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M0 24.938v-8l22.344-.126 14.844 14.844-5.782 5.782-12.562-12.532z"/>
+    <path style="fill:#333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M57.656 16.844H80v8.094H61.156l-38.312 38.25H0v-8h19.5l38.156-38.344"/>
+    <path style="fill:#333;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="m48.531 43-5.781 5.781 14.344 14.344H80v-8.031H60.625L48.531 43"/>
   </g>
 </svg>

@@ -27,9 +27,9 @@
     <use fill="url(#c)" style="mix-blend-mode:soft-light" xlink:href="#b"/>
     <circle cx="16" cy="15" r="14.5" stroke="#000" stroke-opacity=".097"/>
     <g fill="#FFF" fill-rule="nonzero" filter="url(#d)" transform="translate(6 8)">
-      <path fill-opacity=".305" d="M12.904 6.739L9.859 9.103 8.612 4.778 1.388 2.843l9.481.487z"/>
-      <path fill-opacity=".7" d="M2.27 14.993L18.586 2.33 20 5.476l-1.855-.513-.065 3.264z"/>
-      <path d="M16.796 8.78L12.049.619 0 0l9.183 2.461 2.49 8.49z"/>
+      <path fill-opacity=".305" d="M12.904 6.739 9.859 9.103 8.612 4.778 1.388 2.843l9.481.487z"/>
+      <path fill-opacity=".7" d="M2.27 14.993 18.586 2.33 20 5.476l-1.855-.513-.065 3.264z"/>
+      <path d="M16.796 8.78 12.049.619 0 0l9.183 2.461 2.49 8.49z"/>
     </g>
   </g>
 </svg>

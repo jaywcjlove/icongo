@@ -1,5 +1,5 @@
-<svg role="img" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
-  <path fill="#90caf9" d="M11.57142864 3.85714281v9.14285728H2.42857136V.99999991h6.28571438z"/>
-  <path fill="#e1f5fe" d="M11.1428572 4.1428571H8.42857145V1.42857135z"/>
-  <path fill="#1976d2" d="M4.71428568 6.14285713h4.85714293v.57142858H4.71428568zm0 1.14285716h3.71428577v.57142858H4.71428568zm0 1.14285716h4.85714293v.57142858H4.71428568zm0 1.14285716h3.71428577v.57142858H4.71428568z"/>
+<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14" height="1em" width="1em">
+  <path fill="#90caf9" d="M11.571 3.857V13H2.43V1h6.285z"/>
+  <path fill="#e1f5fe" d="M11.143 4.143H8.429V1.429z"/>
+  <path fill="#1976d2" d="M4.714 6.143h4.857v.571H4.714zm0 1.143H8.43v.571H4.714zm0 1.143h4.857V9H4.714zm0 1.142H8.43v.572H4.714z"/>
 </svg>

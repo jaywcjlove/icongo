@@ -1,5 +1,3 @@
-<svg viewBox="0 0 44.830002 40.509998" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
-  <g transform="translate(-56.48)">
-    <path d="m 60.64,40.51 h 40.67 V 17.46 L 85.19,28.44 C 84.04,29.22 82.9,28.43 82.9,28.43 L 56.48,10.26 v 26.09 c 0,0 0,4.16 4.16,4.16 M 84.1,23.19 101.31,11.4 V 0 H 60.64 c 0,0 -4.16,0 -4.16,4.16 v 0.11 z" clip-path="url(#SVGID_2_)" style="clip-path:url(#SVGID_2_);fill:#76BB21"/>
-  </g>
+<svg viewBox="0 0 44.83 40.51" xmlns="http://www.w3.org/2000/svg" height="1em" width="1em">
+  <path d="M60.64 40.51h40.67V17.46L85.19 28.44c-1.15.78-2.29-.01-2.29-.01L56.48 10.26v26.09s0 4.16 4.16 4.16M84.1 23.19l17.21-11.79V0H60.64s-4.16 0-4.16 4.16v.11z" clip-path="url(#SVGID_2_)" style="clip-path:url(#SVGID_2_);fill:#76bb21" transform="translate(-56.48)"/>
 </svg>
