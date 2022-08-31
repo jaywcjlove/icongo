@@ -55,7 +55,7 @@ export async function svgToReact(options: SvgToReactOption) {
  */
 const nameCache: string[] = [];
 const nameWarn: Record<string, string> = {};
-const nameToBase: Record<string, string[]> = {};
+const nameToBase: Record<string, string> = {};
 
 const names: string[] = [];
 const indexFileContent: string[] = [];
@@ -106,7 +106,7 @@ async function writeFile(files: IFileDirStat[] = [], index: number, options: Svg
   
     names.push(prefixName);
     indexFileContent.push(`export * from './${prefixName}';`);
-    nameToBase[prefixName] = [options.prefix, `${basename}.svg`];
+    nameToBase[`${options.prefix},${filename}`] = basename;
   
     const outputFile = path.resolve(options.output, `${prefixName}.tsx`);
   

@@ -115,7 +115,7 @@ const IconViewMini = styled<FunctionComponent<React.HTMLAttributes<HTMLDivElemen
 export const IconDetailPage = () => {
   const params = useParams<{ name: string; '*': string }>();
   const filename = params['*'];
-  const path = `/icons/${params.name}/${filename}`;
+  const path = `/icons/${params.name}/${filename}.svg`;
   const [svgString, setSvgString] = useState<string>();
 
   useEffect(() => {
@@ -138,7 +138,7 @@ export const IconDetailPage = () => {
   const data = info[params.name!]?.names || {};
   let comName = ''
   Object.keys(data).forEach((keyname) => {
-    if (filename && data[keyname].includes(filename)) {
+    if (filename && data[keyname] === filename) {
       comName = keyname;
     }
   });

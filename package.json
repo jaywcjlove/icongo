@@ -5,6 +5,7 @@
     "build": "lerna exec --scope icongo -- npm run build",
     "watch": "lerna exec --scope icongo -- npm run watch",
     "start": "lerna exec --scope www -- npm run start",
+    "clean": "lerna exec --scope @icongo/* -- rm -rf esm lib src svg",
     "prepare": "husky install",
     "version": "lerna version --exact --force-publish --no-push --no-git-tag-version"
   },

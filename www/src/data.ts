@@ -73,7 +73,7 @@ export type Info = Record<string, {
   license: string;
   gh: string;
   npm: string;
-  names: Record<string, (string | null)[]>;
+  names: Record<string, string | null>;
 }>;
 
 export const info: Info = {
@@ -564,7 +564,7 @@ export const info: Info = {
 
 export const searchNames: string[] = Object.keys(info).map(item => Object.keys(info[item].names)).flat();
 
-export const iconsData: Record<string, (string | null)[]> = {};
+export const iconsData: Record<string, string | null> = {};
 
 Object.keys(info).map(key => info[key].names).flat().forEach((item) => {
   for (const keyname in item) {

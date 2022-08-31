@@ -30,8 +30,10 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
     return (
       <WarpperIcons>
         {data.map((name, key) => {
+        const [prename] = name.split(',');
+        const basename = reName[name];
           return (
-            <Card key={`${key}-${name}`} name={name} prename={reName[name][0]!} basename={reName[name][1]!} query={query} path={`/icons/${params.name?.toLocaleLowerCase()}/${reName[name][1]}`} />
+            <Card key={`${key}-${name}`} name={name} prename={prename!} basename={basename!} query={query} path={`/icons/${params.name?.toLocaleLowerCase()}/${basename}.svg`} />
           );
         })}
       </WarpperIcons>
@@ -48,9 +50,10 @@ export const IconsList = (props: React.PropsWithChildren<IconsListProps>) => {
   return (
     <WarpperIcons>
       {data.map((name, key) => {
-        const [prename, basename] = iconsData[name];
+        const [prename] = name.split(',');
+        const basename = iconsData[name];
         return (
-          <Card key={`${key}-${name}`} basename={basename!} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icons/${prename?.toLocaleLowerCase()}/${basename}`} />
+          <Card key={`${key}-${name}`} basename={basename!} name={name} query={query} prename={prename?.toLocaleLowerCase() || ''} path={`/icons/${prename?.toLocaleLowerCase()}/${basename}.svg`} />
         );
       })}
     </WarpperIcons>
