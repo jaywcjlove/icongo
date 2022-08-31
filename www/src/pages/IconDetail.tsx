@@ -17,7 +17,7 @@ import { PanelView } from './Icons';
 const mdstr = (name: string, prename: string, html?: string) => `
 \`\`\`html\n${html?.replace(/\n+$/g, '')}\n\`\`\`
 
-\`\`\`shell\n$ npm install @icongo/${name} --save\n\`\`\`
+\`\`\`shell\n$ npm install @icongo/${prename} --save\n\`\`\`
 
 \`\`\`jsx
 import { ${name} } from '@icongo/${prename}/lib/${name}';
@@ -115,7 +115,7 @@ const IconViewMini = styled<FunctionComponent<React.HTMLAttributes<HTMLDivElemen
 export const IconDetailPage = () => {
   const params = useParams<{ name: string; '*': string }>();
   const filename = params['*'];
-  const path = `/icons/${params.name}/${filename}.svg`;
+  const path = `/icons/${params.name}/${filename}`;
   const [svgString, setSvgString] = useState<string>();
 
   useEffect(() => {
@@ -138,8 +138,8 @@ export const IconDetailPage = () => {
   const data = info[params.name!]?.names || {};
   let comName = ''
   Object.keys(data).forEach((keyname) => {
-    if (filename && data[keyname] === filename) {
-      comName = keyname;
+    if (filename && data[keyname] === filename.replace(/.svg$/ig, '')) {
+      comName = keyname.replace(',', '');
     }
   });
 

@@ -114,22 +114,23 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   const navigate = useNavigate();
   const $ref = useRef<HTMLDivElement>(null);
 
+  const componentName = name.replace(',', '');
   const copyName = () => {
-    copyTextToClipboard(name, () => {
-      toast.success(<div>Copied '<b>{name}</b>' name to clipboard</div>, { position: 'top-right' });
+    copyTextToClipboard(componentName, () => {
+      toast.success(<div>Copied '<b>{componentName}</b>' name to clipboard</div>, { position: 'top-right' });
       $ref.current?.focus()
     });
   }
   const handleCopy = (evn: React.MouseEvent<HTMLElement, MouseEvent>) => {
     evn.stopPropagation();
     fetch(path!).then(response => response.text()).then((svgStr) => {
-      toast.success(<LazyLoadImage height={80} src={path} alt={name} />, { position: 'bottom-right' });
+      toast.success(<LazyLoadImage height={80} src={path} alt={componentName} />, { position: 'bottom-right' });
       copyTextToClipboard(svgStr, () => {
-        toast.success(<div>Copied '<b>{name}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
+        toast.success(<div>Copied '<b>{componentName}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
         $ref.current?.focus();
       });
     }).catch(() => {
-      toast.error(<div>Failed to copy '<b>{name}</b>' icon HTML</div>, { position: 'top-right' });
+      toast.error(<div>Failed to copy '<b>{componentName}</b>' icon HTML</div>, { position: 'top-right' });
       $ref.current?.focus();
     });
   }
@@ -138,12 +139,12 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
     evn.stopPropagation();
     const link = document.createElement('a');
     link.href = path!;
-    link.download = name;
+    link.download = componentName;
     link.style.display = 'none';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    toast.success(<div>Successfully downloaded '<b>{name}</b>' icon!</div>, { position: 'top-right' });
+    toast.success(<div>Successfully downloaded '<b>{componentName}</b>' icon!</div>, { position: 'top-right' });
   }
   const goToDetail = (ev: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     ev.stopPropagation();
@@ -151,7 +152,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
   const goToHome = () => {
     navigate(`/icons/${prename}`)
   }
-  const detailLink = `/icon/${prename?.toLocaleLowerCase()}/${basename}`;
+  const detailLink = `/icon/${prename?.toLocaleLowerCase()}/${basename}.svg`;
   return (
     <CardWarpper ref={$ref} {...other} tabIndex={0} onClick={copyName}>
       <WarpperBtn>
@@ -168,12 +169,12 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
         )}
       </WarpperBtn>
       <CardItem>
-        <LazyLoadImage src={path} alt={name} />
+        <LazyLoadImage src={path} alt={componentName} />
       </CardItem>
       {hideName && (
         <IconName>
           <NavLink to={detailLink} onClick={goToDetail}>
-            {query ? <Keywords value={query}>{name}</Keywords> : name}
+            {query ? <Keywords value={query}>{componentName}</Keywords> : componentName}
           </NavLink>
         </IconName>
       )}
