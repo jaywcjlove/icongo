@@ -1,7 +1,7 @@
 {
   "name": "@icongo/mp",
   "description": "Map Icons",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "./lib/index.js",
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
