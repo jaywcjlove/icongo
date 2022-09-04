@@ -1,0 +1,29 @@
+{
+  "name": "@icongo/sk",
+  "description": "Skill Icons",
+  "version": "1.1.2",
+  "author": "jaywcjlove",
+  "license": "MIT",
+  "homepage": "http://icongo.github.io/#/icons/sk",
+  "main": "./lib/index.js",
+  "module": "./esm/index.js",
+  "types": "./lib/index.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaywcjlove/icongo.git"
+  },
+  "scripts": {
+    "cpy": "cpy '../../www/public/icons/sk/*.svg' svg --flat",
+    "build": "npm run cpy && icongo --prefix SK --source svg -o ./src && tsbb build --no-source-maps",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "icongo",
+    "sk",
+    "Simple",
+    "react-icons",
+    "icons",
+    "icon"
+  ]
+}
