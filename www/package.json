@@ -3,7 +3,6 @@
   "version": "1.1.2",
   "private": true,
   "scripts": {
-    "copy": "node copy.mjs",
     "build": "kkt build",
     "start": "kkt start",
     "map": "source-map-explorer build/static/js/*.js --html build/website-result.html"
@@ -65,6 +64,7 @@
     "@icongo/scwi": "1.1.2",
     "@icongo/si": "1.1.2",
     "@icongo/sk": "1.1.2",
+    "@icongo/sl": "1.1.2",
     "@icongo/sn": "1.1.2",
     "@icongo/sti": "1.1.2",
     "@icongo/tb": "1.1.2",

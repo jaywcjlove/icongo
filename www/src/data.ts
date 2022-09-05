@@ -68,6 +68,7 @@ import coNames from '@icongo/co/lib/data.json';
 import cbNames from '@icongo/cb/lib/data.json';
 import cyNames from '@icongo/cy/lib/data.json';
 import skNames from '@icongo/sk/lib/data.json';
+import slNames from '@icongo/sl/lib/data.json';
 
 export type Info = Record<string, {
   title: string;
@@ -490,6 +491,13 @@ export const info: Info = {
     gh: 'https://github.com/tandpfun/skill-icons',
     npm: '@icongo/sk',
     names: skNames,
+  },
+  sl: {
+    title: 'SVG-Loaders Icons',
+    license: 'MIT',
+    gh: 'https://github.com/SamHerbert/SVG-Loaders',
+    npm: '@icongo/sl',
+    names: slNames,
   },
   sn: {
     title: 'Small-n-flat Icons',
