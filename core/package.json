@@ -46,7 +46,7 @@
     "@types/fs-extra": "^9.0.13",
     "@types/minimist": "^1.2.2",
     "@types/svgo": "^2.6.3",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.0.0",
     "minimist": "^1.2.6",
     "recursive-readdir-files": "^2.3.0"
   }
