@@ -19,12 +19,16 @@ export const CardItem = styled.div`
   font-size: 12px;
   background-color: var(--color-canvas-card);
   padding: 0 10px;
+  transition: background-color .3s;
   img {
     transition: all .3s;
     transform: scale(1, 1);
   }
   &:hover img {
     transform: scale(2, 2);
+  }
+  &:hover {
+    background-color: var(--color-neutral-muted);
   }
   img {
     max-width: 100%;
