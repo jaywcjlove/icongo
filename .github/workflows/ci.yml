@@ -6,17 +6,17 @@ on:
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     env:
       NODE_OPTIONS: --max_old_space_size=8192
     steps:
       - uses: actions/checkout@v3
         with:
           submodules: true
-
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: 'https://registry.npmjs.org'
 
       - run: npm install
       - run: npm run build
@@ -323,13 +323,13 @@ jobs:
 
       - name: Create Tag
         id: create_tag
-        uses: jaywcjlove/create-tag-action@v1.3.8
+        uses: jaywcjlove/create-tag-action@main
         with:
           package-path: ./core/package.json
 
       - name: Generate Changelog
         id: changelog
-        uses: jaywcjlove/changelog-generator@v1.5.7
+        uses: jaywcjlove/changelog-generator@main
         with:
           head-ref: ${{steps.create_tag.outputs.version}}
           filter-author: (renovate-bot|Renovate Bot)
@@ -427,11 +427,12 @@ jobs:
             docker push ghcr.io/jaywcjlove/icongo:${{steps.changelog.outputs.version}}
 
 
-      - name: 📦  icongo publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./core/package.json
+      - run: npm publish
+        name: 📦 icongo publish to NPM
+        working-directory: core
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       # - name: npm publish for github action
       #   uses: kktjs/npm-publish@main
@@ -441,431 +442,502 @@ jobs:
       #       icons/*
       #       core
 
-      - name: 📦  @icongo/ad publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ad/package.json
-
-      - name: 📦  @icongo/ae publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ae/package.json
-
-      - name: 📦  @icongo/bi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bi/package.json
-
-      - name: 📦  @icongo/bl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bl/package.json
-
-      - name: 📦  @icongo/br publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/br/package.json
-
-      - name: 📦  @icongo/bs publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bs/package.json
-
-      - name: 📦  @icongo/bts publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/bts/package.json
-
-      - name: 📦  @icongo/cb publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/cb/package.json
-
-      - name: 📦  @icongo/ccp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ccp/package.json
-
-      - name: 📦  @icongo/cg publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/cg/package.json
-
-      - name: 📦  @icongo/ci publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ci/package.json
-
-      - name: 📦  @icongo/co publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/co/package.json
-
-      - name: 📦  @icongo/ct publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ct/package.json
-
-      - name: 📦  @icongo/cy publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/cy/package.json
-
-      - name: 📦  @icongo/di publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/di/package.json
-
-      - name: 📦  @icongo/ei publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ei/package.json
-
-      - name: 📦  @icongo/ev publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ev/package.json
-
-      - name: 📦  @icongo/gi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gi/package.json
-
-      - name: 📦  @icongo/hi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/hi/package.json
-
-      - name: 📦  @icongo/ic publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ic/package.json
-
-      - name: 📦  @icongo/ii publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ii/package.json
-
-      - name: 📦  @icongo/ik publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ik/package.json
-
-      - name: 📦  @icongo/im publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/im/package.json
-
-      - name: 📦  @icongo/io publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/io/package.json
-
-      - name: 📦  @icongo/ir publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ir/package.json
-
-      - name: 📦  @icongo/is publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/is/package.json
-
-      - name: 📦  @icongo/iu publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/iu/package.json
-
-      - name: 📦  @icongo/ix publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ix/package.json
-
-      - name: 📦  @icongo/ji publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ji/package.json
-
-      - name: 📦  @icongo/la publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/la/package.json
-
-      - name: 📦  @icongo/lg publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/lg/package.json
-
-      - name: 📦  @icongo/li publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/li/package.json
-
-      - name: 📦  @icongo/lu publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/lu/package.json
-
-      - name: 📦  @icongo/mc publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mc/package.json
-
-      - name: 📦  @icongo/go publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/go/package.json
-
-      - name: 📦  @icongo/gr publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gr/package.json
-
-      - name: 📦  @icongo/gy publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/gy/package.json
-
-      - name: 📦  @icongo/md publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/md/package.json
-
-      - name: 📦  @icongo/mi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mi/package.json
-
-      - name: 📦  @icongo/mn publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mn/package.json
-
-      - name: 📦  @icongo/mp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mp/package.json
-
-      - name: 📦  @icongo/mr publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/mr/package.json
-
-      - name: 📦  @icongo/pbi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/pbi/package.json
-
-      - name: 📦  @icongo/fc publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fc/package.json
-
-      - name: 📦  @icongo/fa publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fa/package.json
-
-      - name: 📦  @icongo/fg publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fg/package.json
-
-      - name: 📦  @icongo/fd publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fd/package.json
-
-      - name: 📦  @icongo/fi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fi/package.json
-
-      - name: 📦  @icongo/fl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fl/package.json
-
-      - name: 📦  @icongo/fp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fp/package.json
-
-      - name: 📦  @icongo/fs publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/fs/package.json
-
-      - name: 📦  @icongo/scwi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/scwi/package.json
-
-      - name: 📦  @icongo/si publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/si/package.json
-
-      - name: 📦  @icongo/sk publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/sk/package.json
-
-      - name: 📦  @icongo/sl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/sl/package.json
-
-      - name: 📦  @icongo/sn publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/sn/package.json
-
-      - name: 📦  @icongo/pk publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/pk/package.json
-
-      - name: 📦  @icongo/pp publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/pp/package.json
-
-      - name: 📦  @icongo/ps publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ps/package.json
-
-      - name: 📦  @icongo/ri publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ri/package.json
-
-      - name: 📦  @icongo/sti publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/sti/package.json
-
-      - name: 📦  @icongo/tb publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/tb/package.json
-
-      - name: 📦  @icongo/ti publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/ti/package.json
-
-      - name: 📦  @icongo/tn publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/tn/package.json
-
-      - name: 📦  @icongo/uiw publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/uiw/package.json
-
-      - name: 📦  @icongo/vl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vl/package.json
-
-      - name: 📦  @icongo/vsc publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vsc/package.json
-
-      - name: 📦  @icongo/vsi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vsi/package.json
-
-      - name: 📦  @icongo/vv publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/vv/package.json
-
-      - name: 📦  @icongo/wi publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/wi/package.json
-
-      - name: 📦  @icongo/wl publish to NPM
-        uses: JS-DevTools/npm-publish@v1
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
-          package: ./icons/wl/package.json
+      - name: 📦 @icongo/ad publish to NPM
+        run: npm publish
+        working-directory: icons/ad
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ae publish to NPM
+        run: npm publish
+        working-directory: icons/ae
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/bi publish to NPM
+        run: npm publish
+        working-directory: icons/bi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/bl publish to NPM
+        run: npm publish
+        working-directory: icons/bl
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/br publish to NPM
+        run: npm publish
+        working-directory: icons/br
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/bs publish to NPM
+        run: npm publish
+        working-directory: icons/bs
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/bts publish to NPM
+        run: npm publish
+        working-directory: icons/bts
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/cb publish to NPM
+        run: npm publish
+        working-directory: icons/cb
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ccp publish to NPM
+        run: npm publish
+        working-directory: icons/ccp
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/cg publish to NPM
+        run: npm publish
+        working-directory: icons/cg
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ci publish to NPM
+        run: npm publish
+        working-directory: icons/ci
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/co publish to NPM
+        run: npm publish
+        working-directory: icons/co
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ct publish to NPM
+        run: npm publish
+        working-directory: icons/ct
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/cy publish to NPM
+        run: npm publish
+        working-directory: icons/cy
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/di publish to NPM
+        run: npm publish
+        working-directory: icons/di
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ei publish to NPM
+        run: npm publish
+        working-directory: icons/ei
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ev publish to NPM
+        run: npm publish
+        working-directory: icons/ev
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/gi publish to NPM
+        run: npm publish
+        working-directory: icons/gi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/hi publish to NPM
+        run: npm publish
+        working-directory: icons/hi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ic publish to NPM
+        run: npm publish
+        working-directory: icons/ic
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ii publish to NPM
+        run: npm publish
+        working-directory: icons/ii
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ik publish to NPM
+        run: npm publish
+        working-directory: icons/ik
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/im publish to NPM
+        run: npm publish
+        working-directory: icons/im
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/io publish to NPM
+        run: npm publish
+        working-directory: icons/io
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ir publish to NPM
+        run: npm publish
+        working-directory: icons/ir
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/is publish to NPM
+        run: npm publish
+        working-directory: icons/is
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/iu publish to NPM
+        run: npm publish
+        working-directory: icons/iu
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ix publish to NPM
+        run: npm publish
+        working-directory: icons/ix
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ji publish to NPM
+        run: npm publish
+        working-directory: icons/ji
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/la publish to NPM
+        run: npm publish
+        working-directory: icons/la
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/lg publish to NPM
+        run: npm publish
+        working-directory: icons/lg
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/li publish to NPM
+        run: npm publish
+        working-directory: icons/li
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/lu publish to NPM
+        run: npm publish
+        working-directory: icons/lu
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/mc publish to NPM
+        run: npm publish
+        working-directory: icons/mc
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/go publish to NPM
+        run: npm publish
+        working-directory: icons/go
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/gr publish to NPM
+        run: npm publish
+        working-directory: icons/gr
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/gy publish to NPM
+        run: npm publish
+        working-directory: icons/gy
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/md publish to NPM
+        run: npm publish
+        working-directory: icons/md
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/mi publish to NPM
+        run: npm publish
+        working-directory: icons/mi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/mn publish to NPM
+        run: npm publish
+        working-directory: icons/mn
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/mp publish to NPM
+        run: npm publish
+        working-directory: icons/mp
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/mr publish to NPM
+        run: npm publish
+        working-directory: icons/mr
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/pbi publish to NPM
+        run: npm publish
+        working-directory: icons/pbi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fc publish to NPM
+        run: npm publish
+        working-directory: icons/fc
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fa publish to NPM
+        run: npm publish
+        working-directory: icons/fa
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fg publish to NPM
+        run: npm publish
+        working-directory: icons/fg
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fd publish to NPM
+        run: npm publish
+        working-directory: icons/fd
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fi publish to NPM
+        run: npm publish
+        working-directory: icons/fi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fl publish to NPM
+        run: npm publish
+        working-directory: icons/fl
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fp publish to NPM
+        run: npm publish
+        working-directory: icons/fp
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/fs publish to NPM
+        run: npm publish
+        working-directory: icons/fs
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/scwi publish to NPM
+        run: npm publish
+        working-directory: icons/scwi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/si publish to NPM
+        run: npm publish
+        working-directory: icons/si
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/sk publish to NPM
+        run: npm publish
+        working-directory: icons/sk
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/sl publish to NPM
+        run: npm publish
+        working-directory: icons/sl
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/sn publish to NPM
+        run: npm publish
+        working-directory: icons/sn
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/pk publish to NPM
+        run: npm publish
+        working-directory: icons/pk
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/pp publish to NPM
+        run: npm publish
+        working-directory: icons/pp
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ps publish to NPM
+        run: npm publish
+        working-directory: icons/ps
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ri publish to NPM
+        run: npm publish
+        working-directory: icons/ri
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/sti publish to NPM
+        run: npm publish
+        working-directory: icons/sti
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/tb publish to NPM
+        run: npm publish
+        working-directory: icons/tb
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/ti publish to NPM
+        run: npm publish
+        working-directory: icons/ti
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/tn publish to NPM
+        run: npm publish
+        working-directory: icons/tn
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/uiw publish to NPM
+        run: npm publish
+        working-directory: icons/uiw
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/vl publish to NPM
+        run: npm publish
+        working-directory: icons/vl
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/vsc publish to NPM
+        run: npm publish
+        working-directory: icons/vsc
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/vsi publish to NPM
+        run: npm publish
+        working-directory: icons/vsi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/vv publish to NPM
+        run: npm publish
+        working-directory: icons/vv
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/wi publish to NPM
+        run: npm publish
+        working-directory: icons/wi
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: 📦 @icongo/wl publish to NPM
+        run: npm publish
+        working-directory: icons/wl
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 
     outputs:
