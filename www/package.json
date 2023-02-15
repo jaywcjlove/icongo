@@ -90,7 +90,7 @@
     "react-hot-toast": "^2.3.0",
     "react-keywords": "^0.0.5",
     "react-lazy-load-image-component": "^1.5.5",
-    "react-router-dom": "~6.4.0",
+    "react-router-dom": "~6.8.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
