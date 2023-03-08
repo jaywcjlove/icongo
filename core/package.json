@@ -43,10 +43,10 @@
     "@svgr/plugin-jsx": "^6.3.1",
     "@svgr/plugin-prettier": "^6.3.1",
     "@svgr/plugin-svgo": "^6.3.1",
-    "@types/fs-extra": "^9.0.13",
+    "@types/fs-extra": "^11.0.0",
     "@types/minimist": "^1.2.2",
     "@types/svgo": "^2.6.3",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.0.0",
     "minimist": "^1.2.6",
     "recursive-readdir-files": "^2.3.0"
   }
