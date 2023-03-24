@@ -41,7 +41,7 @@
     "@svgr/babel-preset": "^6.3.1",
     "@svgr/core": "^6.3.1",
     "@svgr/plugin-jsx": "^6.3.1",
-    "@svgr/plugin-prettier": "^6.3.1",
+    "@svgr/plugin-prettier": "^7.0.0",
     "@svgr/plugin-svgo": "^6.3.1",
     "@types/fs-extra": "^11.0.0",
     "@types/minimist": "^1.2.2",
