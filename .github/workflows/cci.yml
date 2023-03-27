@@ -36,7 +36,7 @@ jobs:
             icons/cci/src/**/*
             icons/cci/svg/**/*
 
-      - run: npm publish
+      - run: npm publish --access public
         working-directory: icons/cci
         continue-on-error: true
         env:
@@ -56,10 +56,6 @@ jobs:
           node-version: 16
           registry-url: https://npm.pkg.github.com
           scope: '@jaywcjlove'
-
-      - run: npm install
-      - run: npm run build
-      - run: npm install
 
       - uses: actions/download-artifact@v3
         with:
