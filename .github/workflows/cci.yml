@@ -1,0 +1,84 @@
+name: CCI
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-npm:
+    runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: npm install
+      - run: npm run build
+      - run: npm install
+
+      - name: build icons cci
+        working-directory: icons/cci
+        run: npm run build
+
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cci-artifact
+          path: |
+            icons/cci/esm/**/*
+            icons/cci/lib/**/*
+            icons/cci/src/**/*
+            icons/cci/svg/**/*
+
+      - run: npm publish
+        working-directory: icons/cci
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+  
+  github-package:
+    runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
+    needs: build-npm
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com
+          scope: '@jaywcjlove'
+
+      - run: npm install
+      - run: npm run build
+      - run: npm install
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: cci-artifact
+          path: icons/cci/
+
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: icons/cci/
+
+      - name: "Modify @icongo/cci => @jaywcjlove/icongo-cci"
+        uses: jaywcjlove/github-action-package@main
+        continue-on-error: true
+        with:
+          path: icons/cci/package.json
+          rename: '@jaywcjlove/icongo-cci'
+
+      - run: npm publish
+        working-directory: icons/cci
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
