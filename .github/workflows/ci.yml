@@ -26,6 +26,10 @@ jobs:
       - run: npm install
       # - run: npm run build:icons
 
+      - uses: actions/download-artifact@v3
+        with:
+          name: cci-artifact
+          path: icons/cci/
 
       - name: build icons ad
         working-directory: icons/ad
@@ -1004,10 +1008,6 @@ jobs:
         working-directory: icons/ccp
         run: npm run build
 
-      - name: build icons cci
-        working-directory: icons/cci
-        run: npm run build
-
       - name: build icons cg
         working-directory: icons/cg
         run: npm run build
@@ -1388,20 +1388,6 @@ jobs:
             { "name": "@jaywcjlove/icongo-ccp" }
       - run: npm publish
         working-directory: icons/ccp
-        if: success() || failure()
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-
-
-      - name: "Modify @icongo/cci => @jaywcjlove/icongo-cci"
-        uses: jaywcjlove/github-action-package@main
-        if: success() || failure()
-        with:
-          path: icons/cci/package.json
-          data: |
-            { "name": "@jaywcjlove/icongo-cci" }
-      - run: npm publish
-        working-directory: icons/cci
         if: success() || failure()
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
