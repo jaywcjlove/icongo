@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="1em" width="1em">
+  <g data-name="Brightness Down">
+    <path d="M12 17.5a5.5 5.5 0 1 1 5.5-5.5 5.506 5.506 0 0 1-5.5 5.5Zm0-10a4.5 4.5 0 1 0 4.5 4.5A4.505 4.505 0 0 0 12 7.5Z"/>
+    <circle cx="12" cy="2.813" r=".75"/>
+    <circle cx="12" cy="21.187" r=".75"/>
+    <circle cx="21.187" cy="12" r=".75"/>
+    <circle cx="2.813" cy="12" r=".75"/>
+    <circle cx="18.496" cy="5.504" r=".75"/>
+    <circle cx="5.504" cy="18.496" r=".75"/>
+    <circle cx="18.496" cy="18.496" r=".75"/>
+    <circle cx="5.504" cy="5.504" r=".75"/>
+  </g>
+</svg>
