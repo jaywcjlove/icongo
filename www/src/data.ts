@@ -20,6 +20,7 @@ import eiNames from '@icongo/ei/lib/data.json';
 import faNames from '@icongo/fa/lib/data.json';
 import tiNames from '@icongo/ti/lib/data.json';
 import ccpNames from '@icongo/ccp/lib/data.json';
+import cciNames from '@icongo/cci/lib/data.json';
 import iiNames from '@icongo/ii/lib/data.json';
 import cgNames from '@icongo/cg/lib/data.json';
 import grNames from '@icongo/gr/lib/data.json';
@@ -141,6 +142,13 @@ export const info: Info = {
     gh: 'https://github.com/aaronfagan/svg-credit-card-payment-icons',
     npm: '@icongo/ccp',
     names: ccpNames,
+  },
+  cci: {
+    title: 'Circum Icons',
+    license: 'MPL-2.0 license',
+    gh: 'https://github.com/Klarr-Agency/Circum-icons',
+    npm: '@icongo/cci',
+    names: cciNames,
   },
   cg: {
     title: 'CSS.gg Icons',
