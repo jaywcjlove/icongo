@@ -1,4 +1,4 @@
-name: CCI
+name: CCI Workflow
 on:
   push:
     branches:

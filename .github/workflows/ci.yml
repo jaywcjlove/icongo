@@ -1,12 +1,15 @@
-name: CI
+name: Tag & Website
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows:
+      - CCI Workflow
+    types:
+      - completed
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion == 'success'
     env:
       NODE_OPTIONS: --max_old_space_size=8192
     steps:
