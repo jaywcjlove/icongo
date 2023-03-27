@@ -26,11 +26,15 @@ jobs:
       - run: npm install
       # - run: npm run build:icons
 
-      - uses: actions/download-artifact@v3
-        with:
-          name: cci-artifact
-          path: icons/cci/
+      - name: build icons cci
+        working-directory: icons/cci
+        run: npm run build
 
+
+
+
+
+        
       - name: build icons ad
         working-directory: icons/ad
         run: npm run build

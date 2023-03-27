@@ -27,6 +27,7 @@ jobs:
         run: npm run build
 
       - run: npm publish --access public
+        name: 📦 @icongo/cci publish to NPM
         working-directory: icons/cci
         continue-on-error: true
         env:
@@ -75,6 +76,7 @@ jobs:
 
       - run: npm publish
         working-directory: icons/cci
+        name: 📦 @jaywcjlove/icongo-cci publish to NPM
         continue-on-error: true
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
