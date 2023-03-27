@@ -26,6 +26,12 @@ jobs:
         working-directory: icons/cci
         run: npm run build
 
+      - run: npm publish --access public
+        working-directory: icons/cci
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
@@ -35,12 +41,6 @@ jobs:
             icons/cci/lib/**/*
             icons/cci/src/**/*
             icons/cci/svg/**/*
-
-      - run: npm publish --access public
-        working-directory: icons/cci
-        continue-on-error: true
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
   
   github-package:
     runs-on: ubuntu-latest
