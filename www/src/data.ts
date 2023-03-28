@@ -19,6 +19,7 @@ import riNames from '@icongo/ri/lib/data.json';
 import eiNames from '@icongo/ei/lib/data.json';
 import faNames from '@icongo/fa/lib/data.json';
 import tiNames from '@icongo/ti/lib/data.json';
+import tiiNames from '@icongo/tii/lib/data.json';
 import ccpNames from '@icongo/ccp/lib/data.json';
 import cciNames from '@icongo/cci/lib/data.json';
 import iiNames from '@icongo/ii/lib/data.json';
@@ -527,6 +528,13 @@ export const info: Info = {
     gh: 'https://github.com/stephenhutchings/typicons.font',
     npm: '@icongo/ti',
     names: tiNames,
+  },
+  tii: {
+    title: 'Themify Icons',
+    license: 'MIT',
+    gh: 'https://github.com/lykmapipo/themify-icons',
+    npm: '@icongo/tii',
+    names: tiiNames,
   },
   tn: {
     title: 'Teenyicons Icons',

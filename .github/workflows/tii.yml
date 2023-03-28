@@ -1,0 +1,82 @@
+name: TII Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-npm:
+    runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: npm install
+      - run: npm run build
+      - run: npm install
+
+      - name: build icons tii
+        working-directory: icons/tii
+        run: npm run build
+
+      - run: npm publish --access public
+        name: 📦 @icongo/tii publish to NPM
+        working-directory: icons/tii
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: tii-artifact
+          path: |
+            icons/tii/esm/**/*
+            icons/tii/lib/**/*
+            icons/tii/src/**/*
+            icons/tii/svg/**/*
+  
+  github-package:
+    runs-on: ubuntu-latest
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
+    needs: build-npm
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          registry-url: https://npm.pkg.github.com
+          scope: '@jaywcjlove'
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: tii-artifact
+          path: icons/tii/
+
+      - name: Display structure of downloaded files
+        run: ls -R
+        working-directory: icons/tii/
+
+      - name: "Modify @icongo/tii => @jaywcjlove/icongo-tii"
+        uses: jaywcjlove/github-action-package@main
+        continue-on-error: true
+        with:
+          path: icons/tii/package.json
+          rename: '@jaywcjlove/icongo-tii'
+
+      - run: npm publish
+        working-directory: icons/tii
+        name: 📦 @jaywcjlove/icongo-tii publish to NPM
+        continue-on-error: true
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -3,6 +3,7 @@ on:
   workflow_run:
     workflows:
       - CCI Workflow
+      - TII Workflow
     types:
       - completed
 
@@ -28,6 +29,9 @@ jobs:
 
       - name: build icons cci
         working-directory: icons/cci
+        run: npm run build
+      - name: build icons tii
+        working-directory: icons/tii
         run: npm run build
 
 

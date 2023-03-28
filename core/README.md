@@ -81,6 +81,7 @@ Easily include popular icons in your React projects and provide an easy tool to 
 | `@icongo/sti` | [![npm version](https://img.shields.io/npm/v/@icongo/sti.svg)](https://www.npmjs.com/package/@icongo/sti) | [`#preview`](https://icongo.github.io/#/icons/sti/) |
 | `@icongo/tb` | [![npm version](https://img.shields.io/npm/v/@icongo/tb.svg)](https://www.npmjs.com/package/@icongo/tb) | [`#preview`](https://icongo.github.io/#/icons/tb/) |
 | `@icongo/ti` | [![npm version](https://img.shields.io/npm/v/@icongo/ti.svg)](https://www.npmjs.com/package/@icongo/ti) | [`#preview`](https://icongo.github.io/#/icons/ti/) |
+| `@icongo/tii` | [![npm version](https://img.shields.io/npm/v/@icongo/tii.svg)](https://www.npmjs.com/package/@icongo/tii) | [`#preview`](https://icongo.github.io/#/icons/tii/) |
 | `@icongo/tn` | [![npm version](https://img.shields.io/npm/v/@icongo/tn.svg)](https://www.npmjs.com/package/@icongo/tn) | [`#preview`](https://icongo.github.io/#/icons/tn/) |
 | `@icongo/uiw` | [![npm version](https://img.shields.io/npm/v/@icongo/uiw.svg)](https://www.npmjs.com/package/@icongo/uiw) | [`#preview`](https://icongo.github.io/#/icons/uiw/) |
 | `@icongo/vl` | [![npm version](https://img.shields.io/npm/v/@icongo/vl.svg)](https://www.npmjs.com/package/@icongo/vl) | [`#preview`](https://icongo.github.io/#/icons/vl/) |
