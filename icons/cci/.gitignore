@@ -4,6 +4,7 @@
 !.gitignore
 !.npmignore
 !tsconfig.json
+!svgo.config.js
 !package.json
 !data
 !README.md

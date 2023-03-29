@@ -7,12 +7,13 @@ module.exports = {
     pretty: true, // boolean, false by default
   },
   plugins: [
+    'cleanupIds',
+    'removeComments',
+    'removeDimensions',
     {
       name: 'removeAttrs',
       fn: (ast, params, info) => {
         delete ast.children[0]?.attributes['id'];
-        delete ast.children[0]?.attributes['y'];
-        delete ast.children[0]?.attributes['x'];
         delete ast.children[0]?.attributes['version'];
         delete ast.children[0]?.attributes['style'];
         delete ast.children[0]?.attributes['xml:space'];

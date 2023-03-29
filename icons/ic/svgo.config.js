@@ -7,6 +7,14 @@ module.exports = {
     pretty: true, // boolean, false by default
   },
   plugins: [
+    'removeXMLNS',
+    'convertColors',
+    {
+      name: "removeAttrs",
+      params: {
+        attrs: "(stroke-linejoin|block-progression)"
+      }
+    },
     {
       name: 'removeAttrs',
       fn: (ast, params, info) => {
@@ -16,6 +24,7 @@ module.exports = {
         delete ast.children[0]?.attributes['version'];
         delete ast.children[0]?.attributes['style'];
         delete ast.children[0]?.attributes['xml:space'];
+        delete ast.children[0]?.attributes['xmlns:xlink'];
       },
     }
   ]

@@ -8,6 +8,12 @@ module.exports = {
   },
   plugins: [
     {
+      name: "removeAttrs",
+      params: {
+        attrs: "(stroke-linejoin)"
+      }
+    },
+    {
       name: 'removeAttrs',
       fn: (ast, params, info) => {
         delete ast.children[0]?.attributes['id'];
@@ -16,6 +22,7 @@ module.exports = {
         delete ast.children[0]?.attributes['version'];
         delete ast.children[0]?.attributes['style'];
         delete ast.children[0]?.attributes['xml:space'];
+        delete ast.children[0]?.attributes['xmlns:xlink'];
       },
     }
   ]

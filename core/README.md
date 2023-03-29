@@ -151,7 +151,7 @@ Example:
   },
   "devDependencies": {
     "icongo": "*",
-    "tsbb": "^4.0.2"
+    "tsbb": "^4.0.3"
   }
 }
 ```
