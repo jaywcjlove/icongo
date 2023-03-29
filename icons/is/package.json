@@ -15,7 +15,7 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/is/*.svg' svg --flat",
-    "tsbb": "tsbb build --no-source-maps",
+    "tsbb": "tsbb build src/*.tsx --useBabel",
     "icongo": "icongo --prefix IS --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"

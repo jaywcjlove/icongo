@@ -17,7 +17,7 @@
     "cpy": "cpy '../../www/public/icons/fs/*.svg' svg --flat",
     "icongo": "icongo --prefix FS --source svg -o ./src",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
-    "tsbb": "NODE_OPTIONS=--max_old_space_size=8192 tsbb build --no-source-maps",
+    "tsbb": "NODE_OPTIONS=--max_old_space_size=8192 tsbb build src/*.tsx --useBabel",
     "start": "npm run build"
   },
   "keywords": [

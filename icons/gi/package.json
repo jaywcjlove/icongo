@@ -15,7 +15,7 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/gi/*.svg' svg --flat",
-    "tsbb": "tsbb build --no-source-maps",
+    "tsbb": "tsbb build src/*.tsx --useBabel",
     "icongo": "icongo --prefix GI --source svg -o ./src --rename='{\"headshot\": \"GIHeadshot1\", \"jetpack\": \"GIJetPack1\"}'",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"

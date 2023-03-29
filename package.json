@@ -5,7 +5,8 @@
     "build": "lerna exec --scope icongo -- npm run build",
     "watch": "lerna exec --scope icongo -- npm run watch",
     "start": "lerna exec --scope www -- npm run start",
-    "clean": "lerna exec --scope @icongo/* -- rm -rf esm lib src svg",
+    "remove": "lerna exec --scope @icongo/* -- rm -rf esm lib src svg",
+    "clean": "lerna clean --yes",
     "prepare": "husky install",
     "version": "lerna version --exact --force-publish --no-push --no-git-tag-version"
   },
@@ -28,6 +29,6 @@
     "lerna": "^6.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
-    "tsbb": "^3.7.6"
+    "tsbb": "^4.0.2"
   }
 }

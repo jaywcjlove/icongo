@@ -91,19 +91,19 @@
     "react-hot-toast": "^2.3.0",
     "react-keywords": "^0.0.5",
     "react-lazy-load-image-component": "^1.5.5",
-    "react-router-dom": "~6.8.0",
+    "react-router-dom": "~6.9.0",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
-    "@kkt/less-modules": "^7.2.0",
-    "@kkt/scope-plugin-options": "^7.2.0",
+    "@kkt/less-modules": "^7.4.9",
+    "@kkt/scope-plugin-options": "^7.4.9",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@types/react-test-renderer": "^18.0.0",
     "icongo": "1.1.2",
-    "kkt": "^7.2.0",
-    "markdown-react-code-preview-loader": "^2.1.2",
-    "source-map-explorer": "^2.5.2"
+    "kkt": "^7.4.9",
+    "markdown-react-code-preview-loader": "^2.1.5",
+    "source-map-explorer": "^2.5.3"
   },
   "browserslist": {
     "production": [

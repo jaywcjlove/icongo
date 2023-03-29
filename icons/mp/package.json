@@ -14,7 +14,7 @@
   "scripts": {
     "cpy": "cpy '../../www/public/icons/mp/*.svg' svg --flat",
     "icongo": "icongo --prefix MP --source svg -o ./src",
-    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && tsbb build src/*.tsx --useBabel",
     "start": "npm run build"
   },
   "keywords": [

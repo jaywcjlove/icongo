@@ -14,7 +14,7 @@
   "scripts": {
     "cpy": "cpy '../../www/public/icons/iu/*.svg' svg --flat",
     "icongo": "icongo --prefix IU --source svg -o ./src  --rename='{\"protonmail\": \"IUProtonmail1\", \"protonvpn\": \"IUProtonvpn1\"}'",
-    "build": "npm run cpy && npm run icongo && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run icongo && tsbb build src/*.tsx --useBabel",
     "start": "npm run build"
   },
   "keywords": [

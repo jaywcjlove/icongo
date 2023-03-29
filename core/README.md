@@ -146,12 +146,12 @@ Example:
   "module": "./esm/index.js",
   "types": "./lib/index.d.ts",
   "scripts": {
-    "build": "tsbb build --no-source-maps",
+    "build": "tsbb build src/*.tsx --useBabel",
     "start": "icongo --prefix BS --source data/icons -o ./src"
   },
   "devDependencies": {
     "icongo": "*",
-    "tsbb": "^3.7.6"
+    "tsbb": "^4.0.2"
   }
 }
 ```

@@ -13,7 +13,7 @@
   },
   "scripts": {
     "cpy": "cpy '../../www/public/icons/bl/*.svg' svg --flat",
-    "build": "npm run cpy && npm run svg && tsbb build --no-source-maps",
+    "build": "npm run cpy && npm run svg && tsbb build src/*.tsx --useBabel",
     "start": "npm run build",
     "svg": "icongo --prefix BL --source svg -o ./src -r='{\"jnbank-rect\":\"BLJnbankRect1\",\"jnbank\":\"BLJnbank1\"}'"
   },

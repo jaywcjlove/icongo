@@ -19,8 +19,8 @@
     "url": "https://github.com/jaywcjlove/icongo.git"
   },
   "scripts": {
-    "watch": "tsbb watch --disable-babel -f src/cli.ts",
-    "build": "tsbb build --disable-babel -f src/cli.ts"
+    "watch": "tsbb watch",
+    "build": "tsbb build"
   },
   "engines": {
     "node": "^14.13.1 || >=16.0.0"
