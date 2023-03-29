@@ -3,6 +3,7 @@
 *
 !.gitignore
 !.npmignore
+!svgo.config.js
 !tsconfig.json
 !package.json
 !data
