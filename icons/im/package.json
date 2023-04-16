@@ -16,7 +16,7 @@
   "scripts": {
     "cpy": "cpy '../../www/public/icons/im/*.svg' svg --flat",
     "tsbb": "tsbb build src/*.tsx --useBabel",
-    "icongo": "icongo --prefix IM --source svg -o ./src",
+    "icongo": "icongo --prefix IM --source svg -o ./src -r '{\"pagebreak\": \"IMPagebreak1\"}'",
     "build": "npm run cpy && npm run icongo && npm run tsbb",
     "start": "npm run build"
   },

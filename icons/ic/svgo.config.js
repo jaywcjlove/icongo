@@ -35,7 +35,7 @@ module.exports = {
             }
           }
           if (item.name === 'circle') {
-            //Fix: Type 'number' is not assignable to type 'string'.
+            // Fix: Type 'number' is not assignable to type 'string'.
             const str = item.attributes['fill'];
             if (str && !str.startsWith('#')) {
               console.log('item:', str, item)
