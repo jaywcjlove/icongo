@@ -22,7 +22,7 @@ module.exports = {
         delete ast.children[0]?.attributes['version'];
         delete ast.children[0]?.attributes['style'];
         delete ast.children[0]?.attributes['xml:space'];
-        delete ast.children[0]?.attributes['xmlns:xlink'];
+        // delete ast.children[0]?.attributes['xmlns:xlink'];
       },
     }
   ]
