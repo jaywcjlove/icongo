@@ -7,12 +7,12 @@ module.exports = {
     pretty: true, // boolean, false by default
   },
   plugins: [
-    'removeXMLNS',
     'convertColors',
+    'reusePaths',
     {
       name: "removeAttrs",
       params: {
-        attrs: "(stroke-linejoin|block-progression)"
+        attrs: "(stroke-linejoin|block-progression|xlinkHref)"
       }
     },
     {
@@ -24,7 +24,17 @@ module.exports = {
         delete ast.children[0]?.attributes['version'];
         delete ast.children[0]?.attributes['style'];
         delete ast.children[0]?.attributes['xml:space'];
-        delete ast.children[0]?.attributes['xmlns:xlink'];
+        ast.children[0]?.children.forEach((item) => {
+          if (item.name === 'a') {
+            ast.children[0].children = [...item.children];
+          }
+          if (item.name === 'path') {
+            const str = item.attributes['style'];
+            if (str) {
+              item.attributes['style'] = str.replace(/block-progression:tb;-inkscape-font-specification:Sans/g, ``);
+            }
+          }
+        });
       },
     }
   ]
