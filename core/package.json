@@ -40,7 +40,7 @@
     "@svgr/babel-plugin-remove-jsx-attribute": "^7.0.0",
     "@svgr/babel-preset": "^7.0.0",
     "@svgr/core": "^7.0.0",
-    "@svgr/plugin-jsx": "^7.0.0",
+    "@svgr/plugin-jsx": "^8.0.0",
     "@svgr/plugin-prettier": "^7.0.0",
     "@svgr/plugin-svgo": "^7.0.0",
     "@types/fs-extra": "^11.0.0",
