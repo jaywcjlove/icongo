@@ -37,7 +37,7 @@
     "src"
   ],
   "dependencies": {
-    "@svgr/babel-plugin-remove-jsx-attribute": "^7.0.0",
+    "@svgr/babel-plugin-remove-jsx-attribute": "^8.0.0",
     "@svgr/babel-preset": "^7.0.0",
     "@svgr/core": "^7.0.0",
     "@svgr/plugin-jsx": "^7.0.0",
