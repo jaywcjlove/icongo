@@ -35,10 +35,6 @@ jobs:
         run: npm run build
 
 
-
-
-
-        
       - name: build icons ad
         working-directory: icons/ad
         run: npm run build
@@ -424,22 +420,22 @@ jobs:
           docker tag icongo ${{ secrets.DOCKER_USER }}/icongo:${{steps.changelog.outputs.version}}
           docker push ${{ secrets.DOCKER_USER }}/icongo:${{steps.changelog.outputs.version}}
 
-      # Create Docker Image in Github
-      - name: Login to GitHub registry
-        run: echo ${{ github.token }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      # # Create Docker Image in Github
+      # - name: Login to GitHub registry
+      #   run: echo ${{ github.token }} | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - name: Build docker image
-        run: docker build -t ghcr.io/jaywcjlove/icongo:latest .
+      # - name: Build docker image
+      #   run: docker build -t ghcr.io/jaywcjlove/icongo:latest .
 
-      - name: Publish to GitHub registry
-        run: docker push ghcr.io/jaywcjlove/icongo:latest
+      # - name: Publish to GitHub registry
+      #   run: docker push ghcr.io/jaywcjlove/icongo:latest
 
-      - name: Tag docker image (beta) and publish to GitHub registry
-        if: steps.create_tag.outputs.successful
-        run: |
-            echo "version: v${{ steps.changelog.outputs.version }}"
-            docker tag ghcr.io/jaywcjlove/icongo:latest ghcr.io/jaywcjlove/icongo:${{steps.changelog.outputs.version}}
-            docker push ghcr.io/jaywcjlove/icongo:${{steps.changelog.outputs.version}}
+      # - name: Tag docker image (beta) and publish to GitHub registry
+      #   if: steps.create_tag.outputs.successful
+      #   run: |
+      #       echo "version: v${{ steps.changelog.outputs.version }}"
+      #       docker tag ghcr.io/jaywcjlove/icongo:latest ghcr.io/jaywcjlove/icongo:${{steps.changelog.outputs.version}}
+      #       docker push ghcr.io/jaywcjlove/icongo:${{steps.changelog.outputs.version}}
 
 
       - run: npm publish
