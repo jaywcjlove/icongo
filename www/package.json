@@ -92,7 +92,7 @@
     "react-keywords": "^0.0.5",
     "react-lazy-load-image-component": "^1.5.5",
     "react-router-dom": "~6.9.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^6.0.0"
   },
   "devDependencies": {
     "@kkt/less-modules": "^7.4.9",
