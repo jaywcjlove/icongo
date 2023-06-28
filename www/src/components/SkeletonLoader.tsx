@@ -1,5 +1,5 @@
-import { FC } from "react";
-import styled, { CSSProperties, keyframes } from "styled-components";
+import { CSSProperties, FC } from "react";
+import styled, { keyframes } from "styled-components";
 
 interface SkeletonLoaderProps {
   width?: CSSProperties['width'];
