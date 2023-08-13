@@ -29,7 +29,7 @@
     "cpy-cli": "^4.1.0",
     "husky": "^8.0.1",
     "lerna": "^7.1.0",
-    "lint-staged": "^13.0.3",
+    "lint-staged": "^14.0.0",
     "prettier": "^2.7.1",
     "tsbb": "^4.1.14"
   }
