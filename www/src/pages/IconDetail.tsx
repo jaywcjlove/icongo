@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import toast from 'react-hot-toast';
 import MarkdownPreview from '@uiw/react-markdown-preview';
-import copyTextToClipboard from '@uiw/copy-to-clipboard'
+import clipboard from 'clipboardy';
 import { FADownload } from '@icongo/fa/lib/FADownload';
 import { FACopy } from '@icongo/fa/lib/FACopy';
 import { FAHouseChimneyCrack } from '@icongo/fa/lib/FAHouseChimneyCrack';
@@ -129,16 +129,8 @@ export const IconDetailPage = () => {
   const copySVGHTML = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();
     evn.preventDefault();
-    if (window.isSecureContext) {
-      // @ts-ignore
-      navigator.clipboard.writeText(svgString!).then(() => {
-        toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
-      })
-    } else {
-      copyTextToClipboard(svgString!, () => {
-        toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
-      });
-    }
+    clipboard.write(`${svgString}`);
+    toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
     return false
   }
   const repoInfo = info[params.name!] || {}
@@ -158,9 +150,8 @@ export const IconDetailPage = () => {
   const copyComName = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();
     evn.preventDefault();
-    copyTextToClipboard(comName!, () => {
-      toast.success(<div>Copied '<b>{comName}</b>' name to clipboard</div>, { position: 'top-right' });
-    });
+    clipboard.write(`${comName || ""}`);
+    toast.success(<div>Copied '<b>{comName}</b>' name to clipboard</div>, { position: 'top-right' });
     return false
   }
   return (

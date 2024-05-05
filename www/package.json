@@ -85,6 +85,7 @@
     "@uiw/react-github-corners": "^1.5.14",
     "@uiw/react-markdown-preview": "^4.0.23",
     "@wcj/dark-mode": "^1.0.15",
+    "clipboardy": "^4.0.0",
     "react": "~18.2.0",
     "react-dom": "~18.2.0",
     "react-hot-toast": "^2.3.0",
