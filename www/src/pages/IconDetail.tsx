@@ -131,11 +131,14 @@ export const IconDetailPage = () => {
     evn.preventDefault();
     if (window.isSecureContext) {
       // @ts-ignore
-      navigator.clipboard.writeText(svgString!)
+      navigator.clipboard.writeText(svgString!).then(() => {
+        toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
+      })
+    } else {
+      copyTextToClipboard(svgString!, () => {
+        toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
+      });
     }
-    copyTextToClipboard(svgString!, () => {
-      toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
-    });
     return false
   }
   const repoInfo = info[params.name!] || {}
