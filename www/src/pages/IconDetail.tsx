@@ -129,6 +129,10 @@ export const IconDetailPage = () => {
   const copySVGHTML = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();
     evn.preventDefault();
+    if (window.isSecureContext) {
+      // @ts-ignore
+      navigator.clipboard.writeText(svgString!)
+    }
     copyTextToClipboard(svgString!, () => {
       toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
     });
