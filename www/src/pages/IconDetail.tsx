@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import styled from 'styled-components';
 import toast from 'react-hot-toast';
 import MarkdownPreview from '@uiw/react-markdown-preview';
-import clipboard from 'clipboardy';
+import copyTextToClipboard from '@uiw/copy-to-clipboard';
 import { FADownload } from '@icongo/fa/lib/FADownload';
 import { FACopy } from '@icongo/fa/lib/FACopy';
 import { FAHouseChimneyCrack } from '@icongo/fa/lib/FAHouseChimneyCrack';
@@ -129,7 +129,7 @@ export const IconDetailPage = () => {
   const copySVGHTML = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();
     evn.preventDefault();
-    clipboard.write(`${svgString}`);
+    copyTextToClipboard(`${svgString}`);
     toast.success(<div>Copied '<b>{filename}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
     return false
   }
@@ -150,7 +150,7 @@ export const IconDetailPage = () => {
   const copyComName = (evn: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     evn.stopPropagation();
     evn.preventDefault();
-    clipboard.write(`${comName || ""}`);
+    copyTextToClipboard(`${comName || ""}`);
     toast.success(<div>Copied '<b>{comName}</b>' name to clipboard</div>, { position: 'top-right' });
     return false
   }

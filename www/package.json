@@ -80,7 +80,7 @@
     "@icongo/wi": "1.2.0",
     "@icongo/wl": "1.2.0",
     "@types/react-lazy-load-image-component": "^1.5.2",
-    "@uiw/copy-to-clipboard": "^1.0.12",
+    "@uiw/copy-to-clipboard": "^1.0.17",
     "@uiw/react-back-to-top": "^1.2.0",
     "@uiw/react-github-corners": "^1.5.14",
     "@uiw/react-markdown-preview": "^4.0.23",

@@ -3,7 +3,7 @@ import { useNavigate, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import Keywords from 'react-keywords';
 import toast from 'react-hot-toast';
-import clipboard from 'clipboardy';
+import copyTextToClipboard from '@uiw/copy-to-clipboard';
 import { BIBxsCopy, BIBxsCloudDownload, BIBxsHomeCircle } from '@icongo/bi';
 // @ts-ignore
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -120,7 +120,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
 
   const componentName = name.replace(',', '');
   const copyName = () => {
-    clipboard.write(componentName);
+    copyTextToClipboard(componentName);
     toast.success(<div>Copied '<b>{componentName}</b>' name to clipboard</div>, { position: 'top-right' });
     $ref.current?.focus()
   }
@@ -128,7 +128,7 @@ export const Card: React.FC<React.PropsWithRef<IconCardProps>> = (props) => {
     evn.stopPropagation();
     fetch(path!).then(response => response.text()).then((svgStr) => {
       toast.success(<LazyLoadImage height={80} src={path} alt={componentName} />, { position: 'bottom-right' });
-      clipboard.write(svgStr);
+      copyTextToClipboard(svgStr);
       toast.success(<div>Copied '<b>{componentName}</b>' icon HTML code to clipboard</div>, { position: 'top-right' });
       $ref.current?.focus();
     }).catch(() => {
